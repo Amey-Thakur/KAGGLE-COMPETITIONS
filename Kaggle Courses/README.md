@@ -4,7 +4,7 @@ This directory serves as a scholarly archive for all completed Kaggle Learn cour
 
 ---
 
-## 🎓 Certification Portfolio
+## Certification Portfolio
 
 | Course Name | Certification |
 | :--- | :---: |
