@@ -64,12 +64,12 @@ Each project within this ecosystem is governed by strict **design patterns** ens
 <a name="competitions-index"></a>
 ## Competitions Index
 
-The index below categorizes active projects by their competitive domain and foundational methodology. Each entry includes a link to a specialized technical deep-dive and a direct entry point to the Kaggle execution environment.
+The index below categorizes active projects by their competitive domain and foundational methodology. Each entry includes a link to a specialized analytical overview and a direct entry point to the Kaggle execution environment.
 
-| Competition Portfolio | Domain | Technical Methodology | Technical Analysis | Kaggle Notebook |
-| :--- | :--- | :--- | :---: | :---: |
-| **Connect X** | Simulation | Minimax · Alpha-Beta Pruning · Heuristics | [Deep-Dive](./Connect%20X/) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/connectx-minimax-alpha-beta-agent) |
-| **Titanic** | Supervised | Deterministic Record Linkage · Normalization | [Deep-Dive](./Titanic%20-%20Machine%20Learning%20from%20Disaster/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/titanic-passenger-survival-prediction) |
+| # | Competition Portfolio | Domain | Technical Methodology | Analytical Overview | Kaggle Notebook |
+| :---: | :--- | :--- | :--- | :---: | :---: |
+| 01 | **Connect X** | Simulation | Minimax · Alpha-Beta Pruning · Heuristics | [Technical Analysis](./Connect%20X/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/connectx-minimax-alpha-beta-agent) |
+| 02 | **Titanic** | Supervised | Deterministic Record Linkage · Normalization | [Technical Analysis](./Titanic%20-%20Machine%20Learning%20from%20Disaster/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/titanic-passenger-survival-prediction) |
 
 ---
 
