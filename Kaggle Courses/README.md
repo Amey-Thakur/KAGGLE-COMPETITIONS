@@ -3,6 +3,14 @@
 
 This directory serves as a scholarly archive for all completed Kaggle Learn courses. Each certification represents a milestone in the mastery of data science, machine learning, and algorithmic theory.
 
+<div align="center">
+
+  <a href="https://www.kaggle.com/ameythakur20/learn">
+    <img src="../docs/Kaggle.png" width="120" alt="Kaggle Profile">
+  </a>
+
+</div>
+
 ---
 
 ## Certification Portfolio
