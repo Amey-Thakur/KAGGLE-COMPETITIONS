@@ -43,8 +43,8 @@ This directory serves as a scholarly archive for all earned Kaggle badges. Each 
 | 22 | **Stylish** | Mar 04, 2026 | <img src="Stylish-2026-03-04.svg" width="50"> |
 | 23 | **Collector** | Mar 05, 2026 | <img src="Collector-2026-03-05.svg" width="50"> |
 | 24 | **Playground Competitor** | Mar 05, 2026 | <img src="Playground-Competitor-2026-03-05.svg" width="50"> |
-| 25 | **Colab Coder** | Mar 06, 2026 | <img src="Colab-Coder-2026-03-06.svg" width="50"> |
-| 26 | **Github Coder** | Mar 06, 2026 | <img src="Github-Coder-2026-03-06.svg" width="50"> |
+| 25 | **Github Coder** | Mar 06, 2026 | <img src="Github-Coder-2026-03-06.svg" width="50"> |
+| 26 | **Colab Coder** | Mar 06, 2026 | <img src="Colab-Coder-2026-03-06.svg" width="50"> |
 
 </div>
 
