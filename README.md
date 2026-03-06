@@ -138,17 +138,14 @@ A curated collection of 17 professional certifications awarded by Kaggle, coveri
 │   └── README.md                                   # Certification Portfolio
 │
 ├── Connect X/                                      # Simulation: Connect Four Variant
-│   ├── connectx.zip                                # Competition Dataset
 │   ├── README.md                                   # Technical Analysis
 │   └── connectx-minimax-alpha-beta-agent.ipynb     # Verified Notebook Solution
 │
 ├── Titanic - Machine Learning from Disaster/       # Getting Started: Survival Prediction
-│   ├── titanic.zip                                 # Competition Dataset
 │   ├── README.md                                   # Technical Analysis
 │   └── titanic-passenger-survival-prediction.ipynb # Verified Notebook Solution
 │
 ├── Predict Customer Churn/                         # Binary Classification: Tabular Data
-│   ├── playground-series-s6e3.zip                  # Competition Dataset
 │   └── README.md                                   # Technical Analysis
 │
 ├── Petals to the Metal - Flower Classification on TPU/ # Computer Vision: Deep Learning
