@@ -2,6 +2,8 @@
 # Titanic - Machine Learning from Disaster
 ### Start here! Predict survival on the Titanic and get familiar with ML basics
 
+[![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/titanic-passenger-survival-prediction)
+
 ---
 
 # Hello fellow Kagglers!

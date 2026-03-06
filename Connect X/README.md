@@ -2,6 +2,8 @@
 # Connect X
 ### Connect your checkers in a row before your opponent!
 
+[![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/connectx-minimax-alpha-beta-agent)
+
 ---
 
 # Hello fellow Kagglers!
