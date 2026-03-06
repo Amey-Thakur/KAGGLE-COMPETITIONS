@@ -6,7 +6,7 @@ This directory serves as a scholarly archive for all completed Kaggle Learn cour
 <div align="center">
 
   <a href="https://www.kaggle.com/ameythakur20/">
-    <img src="https://img.shields.io/badge/Open%20Kaggle-Profile-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white" alt="Kaggle Profile">
+    <img src="https://img.shields.io/badge/Open_Kaggle-Profile-20BEFF?logo=Kaggle&logoColor=white" alt="Kaggle Profile">
   </a>
 
 </div>
