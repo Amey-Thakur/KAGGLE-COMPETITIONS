@@ -82,15 +82,17 @@ KAGGLE-COMPETITIONS/
 │
 ├── Connect X/                                      # Simulation: Connect Four Variant
 │   ├── connectx.zip                                # Competition Dataset
-│   ├── README.md                                   # Technical Deep-Dive
+│   ├── README.md                                   # Technical Analysis
 │   └── connectx-minimax-alpha-beta-agent.ipynb     # Verified Notebook Solution
 │
 ├── Titanic - Machine Learning from Disaster/       # Getting Started: Survival Prediction
 │   ├── titanic.zip                                 # Competition Dataset
-│   ├── README.md                                   # Technical Deep-Dive
+│   ├── README.md                                   # Technical Analysis
 │   └── titanic-passenger-survival-prediction.ipynb # Verified Notebook Solution
 │
-├── LICENSE                                         # CC BY 4.0 License
+├── LICENSE                                         # CC BY 4.0 (Documentation)
+├── LICENSE-MIT                                     # MIT License (Source Code)
+├── SECURITY.md                                     # Security Policy & Dual-Licensing
 └── README.md                                       # Master Documentation Portal
 ```
 
