@@ -67,7 +67,7 @@ Each project within this ecosystem is governed by strict **design patterns** ens
 The index below categorizes active projects by their competitive domain and foundational methodology. Each entry provides direct access to exhaustive technical documentation and the corresponding Kaggle execution environment.
 
 | # | Competition Portfolio | Domain | Technical Methodology | Documentation | Environment |
-| :---: | :--- | :--- | :--- | :---: | :---: |
+| :---: | :---: | :---: | :---: | :---: | :---: |
 | 1 | **Connect X** | <ul><li>Game Theory</li><li>Simulation</li></ul> | <ul><li>Minimax</li><li>Alpha-Beta Pruning</li><li>Heuristics</li><li>Move Ordering</li></ul> | [Analysis](./Connect%20X/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/connectx-minimax-alpha-beta-agent) |
 | 2 | **Titanic** | <ul><li>Classification</li><li>Forensic Analysis</li></ul> | <ul><li>Deterministic Record Linkage</li><li>Normalization</li><li>Data Alignment</li></ul> | [Analysis](./Titanic%20-%20Machine%20Learning%20from%20Disaster/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/titanic-passenger-survival-prediction) |
 
