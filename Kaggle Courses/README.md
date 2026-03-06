@@ -6,7 +6,7 @@ This directory serves as a scholarly archive for all completed Kaggle Learn cour
 <div align="center">
 
   <a href="https://www.kaggle.com/ameythakur20/learn">
-    <img src="../docs/Kaggle.png" width="120" alt="Kaggle Profile">
+    <img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Kaggle Profile">
   </a>
 
 </div>
