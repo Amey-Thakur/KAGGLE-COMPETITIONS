@@ -214,7 +214,7 @@ Special thanks to the **fellow Kagglers** and the global data science community.
 
   [↑ Back to Top](#readme-top)
 
-  [Author](#author) &nbsp;·&nbsp; [Overview](#overview) &nbsp;·&nbsp; [Competitions](#competitions-index) &nbsp;·&nbsp; [Structure](#project-structure) &nbsp;·&nbsp; [Usage Guidelines](#usage-guidelines) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [About](#about-this-repository) &nbsp;·&nbsp; [Acknowledgments](#acknowledgments)
+  [Author](#author) &nbsp;·&nbsp; [Overview](#overview) &nbsp;·&nbsp; [Competitions](#competitions-index) &nbsp;·&nbsp; [Certifications](#certifications) &nbsp;·&nbsp; [Structure](#project-structure) &nbsp;·&nbsp; [Usage Guidelines](#usage-guidelines) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [About](#about-this-repository) &nbsp;·&nbsp; [Acknowledgments](#acknowledgments)
 
   <br>
 
