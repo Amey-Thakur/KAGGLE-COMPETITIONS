@@ -11,8 +11,8 @@
 
   A comprehensive repository featuring high-performance solutions, scholarly explanations, and curated datasets for various Kaggle competitions, ranging from various techniques to advanced deep learning models.
 
-  <a href="https://www.kaggle.com/ameythakur20">
-    <img src="docs/Kaggle.png" width="120" alt="Kaggle Profile">
+  <a href="https://www.kaggle.com/ameythakur20/">
+    <img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Kaggle Profile">
   </a>
 
   <br>
