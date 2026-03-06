@@ -48,10 +48,10 @@
 Each competition entry is more than just code; it is an exploration of **algorithmic theory**, **feature engineering**, and **model optimization**. By bridging the gap between raw implementation and high-level strategy, this repository provides a transparent gateway into the mechanics of competition-winning logic.
 
 ### Strategic Heuristics
-Each project within this ecosystem is governed by strict **design patterns** ensuring clarity and performance:
-*   **Scholarly Documentation**: In-depth explanations of mathematical foundations (e.g., Minimax, Alpha-Beta Pruning).
-*   **Performance Optimization**: Code tailored for Kaggle's computational constraints (2-second move limits, TPU acceleration).
-*   **Asset Management**: Fully self-contained environments including source datasets and submission-ready utilities.
+Each project within this ecosystem is governed by strict **design patterns** ensuring clarity, reproducibility, and high-performance execution:
+*   **Scholarly Commentary**: Comprehensive technical walkthroughs detailing the theoretical underpinnings, mathematical frameworks, and architectural decisions behind each model.
+*   **Computational Efficiency**: Optimized implementation strategies tailored to meet diverse hardware constraints, ensuring low-latency inference and high-throughput training.
+*   **Modular Architecture**: Fully self-contained environments featuring integrated datasets, robust preprocessing pipelines, and verified submission utilities.
 
 > [!TIP]
 > **Learning-Driven Iteration**
