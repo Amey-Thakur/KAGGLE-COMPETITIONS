@@ -39,6 +39,7 @@
   <img src="Badges/Graduate-2026-03-04.svg" width="50" title="Graduate (Mar 4, 2026)">
   <img src="Badges/Collector-2026-03-05.svg" width="50" title="Collector (Mar 5, 2026)">
   <img src="Badges/Playground-Competitor-2026-03-05.svg" width="50" title="Playground Competitor (Mar 5, 2026)">
+  <img src="Badges/Github-Coder-2026-03-06.svg" width="50" title="Github Coder (Mar 6, 2026)">
 
 </div>
 
