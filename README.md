@@ -3,12 +3,13 @@
   <a name="readme-top"></a>
   # Kaggle Competitions
 
+  [![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg)](LICENSE-MIT)
   [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
   ![Status](https://img.shields.io/badge/Status-Active-success)
   [![Technology](https://img.shields.io/badge/Technology-Machine%20Learning%20%7C%20Data%20Science-blueviolet)](https://github.com/Amey-Thakur/KAGGLE-COMPETITIONS)
   [![Developed by Amey Thakur](https://img.shields.io/badge/Developed%20by-Amey%20Thakur-blue.svg)](https://github.com/Amey-Thakur)
 
-  A comprehensive repository featuring high-performance solutions, scholarly explanations, and curated datasets for various Kaggle competitions, ranging from classical search algorithms to advanced deep learning models.
+  A comprehensive repository featuring high-performance solutions, scholarly explanations, and curated datasets for various Kaggle competitions, ranging from various techniques to advanced deep learning models.
 
   **[Kaggle Profile](https://www.kaggle.com/ameythakur20)**
 
@@ -117,7 +118,9 @@ The documentation and structured approach may provide insights into **Academic P
 <a name="license"></a>
 ## License
 
-This repository and all its creative and technical assets are made available under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**. See the [LICENSE](LICENSE) file for complete terms.
+This repository and all its creative and technical assets are made available under a **Dual-Licensing** framework. The **Source Code** and associated computational logic are governed by the **MIT License**, whereas all **Technical Documentation** and scholarly commentary are released under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
+
+Refer to the [LICENSE-MIT](LICENSE-MIT) and [LICENSE](LICENSE) files for complete legal terms.
 
 > [!NOTE]
 > **Summary**: You are free to share and adapt this content for any purpose, even commercially, as long as you provide appropriate attribution to the original author.
