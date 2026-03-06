@@ -132,6 +132,15 @@ This project features a collection of verified solutions for Kaggle competitions
 
 **Connect:** [Kaggle](https://www.kaggle.com/ameythakur20) &nbsp;·&nbsp; [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/amey-thakur)
 
+### Acknowledgments
+
+**Platform**: [Kaggle](https://www.kaggle.com/)  
+**Domain**: Competitive Data Science & Machine Learning  
+
+Grateful acknowledgment to **Kaggle** for providing the infrastructure, datasets, and computational resources that make this continuous learning environment possible.
+
+Special thanks to the **fellow Kagglers** and the global data science community. The open-source notebooks, robust discussions, and competitive algorithms provide invaluable insights and elevate the standard of every competition.
+
 ---
 
 <div align="center">
