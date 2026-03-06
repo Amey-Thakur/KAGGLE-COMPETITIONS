@@ -14,7 +14,7 @@
   <a href="https://www.kaggle.com/ameythakur20/">
     <img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Kaggle Profile">
   </a>
-
+  <br>
   <br>
 
   <img src="Badges/Kaggle-Community-Member-2022-09-11.svg" width="50" title="Kaggle Community Member (Sept 11, 2022)">
