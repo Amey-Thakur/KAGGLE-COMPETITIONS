@@ -12,8 +12,6 @@
 
   **[Kaggle Profile](https://www.kaggle.com/ameythakur20)**
 
-  <br>
-
 </div>
 
 ---
