@@ -26,6 +26,7 @@
   <img src="Badges/Code-Uploader-2024-09-10.svg" width="50" title="Code Uploader (Sept 10, 2024)">
   <img src="Badges/Github-Coder-2026-03-06.svg" width="50" title="Github Coder (Mar 6, 2026)">
   <img src="Badges/Colab-Coder-2026-03-06.svg" width="50" title="Colab Coder (Mar 6, 2026)">
+  <img src="Badges/Code-Tagger-2024-09-10.svg" width="50" title="Code Tagger (Sept 10, 2024)">
   <img src="Badges/Code-Forker-2024-09-10.svg" width="50" title="Code Forker (Sept 10, 2024)">
   <img src="Badges/Stylish-2026-03-04.svg" width="50" title="Stylish (Mar 4, 2026)">
   <img src="Badges/Dataset-Creator-2024-09-10.svg" width="50" title="Dataset Creator (Sept 10, 2024)">
@@ -35,7 +36,6 @@
   <img src="Badges/Dataset-Documenter-2026-02-25.svg" width="50" title="Dataset Documenter (Feb 25, 2026)">
   <img src="Badges/Collector-2026-03-05.svg" width="50" title="Collector (Mar 5, 2026)">
   <img src="Badges/Bookmarker-2026-03-04.svg" width="50" title="Bookmarker (Mar 4, 2026)">
-  <img src="Badges/Code-Tagger-2024-09-10.svg" width="50" title="Code Tagger (Sept 10, 2024)">
   <img src="Badges/Agent-of-Discord-2026-02-01.svg" width="50" title="Agent of Discord (Feb 1, 2026)">
   <img src="Badges/Learner-2024-09-10.svg" width="50" title="Learner (Sept 10, 2024)">
   <img src="Badges/Student-2024-09-10.svg" width="50" title="Student (Sept 10, 2024)">
