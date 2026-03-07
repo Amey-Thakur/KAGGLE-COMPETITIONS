@@ -17,32 +17,45 @@
   <br>
   <br>
 
+  <!-- Platform Engagement & Milestones -->
   <img src="Badges/Kaggle-Community-Member-2022-09-11.svg" width="50" title="Kaggle Community Member (Sept 11, 2022)">
+  <img src="Badges/1-Year-on-Kaggle-2024-09-11.svg" width="50" title="1-Year on Kaggle (Sept 11, 2024)">
+  <img src="Badges/2-Years-on-Kaggle-2024-09-11.svg" width="50" title="2-Years on Kaggle (Sept 11, 2024)">
+  <img src="Badges/7-Day-Login-Streak-2026-02-04.svg" width="50" title="7-Day Login Streak (Feb 4, 2026)">
+  <img src="Badges/30-Day-Login-Streak-2026-02-27.svg" width="50" title="30-Day Login Streak (Feb 27, 2026)">
+  <img src="Badges/Agent-of-Discord-2026-02-01.svg" width="50" title="Agent of Discord (Feb 1, 2026)">
+  <br>
+
+  <!-- Competitive Performance -->
+  <img src="Badges/Getting-Started-Competitor-2026-03-03.svg" width="50" title="Getting Started Competitor (Mar 3, 2026)">
+  <img src="Badges/Simulation-Competitor-2026-03-03.svg" width="50" title="Simulation Competitor (Mar 3, 2026)">
+  <img src="Badges/Playground-Competitor-2026-03-05.svg" width="50" title="Playground Competitor (Mar 5, 2026)">
+  <img src="Badges/Vampire-2024-09-10.svg" width="50" title="Vampire (Sept 10, 2024)">
+  <img src="Badges/Stylish-2026-03-04.svg" width="50" title="Stylish (Mar 4, 2026)">
+  <br>
+
+  <!-- Coding & Technical Skills -->
   <img src="Badges/Python-Coder-2024-09-10.svg" width="50" title="Python Coder (Sept 10, 2024)">
   <img src="Badges/R-Coder-2024-09-10.svg" width="50" title="R Coder (Sept 10, 2024)">
-  <img src="Badges/Learner-2024-09-10.svg" width="50" title="Learner (Sept 10, 2024)">
-  <img src="Badges/Student-2024-09-10.svg" width="50" title="Student (Sept 10, 2024)">
-  <img src="Badges/Vampire-2024-09-10.svg" width="50" title="Vampire (Sept 10, 2024)">
+  <img src="Badges/Github-Coder-2026-03-06.svg" width="50" title="Github Coder (Mar 6, 2026)">
+  <img src="Badges/Colab-Coder-2026-03-06.svg" width="50" title="Colab Coder (Mar 6, 2026)">
   <img src="Badges/Code-Forker-2024-09-10.svg" width="50" title="Code Forker (Sept 10, 2024)">
   <img src="Badges/Code-Tagger-2024-09-10.svg" width="50" title="Code Tagger (Sept 10, 2024)">
   <img src="Badges/Code-Uploader-2024-09-10.svg" width="50" title="Code Uploader (Sept 10, 2024)">
+  <br>
+
+  <!-- Data Management & Curation -->
   <img src="Badges/Dataset-Creator-2024-09-10.svg" width="50" title="Dataset Creator (Sept 10, 2024)">
-  <img src="Badges/1-Year-on-Kaggle-2024-09-11.svg" width="50" title="1-Year on Kaggle (Sept 11, 2024)">
-  <img src="Badges/2-Years-on-Kaggle-2024-09-11.svg" width="50" title="2-Years on Kaggle (Sept 11, 2024)">
-  <img src="Badges/Agent-of-Discord-2026-02-01.svg" width="50" title="Agent of Discord (Feb 1, 2026)">
-  <img src="Badges/7-Day-Login-Streak-2026-02-04.svg" width="50" title="7-Day Login Streak (Feb 4, 2026)">
   <img src="Badges/Dataset-Documenter-2026-02-25.svg" width="50" title="Dataset Documenter (Feb 25, 2026)">
   <img src="Badges/Dataset-Tagger-2026-02-25.svg" width="50" title="Dataset Tagger (Feb 25, 2026)">
-  <img src="Badges/30-Day-Login-Streak-2026-02-27.svg" width="50" title="30-Day Login Streak (Feb 27, 2026)">
-  <img src="Badges/Getting-Started-Competitor-2026-03-03.svg" width="50" title="Getting Started Competitor (Mar 3, 2026)">
-  <img src="Badges/Simulation-Competitor-2026-03-03.svg" width="50" title="Simulation Competitor (Mar 3, 2026)">
-  <img src="Badges/Stylish-2026-03-04.svg" width="50" title="Stylish (Mar 4, 2026)">
-  <img src="Badges/Bookmarker-2026-03-04.svg" width="50" title="Bookmarker (Mar 4, 2026)">
-  <img src="Badges/Graduate-2026-03-04.svg" width="50" title="Graduate (Mar 4, 2026)">
   <img src="Badges/Collector-2026-03-05.svg" width="50" title="Collector (Mar 5, 2026)">
-  <img src="Badges/Playground-Competitor-2026-03-05.svg" width="50" title="Playground Competitor (Mar 5, 2026)">
-  <img src="Badges/Github-Coder-2026-03-06.svg" width="50" title="Github Coder (Mar 6, 2026)">
-  <img src="Badges/Colab-Coder-2026-03-06.svg" width="50" title="Colab Coder (Mar 6, 2026)">
+  <img src="Badges/Bookmarker-2026-03-04.svg" width="50" title="Bookmarker (Mar 4, 2026)">
+  <br>
+
+  <!-- Education & Progress -->
+  <img src="Badges/Learner-2024-09-10.svg" width="50" title="Learner (Sept 10, 2024)">
+  <img src="Badges/Student-2024-09-10.svg" width="50" title="Student (Sept 10, 2024)">
+  <img src="Badges/Graduate-2026-03-04.svg" width="50" title="Graduate (Mar 4, 2026)">
 
 </div>
 
