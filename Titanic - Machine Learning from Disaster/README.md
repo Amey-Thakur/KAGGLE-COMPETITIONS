@@ -2,17 +2,13 @@
 # Titanic - Machine Learning from Disaster
 ### Start here! Predict survival on the Titanic and get familiar with ML basics
 
-<div align="center">
-
-**Medal: Bronze**
+**Medal:**
 <br>
 <img src="../Medals/Bronze Medal.png" width="50" title="Bronze Medal (Mar 6, 2026)">
 <br>
 <br>
 
 [![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/titanic-passenger-survival-prediction)
-
-</div>
 
 ---
 

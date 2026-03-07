@@ -2,17 +2,13 @@
 # Connect X
 ### Connect your checkers in a row before your opponent!
 
-<div align="center">
-
-**Medal: Bronze**
+**Medal:**
 <br>
 <img src="../Medals/Bronze Medal.png" width="50" title="Bronze Medal (Mar 6, 2026)">
 <br>
 <br>
 
 [![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/connectx-minimax-alpha-beta-agent)
-
-</div>
 
 ---
 
