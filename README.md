@@ -21,6 +21,7 @@
   <img src="Badges/Getting-Started-Competitor-2026-03-03.svg" width="50" title="Getting Started Competitor (Mar 3, 2026)">
   <img src="Badges/Simulation-Competitor-2026-03-03.svg" width="50" title="Simulation Competitor (Mar 3, 2026)">
   <img src="Badges/Playground-Competitor-2026-03-05.svg" width="50" title="Playground Competitor (Mar 5, 2026)">
+  <img src="Badges/March-Mania-Competitor-2026-03-16.svg" width="50" title="March Mania Competitor (Mar 16, 2026)">
   <img src="Badges/Python-Coder-2024-09-10.svg" width="50" title="Python Coder (Sept 10, 2024)">
   <img src="Badges/R-Coder-2024-09-10.svg" width="50" title="R Coder (Sept 10, 2024)">
   <img src="Badges/Code-Uploader-2024-09-10.svg" width="50" title="Code Uploader (Sept 10, 2024)">
@@ -129,7 +130,7 @@ A curated collection of 17 professional certifications awarded by Kaggle, coveri
 ## Project Structure
 
 ```python
-├── Badges/                                         # Earned Kaggle Badges (26)
+├── Badges/                                         # Earned Kaggle Badges (27)
 │   └── README.md                                   # Badge Portfolio
 │
 ├── Medals/                                         # Competition Medals
