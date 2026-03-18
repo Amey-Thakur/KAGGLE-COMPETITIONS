@@ -58,7 +58,7 @@ This approach preserves category-level information and reduces the need for prep
 
 ## Validation Strategy
 
-The notebook uses a train–validation split to evaluate model performance during training and tuning.
+The notebook uses a train-validation split to evaluate model performance during training and tuning.
 
 Model quality is measured on validation data rather than training data to ensure that performance reflects generalization. When training performance is significantly better than validation performance, the model is overfitting.
 
