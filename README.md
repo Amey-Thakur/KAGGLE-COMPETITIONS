@@ -18,6 +18,7 @@
   <br>
   <img src="Badges/1-Year-on-Kaggle-2024-09-11.svg" width="50" title="1-Year on Kaggle (Sept 11, 2024)">
   <img src="Badges/2-Years-on-Kaggle-2024-09-11.svg" width="50" title="2-Years on Kaggle (Sept 11, 2024)">
+  <img src="Badges/Competitor-2026-03-16.svg" width="50" title="Competitor (Mar 16, 2026)">
   <img src="Badges/Getting-Started-Competitor-2026-03-03.svg" width="50" title="Getting Started Competitor (Mar 3, 2026)">
   <img src="Badges/Simulation-Competitor-2026-03-03.svg" width="50" title="Simulation Competitor (Mar 3, 2026)">
   <img src="Badges/Playground-Competitor-2026-03-05.svg" width="50" title="Playground Competitor (Mar 5, 2026)">
@@ -130,7 +131,7 @@ A curated collection of 17 professional certifications awarded by Kaggle, coveri
 ## Project Structure
 
 ```python
-├── Badges/                                         # Earned Kaggle Badges (27)
+├── Badges/                                         # Earned Kaggle Badges (28)
 │   └── README.md                                   # Badge Portfolio
 │
 ├── Medals/                                         # Competition Medals
