@@ -11,9 +11,7 @@
 
   A comprehensive repository featuring high-performance solutions, scholarly explanations, and curated datasets for various Kaggle competitions, ranging from various techniques to advanced deep learning models.
 
-  <a href="https://www.kaggle.com/ameythakur20/">
-    <img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Kaggle Profile">
-  </a>
+  [![Kaggle](https://img.shields.io/badge/Kaggle-ameythakur20-20BEFF?style=square&logo=Kaggle&logoColor=white "Amey Thakur: Access My Professional Portfolio and Verified Solutions on Kaggle")](https://www.kaggle.com/ameythakur20)
   <br>
   <br>
   <img src="Badges/1-Year-on-Kaggle-2024-09-11.svg" width="50" title="1-Year on Kaggle (Sept 11, 2024)">
@@ -23,6 +21,7 @@
   <img src="Badges/Simulation-Competitor-2026-03-03.svg" width="50" title="Simulation Competitor (Mar 3, 2026)">
   <img src="Badges/Playground-Competitor-2026-03-05.svg" width="50" title="Playground Competitor (Mar 5, 2026)">
   <img src="Badges/March-Mania-Competitor-2026-03-16.svg" width="50" title="March Mania Competitor (Mar 16, 2026)">
+  <img src="Badges/Code-Submitter-2026-03-18.svg" width="50" title="Code Submitter (Mar 18, 2026)">
   <img src="Badges/Python-Coder-2024-09-10.svg" width="50" title="Python Coder (Sept 10, 2024)">
   <img src="Badges/R-Coder-2024-09-10.svg" width="50" title="R Coder (Sept 10, 2024)">
   <img src="Badges/Code-Uploader-2024-09-10.svg" width="50" title="Code Uploader (Sept 10, 2024)">
@@ -131,7 +130,7 @@ A curated collection of 17 professional certifications awarded by Kaggle, coveri
 ## Project Structure
 
 ```python
-├── Badges/                                         # Earned Kaggle Badges (28)
+├── Badges/                                         # Earned Kaggle Badges (29)
 │   └── README.md                                   # Badge Portfolio
 │
 ├── Medals/                                         # Competition Medals

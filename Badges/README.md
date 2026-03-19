@@ -47,6 +47,7 @@ This directory serves as a scholarly archive for all earned Kaggle badges. Each 
 | 26 | **Colab Coder** | Mar 06, 2026 | <img src="Colab-Coder-2026-03-06.svg" width="50"> |
 | 27 | **Competitor** | Mar 16, 2026 | <img src="Competitor-2026-03-16.svg" width="50"> |
 | 28 | **March Mania Competitor** | Mar 16, 2026 | <img src="March-Mania-Competitor-2026-03-16.svg" width="50"> |
+| 29 | **Code Submitter** | Mar 18, 2026 | <img src="Code-Submitter-2026-03-18.svg" width="50"> |
 
 </div>
 
