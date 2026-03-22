@@ -103,6 +103,9 @@ The index below categorizes active projects by their competitive domain and foun
 | 2 | **Titanic** | <img src="Medals/Bronze Medal.png" width="22" title="Bronze Medal (Mar 6, 2026)"> | <ul><li>Classification</li><li>Forensic Analysis</li></ul> | <ul><li>Deterministic Record Linkage</li><li>Normalization</li><li>Data Alignment</li></ul> | [Analysis](./Titanic%20-%20Machine%20Learning%20from%20Disaster/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/titanic-passenger-survival-prediction) |
 | 3 | **Predict Customer Churn** | - | <ul><li>Binary Classification</li><li>Tabular Data</li></ul> | <ul><li>XGBoost</li><li>CatBoost</li><li>LightGBM</li><li>Optuna</li></ul> | [Analysis](./Predict%20Customer%20Churn/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/predict-customer-churn-xgb-catboost-lgbm-optuna) |
 | 4 | **Petals to the Metal** | - | <ul><li>Computer Vision</li><li>Deep Learning</li></ul> | <ul><li>Tensor Processing Units (TPU)</li><li>Image Classification</li></ul> | [Analysis](./Petals%20to%20the%20Metal%20-%20Flower%20Classification%20on%20TPU/README.md) | Notebook Coming Soon |
+| 5 | **Are You A Robot?** | - | <ul><li>NLP</li><li>Classification</li></ul> | <ul><li>Stylometric Analysis</li><li>Gaussian Mixture Models</li><li>TF-IDF</li></ul> | [Analysis](./Are%20You%20A%20Robot/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/are-you-a-robot) |
+| 6 | **Evading AI Detection** | - | <ul><li>NLP</li><li>Generative AI</li></ul> | <ul><li>Activation Steering</li><li>Sparse Autoencoders</li><li>Latent Feature Suppression</li></ul> | [Analysis](./Evading%20AI%20Detection/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/evading-ai-text-detection) |
+
 
 
 ---
@@ -155,6 +158,14 @@ A curated collection of 17 professional certifications awarded by Kaggle, coveri
 ├── Petals to the Metal - Flower Classification on TPU/ # Computer Vision: Deep Learning
 │   ├── README.md                                   # Technical Analysis
 │   └── tpu-flower-classification-advanced-ensemble.ipynb # Verified Notebook Solution
+│
+├── Are You A Robot/                                # NLP: Multi-Task Essay Analysis
+│   ├── README.md                                   # Technical Analysis
+│   └── are_you_a_robot.ipynb                       # Verified Notebook Solution
+│
+├── Evading AI Detection/                           # NLP: Generative AI & Steering
+│   ├── README.md                                   # Technical Analysis
+│   └── evading-ai-text-detection.ipynb             # Verified Notebook Solution
 │
 ├── docs/                                           # Kaggle Assets
 ├── LICENSE                                         # CC BY 4.0 (Documentation)
