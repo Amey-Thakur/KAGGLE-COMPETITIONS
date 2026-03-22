@@ -156,7 +156,8 @@ A curated collection of 17 professional certifications awarded by Kaggle, coveri
 ├── Predict Customer Churn/                         # Binary Classification: Tabular Data
 │   ├── README.md                                   # Technical Analysis
 │   ├── predict-customer-churn-xgb-catboost-lgbm-optuna.ipynb # Verified Notebook Solution
-│   └── customer-churn-prediction-gradient-boosting.ipynb # Gradient Boosting Solution
+│   ├── customer-churn-prediction-gradient-boosting.ipynb # Gradient Boosting Solution
+│   └── customer-churn-pseudo-labeled-xgboost-ensemble.ipynb # Pseudo-Labeling Strategy
 │
 ├── Petals to the Metal - Flower Classification on TPU/ # Computer Vision: Deep Learning
 │   ├── README.md                                   # Technical Analysis
