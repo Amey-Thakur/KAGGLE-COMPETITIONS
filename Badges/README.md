@@ -48,6 +48,7 @@ This directory serves as a scholarly archive for all earned Kaggle badges. Each 
 | 27 | **Competitor** | Mar 16, 2026 | <img src="Competitor-2026-03-16.svg" width="50"> |
 | 28 | **March Mania Competitor** | Mar 16, 2026 | <img src="March-Mania-Competitor-2026-03-16.svg" width="50"> |
 | 29 | **Code Submitter** | Mar 18, 2026 | <img src="Code-Submitter-2026-03-18.svg" width="50"> |
+| 30 | **Community Competitor** | Mar 22, 2026 | <img src="Community-Competitor-2026-03-22.svg" width="50"> |
 
 </div>
 
