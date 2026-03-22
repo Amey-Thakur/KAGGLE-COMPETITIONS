@@ -158,8 +158,7 @@ A curated collection of 17 professional certifications awarded by Kaggle, coveri
 │   └── predict-customer-churn-xgb-catboost-lgbm-optuna.ipynb # Verified Notebook Solution
 │
 ├── Petals to the Metal - Flower Classification on TPU/ # Computer Vision: Deep Learning
-│   ├── README.md                                   # Technical Analysis
-│   └── tpu-flower-classification-advanced-ensemble.ipynb # Verified Notebook Solution
+│   └── README.md                                   # Technical Analysis
 │
 ├── Are You A Robot/                                # NLP: Multi-Task Essay Analysis
 │   ├── README.md                                   # Technical Analysis
