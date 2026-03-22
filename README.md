@@ -158,7 +158,8 @@ A curated collection of 17 professional certifications awarded by Kaggle, coveri
 │   ├── predict-customer-churn-xgb-catboost-lgbm-optuna.ipynb # Verified Notebook Solution
 │   ├── customer-churn-prediction-gradient-boosting.ipynb # Gradient Boosting Solution
 │   ├── customer-churn-pseudo-labeled-xgboost-ensemble.ipynb # Pseudo-Labeling Strategy
-│   └── predict-customer-churn-xgb-catboost-ensemble.ipynb # XGB-CatBoost Ensemble
+│   ├── predict-customer-churn-xgb-catboost-ensemble.ipynb # XGB-CatBoost Ensemble
+│   └── customer-churn-prediction-121-fe-20-cv-stacking.ipynb # Stacked Ensemble Strategy
 │
 ├── Petals to the Metal - Flower Classification on TPU/ # Computer Vision: Deep Learning
 │   ├── README.md                                   # Technical Analysis
