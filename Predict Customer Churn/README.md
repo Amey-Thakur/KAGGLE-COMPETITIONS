@@ -2,7 +2,7 @@
 # Predict Customer Churn <img align="right" src="../Medals/Bronze Medal.png" width="35" title="Bronze Medal (Mar 20, 2026)">
 ### Playground Series - Season 6 Episode 3
 
-[![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/predict-customer-churn-xgb-catboost-lgbm-optuna)
+[![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/predict-customer-churn-xgb-catboost-ensemble)
 
 ---
 
