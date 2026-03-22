@@ -1,0 +1,32 @@
+# KAGGLE-COMPETITIONS
+# Persistence and attribute configuration for repository integrity
+
+# Line ending normalization
+* text=auto
+
+# Core source and documentation
+*.md text eol=lf diff=markdown
+*.ipynb text eol=lf
+*.py text eol=lf
+*.js text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.txt text eol=lf
+.gitattributes text eol=lf
+.gitignore text eol=lf
+
+# Binary asset management
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.ico binary
+*.gif binary
+*.pdf binary
+*.wav binary
+*.mp3 binary
+
+# Project documentation metadata
+README.md text eol=lf diff=markdown
