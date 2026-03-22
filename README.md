@@ -105,6 +105,8 @@ The index below categorizes active projects by their competitive domain and foun
 | 4 | **Petals to the Metal** | - | <ul><li>Computer Vision</li><li>Deep Learning</li></ul> | <ul><li>Tensor Processing Units (TPU)</li><li>Image Classification</li></ul> | [Analysis](./Petals%20to%20the%20Metal%20-%20Flower%20Classification%20on%20TPU/README.md) | Notebook Coming Soon |
 | 5 | **Are You A Robot?** | - | <ul><li>NLP</li><li>Classification</li></ul> | <ul><li>Stylometric Analysis</li><li>Gaussian Mixture Models</li><li>TF-IDF</li></ul> | [Analysis](./Are%20You%20A%20Robot/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/are-you-a-robot) |
 | 6 | **Evading AI Detection** | - | <ul><li>NLP</li><li>Generative AI</li></ul> | <ul><li>Activation Steering</li><li>Sparse Autoencoders</li><li>Latent Feature Suppression</li></ul> | [Analysis](./Evading%20AI%20Detection/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/evading-ai-text-detection) |
+| 7 | **LLM Classification** | - | <ul><li>LLM Preference</li><li>Ensemble Inference</li></ul> | <ul><li>Gemma-2-9B</li><li>Llama-3-8B</li><li>Pipeline Parallelism</li><li>Logit Interpolation</li></ul> | [Analysis](./LLM%20Classification%20Finetuning/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/llm-classification-inference) |
+
 
 
 
@@ -165,7 +167,11 @@ A curated collection of 17 professional certifications awarded by Kaggle, coveri
 │
 ├── Evading AI Detection/                           # NLP: Generative AI & Steering
 │   ├── README.md                                   # Technical Analysis
-│   └── evading-ai-text-detection.ipynb             # Verified Notebook Solution
+│   └── evading_ai_text_detection.ipynb             # Verified Notebook Solution
+│
+├── LLM Classification Finetuning/                  # LLM Preference: Chatbot Arena
+│   ├── README.md                                   # Technical Analysis
+│   └── llm_classification_inference.ipynb          # Verified Notebook Solution
 │
 ├── docs/                                           # Kaggle Assets
 ├── LICENSE                                         # CC BY 4.0 (Documentation)
