@@ -38,3 +38,20 @@ build/
 # Kaggle Development Artifacts (Keep local only)
 build_notebook.py
 **/build_notebook.py
+
+# Python-specific exclusions
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local data and inference results
+*.csv
+*.parquet
+*.npy
+*.pth
+*.safetensors
+checkpoint-*/
