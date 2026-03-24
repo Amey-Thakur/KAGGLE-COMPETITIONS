@@ -50,7 +50,7 @@ def build():
         6. [Protenix-v1 Inference](#6-protenix-v1-inference)
         7. [Run Pipeline](#7-run-pipeline)
         8. [Verify Submission](#8-verify-submission)
-        9. [Summary](#9-summary)
+        9. [Analysis Summary](#9-analysis-summary)
 
         ***
     """)
@@ -823,11 +823,21 @@ def build():
         submission_df.head(15)
     """)
 
-    # 9. Summary
+    # 9. Analysis Summary
     md("""
-        ## 9. Summary
+        ## 9. Analysis Summary
 
-        We integrated a high throughput prediction configuration algorithm for rapid and robust hardware execution. All targets failing the fundamental template identity search undergo partitioned Protenix synthesis before alignment reconstitution.
+        This guide detailed a production-grade approach to Stanford RNA 3D Folding prediction:
+
+        1. **Template-Based Modeling**: Utilized pairwise sequence alignment against the structural database to establish high-fidelity topological templates for identical sequence matches.
+        2. **Diversity Transforms**: Injected geometric deformations including hinging, jittering, and wiggling functions to expand the structural permutations required for metric maximization.
+        3. **Protenix-v1 Synthesis**: Scheduled unresolved target segments for deep coordinate sampling utilizing diffusion models governed by adaptive overlap boundaries.
+        4. **Kabsch Alignment**: Realigned synthesized overlapping coordinate blocks across multi-tile predictions to stitch elongated 512-residue bounds.
+        5. **De-Novo Fallback**: Filled any remaining prediction gaps safely using idealized A-form structural fallbacks to guarantee robust prediction files.
+
+        ---
+        **Citation:**
+        Rhiju Das, Youhan Lee, Chris Munley, Przemek Porebski, Walter Reade, Theo Viel, and Ashley Oldacre. Stanford RNA 3D Folding Part 2. https://kaggle.com/competitions/stanford-rna-3d-folding-2, 2026. Kaggle.
     """)
 
     # Notebook structure
