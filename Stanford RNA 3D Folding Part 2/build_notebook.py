@@ -856,7 +856,6 @@ def build():
                     {"sourceType": "datasetVersion", "sourceId": 14962495, "datasetId": 9577097, "databundleVersionId": 15833858},
                     {"sourceType": "datasetVersion", "sourceId": 10855324, "datasetId": 6742586, "databundleVersionId": 11219268},
                 ],
-                "dockerImageVersionId": 31287,
                 "isGpuEnabled": True,
                 "isInternetEnabled": False,
                 "language": "python",
