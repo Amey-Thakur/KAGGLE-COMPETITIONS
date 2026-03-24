@@ -498,17 +498,38 @@ def build():
                 chunk = template_coords[ts:te]
                 if len(chunk) == (qe - qs):
                     new_coords[qs:qe] = chunk
+            backbone_distance = 5.9
             for i in range(len(new_coords)):
                 if np.isnan(new_coords[i, 0]):
                     pv = next((j for j in range(i - 1, -1, -1) if not np.isnan(new_coords[j, 0])), -1)
                     nv = next((j for j in range(i + 1, len(new_coords)) if not np.isnan(new_coords[j, 0])), -1)
                     if pv >= 0 and nv >= 0:
-                        w = (i - pv) / (nv - pv)
-                        new_coords[i] = (1 - w) * new_coords[pv] + w * new_coords[nv]
+                        gap_size = nv - pv
+                        total_dist = np.linalg.norm(new_coords[nv] - new_coords[pv])
+                        expected_dist = gap_size * backbone_distance
+                        if total_dist < expected_dist * 0.7:
+                            direction = new_coords[nv] - new_coords[pv]
+                            direction = direction / (np.linalg.norm(direction) + 1e-10)
+                            perp = np.cross(direction, [0, 0, 1])
+                            if np.linalg.norm(perp) < 1e-6:
+                                perp = np.cross(direction, [1, 0, 0])
+                            perp = perp / (np.linalg.norm(perp) + 1e-10)
+                            progress = (i - pv) / gap_size
+                            base_pos = new_coords[pv] + direction * expected_dist * progress
+                            curve_amp = 2.0 * np.sin(progress * np.pi)
+                            new_coords[i] = base_pos + perp * curve_amp
+                        else:
+                            w = (i - pv) / gap_size
+                            new_coords[i] = (1 - w) * new_coords[pv] + w * new_coords[nv]
                     elif pv >= 0:
-                        new_coords[i] = new_coords[pv] + [3, 0, 0]
+                        if pv > 0 and not np.isnan(new_coords[pv - 1, 0]):
+                            d = new_coords[pv] - new_coords[pv - 1]
+                            d = d / (np.linalg.norm(d) + 1e-10)
+                        else:
+                            d = np.array([1.0, 0.0, 0.0])
+                        new_coords[i] = new_coords[pv] + d * backbone_distance * (i - pv)
                     elif nv >= 0:
-                        new_coords[i] = new_coords[nv] + [3, 0, 0]
+                        new_coords[i] = new_coords[nv] - np.array([1.0, 0.0, 0.0]) * backbone_distance * (nv - i)
                     else:
                         new_coords[i] = [i * 3, 0, 0]
             return np.nan_to_num(new_coords)
@@ -539,6 +560,20 @@ def build():
                             vec = (diff * ((3.2 - dm) / dm)[:, :, None] * mask[:, :, None]).sum(axis=1)
                             C[idx] += (0.015 * strength) * vec
                     X[s:e] = C
+            if strength > 0.3:
+                from scipy.spatial import distance_matrix as _dm
+                d_mat = _dm(X, X)
+                clashes = np.where((d_mat < 3.8) & (d_mat > 0))
+                for ci in range(len(clashes[0])):
+                    ii, jj = clashes[0][ci], clashes[1][ci]
+                    if abs(ii - jj) <= 1 or ii >= jj:
+                        continue
+                    dd = d_mat[ii, jj]
+                    dr = X[jj] - X[ii]
+                    dr = dr / (np.linalg.norm(dr) + 1e-10)
+                    fix = (3.8 - dd) * strength
+                    X[ii] -= dr * (fix / 2)
+                    X[jj] += dr * (fix / 2)
             return X
 
         def _rotmat(axis, ang):
@@ -789,6 +824,21 @@ def build():
             print("PHASE 3: Aggregate Valid Target Submissions")
             print(f"{'='*60}")
 
+            def _backbone_energy(c):
+                d = np.linalg.norm(c[1:] - c[:-1], axis=1)
+                bond_err = np.mean((d - 5.95) ** 2)
+                clash = 0.0
+                if len(c) > 20:
+                    sub = c[::max(1, len(c) // 80)]
+                    dd = np.linalg.norm(sub[:, None, :] - sub[None, :, :], axis=2)
+                    np.fill_diagonal(dd, 99.0)
+                    for off in range(1, min(3, len(sub))):
+                        ii = np.arange(len(sub) - off)
+                        dd[ii, ii + off] = 99.0
+                        dd[ii + off, ii] = 99.0
+                    clash = float(np.sum(np.maximum(0, 3.2 - dd) ** 2))
+                return bond_err + 0.1 * clash
+
             all_rows = []
             for _, row in test_df.iterrows():
                 tid, seq = row["target_id"], row["sequence"]
@@ -803,7 +853,9 @@ def build():
                     seed_val = row.name * 1000000 + len(combined) * 1000
                     dn = generate_rna_structure(seq, seed=seed_val)
                     combined.append(adaptive_rna_constraints(dn, tid, segments_map, confidence=0.2))
-                stacked = np.stack(combined[:N_SAMPLE], axis=0)
+                energies = [_backbone_energy(c) for c in combined[:N_SAMPLE]]
+                ranked   = [combined[i] for i in np.argsort(energies)]
+                stacked  = np.stack(ranked[:N_SAMPLE], axis=0)
                 all_rows.extend(coords_to_rows(tid, seq, stacked))
 
             sub = pd.DataFrame(all_rows)
