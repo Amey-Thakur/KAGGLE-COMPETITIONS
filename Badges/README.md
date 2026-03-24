@@ -5,9 +5,7 @@ This directory serves as a scholarly archive for all earned Kaggle badges. Each 
 
 <div align="center">
 
-  <a href="https://www.kaggle.com/ameythakur20/">
-    <img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Kaggle Profile">
-  </a>
+  [![Kaggle](https://img.shields.io/badge/Kaggle-ameythakur20-20BEFF?style=square&logo=Kaggle&logoColor=white "Amey Thakur: Access My Professional Portfolio and Verified Solutions on Kaggle")](https://www.kaggle.com/ameythakur20)
 
 </div>
 
