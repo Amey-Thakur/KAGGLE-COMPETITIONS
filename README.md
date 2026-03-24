@@ -33,6 +33,7 @@
   <img src="Badges/Code-Tagger-2024-09-10.svg" width="50" title="Code Tagger (Sept 10, 2024)">
   <img src="Badges/Code-Forker-2024-09-10.svg" width="50" title="Code Forker (Sept 10, 2024)">
   <img src="Badges/Notebook-Modeler-2026-03-24.svg" width="50" title="Notebook Modeler (Mar 24, 2026)">
+  <img src="Badges/Utility-Scripter-2026-03-24.svg" width="50" title="Utility Scripter (Mar 24, 2026)">
   <img src="Badges/Dataset-Creator-2024-09-10.svg" width="50" title="Dataset Creator (Sept 10, 2024)">
   <img src="Badges/Dataset-Documenter-2026-02-25.svg" width="50" title="Dataset Documenter (Feb 25, 2026)">
   <img src="Badges/Dataset-Tagger-2026-02-25.svg" width="50" title="Dataset Tagger (Feb 25, 2026)">
@@ -139,7 +140,7 @@ A curated collection of 17 professional certifications awarded by Kaggle, coveri
 ## Project Structure
 
 ```python
-├── Badges/                                         # Earned Kaggle Badges (33)
+├── Badges/                                         # Earned Kaggle Badges (34)
 │   └── README.md                                   # Badge Portfolio
 │
 ├── Medals/                                         # Competition Medals
