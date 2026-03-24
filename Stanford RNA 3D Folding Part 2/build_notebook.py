@@ -2,7 +2,6 @@
 """
 Generates the Stanford RNA 3D Folding Part 2 notebook.
 Uses the proven TBM + Protenix-v1 hybrid pipeline from the top public solutions.
-Target hardware: Kaggle GPU P100, runtime < 120 minutes.
 """
 import json, textwrap
 from typing import Any, Dict, List
@@ -39,7 +38,7 @@ def build():
 
         **Author:** [Amey Thakur](https://www.kaggle.com/ameythakur20)
 
-        This notebook predicts 3D RNA coordinates using a two-phase pipeline specifically optimized to run in under 120 minutes on a GPU P100 constraint. Phase 1 searches the training set for structural templates via pairwise sequence alignment. Phase 2 fills remaining slots with Protenix-v1 diffusion inference. Long sequences are chunked and stitched back together with Kabsch alignment. The output populates five independent structural models per target to maximize the TM-score metric.
+        This notebook predicts 3D RNA coordinates using a highly optimized two-phase pipeline. Phase 1 searches the training set for structural templates via pairwise sequence alignment. Phase 2 fills remaining slots with Protenix-v1 diffusion inference. Long sequences are chunked and stitched back together with Kabsch alignment. The output populates five independent structural models per target to maximize the TM-score metric.
 
         **Outline:**
 
@@ -127,7 +126,7 @@ def build():
     md("""
         ## 4. Paths, Constants and Utilities
 
-        Because we must conform to a strict 120 minute GPU limit, N_SAMPLE is set to 5, which satisfies the submission specification while constraining diffusion overhead. MAX_SEQ_LEN is set to 512 tokens to balance context length with GPU memory. 
+        N_SAMPLE is set to 5, which satisfies the submission specification while constraining diffusion overhead. MAX_SEQ_LEN is set to 512 tokens to balance context length with GPU memory. 
     """)
     code(r"""
         import gc
@@ -828,7 +827,7 @@ def build():
     md("""
         ## 9. Summary
 
-        We integrated a high throughput prediction configuration to scale under Kaggle's 120 minute execution strictness for GPU P100 hardware. All targets failing the fundamental template identity search undergo partitioned Protenix synthesis before alignment reconstitution.
+        We integrated a high throughput prediction configuration algorithm for rapid and robust hardware execution. All targets failing the fundamental template identity search undergo partitioned Protenix synthesis before alignment reconstitution.
     """)
 
     # Notebook structure
