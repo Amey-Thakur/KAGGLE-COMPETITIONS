@@ -1,0 +1,834 @@
+--- mine
++++ 0448
+@@ -1,4 +1,7 @@
+ !pip install --no-index --no-deps /kaggle/input/datasets/kami1976/biopython-cp312/biopython-1.86-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl
++
+ !pip install --no-index --no-deps /kaggle/input/datasets/amirrezaaleyasin/biotite/biotite-1.6.0-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl
++
+ !pip install --no-index --no-deps /kaggle/input/datasets/amirrezaaleyasin/rdkit-2025-9-5/rdkit-2025.9.5-cp312-cp312-manylinux_2_28_x86_64.whl
++
+ import os
+@@ -6,6 +9,11 @@
+ import pandas as pd
+-import matplotlib.pyplot as plt
+-import seaborn as sns
+-
+-IS_KAGGLE = True
++
++# ── Local vs Kaggle mode ─────────────────────────────────────────────────────
++# On Kaggle competition rerun, KAGGLE_IS_COMPETITION_RERUN is set to a truthy value.
++# When running locally we do NOT exit — instead we cap the test set to a small
++# number of samples so the notebook finishes quickly.
++
++IS_KAGGLE = True #bool(os.environ.get("KAGGLE_IS_COMPETITION_RERUN", ""))
++
++# How many test samples to use when running locally
+ LOCAL_N_SAMPLES = None
+@@ -13,39 +21,9 @@
+ if IS_KAGGLE:
+-    print("Running in KAGGLE COMPETITION mode.")
++    print("Running in KAGGLE COMPETITION mode — all test targets will be processed.")
+ else:
+-    print(f"Running in LOCAL mode (first {LOCAL_N_SAMPLES} targets).")
+-DATA_BASE = "/kaggle/input/competitions/stanford-rna-3d-folding-2"
+-DEFAULT_TEST_CSV = f"{DATA_BASE}/test_sequences.csv"
+-DEFAULT_TRAIN_CSV = f"{DATA_BASE}/train_sequences.csv"
+-
+-def render_eda():
+-    try:
+-        train_df = pd.read_csv(DEFAULT_TRAIN_CSV)
+-        test_df = pd.read_csv(DEFAULT_TEST_CSV)
+-    except FileNotFoundError:
+-        print("Dataset not found. Skipping EDA.")
+-        return
+-
+-    train_lens = train_df['sequence'].apply(len)
+-    test_lens = test_df['sequence'].apply(len)
+-
+-    plt.figure(figsize=(12, 6))
+-    sns.histplot(train_lens, color='royalblue', alpha=0.6, label='Train Sequences', stat='density', bins=50)
+-    sns.histplot(test_lens, color='crimson', alpha=0.6, label='Test Sequences', stat='density', bins=50)
+-
+-    plt.axvline(x=512, color='green', linestyle='--', label='Max Seq Len Threshold (512)')
+-    plt.title('Sequence Length Distribution: Train vs Test', fontsize=14, fontweight='bold')
+-    plt.xlabel('Length (nucleotides)', fontsize=12)
+-    plt.ylabel('Density', fontsize=12)
+-    plt.legend()
+-    plt.grid(axis='y', alpha=0.3)
+-    plt.tight_layout()
+-    plt.show()
+-
+-    print(f"Train sequence stats:\n{train_lens.describe()}\n")
+-    print(f"Test sequence stats:\n{test_lens.describe()}\n")
+-
+-render_eda()
++    print(f"Running in LOCAL mode — only the first {LOCAL_N_SAMPLES} test targets "
++          f"will be processed to save time.")
+ import gc
+ import json
++import os
+ import time
+@@ -55,4 +33,7 @@
+ 
++import sys
+ from pathlib import Path
++
+ import numpy as np
++import pandas as pd
+ import torch
+@@ -60,7 +41,50 @@
+ from tqdm import tqdm
+-
+-DEFAULT_TRAIN_LBLS = f"{DATA_BASE}/train_labels.csv"
+-DEFAULT_VAL_CSV    = f"{DATA_BASE}/validation_sequences.csv"
+-DEFAULT_VAL_LBLS   = f"{DATA_BASE}/validation_labels.csv"
+-DEFAULT_OUTPUT     = "/kaggle/working/submission.csv"
++def get_c1_mask(data: dict, atom_array) -> torch.Tensor:
++    # 1. Try atom_array attributes first
++    if atom_array is not None:
++        try:
++            if hasattr(atom_array, "centre_atom_mask"):
++                m = atom_array.centre_atom_mask == 1
++                if hasattr(atom_array, "is_rna"):
++                    m = m & atom_array.is_rna
++                return torch.from_numpy(m).bool()
++            
++            if hasattr(atom_array, "atom_name"):
++                base = atom_array.atom_name == "C1'"
++                if hasattr(atom_array, "is_rna"):
++                    base = base & atom_array.is_rna
++                return torch.from_numpy(base).bool()
++        except Exception:
++            pass
++
++    # 2. Fallback to feature dict
++    f = data["input_feature_dict"]
++    
++    if "centre_atom_mask" in f:
++        return (f["centre_atom_mask"] == 1).bool()
++    if "center_atom_mask" in f:
++        return (f["center_atom_mask"] == 1).bool()
++        
++    # Heuristic fallback: check which index gives us roughly N_token atoms
++    n_tokens = data.get("N_token", torch.tensor(0)).item()
++    mask11 = (f["atom_to_tokatom_idx"] == 11).bool()
++    mask12 = (f["atom_to_tokatom_idx"] == 12).bool()
++    
++    c11 = mask11.sum().item()
++    c12 = mask12.sum().item()
++    
++    # Return the one closer to N_tokens (likely one per residue)
++    if abs(c11 - n_tokens) < abs(c12 - n_tokens):
++        return mask11
++    else:
++        return mask12
++
++# ─────────────── Paths & Constants ───────────────────────────────────────────
++DATA_BASE              = "/kaggle/input/stanford-rna-3d-folding-2"
++DEFAULT_TEST_CSV       = f"{DATA_BASE}/test_sequences.csv"
++DEFAULT_TRAIN_CSV      = f"{DATA_BASE}/train_sequences.csv"
++DEFAULT_TRAIN_LBLS     = f"{DATA_BASE}/train_labels.csv"
++DEFAULT_VAL_CSV        = f"{DATA_BASE}/validation_sequences.csv"
++DEFAULT_VAL_LBLS       = f"{DATA_BASE}/validation_labels.csv"
++DEFAULT_OUTPUT         = "/kaggle/working/submission.csv"
+ 
+@@ -73,3 +97,3 @@
+ MODEL_NAME    = "protenix_base_20250630_v1.0.0"
+-N_SAMPLE      = 5 
++N_SAMPLE      = 10
+ SEED          = 42
+@@ -78,2 +102,3 @@
+ 
++# TBM quality thresholds — sequences below these get routed to Protenix
+ MIN_SIMILARITY       = float(os.environ.get("MIN_SIMILARITY",       "0.0"))
+@@ -81,3 +106,5 @@
+ 
++# Set False to skip Protenix and use de-novo fallback instead
+ USE_PROTENIX = True
++
+ 
+@@ -91,2 +118,3 @@
+ 
++
+ USE_MSA      = parse_bool(os.environ.get("USE_MSA",      "false"))
+@@ -94,4 +122,7 @@
+ USE_RNA_MSA  = parse_bool(os.environ.get("USE_RNA_MSA",  "true"))
++
+ MODEL_N_SAMPLE = int(os.environ.get("MODEL_N_SAMPLE", str(N_SAMPLE)))
+ 
++
++# ─────────────── General Utilities ───────────────────────────────────────────
+ def seed_everything(seed: int) -> None:
+@@ -107,2 +138,3 @@
+ 
++
+ def resolve_paths():
+@@ -113,2 +145,3 @@
+     return test_csv, output_csv, code_dir, root_dir
++
+ 
+@@ -123,2 +156,4 @@
+ 
++
++# ─────────────── Protenix Input / Config Helpers ─────────────────────────────
+ def build_input_json(df: pd.DataFrame, json_path: str) -> None:
+@@ -134,2 +169,3 @@
+         json.dump(data, f)
++
+ 
+@@ -164,3 +200,5 @@
+ 
++
+ def get_c1_mask(data: dict, atom_array) -> torch.Tensor:
++    # 1. Try atom_array attributes first
+     if atom_array is not None:
+@@ -172,2 +210,3 @@
+                 return torch.from_numpy(m).bool()
++            
+             if hasattr(atom_array, "atom_name"):
+@@ -179,15 +218,36 @@
+             pass
++
++    # 2. Fallback to feature dict
++    f = data["input_feature_dict"]
++    
++    # CASE A: center_atom_mask exists
++    if "center_atom_mask" in f:
++        return (f["center_atom_mask"] == 1).bool()
++    if "centre_atom_mask" in f:
++        return (f["centre_atom_mask"] == 1).bool()
++        
++    # CASE B: Use atom_name
++    if "atom_name" in f:
++        # Check against "C1'" (byte encoded or string?)
++        # For now assume typical behavior is center_atom_mask is present.
++        pass
++
++    # CASE C: atom_to_tokatom_idx fallback
++    # The index for C1' is typically 11 or 12 depending on featurizer.
++    # Let's try to match exactly C1' if possible.
++    # But usually 'centre_atom_mask' should be there.
++    
++    # If we fall through, assume standard mask
++    return (f["atom_to_tokatom_idx"] == 11).bool()
++
++
++def get_feature_c1_mask(data: dict) -> torch.Tensor:
+     f = data["input_feature_dict"]
+     if "centre_atom_mask" in f:
+-        return (f["centre_atom_mask"] == 1).bool()
+-    if "center_atom_mask" in f:
+-        return (f["center_atom_mask"] == 1).bool()
+-    n_tokens = data.get("N_token", torch.tensor(0)).item()
+-    mask11 = (f["atom_to_tokatom_idx"] == 11).bool()
+-    mask12 = (f["atom_to_tokatom_idx"] == 12).bool()
+-    if abs(mask11.sum().item() - n_tokens) < abs(mask12.sum().item() - n_tokens):
+-        return mask11
+-    return mask12
++        return f["centre_atom_mask"].long() == 1
++    return f["atom_to_tokatom_idx"].long() == 12
++
+ 
+ def coords_to_rows(target_id: str, seq: str, coords: np.ndarray) -> list:
++    """coords shape: (N_SAMPLE, seq_len, 3)"""
+     rows = []
+@@ -206,6 +266,19 @@
+ 
++
++def pad_samples(coords: np.ndarray, n: int) -> np.ndarray:
++    if coords.shape[0] >= n:
++        return coords[:n]
++    if coords.shape[0] == 0:
++        return np.zeros((n, coords.shape[1], 3), dtype=coords.dtype)
++    extra = np.repeat(coords[:1], n - coords.shape[0], axis=0)
++    return np.concatenate([coords, extra], axis=0)
++
++
+ def split_into_chunks(seq_len: int, max_len: int, overlap: int) -> list:
++    """Split a sequence into overlapping (start, end) chunks."""
+     if seq_len <= max_len:
+         return [(0, seq_len)]
+-    chunks, step, pos = [], max_len - overlap, 0
++    chunks = []
++    step = max_len - overlap
++    pos = 0
+     while pos < seq_len:
+@@ -218,7 +291,11 @@
+ 
++
+ def kabsch_align(P: np.ndarray, Q: np.ndarray):
++    """Compute optimal rotation R and translation t so that  R @ P + t ≈ Q."""
+     centroid_P = P.mean(axis=0)
+     centroid_Q = Q.mean(axis=0)
+-    Pc, Qc = P - centroid_P, Q - centroid_Q
+-    U, _, Vt = np.linalg.svd(Pc.T @ Qc)
++    Pc = P - centroid_P
++    Qc = Q - centroid_Q
++    H = Pc.T @ Qc
++    U, _, Vt = np.linalg.svd(H)
+     d = np.linalg.det(Vt.T @ U.T)
+@@ -231,3 +308,11 @@
+ 
+-def stitch_chunk_coords(chunk_coords_list, chunk_ranges, seq_len):
++
++def stitch_chunk_coords(chunk_coords_list: list,
++                        chunk_ranges: list,
++                        seq_len: int) -> np.ndarray:
++    """
++    Merge overlapping chunk coordinates into a full sequence geometry.
++    Applies Kabsch alignment on overlapping residues, and smoothly
++    blends the coordinates using a linear weight ramp.
++    """
+     if len(chunk_coords_list) == 1:
+@@ -239,3 +324,6 @@
+         return out
++
++    # Start with the first chunk aligned to itself (identity)
+     aligned = [chunk_coords_list[0].copy()]
++
+     for i in range(1, len(chunk_coords_list)):
+@@ -243,9 +331,16 @@
+         cur_start, cur_end = chunk_ranges[i]
+-        ov_start, ov_end = cur_start, min(prev_end, cur_end)
++
++        ov_start = cur_start
++        ov_end = min(prev_end, cur_end)
+         ov_len = ov_end - ov_start
++
+         if ov_len < 3:
++            # Cannot align reliably, just trust the coordinates as-is
+             aligned.append(chunk_coords_list[i].copy())
+             continue
++
+         prev_ov = aligned[i - 1][ov_start - prev_start: ov_end - prev_start]
+         cur_ov = chunk_coords_list[i][ov_start - cur_start: ov_end - cur_start]
++
++        # Ignore invalid residues (e.g. padding/blank)
+         valid = ~(np.isnan(prev_ov).any(axis=1) | np.isnan(cur_ov).any(axis=1))
+@@ -254,15 +349,26 @@
+             continue
++
++        # Align current chunk to previous chunk using only the overlap region
+         R, t = kabsch_align(cur_ov[valid], prev_ov[valid])
+-        aligned.append((chunk_coords_list[i] @ R.T) + t)
++        transformed = (chunk_coords_list[i] @ R.T) + t
++        aligned.append(transformed)
++
++    # Blend them together
+     full = np.zeros((seq_len, 3), dtype=np.float64)
+     weights = np.zeros(seq_len, dtype=np.float64)
++
+     for i, ((s, e), coords) in enumerate(zip(chunk_ranges, aligned)):
+-        actual_end = min(s + coords.shape[0], seq_len)
++        chunk_len = coords.shape[0]
++        actual_end = min(s + chunk_len, seq_len)
+         used_len = actual_end - s
++
+         w = np.ones(used_len, dtype=np.float64)
++
+         if i > 0:
++            ov_start = s
+             ov_end = min(chunk_ranges[i - 1][1], e)
+-            ramp_len = ov_end - s
++            ramp_len = ov_end - ov_start
+             if ramp_len > 0:
+                 w[:ramp_len] = np.linspace(0.0, 1.0, ramp_len)
++
+         if i < len(chunk_ranges) - 1:
+@@ -273,12 +379,14 @@
+                 w[ramp_start:used_len] = np.linspace(1.0, 0.0, ramp_len)
++
+         full[s:actual_end] += coords[:used_len] * w[:, None]
+         weights[s:actual_end] += w
++
+     mask = weights > 0
+     full[mask] /= weights[mask, None]
++
+     return full
+ 
+-print("Utilities loaded.")
++
++# ─────────────── TBM Core Functions ──────────────────────────────────────────
+ def _make_aligner() -> PairwiseAligner:
+-    import warnings
+-    warnings.filterwarnings("ignore", category=DeprecationWarning)
+     al = PairwiseAligner()
+@@ -289,13 +397,15 @@
+     al.extend_gap_score               = -0.4
+-    al.open_left_deletion_score       = -8
+-    al.extend_left_deletion_score     = -0.4
+-    al.open_right_deletion_score      = -8
+-    al.extend_right_deletion_score    = -0.4
+-    al.open_left_insertion_score      = -8
+-    al.extend_left_insertion_score    = -0.4
+-    al.open_right_insertion_score     = -8
+-    al.extend_right_insertion_score   = -0.4
++    al.query_left_open_gap_score      = -8
++    al.query_left_extend_gap_score    = -0.4
++    al.query_right_open_gap_score     = -8
++    al.query_right_extend_gap_score   = -0.4
++    al.target_left_open_gap_score     = -8
++    al.target_left_extend_gap_score   = -0.4
++    al.target_right_open_gap_score    = -8
++    al.target_right_extend_gap_score  = -0.4
+     return al
+ 
++
+ _aligner = _make_aligner()
++
+ 
+@@ -306,2 +416,3 @@
+             for ch, cnt in [part.split(":")]]
++
+ 
+@@ -323,2 +434,3 @@
+     return out
++
+ 
+@@ -346,2 +458,3 @@
+ 
++
+ def build_segments_map(df: pd.DataFrame) -> tuple:
+@@ -355,2 +468,3 @@
+ 
++
+ def process_labels(labels_df: pd.DataFrame) -> dict:
+@@ -361,2 +475,3 @@
+     return coords
++
+ 
+@@ -374,2 +489,3 @@
+     return "".join(aq), "".join(at)
++
+ 
+@@ -395,2 +511,3 @@
+     return results[:top_n]
++
+ 
+@@ -418,3 +535,4 @@
+ 
+-def adaptive_rna_constraints(coords, target_id, segments_map, confidence=1.0, passes=3) -> np.ndarray:
++
++def adaptive_rna_constraints(coords, target_id, segments_map, confidence=1.0, passes=2) -> np.ndarray:
+     X        = coords.copy()
+@@ -427,2 +545,3 @@
+                 continue
++            # bond i–i+1  ~5.95 Å
+             d    = C[1:] - C[:-1]; dist = np.linalg.norm(d, axis=1) + 1e-6
+@@ -430,2 +549,3 @@
+             C[:-1] -= adj; C[1:] += adj
++            # soft i–i+2  ~10.2 Å
+             d2   = C[2:] - C[:-2]; d2n = np.linalg.norm(d2, axis=1) + 1e-6
+@@ -433,3 +553,5 @@
+             C[:-2] -= adj2; C[2:] += adj2
++            # Laplacian smoothing
+             C[1:-1] += (0.06 * strength) * (0.5 * (C[:-2] + C[2:]) - C[1:-1])
++            # self-avoidance
+             if L >= 25:
+@@ -446,2 +568,3 @@
+ 
++
+ def _rotmat(axis, ang):
+@@ -452,2 +575,3 @@
+                      [z*x*CC-y*s, z*y*CC+x*s, c+z*z*CC]])
++
+ 
+@@ -461,2 +585,3 @@
+     return X
++
+ 
+@@ -472,2 +597,3 @@
+ 
++
+ def smooth_wiggle(coords, segs, rng, amp=0.8):
+@@ -481,3 +607,5 @@
+ 
++
+ def generate_rna_structure(sequence: str, seed=None) -> np.ndarray:
++    """Idealized A-form RNA helix — last-resort de-novo fallback."""
+     if seed is not None:
+@@ -490,10 +618,24 @@
+ 
+-print("TBM functions loaded.")
++
++# ─────────────── TBM Phase ───────────────────────────────────────────────────
+ def tbm_phase(test_df, train_seqs_df, train_coords_dict, segments_map):
++    """
++    Phase 1 — Template-Based Modeling.
++
++    Returns
++    -------
++    template_predictions : {target_id: [np.ndarray(seq_len, 3), ...]}
++        0 to N_SAMPLE predictions per target, from real templates.
++    protenix_queue : {target_id: (n_needed, full_sequence)}
++        Targets that still need more predictions.
++    """
+     print(f"\n{'='*60}")
+     print(f"PHASE 1: Template-Based Modeling")
++    print(f"  MIN_SIMILARITY = {MIN_SIMILARITY}  |  MIN_PCT_IDENTITY = {MIN_PERCENT_IDENTITY}")
+     print(f"{'='*60}")
+     t0 = time.time()
+-    template_predictions = {}
+-    protenix_queue = {}
++
++    template_predictions: dict = {}
++    protenix_queue:       dict = {}
++
+     for _, row in test_df.iterrows():
+@@ -502,4 +644,7 @@
+         segs = segments_map.get(tid, [(0, len(seq))])
++
+         similar = find_similar_sequences_detailed(seq, train_seqs_df, train_coords_dict, top_n=30)
+-        preds, used = [], set()
++        preds   = []
++        used    = set()
++
+         for i, (tmpl_id, tmpl_seq, sim, tmpl_coords, pct_id, _, _) in enumerate(similar):
+@@ -508,7 +653,10 @@
+             if sim < MIN_SIMILARITY or pct_id < MIN_PERCENT_IDENTITY:
+-                break
++                break           # list is sorted by sim, so no point continuing
+             if tmpl_id in used:
+                 continue
++
+             rng     = np.random.default_rng((row.name * 10000000000 + i * 10007) % (2**32))
+             adapted = adapt_template_to_query(seq, tmpl_seq, tmpl_coords)
++
++            # Diversity transforms (same strategy as the 0-409 TBM notebook)
+             slot = len(preds)
+@@ -525,2 +673,3 @@
+                 X = smooth_wiggle(adapted, segs, rng)
++
+             refined = adaptive_rna_constraints(X, tid, segments_map, confidence=sim)
+@@ -528,2 +677,3 @@
+             used.add(tmpl_id)
++
+         template_predictions[tid] = preds
+@@ -532,11 +682,24 @@
+             protenix_queue[tid] = (n_needed, seq)
++            print(f"  {tid} ({len(seq)} nt): {len(preds)} TBM → need {n_needed} from Protenix")
+         else:
+-            print(f"  {tid} ({len(seq)} nt): all {N_SAMPLE} models generated from templates.")
++            print(f"  {tid} ({len(seq)} nt): all {N_SAMPLE} from TBM ✓")
++
+     elapsed = time.time() - t0
+-    print(f"\nPhase 1 completed in {elapsed:.1f} seconds.")
++    n_full  = len(test_df) - len(protenix_queue)
++    print(f"\nPhase 1 done in {elapsed:.1f}s")
++    print(f"  Fully covered by TBM : {n_full}")
++    print(f"  Need Protenix        : {len(protenix_queue)}")
+     return template_predictions, protenix_queue
++
++
++# ─────────────── Main ────────────────────────────────────────────────────────
+ def main() -> None:
+     test_csv, output_csv, code_dir, root_dir = resolve_paths()
++
+     if not os.path.isdir(code_dir):
+-        raise FileNotFoundError(f"Missing PROTENIX repo: {code_dir}")
++        raise FileNotFoundError(
++            f"Missing PROTENIX_CODE_DIR: {code_dir}. "
++            "Set PROTENIX_CODE_DIR to the repo path."
++        )
++
+     os.environ["PROTENIX_ROOT_DIR"] = root_dir
+@@ -546,10 +709,22 @@
+ 
++    # ── Load test data ──────────────────────────────────────────────────────
+     test_df_full = pd.read_csv(test_csv)
+-    test_df = (test_df_full.head(LOCAL_N_SAMPLES) if not IS_KAGGLE
+-                else test_df_full).reset_index(drop=True)
+-
++    test_df      = (test_df_full.head(LOCAL_N_SAMPLES) if not IS_KAGGLE
++                    else test_df_full).reset_index(drop=True)
++    print(f"Test targets : {len(test_df)}"
++          + (" (LOCAL MODE)" if not IS_KAGGLE else ""))
++
++    seq_by_id = dict(zip(test_df["target_id"], test_df["sequence"]))
++
++    # Truncated copy for Protenix (Protenix has token limits)
++    test_df_trunc = test_df.copy()
++    test_df_trunc["sequence"] = test_df_trunc["sequence"].str[:MAX_SEQ_LEN]
++
++    # ── Load training data for TBM ──────────────────────────────────────────
++    print("\nLoading training data for TBM …")
+     train_seqs   = pd.read_csv(DEFAULT_TRAIN_CSV)
+     val_seqs     = pd.read_csv(DEFAULT_VAL_CSV)
+-    train_labels = pd.read_csv(DEFAULT_TRAIN_LBLS, low_memory=False)
+-    val_labels   = pd.read_csv(DEFAULT_VAL_LBLS, low_memory=False)
++    train_labels = pd.read_csv(DEFAULT_TRAIN_LBLS)
++    val_labels   = pd.read_csv(DEFAULT_VAL_LBLS)
++
+     combined_seqs   = pd.concat([train_seqs,   val_seqs],    ignore_index=True)
+@@ -559,2 +734,5 @@
+ 
++    print(f"Template pool: {len(combined_seqs)} sequences, {len(train_coords)} structures")
++
++    # ─── PHASE 1: TBM ──────────────────────────────────────────────────────
+     template_preds, protenix_queue = tbm_phase(
+@@ -563,10 +741,17 @@
+ 
+-    protenix_preds = {}
++    # ─── PHASE 2: Protenix (only for targets that need extra predictions) ──
++    protenix_preds: dict = {}   # target_id -> np.ndarray (n_needed, seq_len, 3)
++
+     if protenix_queue and USE_PROTENIX:
+         print(f"\n{'='*60}")
+-        print(f"PHASE 2: Protenix Diffusion")
++        print(f"PHASE 2: Protenix for {len(protenix_queue)} targets")
+         print(f"{'='*60}")
++
+         work_dir = Path("/kaggle/working")
+         work_dir.mkdir(parents=True, exist_ok=True)
+-        tasks, chunk_info = [], {}
++
++        # ── 1. Preparation: create tasks for all sequences/chunks ────────────
++        tasks = []          # list of dict for input_json
++        chunk_info = {}     # target_id -> list of {"name": chunk_name, "range": (s, e)}
++        
+         for target_id, (n_needed, full_seq) in protenix_queue.items():
+@@ -576,4 +761,8 @@
+                 chunk_info[target_id] = [{"name": target_id, "range": (0, seq_len)}]
++                print(f"  {target_id} ({seq_len} nt): single pass queued")
+             else:
+                 chunks = split_into_chunks(seq_len, MAX_SEQ_LEN, CHUNK_OVERLAP)
++                print(f"  {target_id} ({seq_len} nt): {len(chunks)} chunks queued "
++                      f"{[(s, e) for s, e in chunks]}")
++                
+                 chunk_info[target_id] = []
+@@ -581,5 +770,7 @@
+                     chunk_name = f"{target_id}_chunk{ci}"
+-                    tasks.append({"target_id": chunk_name, "sequence": full_seq[cs:ce]})
++                    sub_seq = full_seq[cs:ce]
++                    tasks.append({"target_id": chunk_name, "sequence": sub_seq})
+                     chunk_info[target_id].append({"name": chunk_name, "range": (cs, ce)})
+ 
++        # Build combined input JSON
+         tasks_df = pd.DataFrame(tasks)
+@@ -593,2 +784,3 @@
+ 
++        # Initialize model exactly ONCE
+         configs = build_configs(input_json_path, str(work_dir / "outputs"), MODEL_NAME)
+@@ -598,14 +790,50 @@
+ 
+-        raw_predictions = {}
+-        for i in tqdm(range(len(dataset)), desc="Protenix Iterations"):
++        # ── 2. Inference: process dataset and collect predictions ────────────
++        raw_predictions = {}  # sample_name -> coords (np.ndarray or None)
++
++        def _extract_c1_coords(prediction, feat, chunk_seq_len, raw_coords):
++            if "centre_atom_mask" in feat:
++                mask = (feat["centre_atom_mask"] == 1).to(raw_coords.device)
++            elif "atom_to_tokatom_idx" in feat:
++                m11 = (feat["atom_to_tokatom_idx"] == 11).to(raw_coords.device)
++                m12 = (feat["atom_to_tokatom_idx"] == 12).to(raw_coords.device)
++                c11, c12 = m11.sum(), m12.sum()
++                mask = m11 if abs(c11 - chunk_seq_len) < abs(c12 - chunk_seq_len) else m12
++            else:
++                mask = torch.zeros(raw_coords.shape[1], dtype=torch.bool, device=raw_coords.device)
++            
++            coords = raw_coords[:, mask, :].detach().cpu().numpy()
++            
++            # Collapse check
++            if coords.shape[1] > 1:
++                diffs = np.linalg.norm(coords[0, 1:] - coords[0, :-1], axis=-1)
++                if np.all(diffs < 1e-4):
++                    print(f"    WARNING: Collapsed coordinates detected")
++                    return None
++            
++            if coords.shape[1] != chunk_seq_len:
++                if coords.shape[1] == 1 and chunk_seq_len > 1:
++                    return None
++                padded = np.zeros((coords.shape[0], chunk_seq_len, 3), dtype=np.float32)
++                ml = min(coords.shape[1], chunk_seq_len)
++                padded[:, :ml, :] = coords[:, :ml, :]
++                coords = padded
++            return coords
++
++        for i in tqdm(range(len(dataset)), desc="Protenix Inference"):
+             data, atom_array, err = dataset[i]
+             sample_name = data.get("sample_name", f"sample_{i}")
++            
+             if err:
++                print(f"  {sample_name} data error: {err}")
+                 raw_predictions[sample_name] = None
+                 del data, atom_array, err
+-                gc.collect(); torch.cuda.empty_cache()
++                gc.collect(); torch.cuda.empty_cache(); gc.collect()
+                 continue
+-            target_id_key = sample_name.split("_chunk")[0] if "_chunk" in sample_name else sample_name
+-            n_needed = protenix_queue.get(target_id_key, (N_SAMPLE, ""))[0]
+-            sub_seq_len = data["N_token"].item()
++            
++            # Find how many samples are needed for this specific query
++            target_id = sample_name.split("_chunk")[0] if "_chunk" in sample_name else sample_name
++            n_needed = protenix_queue.get(target_id, (N_SAMPLE, ""))[0]
++            sub_seq_len = data["N_token"].item() # roughly correct
++            
+             try:
+@@ -614,28 +842,12 @@
+                 runner.update_model_configs(new_cfg)
++                
+                 pred = runner.predict(data)
+                 raw_coords = pred["coordinate"]
+-                feat = data["input_feature_dict"]
+-                if "centre_atom_mask" in feat:
+-                    c1mask = (feat["centre_atom_mask"] == 1).to(raw_coords.device)
+-                elif "atom_to_tokatom_idx" in feat:
+-                    m11 = (feat["atom_to_tokatom_idx"] == 11).to(raw_coords.device)
+-                    m12 = (feat["atom_to_tokatom_idx"] == 12).to(raw_coords.device)
+-                    c1mask = m11 if abs(m11.sum() - sub_seq_len) < abs(m12.sum() - sub_seq_len) else m12
+-                else:
+-                    c1mask = torch.zeros(raw_coords.shape[1], dtype=torch.bool, device=raw_coords.device)
+-                coords = raw_coords[:, c1mask, :].detach().cpu().numpy()
+-                if coords.shape[1] > 1:
+-                    diffs = np.linalg.norm(coords[0, 1:] - coords[0, :-1], axis=-1)
+-                    if np.all(diffs < 1e-4):
+-                        coords = None
+-                if coords is not None and coords.shape[1] != sub_seq_len:
+-                    if coords.shape[1] == 1 and sub_seq_len > 1:
+-                        coords = None
+-                    elif coords is not None:
+-                        padded = np.zeros((coords.shape[0], sub_seq_len, 3), dtype=np.float32)
+-                        ml = min(coords.shape[1], sub_seq_len)
+-                        padded[:, :ml, :] = coords[:, :ml, :]
+-                        coords = padded
++                
++                coords = _extract_c1_coords(pred, data["input_feature_dict"], 
++                                            sub_seq_len, raw_coords)
+                 raw_predictions[sample_name] = coords
+             except Exception as exc:
++                print(f"  {sample_name} inference failed: {exc}")
++                import traceback; traceback.print_exc()
+                 raw_predictions[sample_name] = None
+@@ -644,4 +856,5 @@
+                 except: pass
+-                gc.collect(); torch.cuda.empty_cache()
+-
++                gc.collect(); torch.cuda.empty_cache(); gc.collect()
++
++        # ── 3. Post-processing: Stitching and final formatting ───────────────
+         for target_id, (n_needed, full_seq) in protenix_queue.items():
+@@ -649,27 +862,59 @@
+             chunks = chunk_info.get(target_id, [])
++            
+             if not chunks:
+                 continue
++
+             if len(chunks) == 1:
+-                protenix_preds[target_id] = raw_predictions.get(target_id)
++                # Single pass
++                coords = raw_predictions.get(target_id)
++                protenix_preds[target_id] = coords
++                if coords is not None:
++                    print(f"  {target_id}: {coords.shape[0]} predictions generated")
++                else:
++                    print(f"  {target_id}: FAILED")
+             else:
++                # Stitch chunks together
+                 chunk_results_per_sample = {s: [] for s in range(n_needed)}
+                 all_ok = True
+-                for cinfo in chunks:
+-                    ccoords = raw_predictions.get(cinfo["name"])
++                
++                for ci, cinfo in enumerate(chunks):
++                    cname = cinfo["name"]
++                    crange = cinfo["range"]
++                    ccoords = raw_predictions.get(cname)
++                    
+                     if ccoords is None:
+-                        all_ok = False; break
++                        all_ok = False
++                        break
++                    
+                     for s_idx in range(n_needed):
+-                        idx = s_idx if s_idx < ccoords.shape[0] else -1
+-                        chunk_results_per_sample[s_idx].append((ccoords[idx], cinfo["range"]))
++                        if s_idx < ccoords.shape[0]:
++                            chunk_results_per_sample[s_idx].append((ccoords[s_idx], crange))
++                        else:
++                            chunk_results_per_sample[s_idx].append((ccoords[-1], crange))
++                
+                 if not all_ok:
+-                    protenix_preds[target_id] = None; continue
+-                stitched = []
++                    print(f"  {target_id}: chunked inference incomplete, using fallback")
++                    protenix_preds[target_id] = None
++                    continue
++                
++                stitched_samples = []
+                 for s_idx in range(n_needed):
+                     items = chunk_results_per_sample[s_idx]
+-                    full_c = stitch_chunk_coords([c for c, _ in items], [r for _, r in items], seq_len)
+-                    stitched.append(full_c)
+-                protenix_preds[target_id] = np.stack(stitched, axis=0)
+-
++                    coords_list = [c for c, _ in items]
++                    ranges_list = [r for _, r in items]
++                    full_coords = stitch_chunk_coords(coords_list, ranges_list, seq_len)
++                    stitched_samples.append(full_coords)
++                
++                result = np.stack(stitched_samples, axis=0)
++                protenix_preds[target_id] = result
++                print(f"  {target_id}: {result.shape[0]} stitched predictions generated")
++# ...existing code...
++
++    elif protenix_queue and not USE_PROTENIX:
++        print(f"\nPHASE 2 skipped (USE_PROTENIX=False). "
++              f"De-novo fallback will cover {len(protenix_queue)} targets.")
++
++    # ─── PHASE 3: Combine everything ───────────────────────────────────────
+     print(f"\n{'='*60}")
+-    print("PHASE 3: Aggregate Valid Target Submissions")
++    print("PHASE 3: Combine TBM + Protenix + de-novo fallback")
+     print(f"{'='*60}")
+@@ -677,5 +922,10 @@
+     all_rows = []
++
+     for _, row in test_df.iterrows():
+-        tid, seq = row["target_id"], row["sequence"]
+-        combined = list(template_preds.get(tid, []))
++        tid = row["target_id"]
++        seq = row["sequence"]
++
++        combined: list = list(template_preds.get(tid, []))  # TBM predictions
++
++        # Append Protenix predictions to fill remaining slots
+         ptx = protenix_preds.get(tid)
+@@ -685,7 +935,16 @@
+                     break
+-                combined.append(ptx[j])
++                combined.append(ptx[j])  # (seq_len, 3)
++
++        # De-novo fallback for any still-empty slots
++        n_denovo = 0
+         while len(combined) < N_SAMPLE:
+             seed_val = row.name * 1000000 + len(combined) * 1000
+-            dn = generate_rna_structure(seq, seed=seed_val)
++            dn       = generate_rna_structure(seq, seed=seed_val)
+             combined.append(adaptive_rna_constraints(dn, tid, segments_map, confidence=0.2))
++            n_denovo += 1
++
++        if n_denovo:
++            print(f"  {tid}: {n_denovo} slot(s) filled with de-novo fallback")
++
++        # Stack to (N_SAMPLE, seq_len, 3) and write rows
+         stacked = np.stack(combined[:N_SAMPLE], axis=0)
+@@ -693,2 +952,3 @@
+ 
++    # ── Save ───────────────────────────────────────────────────────────────
+     sub = pd.DataFrame(all_rows)
+@@ -700,3 +960,4 @@
+     sub[cols].to_csv(output_csv, index=False)
+-    print(f"\nWritten {len(sub):,} rows to {output_csv}")
++
++    print(f"\n✓ Saved submission to {output_csv}  ({len(sub):,} rows)")
+ 
+@@ -704,5 +965,5 @@
+     main()
++#read submission.csv
+ submission_path = "/kaggle/working/submission.csv"
+ submission_df = pd.read_csv(submission_path)
+-print(f"Final shape: {submission_df.shape}")
+-submission_df.head(15)
++print(submission_df.head(20))

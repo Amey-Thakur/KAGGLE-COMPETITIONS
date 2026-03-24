@@ -1,0 +1,7 @@
+--- 0440
++++ 0448
+@@ -97,3 +97,3 @@
+ MODEL_NAME    = "protenix_base_20250630_v1.0.0"
+-N_SAMPLE      = 5
++N_SAMPLE      = 10
+ SEED          = 42

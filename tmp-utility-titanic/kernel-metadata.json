@@ -1,0 +1,22 @@
+{
+  "id": "ameythakur20/titanic-passenger-survival-prediction",
+  "id_no": 111280435,
+  "title": "Titanic Passenger Survival Prediction",
+  "code_file": "titanic-passenger-survival-prediction.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "is_utility_script": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [
+    "titanic"
+  ],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-images/python@sha256:2c2e52dbf9fb8817a09ad85bd2cad0d0bafb2d3761e63841ff5032497512f4b2",
+  "machine_shape": "None"
+}
