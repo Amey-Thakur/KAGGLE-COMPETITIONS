@@ -117,7 +117,7 @@ A production-grade utility library for standardized performance optimization and
 > [!IMPORTANT]
 > **Utility Script Automation**
 >
-> Standardizing common diagnostic logic into a **Utility Script** on Kaggle ensures consistency across the competition lifecycle. This automation approach—exemplified by my **[Kaggle Toolbox](https://www.kaggle.com/code/ameythakur20/kaggle-toolbox)**—eliminates redundant boilerplate and enables automated updates for any dependent competition notebook.
+> Standardizing common diagnostic logic into a **Utility Script** on Kaggle ensures consistency across the competition lifecycle. This automation approach, exemplified by my **[Kaggle Toolbox](https://www.kaggle.com/code/ameythakur20/kaggle-toolbox)**, eliminates redundant boilerplate and enables automated updates for any dependent competition notebook.
 
 ---
 
