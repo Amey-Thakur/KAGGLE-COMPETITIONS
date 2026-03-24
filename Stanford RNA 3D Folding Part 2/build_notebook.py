@@ -154,13 +154,13 @@ def build():
         DEFAULT_ROOT_DIR = DEFAULT_CODE_DIR
 
         MODEL_NAME    = "protenix_base_20250630_v1.0.0"
-        N_SAMPLE      = 5 
+        N_SAMPLE      = 15 
         SEED          = 42
-        MAX_SEQ_LEN   = int(os.environ.get("MAX_SEQ_LEN",   "512"))
-        CHUNK_OVERLAP = int(os.environ.get("CHUNK_OVERLAP",  "128"))
+        MAX_SEQ_LEN   = int(os.environ.get("MAX_SEQ_LEN",   "420"))
+        CHUNK_OVERLAP = int(os.environ.get("CHUNK_OVERLAP", "150"))
 
         MIN_SIMILARITY       = float(os.environ.get("MIN_SIMILARITY",       "0.0"))
-        MIN_PERCENT_IDENTITY = float(os.environ.get("MIN_PERCENT_IDENTITY", "50.0"))
+        MIN_PERCENT_IDENTITY = float(os.environ.get("MIN_PERCENT_IDENTITY", "70.0"))
 
         USE_PROTENIX = True
 
@@ -508,7 +508,7 @@ def build():
                         new_coords[i] = [i * 3, 0, 0]
             return np.nan_to_num(new_coords)
 
-        def adaptive_rna_constraints(coords, target_id, segments_map, confidence=1.0, passes=3) -> np.ndarray:
+        def adaptive_rna_constraints(coords, target_id, segments_map, confidence=1.0, passes=2) -> np.ndarray:
             X        = coords.copy()
             segments = segments_map.get(target_id, [(0, len(X))])
             strength = max(0.75 * (1.0 - min(confidence, 0.97)), 0.02)
