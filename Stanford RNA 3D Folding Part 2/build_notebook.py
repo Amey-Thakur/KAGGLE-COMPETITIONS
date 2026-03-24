@@ -335,6 +335,13 @@ def build():
                 if valid.sum() < 3:
                     aligned.append(chunk_coords_list[i].copy())
                     continue
+                TRIM = 8
+                if valid.sum() > 2 * TRIM + 6:
+                    idxs = np.where(valid)[0]
+                    core = idxs[TRIM:-TRIM]
+                    if len(core) >= 3:
+                        valid[:] = False
+                        valid[core] = True
                 R, t = kabsch_align(cur_ov[valid], prev_ov[valid])
                 aligned.append((chunk_coords_list[i] @ R.T) + t)
             full = np.zeros((seq_len, 3), dtype=np.float64)
