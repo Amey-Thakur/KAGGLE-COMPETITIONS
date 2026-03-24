@@ -847,7 +847,7 @@ def build():
             "kernelspec": {"display_name": "Python 3", "language": "python", "name": "python3"},
             "language_info": {"name": "python", "version": "3.12.12"},
             "kaggle": {
-                "accelerator": "nvidiaTeslaP100",
+                "accelerator": "nvidiaTeslaT4x2",
                 "dataSources": [
                     {"sourceType": "competition", "sourceId": 118765, "databundleVersionId": 15231210},
                     {"sourceType": "datasetVersion", "sourceId": 14604295, "datasetId": 9328538, "databundleVersionId": 15440074},
@@ -867,7 +867,7 @@ def build():
     }
 
     target = r"d:\GitHub\Kaggle-Competitions\Stanford RNA 3D Folding Part 2" \
-             r"\stanford-rna-3d-folding-part-2-tbm-protenix-gpu-p100.ipynb"
+             r"\stanford-rna-3d-folding-part-2-tbm-protenix-gpu-t4x2.ipynb"
     with open(target, "w", encoding="utf-8") as f:
         json.dump(notebook, f, indent=1)
     print(f"Notebook written to {target}")
