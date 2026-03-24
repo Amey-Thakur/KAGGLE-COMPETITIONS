@@ -50,6 +50,7 @@ This directory serves as a scholarly archive for all earned Kaggle badges. Each 
 | 29 | **Code Submitter** | Mar 18, 2026 | <img src="Code-Submitter-2026-03-18.svg" width="50" title="Code Submitter (Mar 18, 2026)"> |
 | 30 | **Community Competitor** | Mar 22, 2026 | <img src="Community-Competitor-2026-03-22.svg" width="50" title="Community Competitor (Mar 22, 2026)"> |
 | 31 | **R Markdown Coder** | Mar 24, 2026 | <img src="R-Markdown-Coder-2026-03-24.svg" width="50" title="R Markdown Coder (Mar 24, 2026)"> |
+| 32 | **API Notebook Creator** | Mar 24, 2026 | <img src="API-Notebook-Creator-2026-03-24.svg" width="50" title="API Notebook Creator (Mar 24, 2026)"> |
 
 </div>
 

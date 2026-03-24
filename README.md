@@ -27,6 +27,7 @@
   <img src="Badges/R-Coder-2024-09-10.svg" width="50" title="R Coder (Sept 10, 2024)">
   <img src="Badges/R-Markdown-Coder-2026-03-24.svg" width="50" title="R Markdown Coder (Mar 24, 2026)">
   <img src="Badges/Code-Uploader-2024-09-10.svg" width="50" title="Code Uploader (Sept 10, 2024)">
+  <img src="Badges/API-Notebook-Creator-2026-03-24.svg" width="50" title="API Notebook Creator (Mar 24, 2026)">
   <img src="Badges/Github-Coder-2026-03-06.svg" width="50" title="Github Coder (Mar 6, 2026)">
   <img src="Badges/Colab-Coder-2026-03-06.svg" width="50" title="Colab Coder (Mar 6, 2026)">
   <img src="Badges/Code-Tagger-2024-09-10.svg" width="50" title="Code Tagger (Sept 10, 2024)">
@@ -137,7 +138,7 @@ A curated collection of 17 professional certifications awarded by Kaggle, coveri
 ## Project Structure
 
 ```python
-├── Badges/                                         # Earned Kaggle Badges (31)
+├── Badges/                                         # Earned Kaggle Badges (32)
 │   └── README.md                                   # Badge Portfolio
 │
 ├── Medals/                                         # Competition Medals
