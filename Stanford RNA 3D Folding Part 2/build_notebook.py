@@ -379,14 +379,14 @@ def build():
             al.mismatch_score                 = -1.5
             al.open_gap_score                 = -8
             al.extend_gap_score               = -0.4
-            al.query_left_open_gap_score      = -8
-            al.query_left_extend_gap_score    = -0.4
-            al.query_right_open_gap_score     = -8
-            al.query_right_extend_gap_score   = -0.4
-            al.target_left_open_gap_score     = -8
-            al.target_left_extend_gap_score   = -0.4
-            al.target_right_open_gap_score    = -8
-            al.target_right_extend_gap_score  = -0.4
+            al.open_left_deletion_score       = -8
+            al.extend_left_deletion_score     = -0.4
+            al.open_right_deletion_score      = -8
+            al.extend_right_deletion_score    = -0.4
+            al.open_left_insertion_score      = -8
+            al.extend_left_insertion_score    = -0.4
+            al.open_right_insertion_score     = -8
+            al.extend_right_insertion_score   = -0.4
             return al
 
         _aligner = _make_aligner()
