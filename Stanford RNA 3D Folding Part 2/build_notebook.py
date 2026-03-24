@@ -88,7 +88,7 @@ def build():
         Before setting up the inference constants, we construct basic visualizations to understand the sequence length distributions. This helps establish why MAX_SEQ_LEN chunking thresholds are selected.
     """)
     code(r"""
-        DATA_BASE = "/kaggle/input/competitions/stanford-rna-3d-folding-2"
+        DATA_BASE = "/kaggle/input/stanford-rna-3d-folding-2"
         DEFAULT_TEST_CSV = f"{DATA_BASE}/test_sequences.csv"
         DEFAULT_TRAIN_CSV = f"{DATA_BASE}/train_sequences.csv"
 
@@ -154,7 +154,7 @@ def build():
         DEFAULT_ROOT_DIR = DEFAULT_CODE_DIR
 
         MODEL_NAME    = "protenix_base_20250630_v1.0.0"
-        N_SAMPLE      = 15 
+        N_SAMPLE      = 10 
         SEED          = 42
         MAX_SEQ_LEN   = int(os.environ.get("MAX_SEQ_LEN",   "420"))
         CHUNK_OVERLAP = int(os.environ.get("CHUNK_OVERLAP", "150"))
@@ -371,22 +371,20 @@ def build():
     """)
     code(r"""
         def _make_aligner() -> PairwiseAligner:
-            import warnings
-            warnings.filterwarnings("ignore", category=DeprecationWarning)
             al = PairwiseAligner()
             al.mode                           = "global"
             al.match_score                    = 2
             al.mismatch_score                 = -1.5
             al.open_gap_score                 = -8
             al.extend_gap_score               = -0.4
-            al.open_left_deletion_score       = -8
-            al.extend_left_deletion_score     = -0.4
-            al.open_right_deletion_score      = -8
-            al.extend_right_deletion_score    = -0.4
-            al.open_left_insertion_score      = -8
-            al.extend_left_insertion_score    = -0.4
-            al.open_right_insertion_score     = -8
-            al.extend_right_insertion_score   = -0.4
+            al.query_left_open_gap_score      = -8
+            al.query_left_extend_gap_score    = -0.4
+            al.query_right_open_gap_score     = -8
+            al.query_right_extend_gap_score   = -0.4
+            al.target_left_open_gap_score     = -8
+            al.target_left_extend_gap_score   = -0.4
+            al.target_right_open_gap_score    = -8
+            al.target_right_extend_gap_score  = -0.4
             return al
 
         _aligner = _make_aligner()
