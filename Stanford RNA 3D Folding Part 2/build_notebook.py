@@ -71,6 +71,8 @@ def build():
         import pandas as pd
         import matplotlib.pyplot as plt
         import seaborn as sns
+        import warnings
+        warnings.filterwarnings('ignore')
 
         IS_KAGGLE = True
         LOCAL_N_SAMPLES = None
@@ -88,7 +90,7 @@ def build():
         Before setting up the inference constants, we construct basic visualizations to understand the sequence length distributions. This helps establish why MAX_SEQ_LEN chunking thresholds are selected.
     """)
     code(r"""
-        DATA_BASE = "/kaggle/input/stanford-rna-3d-folding-2"
+        DATA_BASE = "/kaggle/input/competitions/stanford-rna-3d-folding-2"
         DEFAULT_TEST_CSV = f"{DATA_BASE}/test_sequences.csv"
         DEFAULT_TRAIN_CSV = f"{DATA_BASE}/train_sequences.csv"
 
