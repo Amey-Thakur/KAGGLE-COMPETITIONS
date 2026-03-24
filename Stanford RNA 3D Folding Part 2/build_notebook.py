@@ -160,7 +160,7 @@ def build():
         CHUNK_OVERLAP = int(os.environ.get("CHUNK_OVERLAP", "150"))
 
         MIN_SIMILARITY       = float(os.environ.get("MIN_SIMILARITY",       "0.0"))
-        MIN_PERCENT_IDENTITY = float(os.environ.get("MIN_PERCENT_IDENTITY", "70.0"))
+        MIN_PERCENT_IDENTITY = float(os.environ.get("MIN_PERCENT_IDENTITY", "50.0"))
 
         USE_PROTENIX = True
 
