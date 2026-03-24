@@ -129,16 +129,14 @@ The index below categorizes active projects by their competitive domain and foun
 
 | <div align="center">#</div> | <div align="center">Competition Portfolio</div> | <div align="center">Medal</div> | <div align="center">Domain</div> | <div align="center">Technical Methodology</div> | <div align="center">Documentation</div> | <div align="center">Environment</div> |
 | :---: | :--- | :---: | :--- | :--- | :---: | :---: |
-| 1 | **Connect X** | <img src="Medals/Bronze Medal.png" width="22" title="Bronze Medal (Mar 6, 2026)"> | <ul><li>Game Theory</li><li>Simulation</li></ul> | <ul><li>Minimax</li><li>Alpha-Beta Pruning</li><li>Heuristics</li><li>Move Ordering</li></ul> | [Analysis](./Connect%20X/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/connectx-minimax-alpha-beta-agent) |
-| 2 | **Titanic** | <img src="Medals/Bronze Medal.png" width="22" title="Bronze Medal (Mar 6, 2026)"> | <ul><li>Classification</li><li>Forensic Analysis</li></ul> | <ul><li>Deterministic Record Linkage</li><li>Normalization</li><li>Data Alignment</li></ul> | [Analysis](./Titanic%20-%20Machine%20Learning%20from%20Disaster/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/titanic-passenger-survival-prediction) |
-| 3 | **Predict Customer Churn** | <img src="Medals/Bronze Medal.png" width="22" title="Bronze Medal (Mar 20, 2026)"> | <ul><li>Binary Classification</li><li>Tabular Data</li></ul> | <ul><li>XGBoost</li><li>CatBoost</li><li>LightGBM</li><li>Optuna</li></ul> | [Analysis](./Predict%20Customer%20Churn/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/customer-churn-prediction-121-fe-20-cv-stacking) |
-| 4 | **Petals to the Metal** | - | <ul><li>Computer Vision</li><li>Deep Learning</li></ul> | <ul><li>Tensor Processing Units (TPU)</li><li>Image Classification</li></ul> | [Analysis](./Petals%20to%20the%20Metal%20-%20Flower%20Classification%20on%20TPU/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/tpu-flower-classification-advanced-ensemble) |
-| 5 | **Are You A Robot?** | 1/8 | <ul><li>NLP</li><li>Classification</li></ul> | <ul><li>Stylometric Analysis</li><li>Gaussian Mixture Models</li><li>TF-IDF</li></ul> | [Analysis](./Are%20You%20A%20Robot/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/are-you-a-robot) |
-| 6 | **Evading AI Detection** | 3/3 | <ul><li>NLP</li><li>Generative AI</li></ul> | <ul><li>Activation Steering</li><li>Sparse Autoencoders</li><li>Latent Feature Suppression</li></ul> | [Analysis](./Evading%20AI%20Detection/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/evading-ai-text-detection) |
-| 7 | **LLM Classification** | - | <ul><li>LLM Preference</li><li>Ensemble Inference</li></ul> | <ul><li>Gemma-2-9B</li><li>Llama-3-8B</li><li>Pipeline Parallelism</li><li>Logit Interpolation</li></ul> | [Analysis](./LLM%20Classification%20Finetuning/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/llm-classification-inference) |
-
-
-
+| 1 | **Are You A Robot?** | 1/8 | <ul><li>NLP</li><li>Classification</li></ul> | <ul><li>Stylometric Analysis</li><li>Gaussian Mixture Models</li><li>TF-IDF</li></ul> | [Analysis](./Are%20You%20A%20Robot/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/are-you-a-robot) |
+| 2 | **Connect X** | <img src="Medals/Bronze Medal.png" width="22" title="Bronze Medal (Mar 6, 2026)"> | <ul><li>Game Theory</li><li>Simulation</li></ul> | <ul><li>Minimax</li><li>Alpha-Beta Pruning</li><li>Heuristics</li><li>Move Ordering</li></ul> | [Analysis](./Connect%20X/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/connectx-minimax-alpha-beta-agent) |
+| 3 | **Evading AI Detection** | 3/3 | <ul><li>NLP</li><li>Generative AI</li></ul> | <ul><li>Activation Steering</li><li>Sparse Autoencoders</li><li>Latent Feature Suppression</li></ul> | [Analysis](./Evading%20AI%20Detection/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/evading-ai-text-detection) |
+| 4 | **LLM Classification** | - | <ul><li>LLM Preference</li><li>Ensemble Inference</li></ul> | <ul><li>Gemma-2-9B</li><li>Llama-3-8B</li><li>Pipeline Parallelism</li><li>Logit Interpolation</li></ul> | [Analysis](./LLM%20Classification%20Finetuning/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/llm-classification-inference) |
+| 5 | **Petals to the Metal** | - | <ul><li>Computer Vision</li><li>Deep Learning</li></ul> | <ul><li>Tensor Processing Units (TPU)</li><li>Image Classification</li></ul> | [Analysis](./Petals%20to%20the%20Metal%20-%20Flower%20Classification%20on%20TPU/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/tpu-flower-classification-advanced-ensemble) |
+| 6 | **Predict Customer Churn** | <img src="Medals/Bronze Medal.png" width="22" title="Bronze Medal (Mar 20, 2026)"> | <ul><li>Binary Classification</li><li>Tabular Data</li></ul> | <ul><li>XGBoost</li><li>CatBoost</li><li>LightGBM</li><li>Optuna</li></ul> | [Analysis](./Predict%20Customer%20Churn/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/customer-churn-prediction-121-fe-20-cv-stacking) |
+| 7 | **Stanford RNA 3D Folding** | - | <ul><li>Structural Biology</li><li>Biophysics</li></ul> | <ul><li>Hybrid TBM + Protenix-v1</li><li>Template-Based Modeling (TBM)</li><li>Chunked Inference</li><li>Kabsch Stitching</li></ul> | [Analysis](./Stanford%20RNA%203D%20Folding%20Part%202/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/stanford-rna-3d-folding-part-2-tbm-protenix-v1) |
+| 8 | **Titanic** | <img src="Medals/Bronze Medal.png" width="22" title="Bronze Medal (Mar 6, 2026)"> | <ul><li>Classification</li><li>Forensic Analysis</li></ul> | <ul><li>Deterministic Record Linkage</li><li>Normalization</li><li>Data Alignment</li></ul> | [Analysis](./Titanic%20-%20Machine%20Learning%20from%20Disaster/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/titanic-passenger-survival-prediction) |
 
 ---
 
@@ -179,13 +177,25 @@ A curated collection of 17 professional certifications awarded by Kaggle, coveri
 ├── Kaggle Courses/                                 # Professional Certifications (17)
 │   └── README.md                                   # Certification Portfolio
 │
+├── Are You A Robot/                                # NLP: Multi-Task Essay Analysis
+│   ├── README.md                                   # Technical Analysis
+│   └── are_you_a_robot.ipynb                       # Verified Notebook Solution
+│
 ├── Connect X/                                      # Simulation: Connect Four Variant
 │   ├── README.md                                   # Technical Analysis
 │   └── connectx-minimax-alpha-beta-agent.ipynb     # Verified Notebook Solution
 │
-├── Titanic - Machine Learning from Disaster/       # Getting Started: Survival Prediction
+├── Evading AI Detection/                           # NLP: Generative AI & Steering
 │   ├── README.md                                   # Technical Analysis
-│   └── titanic-passenger-survival-prediction.ipynb # Verified Notebook Solution
+│   └── evading_ai_text_detection.ipynb             # Verified Notebook Solution
+│
+├── LLM Classification Finetuning/                  # LLM Preference: Chatbot Arena
+│   ├── README.md                                   # Technical Analysis
+│   └── llm_classification_inference.ipynb          # Verified Notebook Solution
+│
+├── Petals to the Metal - Flower Classification on TPU/ # Computer Vision: Deep Learning
+│   ├── README.md                                   # Technical Analysis
+│   └── tpu-flower-classification-advanced-ensemble.ipynb # Verified Notebook Solution
 │
 ├── Predict Customer Churn/                         # Binary Classification: Tabular Data
 │   ├── README.md                                   # Technical Analysis
