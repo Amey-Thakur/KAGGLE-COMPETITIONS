@@ -1,0 +1,15 @@
+{
+  "id": "ameythakur20/kaggle-toolbox-demo",
+  "title": "Kaggle Toolbox Demo",
+  "code_file": "kaggle_toolbox_demo.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "false",
+  "enable_gpu": "false",
+  "enable_tpu": "false",
+  "enable_internet": "false",
+  "dataset_sources": ["ameythakur20/bangalore-house-prices"],
+  "kernel_sources": ["ameythakur20/kaggle-toolbox"],
+  "is_utility_script": "false",
+  "model_sources": []
+}

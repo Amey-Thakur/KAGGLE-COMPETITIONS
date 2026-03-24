@@ -1,0 +1,16 @@
+{
+  "id": "ameythakur20/universal-utility-loader-v1",
+  "title": "Universal Utility Loader v1",
+  "code_file": "universal_utility_loader.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": "false",
+  "enable_gpu": "false",
+  "enable_tpu": "false",
+  "enable_internet": "false",
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "is_utility_script": "true",
+  "model_sources": []
+}
