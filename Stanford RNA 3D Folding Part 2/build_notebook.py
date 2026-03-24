@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Generates the Stanford RNA 3D Folding Part 2 notebook.
-Uses the proven TBM + Protenix-v1 hybrid pipeline from the top public solutions.
+Hybrid TBM + Protenix-v1 pipeline with energy-ranked model selection.
 """
 import json, textwrap
 from typing import Any, Dict, List
@@ -34,11 +34,11 @@ def build():
 
     # Section 1: Header
     md("""
-        # Stanford RNA 3D Folding Part 2: TBM & Protenix-v1 
+        # Stanford RNA 3D Folding Part 2 -- Hybrid TBM + Protenix-v1
 
         **Author:** [Amey Thakur](https://www.kaggle.com/ameythakur20)
 
-        This notebook predicts 3D RNA coordinates using a highly optimized two-phase pipeline. Phase 1 searches the training set for structural templates via pairwise sequence alignment. Phase 2 fills remaining slots with Protenix-v1 diffusion inference. Long sequences are chunked and stitched back together with Kabsch alignment. The output populates five independent structural models per target to maximize the TM-score metric.
+        Hybrid two-phase pipeline for predicting 3D RNA coordinates. Phase 1 performs template-based modeling (TBM) using pairwise sequence alignment against known structures, with sinusoidal backbone reconstruction for alignment gaps and confidence-scaled adaptive constraints. Phase 2 fills remaining prediction slots using Protenix-v1 diffusion, with chunked inference for long sequences and core-trimmed Kabsch stitching. All candidate models are ranked by backbone energy (bond length deviation + steric clash penalty) before writing the submission CSV, ensuring the highest quality structures occupy the front columns.
 
         **Outline:**
 
@@ -126,7 +126,7 @@ def build():
     md("""
         ## 4. Paths, Constants and Utilities
 
-        N_SAMPLE is set to 5, which satisfies the submission specification while constraining diffusion overhead. MAX_SEQ_LEN is set to 512 tokens to balance context length with GPU memory. 
+        N_SAMPLE is set to 10, generating ten candidate models per target to maximize TM-score coverage. MAX_SEQ_LEN is set to 420 tokens, tight enough to avoid CUDA OOM on T4 while covering the majority of test sequences. CHUNK_OVERLAP is set to 150 residues for smooth cross-chunk stitching via core-trimmed Kabsch alignment.
     """)
     code(r"""
         import gc
@@ -515,7 +515,7 @@ def build():
                                 perp = np.cross(direction, [1, 0, 0])
                             perp = perp / (np.linalg.norm(perp) + 1e-10)
                             progress = (i - pv) / gap_size
-                            base_pos = new_coords[pv] + direction * expected_dist * progress
+                            base_pos = new_coords[pv] + direction * total_dist * progress
                             curve_amp = 2.0 * np.sin(progress * np.pi)
                             new_coords[i] = base_pos + perp * curve_amp
                         else:
@@ -627,7 +627,7 @@ def build():
     md("""
         ## 6. Protenix Inference
 
-        Targets not adequately resolved by TBM are scheduled for Protenix processing. Because Protenix consumes heavy memory overhead, sequences greater than MAX_SEQ_LEN are tiled to prevent CUDA Out Of Memory errors. A 128 residue overlap threshold buffers structural inconsistencies at chunk boundaries.
+        Targets not adequately resolved by TBM are scheduled for Protenix processing. Because Protenix consumes heavy memory overhead, sequences greater than MAX_SEQ_LEN (420) are tiled to prevent CUDA Out Of Memory errors. A 150 residue overlap with core-trimmed Kabsch alignment buffers structural inconsistencies at chunk boundaries.
     """)
     code(r"""
         def tbm_phase(test_df, train_seqs_df, train_coords_dict, segments_map):
@@ -884,13 +884,14 @@ def build():
     md("""
         ## 9. Analysis Summary
 
-        This guide detailed a production-grade approach to Stanford RNA 3D Folding prediction:
+        This notebook detailed a production-grade approach to Stanford RNA 3D Folding prediction:
 
-        1. **Template-Based Modeling**: Utilized pairwise sequence alignment against the structural database to establish high-fidelity topological templates for identical sequence matches.
-        2. **Diversity Transforms**: Injected geometric deformations including hinging, jittering, and wiggling functions to expand the structural permutations required for metric maximization.
-        3. **Protenix-v1 Synthesis**: Scheduled unresolved target segments for deep coordinate sampling utilizing diffusion models governed by adaptive overlap boundaries.
-        4. **Kabsch Alignment**: Realigned synthesized overlapping coordinate blocks across multi-tile predictions to stitch elongated 512-residue bounds.
-        5. **De-Novo Fallback**: Filled any remaining prediction gaps safely using idealized A-form structural fallbacks to guarantee robust prediction files.
+        1. **Template-Based Modeling**: Pairwise sequence alignment against the structural database to establish high-fidelity topological templates. Sinusoidal backbone reconstruction for compressed alignment gaps maintains realistic RNA geometry.
+        2. **Adaptive Constraints**: Confidence-scaled bond length correction (5.95 angstrom C1'-C1'), next-nearest-neighbor angle enforcement, steric clash prevention via full pairwise distance checking, and Laplacian smoothing.
+        3. **Diversity Transforms**: Geometric deformations including hinge rotation, chain jittering, and smooth wiggle functions to expand the structural candidate pool.
+        4. **Protenix-v1 Diffusion**: Unresolved targets are processed with deep coordinate sampling. Long sequences are chunked (MAX_SEQ_LEN=420) with 150-residue overlap, stitched via core-trimmed Kabsch alignment (excluding 8 floppy terminal residues).
+        5. **Energy-Based Model Ranking**: All candidate models are scored by backbone energy (bond deviation + steric clash penalty) and sorted so the highest quality structures occupy the front submission columns.
+        6. **De-Novo Fallback**: Any remaining prediction gaps are filled with idealized structural fallbacks to guarantee complete prediction files.
 
         ---
         **Citation:**
