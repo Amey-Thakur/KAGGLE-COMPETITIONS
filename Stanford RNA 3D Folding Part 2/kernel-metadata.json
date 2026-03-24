@@ -1,7 +1,7 @@
 {
   "id": "ameythakur20/stanford-rna-3d-folding-tbm-protenix",
   "title": "Stanford RNA 3D Folding TBM Protenix",
-  "code_file": "stanford-rna-3d-folding-part-2-tbm-protenix-gpu-t4.ipynb",
+  "code_file": "stanford-rna-3d-folding-part-2-tbm-protenix-gpu-p100.ipynb",
   "language": "python",
   "kernel_type": "notebook",
   "is_private": true,
