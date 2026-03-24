@@ -845,22 +845,7 @@ def build():
         "cells": cells,
         "metadata": {
             "kernelspec": {"display_name": "Python 3", "language": "python", "name": "python3"},
-            "language_info": {"name": "python", "version": "3.12.12"},
-            "kaggle": {
-                "accelerator": "nvidiaTeslaT4",
-                "dataSources": [
-                    {"sourceType": "competition", "sourceId": 118765, "databundleVersionId": 15231210},
-                    {"sourceType": "datasetVersion", "sourceId": 14604295, "datasetId": 9328538, "databundleVersionId": 15440074},
-                    {"sourceType": "datasetVersion", "sourceId": 14962460, "datasetId": 9577079, "databundleVersionId": 15833819},
-                    {"sourceType": "datasetVersion", "sourceId": 14874339, "datasetId": 9502242, "databundleVersionId": 15736806},
-                    {"sourceType": "datasetVersion", "sourceId": 14962495, "datasetId": 9577097, "databundleVersionId": 15833858},
-                    {"sourceType": "datasetVersion", "sourceId": 10855324, "datasetId": 6742586, "databundleVersionId": 11219268},
-                ],
-                "isGpuEnabled": True,
-                "isInternetEnabled": False,
-                "language": "python",
-                "sourceType": "notebook"
-            }
+            "language_info": {"name": "python", "version": "3.12.12"}
         },
         "nbformat": 4, "nbformat_minor": 5
     }
