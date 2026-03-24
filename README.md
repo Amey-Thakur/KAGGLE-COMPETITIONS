@@ -117,7 +117,7 @@ A production-grade utility library for standardized performance optimization and
 > [!IMPORTANT]
 > **Utility Script Automation**
 >
-> Implementing your library as a **Utility Script** on Kaggle allows for seamless integration across multiple notebooks. This centralizes your diagnostic logic, reduces boilerplate code, and ensures that any updates to your core utility functions are automatically reflected in all dependent competition notebooks.
+> Standardizing common diagnostic logic into a **Utility Script** on Kaggle ensures consistency across the competition lifecycle. This automation approach—exemplified by my **[Kaggle Toolbox](https://www.kaggle.com/code/ameythakur20/kaggle-toolbox)**—eliminates redundant boilerplate and enables automated updates for any dependent competition notebook.
 
 ---
 
