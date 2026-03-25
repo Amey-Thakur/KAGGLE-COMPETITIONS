@@ -14,42 +14,42 @@
   [![Kaggle](https://img.shields.io/badge/Kaggle-ameythakur20-20BEFF?style=square&logo=Kaggle&logoColor=white "Amey Thakur: Access My Professional Portfolio and Verified Solutions on Kaggle")](https://www.kaggle.com/ameythakur20)
   <br>
   <br>
-  <img src="Badges/1-Year-on-Kaggle-2024-09-11.svg" width="50" title="1-Year on Kaggle (Sept 11, 2024)">
-  <img src="Badges/2-Years-on-Kaggle-2024-09-11.svg" width="50" title="2-Years on Kaggle (Sept 11, 2024)">
-  <img src="Badges/Competitor-2026-03-16.svg" width="50" title="Competitor (Mar 16, 2026)">
-  <img src="Badges/Getting-Started-Competitor-2026-03-03.svg" width="50" title="Getting Started Competitor (Mar 3, 2026)">
-  <img src="Badges/Community-Competitor-2026-03-22.svg" width="50" title="Community Competitor (Mar 22, 2026)">
-  <img src="Badges/Simulation-Competitor-2026-03-03.svg" width="50" title="Simulation Competitor (Mar 3, 2026)">
-  <img src="Badges/Playground-Competitor-2026-03-05.svg" width="50" title="Playground Competitor (Mar 5, 2026)">
-  <img src="Badges/March-Mania-Competitor-2026-03-16.svg" width="50" title="March Mania Competitor (Mar 16, 2026)">
-  <img src="Badges/Code-Submitter-2026-03-18.svg" width="50" title="Code Submitter (Mar 18, 2026)">
-  <img src="Badges/Python-Coder-2024-09-10.svg" width="50" title="Python Coder (Sept 10, 2024)">
-  <img src="Badges/R-Coder-2024-09-10.svg" width="50" title="R Coder (Sept 10, 2024)">
-  <img src="Badges/R-Markdown-Coder-2026-03-24.svg" width="50" title="R Markdown Coder (Mar 24, 2026)">
-  <img src="Badges/Code-Uploader-2024-09-10.svg" width="50" title="Code Uploader (Sept 10, 2024)">
-  <img src="Badges/API-Notebook-Creator-2026-03-24.svg" width="50" title="API Notebook Creator (Mar 24, 2026)">
-  <img src="Badges/Github-Coder-2026-03-06.svg" width="50" title="Github Coder (Mar 6, 2026)">
-  <img src="Badges/Colab-Coder-2026-03-06.svg" width="50" title="Colab Coder (Mar 6, 2026)">
-  <img src="Badges/Code-Tagger-2024-09-10.svg" width="50" title="Code Tagger (Sept 10, 2024)">
-  <img src="Badges/Code-Forker-2024-09-10.svg" width="50" title="Code Forker (Sept 10, 2024)">
-  <img src="Badges/Notebook-Modeler-2026-03-24.svg" width="50" title="Notebook Modeler (Mar 24, 2026)">
-  <img src="Badges/Utility-Scripter-2026-03-24.svg" width="50" title="Utility Scripter (Mar 24, 2026)">
-  <img src="Badges/Dataset-Creator-2024-09-10.svg" width="50" title="Dataset Creator (Sept 10, 2024)">
+  <img src="Badges/1 Year on Kaggle.svg" width="50" title="1-Year on Kaggle (Sept 11, 2024)">
+  <img src="Badges/2 Years on Kaggle.svg" width="50" title="2-Years on Kaggle (Sept 11, 2024)">
+  <img src="Badges/Competitor.svg" width="50" title="Competitor (Mar 16, 2026)">
+  <img src="Badges/Getting Started Competitor.svg" width="50" title="Getting Started Competitor (Mar 3, 2026)">
+  <img src="Badges/Community Competitor.svg" width="50" title="Community Competitor (Mar 22, 2026)">
+  <img src="Badges/Simulation Competitor.svg" width="50" title="Simulation Competitor (Mar 3, 2026)">
+  <img src="Badges/Playground Competitor.svg" width="50" title="Playground Competitor (Mar 5, 2026)">
+  <img src="Badges/March Mania Competitor.svg" width="50" title="March Mania Competitor (Mar 16, 2026)">
+  <img src="Badges/Code Submitter.svg" width="50" title="Code Submitter (Mar 18, 2026)">
+  <img src="Badges/Python Coder.svg" width="50" title="Python Coder (Sept 10, 2024)">
+  <img src="Badges/R Coder.svg" width="50" title="R Coder (Sept 10, 2024)">
+  <img src="Badges/R Markdown Coder.svg" width="50" title="R Markdown Coder (Mar 24, 2026)">
+  <img src="Badges/Code Uploader.svg" width="50" title="Code Uploader (Sept 10, 2024)">
+  <img src="Badges/API Notebook Creator.svg" width="50" title="API Notebook Creator (Mar 24, 2026)">
+  <img src="Badges/Github Coder.svg" width="50" title="Github Coder (Mar 6, 2026)">
+  <img src="Badges/Colab Coder.svg" width="50" title="Colab Coder (Mar 6, 2026)">
+  <img src="Badges/Code Tagger.svg" width="50" title="Code Tagger (Sept 10, 2024)">
+  <img src="Badges/Code Forker.svg" width="50" title="Code Forker (Sept 10, 2024)">
+  <img src="Badges/Notebook Modeler.svg" width="50" title="Notebook Modeler (Mar 24, 2026)">
+  <img src="Badges/Utility Scripter.svg" width="50" title="Utility Scripter (Mar 24, 2026)">
+  <img src="Badges/Dataset Creator.svg" width="50" title="Dataset Creator (Sept 10, 2024)">
   <img src="Badges/API Dataset Creator.svg" width="50" title="API Dataset Creator (Mar 24, 2026)">
-  <img src="Badges/Dataset-Documenter-2026-02-25.svg" width="50" title="Dataset Documenter (Feb 25, 2026)">
-  <img src="Badges/Dataset-Tagger-2026-02-25.svg" width="50" title="Dataset Tagger (Feb 25, 2026)">
-  <img src="Badges/Competition-Modeler-2026-03-24.svg" width="50" title="Competition Modeler (Mar 24, 2026)">
-  <img src="Badges/Kaggle-Community-Member-2022-09-11.svg" width="50" title="Kaggle Community Member (Sept 11, 2022)">
-  <img src="Badges/Stylish-2026-03-04.svg" width="50" title="Stylish (Mar 4, 2026)">
-  <img src="Badges/Collector-2026-03-05.svg" width="50" title="Collector (Mar 5, 2026)">
-  <img src="Badges/Bookmarker-2026-03-04.svg" width="50" title="Bookmarker (Mar 4, 2026)">
-  <img src="Badges/Vampire-2024-09-10.svg" width="50" title="Vampire (Sept 10, 2024)">
-  <img src="Badges/Agent-of-Discord-2026-02-01.svg" width="50" title="Agent of Discord (Feb 1, 2026)">
-  <img src="Badges/Learner-2024-09-10.svg" width="50" title="Learner (Sept 10, 2024)">
-  <img src="Badges/Student-2024-09-10.svg" width="50" title="Student (Sept 10, 2024)">
-  <img src="Badges/Graduate-2026-03-04.svg" width="50" title="Graduate (Mar 4, 2026)">
-  <img src="Badges/7-Day-Login-Streak-2026-02-04.svg" width="50" title="7-Day Login Streak (Feb 4, 2026)">
-  <img src="Badges/30-Day-Login-Streak-2026-02-27.svg" width="50" title="30-Day Login Streak (Feb 27, 2026)">
+  <img src="Badges/Dataset Documenter.svg" width="50" title="Dataset Documenter (Feb 25, 2026)">
+  <img src="Badges/Dataset Tagger.svg" width="50" title="Dataset Tagger (Feb 25, 2026)">
+  <img src="Badges/Competition Modeler.svg" width="50" title="Competition Modeler (Mar 24, 2026)">
+  <img src="Badges/Kaggle Community Member.svg" width="50" title="Kaggle Community Member (Sept 11, 2022)">
+  <img src="Badges/Stylish.svg" width="50" title="Stylish (Mar 4, 2026)">
+  <img src="Badges/Collector.svg" width="50" title="Collector (Mar 5, 2026)">
+  <img src="Badges/Bookmarker.svg" width="50" title="Bookmarker (Mar 4, 2026)">
+  <img src="Badges/Vampire.svg" width="50" title="Vampire (Sept 10, 2024)">
+  <img src="Badges/Agent of Discord.svg" width="50" title="Agent of Discord (Feb 1, 2026)">
+  <img src="Badges/Learner.svg" width="50" title="Learner (Sept 10, 2024)">
+  <img src="Badges/Student.svg" width="50" title="Student (Sept 10, 2024)">
+  <img src="Badges/Graduate.svg" width="50" title="Graduate (Mar 4, 2026)">
+  <img src="Badges/7 Day Login Streak.svg" width="50" title="7-Day Login Streak (Feb 4, 2026)">
+  <img src="Badges/30 Day Login Streak.svg" width="50" title="30-Day Login Streak (Feb 27, 2026)">
 </div>
 
 ---
