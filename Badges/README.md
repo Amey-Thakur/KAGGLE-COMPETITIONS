@@ -52,6 +52,7 @@ This directory serves as a scholarly archive for all earned Kaggle badges. Each 
 | 33 | **Notebook Modeler** | Mar 24, 2026 | <img src="Notebook-Modeler-2026-03-24.svg" width="50" title="Notebook Modeler (Mar 24, 2026)"> |
 | 34 | **Utility Scripter** | Mar 24, 2026 | <img src="Utility-Scripter-2026-03-24.svg" width="50" title="Utility Scripter (Mar 24, 2026)"> |
 | 35 | **API Dataset Creator** | Mar 24, 2026 | <img src="API Dataset Creator.svg" width="50" title="API Dataset Creator (Mar 24, 2026)"> |
+| 36 | **Competition Modeler** | Mar 24, 2026 | <img src="Competition Modeler.svg" width="50" title="Competition Modeler (Mar 24, 2026)"> |
 
 </div>
 
