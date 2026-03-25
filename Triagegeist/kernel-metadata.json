@@ -1,0 +1,19 @@
+{
+  "id": "ameythakur20/triagegeist-cdss-multi-tier-acuity",
+  "title": "Triagegeist CDSS Multi Tier Acuity",
+  "code_file": "Triagegeist_Clinical_Decision_Support_via_Multi_Tier_Acuity_Forecasting.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": [
+    "triagegeist"
+  ],
+  "kernel_sources": [
+    "ameythakur20/kaggle-toolbox"
+  ],
+  "model_sources": []
+}
