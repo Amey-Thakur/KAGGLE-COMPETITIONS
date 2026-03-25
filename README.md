@@ -38,7 +38,7 @@
   <img src="Badges/API Dataset Creator.svg" width="50" title="API Dataset Creator (Mar 24, 2026)">
   <img src="Badges/Dataset-Documenter-2026-02-25.svg" width="50" title="Dataset Documenter (Feb 25, 2026)">
   <img src="Badges/Dataset-Tagger-2026-02-25.svg" width="50" title="Dataset Tagger (Feb 25, 2026)">
-  <img src="Badges/Competition Modeler.svg" width="50" title="Competition Modeler (Mar 24, 2026)">
+  <img src="Badges/Competition-Modeler-2026-03-24.svg" width="50" title="Competition Modeler (Mar 24, 2026)">
   <img src="Badges/Kaggle-Community-Member-2022-09-11.svg" width="50" title="Kaggle Community Member (Sept 11, 2022)">
   <img src="Badges/Stylish-2026-03-04.svg" width="50" title="Stylish (Mar 4, 2026)">
   <img src="Badges/Collector-2026-03-05.svg" width="50" title="Collector (Mar 5, 2026)">
