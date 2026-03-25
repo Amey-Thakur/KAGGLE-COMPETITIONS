@@ -1,6 +1,6 @@
 {
-  "id": "ameythakur20/triagegeist-cdss-multi-tier-acuity",
-  "title": "Triagegeist CDSS Multi Tier Acuity",
+  "id": "ameythakur20/triagegeist-cdss-multi-tier-acuity-forecasting",
+  "title": "Triagegeist Cdss Multi Tier Acuity Forecasting",
   "code_file": "Triagegeist_Clinical_Decision_Support_via_Multi_Tier_Acuity_Forecasting.ipynb",
   "language": "python",
   "kernel_type": "notebook",
