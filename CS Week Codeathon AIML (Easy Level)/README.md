@@ -174,7 +174,7 @@ $$
 After interaction terms are added, the model can also estimate effects like:
 
 $$
-\hat{y} = \beta_0 + \sum_j \beta_j x_j + \sum_{i<j} \beta_{ij}x_ix_j
+\hat{y} = \beta_0 + \sum_{j} \beta_j x_j + \sum_{i < j} \beta_{i,j} x_i x_j
 $$
 
 This is often useful in small, clean numeric datasets where the hidden relationship is not fully independent across variables.
@@ -404,7 +404,7 @@ After ranking all models, the notebook blends the top three candidates with a no
 The ensemble takes the form:
 
 $$
-\hat{y}_{ens} = w_1\hat{y}_1 + w_2\hat{y}_2 + w_3\hat{y}_3
+\hat{y}_{\text{ens}} = w_1 \hat{y}_1 + w_2 \hat{y}_2 + w_3 \hat{y}_3
 $$
 
 with:
