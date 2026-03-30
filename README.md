@@ -214,7 +214,8 @@ A curated collection of 17 professional certifications awarded by Kaggle, coveri
 │
 ├── Harmonizing the Data of your Data/              # Proteomics: SDRF Metadata Extraction
 │   ├── README.md                                   # Technical Analysis
-│   └── sdrf-metadata-extraction-baseline.ipynb     # Verified Notebook Solution
+│   ├── sdrf-metadata-extraction-baseline.ipynb     # Baseline Notebook Solution
+│   └── harmonizing-the-data-of-your-data.ipynb     # Verified Notebook Solution
 │
 ├── LLM Classification Finetuning/                  # LLM Preference: Chatbot Arena
 │   ├── README.md                                   # Technical Analysis
