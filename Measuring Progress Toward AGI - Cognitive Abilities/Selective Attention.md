@@ -1,9 +1,7 @@
-# Selective Attention: Discussion & Topic
+# [Benchmark Release] Attention Span: The "Needle in a Salient Haystack" Benchmark
 
-### Topic Title:
 `[Benchmark Release] Attention Span: The "Needle in a Salient Haystack" Benchmark`
 
-### Topic Body:
 
 # Hello fellow Kagglers!
 
