@@ -144,6 +144,7 @@ The index below categorizes active projects by their competitive domain and foun
 | 8 | **Stanford RNA 3D Folding** | - | <ul><li>Structural Biology</li><li>Biophysics</li></ul> | <ul><li>Hybrid TBM + Protenix-v1</li><li>Template-Based Modeling (TBM)</li><li>Chunked Inference</li><li>Kabsch Stitching</li></ul> | [Analysis](./Stanford%20RNA%203D%20Folding%20Part%202/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/stanford-rna-3d-folding-part-2-tbm-protenix-v1) |
 | 9 | **Titanic** | <img src="Medals/Bronze Medal.png" width="22" title="Bronze Medal (Mar 6, 2026)"> | <ul><li>Classification</li><li>Forensic Analysis</li></ul> | <ul><li>Deterministic Record Linkage</li><li>Normalization</li><li>Data Alignment</li></ul> | [Analysis](./Titanic%20-%20Machine%20Learning%20from%20Disaster/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/titanic-passenger-survival-prediction) |
 | 10 | **Triagegeist** | - | <ul><li>Clinical Informatics</li><li>Decision Support</li></ul> | <ul><li>Hierarchical Ensemble</li><li>LightGBM + CatBoost</li><li>Hemodynamic Feature Science</li><li>Uncertainty-Aware Logic</li></ul> | [Analysis](./Triagegeist/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/triagegeist-cdss-multi-tier-acuity-forecasting) |
+| 11 | **CS Week Codeathon AIML (Easy Level)** | - | <ul><li>Education</li><li>Tabular Data</li></ul> | <ul><li>EDA</li><li>Feature Engineering</li><li>Regression</li></ul> | [Analysis](./CS%20Week%20Codeathon%20AIML%20(Easy%20Level)/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/student-final-score-prediction-with-eda-and-fe) |
 
 ---
 
@@ -227,6 +228,10 @@ A curated collection of 17 professional certifications awarded by Kaggle, coveri
 ├── Triagegeist/                                    # Clinical: Hierarchical CDSS
 │   ├── README.md                                   # Technical Analysis
 │   └── Triagegeist_Clinical_Decision_Support_via_Multi_Tier_Acuity_Forecasting.ipynb # Verified Notebook Solution
+│
+├── CS Week Codeathon AIML (Easy Level)/            # Education: Academic Performance
+│   ├── README.md                                   # Technical Analysis
+│   └── student-final-score-prediction-with-eda-and-fe.ipynb # Verified Notebook Solution
 │
 ├── docs/                                           # Kaggle Assets
 ├── LICENSE                                         # CC BY 4.0 (Documentation)
