@@ -54,6 +54,7 @@ This directory serves as a scholarly archive for all earned Kaggle badges. Each 
 | 35 | **API Dataset Creator** | Mar 24, 2026 | <img src="API Dataset Creator.svg" width="50" title="API Dataset Creator (Mar 24, 2026)"> |
 | 36 | **Competition Modeler** | Mar 24, 2026 | <img src="Competition Modeler.svg" width="50" title="Competition Modeler (Mar 24, 2026)"> |
 | 37 | **Research Competitor** | Mar 25, 2026 | <img src="Research Competitor.svg" width="50" title="Research Competitor (Mar 25, 2026)"> |
+| 38 | **Submission Streak** | Mar 29, 2026 | <img src="Submission Streak.svg" width="50" title="Submission Streak (Mar 29, 2026)"> |
 
 </div>
 
