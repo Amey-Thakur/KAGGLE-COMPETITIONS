@@ -1,3 +1,4 @@
+<a name="readme-top"></a>
 # [Benchmark Release] Attention Span: The "Needle in a Salient Haystack" Benchmark
 
 `[Benchmark Release] Attention Span: The "Needle in a Salient Haystack" Benchmark`
@@ -112,3 +113,12 @@ These directions are critical for building reliable AI agents in noisy, critical
 ### Amey Thakur
 
 [Kaggle](https://www.kaggle.com/ameythakur20) • [GitHub](https://github.com/Amey-Thakur)
+
+---
+
+<div align="center">
+
+  [↑ Back to Top](#readme-top) &nbsp;·&nbsp; [← Back to Home](../README.md)
+
+</div>
+
