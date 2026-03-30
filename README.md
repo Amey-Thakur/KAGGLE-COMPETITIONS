@@ -24,6 +24,7 @@
   <img src="Badges/Playground Competitor.svg" width="50" title="Playground Competitor (Mar 5, 2026)">
   <img src="Badges/March Mania Competitor.svg" width="50" title="March Mania Competitor (Mar 16, 2026)">
   <img src="Badges/Code Submitter.svg" width="50" title="Code Submitter (Mar 18, 2026)">
+  <img src="Badges/Submission Streak.svg" width="50" title="Submission Streak (Mar 29, 2026)">
   <img src="Badges/Python Coder.svg" width="50" title="Python Coder (Sept 10, 2024)">
   <img src="Badges/R Coder.svg" width="50" title="R Coder (Sept 10, 2024)">
   <img src="Badges/R Markdown Coder.svg" width="50" title="R Markdown Coder (Mar 24, 2026)">
