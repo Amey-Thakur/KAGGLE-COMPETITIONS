@@ -136,15 +136,15 @@ The index below categorizes active projects by their competitive domain and foun
 | :---: | :--- | :---: | :--- | :--- | :---: | :---: |
 | 1 | **AI Mathematical Olympiad** | - | <ul><li>Mathematics</li><li>NLP</li><li>LLM</li></ul> | <ul><li>Self-Correction</li><li>Symbolic Computation</li><li>Agentic Inference</li></ul> | [Analysis](./AI%20Mathematical%20Olympiad/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/aimo-diagnostics-inference) |
 | 2 | **Are You A Robot?** | 1/8 | <ul><li>NLP</li><li>Classification</li></ul> | <ul><li>Stylometric Analysis</li><li>Gaussian Mixture Models</li><li>TF-IDF</li></ul> | [Analysis](./Are%20You%20A%20Robot/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/are-you-a-robot) |
-| 3 | **Connect X** | <img src="Medals/Bronze Medal.png" width="22" title="Bronze Medal (Mar 6, 2026)"> | <ul><li>Game Theory</li><li>Simulation</li></ul> | <ul><li>Minimax</li><li>Alpha-Beta Pruning</li><li>Heuristics</li><li>Move Ordering</li></ul> | [Analysis](./Connect%20X/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/connectx-minimax-alpha-beta-agent) |
-| 4 | **Evading AI Detection** | 1/3 | <ul><li>NLP</li><li>Generative AI</li></ul> | <ul><li>Activation Steering</li><li>Sparse Autoencoders</li><li>Latent Feature Suppression</li></ul> | [Analysis](./Evading%20AI%20Detection/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/evading-ai-text-detection) |
-| 5 | **LLM Classification** | - | <ul><li>LLM Preference</li><li>Ensemble Inference</li></ul> | <ul><li>Gemma-2-9B</li><li>Llama-3-8B</li><li>Pipeline Parallelism</li><li>Logit Interpolation</li></ul> | [Analysis](./LLM%20Classification%20Finetuning/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/llm-classification-inference) |
-| 6 | **Petals to the Metal** | - | <ul><li>Computer Vision</li><li>Deep Learning</li></ul> | <ul><li>Tensor Processing Units (TPU)</li><li>Image Classification</li></ul> | [Analysis](./Petals%20to%20the%20Metal%20-%20Flower%20Classification%20on%20TPU/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/tpu-flower-classification-advanced-ensemble) |
-| 7 | **Predict Customer Churn** | <img src="Medals/Bronze Medal.png" width="22" title="Bronze Medal (Mar 20, 2026)"> | <ul><li>Binary Classification</li><li>Tabular Data</li></ul> | <ul><li>XGBoost</li><li>CatBoost</li><li>LightGBM</li><li>Optuna</li></ul> | [Analysis](./Predict%20Customer%20Churn/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/customer-churn-prediction-121-fe-20-cv-stacking) |
-| 8 | **Stanford RNA 3D Folding** | - | <ul><li>Structural Biology</li><li>Biophysics</li></ul> | <ul><li>Hybrid TBM + Protenix-v1</li><li>Template-Based Modeling (TBM)</li><li>Chunked Inference</li><li>Kabsch Stitching</li></ul> | [Analysis](./Stanford%20RNA%203D%20Folding%20Part%202/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/stanford-rna-3d-folding-part-2-tbm-protenix-v1) |
-| 9 | **Titanic** | <img src="Medals/Bronze Medal.png" width="22" title="Bronze Medal (Mar 6, 2026)"> | <ul><li>Classification</li><li>Forensic Analysis</li></ul> | <ul><li>Deterministic Record Linkage</li><li>Normalization</li><li>Data Alignment</li></ul> | [Analysis](./Titanic%20-%20Machine%20Learning%20from%20Disaster/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/titanic-passenger-survival-prediction) |
-| 10 | **Triagegeist** | - | <ul><li>Clinical Informatics</li><li>Decision Support</li></ul> | <ul><li>Hierarchical Ensemble</li><li>LightGBM + CatBoost</li><li>Hemodynamic Feature Science</li><li>Uncertainty-Aware Logic</li></ul> | [Analysis](./Triagegeist/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/triagegeist-cdss-multi-tier-acuity-forecasting) |
-| 11 | **CS Week Codeathon AIML (Easy Level)** | - | <ul><li>Education</li><li>Tabular Data</li></ul> | <ul><li>EDA</li><li>Feature Engineering</li><li>Regression</li></ul> | [Analysis](./CS%20Week%20Codeathon%20AIML%20(Easy%20Level)/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/student-final-score-prediction-with-eda-and-fe) |
+| 3 | **CS Week Codeathon AIML (Easy Level)** | - | <ul><li>Education</li><li>Tabular Data</li></ul> | <ul><li>EDA</li><li>Feature Engineering</li><li>Regression</li></ul> | [Analysis](./CS%20Week%20Codeathon%20AIML%20(Easy%20Level)/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/student-final-score-prediction-with-eda-and-fe) |
+| 4 | **Connect X** | <img src="Medals/Bronze Medal.png" width="22" title="Bronze Medal (Mar 6, 2026)"> | <ul><li>Game Theory</li><li>Simulation</li></ul> | <ul><li>Minimax</li><li>Alpha-Beta Pruning</li><li>Heuristics</li><li>Move Ordering</li></ul> | [Analysis](./Connect%20X/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/connectx-minimax-alpha-beta-agent) |
+| 5 | **Evading AI Detection** | 1/3 | <ul><li>NLP</li><li>Generative AI</li></ul> | <ul><li>Activation Steering</li><li>Sparse Autoencoders</li><li>Latent Feature Suppression</li></ul> | [Analysis](./Evading%20AI%20Detection/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/evading-ai-text-detection) |
+| 6 | **LLM Classification** | - | <ul><li>LLM Preference</li><li>Ensemble Inference</li></ul> | <ul><li>Gemma-2-9B</li><li>Llama-3-8B</li><li>Pipeline Parallelism</li><li>Logit Interpolation</li></ul> | [Analysis](./LLM%20Classification%20Finetuning/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/llm-classification-inference) |
+| 7 | **Petals to the Metal** | - | <ul><li>Computer Vision</li><li>Deep Learning</li></ul> | <ul><li>Tensor Processing Units (TPU)</li><li>Image Classification</li></ul> | [Analysis](./Petals%20to%20the%20Metal%20-%20Flower%20Classification%20on%20TPU/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/tpu-flower-classification-advanced-ensemble) |
+| 8 | **Predict Customer Churn** | <img src="Medals/Bronze Medal.png" width="22" title="Bronze Medal (Mar 20, 2026)"> | <ul><li>Binary Classification</li><li>Tabular Data</li></ul> | <ul><li>XGBoost</li><li>CatBoost</li><li>LightGBM</li><li>Optuna</li></ul> | [Analysis](./Predict%20Customer%20Churn/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/customer-churn-prediction-121-fe-20-cv-stacking) |
+| 9 | **Stanford RNA 3D Folding** | - | <ul><li>Structural Biology</li><li>Biophysics</li></ul> | <ul><li>Hybrid TBM + Protenix-v1</li><li>Template-Based Modeling (TBM)</li><li>Chunked Inference</li><li>Kabsch Stitching</li></ul> | [Analysis](./Stanford%20RNA%203D%20Folding%20Part%202/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/stanford-rna-3d-folding-part-2-tbm-protenix-v1) |
+| 10 | **Titanic** | <img src="Medals/Bronze Medal.png" width="22" title="Bronze Medal (Mar 6, 2026)"> | <ul><li>Classification</li><li>Forensic Analysis</li></ul> | <ul><li>Deterministic Record Linkage</li><li>Normalization</li><li>Data Alignment</li></ul> | [Analysis](./Titanic%20-%20Machine%20Learning%20from%20Disaster/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/titanic-passenger-survival-prediction) |
+| 11 | **Triagegeist** | - | <ul><li>Clinical Informatics</li><li>Decision Support</li></ul> | <ul><li>Hierarchical Ensemble</li><li>LightGBM + CatBoost</li><li>Hemodynamic Feature Science</li><li>Uncertainty-Aware Logic</li></ul> | [Analysis](./Triagegeist/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/triagegeist-cdss-multi-tier-acuity-forecasting) |
 
 ---
 
@@ -172,18 +172,20 @@ A curated collection of 17 professional certifications awarded by Kaggle, coveri
 ## Project Structure
 
 ```python
+├── docs/                                           # Kaggle Assets
+│
 ├── Badges/                                         # Earned Kaggle Badges (36)
 │   └── README.md                                   # Badge Portfolio
-│
-├── Kaggle Toolbox/                                 # Production Utility Library
-│   ├── kaggle_toolbox.py                           # Core Utility Functions
-│   └── kaggle-toolbox-demo.ipynb                   # Library Demonstration
 │
 ├── Medals/                                         # Competition Medals
 ├── Tiers/                                          # Kaggle Community Tiers
 │
 ├── Kaggle Courses/                                 # Professional Certifications (17)
 │   └── README.md                                   # Certification Portfolio
+│
+├── Kaggle Toolbox/                                 # Production Utility Library
+│   ├── kaggle_toolbox.py                           # Core Utility Functions
+│   └── kaggle-toolbox-demo.ipynb                   # Library Demonstration
 │
 ├── AI Mathematical Olympiad/                       # NLP: Mathematical Reasoning
 │   ├── aimo-diagnostics-inference.ipynb            # Verified Notebook Solution
@@ -192,6 +194,10 @@ A curated collection of 17 professional certifications awarded by Kaggle, coveri
 ├── Are You A Robot/                                # NLP: Multi-Task Essay Analysis
 │   ├── README.md                                   # Technical Analysis
 │   └── are_you_a_robot.ipynb                       # Verified Notebook Solution
+│
+├── CS Week Codeathon AIML (Easy Level)/            # Education: Academic Performance
+│   ├── README.md                                   # Technical Analysis
+│   └── student-final-score-prediction-with-eda-and-fe.ipynb # Verified Notebook Solution
 │
 ├── Connect X/                                      # Simulation: Connect Four Variant
 │   ├── README.md                                   # Technical Analysis
@@ -229,14 +235,11 @@ A curated collection of 17 professional certifications awarded by Kaggle, coveri
 │   ├── README.md                                   # Technical Analysis
 │   └── Triagegeist_Clinical_Decision_Support_via_Multi_Tier_Acuity_Forecasting.ipynb # Verified Notebook Solution
 │
-├── CS Week Codeathon AIML (Easy Level)/            # Education: Academic Performance
-│   ├── README.md                                   # Technical Analysis
-│   └── student-final-score-prediction-with-eda-and-fe.ipynb # Verified Notebook Solution
-│
-├── docs/                                           # Kaggle Assets
 ├── LICENSE                                         # CC BY 4.0 (Documentation)
 ├── LICENSE-MIT                                     # MIT License (Source Code)
 ├── SECURITY.md                                     # Security Policy & Dual-Licensing
+├── CITATION.cff                                    # Repository Citation Metadata
+├── codemeta.json                                   # Repository Software Metadata
 └── README.md                                       # Master Documentation Portal
 ```
 

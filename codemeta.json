@@ -1,0 +1,42 @@
+{
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
+    "name": "Kaggle Competitions",
+    "description": "A curated collection of Kaggle competition solutions, notebooks, and professional data science certifications. This repository features verified notebook implementations, technical methodology analysis, and a comprehensive badge portfolio across 11+ competitive domains including NLP, Computer Vision, and Tabular Data.",
+    "identifier": "KAGGLE-COMPETITIONS",
+    "license": "https://spdx.org/licenses/MIT.html",
+    "programmingLanguage": [
+        "Python",
+        "Jupyter Notebook"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Amey",
+            "familyName": "Thakur",
+            "id": "https://orcid.org/0000-0001-5644-1575"
+        }
+    ],
+    "dateReleased": "2026-03-30",
+    "codeRepository": "https://github.com/Amey-Thakur/KAGGLE-COMPETITIONS",
+    "developmentStatus": "active",
+    "runtimePlatform": [
+        "Python 3.x",
+        "Jupyter Lab/Notebook",
+        "Kaggle Kernels",
+        "TensorFlow/PyTorch/Scikit-Learn"
+    ],
+    "applicationCategory": "Data Science / Machine Learning Portfolio",
+    "keywords": [
+        "Kaggle",
+        "Data Science",
+        "Machine Learning",
+        "NLP",
+        "Computer Vision",
+        "Tabular Data",
+        "Competition Solutions",
+        "Notebooks",
+        "EDA",
+        "Feature Engineering"
+    ]
+}
