@@ -92,7 +92,7 @@ Key parameters:
 - batch size scaled as:
 
 $$
-\text{BATCH\_SIZE} = 8 \times \text{num\_replicas}
+\text{BATCH\\_SIZE} = 8 \times \text{num\\_replicas}
 $$
 
 ### Why this matters
