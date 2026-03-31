@@ -29,7 +29,7 @@ Detecting text hallucinations in LLMs is not just an "outcome-checking" exercise
 This task is modeled as a **transition probability problem**:
 
 $$
-P(w_t) = \exp(\text{transition\textunderscore score}_t)
+P(w_t) = \exp(\text{transition\\_score}_t)
 $$
 
 ### Key challenges
