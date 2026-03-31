@@ -95,7 +95,8 @@ Each competition entry is more than just code; it is an exploration of **algorit
 >     <img src="docs/The_Kaggle_Book.png" width="350" alt="The Kaggle Book" title="Read 'The Kaggle Book' - A Comprehensive Guide to Competitive Data Science">
 >   </a>
 >   <br>
->   <strong>Konrad Banachewicz and Luca Massaron</strong>
+>   <strong>Konrad Banachewicz and Luca Massaron</strong><br>
+>   <em>An essential reference for bridging the gap between theoretical knowledge and high-performance competitive execution.</em>
 > </div>
 
 ### Strategic Heuristics
