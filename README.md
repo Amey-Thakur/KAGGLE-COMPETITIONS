@@ -149,8 +149,9 @@ The index below categorizes active projects by their competitive domain and foun
 | 13 | **Petals to the Metal** | - | <ul><li>Computer Vision</li><li>Deep Learning</li></ul> | <ul><li>Tensor Processing Units (TPU)</li><li>Image Classification</li></ul> | [Analysis](./Petals%20to%20the%20Metal%20-%20Flower%20Classification%20on%20TPU/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/tpu-flower-classification-advanced-ensemble) |
 | 14 | **Predict Customer Churn** | <img src="Medals/Bronze Medal.png" width="22" title="Bronze Medal (Mar 20, 2026)"> | <ul><li>Binary Classification</li><li>Tabular Data</li></ul> | <ul><li>XGBoost</li><li>CatBoost</li><li>LightGBM</li><li>Optuna</li></ul> | [Analysis](./Predict%20Customer%20Churn/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/customer-churn-prediction-121-fe-20-cv-stacking) |
 | 15 | **Stanford RNA 3D Folding** | - | <ul><li>Structural Biology</li><li>Biophysics</li></ul> | <ul><li>Hybrid TBM + Protenix-v1</li><li>Template-Based Modeling (TBM)</li><li>Chunked Inference</li><li>Kabsch Stitching</li></ul> | [Analysis](./Stanford%20RNA%203D%20Folding%20Part%202/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/stanford-rna-3d-folding-part-2-tbm-protenix-v1) |
-| 16 | **Titanic** | <img src="Medals/Bronze Medal.png" width="22" title="Bronze Medal (Mar 6, 2026)"> | <ul><li>Classification</li><li>Forensic Analysis</li></ul> | <ul><li>Deterministic Record Linkage</li><li>Normalization</li><li>Data Alignment</li></ul> | [Analysis](./Titanic%20-%20Machine%20Learning%20from%20Disaster/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/titanic-passenger-survival-prediction) |
-| 17 | **Triagegeist** | - | <ul><li>Clinical Informatics</li><li>Decision Support</li></ul> | <ul><li>Hierarchical Ensemble</li><li>LightGBM + CatBoost</li><li>Hemodynamic Feature Science</li><li>Uncertainty-Aware Logic</li></ul> | [Analysis](./Triagegeist/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/triagegeist-cdss-multi-tier-acuity-forecasting) |
+| 16 | **Student Study Hours to CGPA Prediction** | - | <ul><li>Education</li><li>Regression</li></ul> | <ul><li>Polynomial Expansion</li><li>Ridge/Lasso</li><li>K-Fold CV</li><li>MSE Optimization</li></ul> | [Analysis](./Student%20Study%20Hours%20to%20CGPA%20Prediction/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/student-study-hours-to-cgpa-prediction) |
+| 17 | **Titanic** | <img src="Medals/Bronze Medal.png" width="22" title="Bronze Medal (Mar 6, 2026)"> | <ul><li>Classification</li><li>Forensic Analysis</li></ul> | <ul><li>Deterministic Record Linkage</li><li>Normalization</li><li>Data Alignment</li></ul> | [Analysis](./Titanic%20-%20Machine%20Learning%20from%20Disaster/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/titanic-passenger-survival-prediction) |
+| 18 | **Triagegeist** | - | <ul><li>Clinical Informatics</li><li>Decision Support</li></ul> | <ul><li>Hierarchical Ensemble</li><li>LightGBM + CatBoost</li><li>Hemodynamic Feature Science</li><li>Uncertainty-Aware Logic</li></ul> | [Analysis](./Triagegeist/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/triagegeist-cdss-multi-tier-acuity-forecasting) |
 
 ---
 
@@ -256,6 +257,10 @@ A curated collection of 17 professional certifications awarded by Kaggle, coveri
 ├── Stanford RNA 3D Folding Part 2/                 # Structural Biology: Biophysics
 │   ├── README.md                                   # Technical Analysis
 │   └── stanford-rna-3d-folding-part-2-tbm-protenix-v1.ipynb # Verified Notebook Solution
+│
+├── Student Study Hours to CGPA Prediction/         # Education: Optimized Regression
+│   ├── README.md                                   # Technical Analysis
+│   └── student-study-hours-to-cgpa-prediction.ipynb # Verified Notebook Solution
 │
 ├── Titanic - Machine Learning from Disaster/       # Classification: Forensic Analysis
 │   ├── README.md                                   # Technical Analysis
