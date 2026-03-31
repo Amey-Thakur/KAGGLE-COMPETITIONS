@@ -81,19 +81,22 @@
 <a name="overview"></a>
 ## Overview
 
-<div align="center">
-  <a href="./The Kaggle Book - Data analysis and machine learning for competitive data science.pdf">
-    <img src="docs/The_Kaggle_Book.png" width="350" alt="The Kaggle Book" title="Read 'The Kaggle Book' - A Comprehensive Guide to Competitive Data Science">
-  </a>
-  <br>
-  <strong>Konrad Banachewicz and Luca Massaron</strong>
-</div>
 
-<br>
 
 **Kaggle Competitions** is a curated digital laboratory documenting my trajectory through the world of competitive data science. This repository serves as a scholarly archive for machine learning solutions, featuring meticulously commented notebooks, optimized heuristics, and structured datasets.
 
 Each competition entry is more than just code; it is an exploration of **algorithmic theory**, **feature engineering**, and **model optimization**. By bridging the gap between raw implementation and high-level strategy, this repository provides a transparent gateway into the mechanics of competition-winning logic.
+
+> [!NOTE]
+> **Foundational Resource: The Kaggle Book**
+>
+> <div align="center">
+>   <a href="./The Kaggle Book - Data analysis and machine learning for competitive data science.pdf">
+>     <img src="docs/The_Kaggle_Book.png" width="350" alt="The Kaggle Book" title="Read 'The Kaggle Book' - A Comprehensive Guide to Competitive Data Science">
+>   </a>
+>   <br>
+>   <strong>Konrad Banachewicz and Luca Massaron</strong>
+> </div>
 
 ### Strategic Heuristics
 
