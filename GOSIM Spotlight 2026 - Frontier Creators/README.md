@@ -77,7 +77,7 @@ This ensures that generated predictions are not only read, but their structural 
 
 ---
 
-## Closing Remark
+## Closing Remarks
 
 Achieving structural transparency in foundation models requires a meticulous balance of tensor-level operations and UX design. By combining the precision of **PyTorch tensor analysis** with the visual accessibility of **HTML rendering**, we ensure that the model is entirely transparent in its "moment-of-doubt."
 

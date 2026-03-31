@@ -62,7 +62,7 @@ The following datasets from the Triagegeist competition are required: `train.csv
 
 ---
 
-### Closing Remarks
+## Closing Remarks
 
 This notebook demonstrates a structured approach to clinical acuity prediction. By combining a multi-tier hierarchy with hemodynamic feature science and safety-aware ensembling, the pipeline achieves stable performance on both structured and text-based clinical data.
 
