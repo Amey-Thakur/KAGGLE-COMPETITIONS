@@ -94,7 +94,7 @@ This analytical pipeline demonstrates:
 
 ---
 
-## Closing Remark
+## Closing Remarks
 
 Forecasting educational outcomes requires a meticulous balance of statistical hygiene and model complexity. By transitioning from a simple linear baseline to an optimized **polynomial ensemble architecture**, we provide a scalable framework for academic diagnostics that is robust against local noise and global bias.
 
