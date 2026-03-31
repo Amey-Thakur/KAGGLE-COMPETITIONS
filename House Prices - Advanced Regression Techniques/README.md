@@ -6,10 +6,6 @@
 
 ---
 
-![House Prices: Advanced Regression Analysis Header](https://via.placeholder.com/1280x400.png?text=House+Prices+Advanced+Regression+Analysis)
-
----
-
 # Hello fellow Kagglers!
 
 This notebook presents a **state-of-the-art regression pipeline** for the *House Prices: Advanced Regression Techniques* competition. The objective is to minimize the Root Mean Squared Logarithmic Error (RMSLE) by implementing a high-accuracy, stacked meta-ensemble that aggregates diverse learning paradigms.
@@ -85,7 +81,7 @@ Achieving a top-tier RMSLE on the leaderboard requires a meticulous balance of d
 Further research will focus on:
 - integrating spatial-aware regularization for Neighborhood-level variance
 - implementing adversarial validation to detect potential train/test distribution drift
-- expanding the specialist tier to include more granular property-type logic
+- analyzing segment-specific residuals for high-value vs. budget property tiers
 
 ---
 
