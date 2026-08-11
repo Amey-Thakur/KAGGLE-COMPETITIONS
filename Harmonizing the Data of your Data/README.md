@@ -1,4 +1,3 @@
-<a name="readme-top"></a>
 # Harmonizing the Data of your Data: SDRF Metadata Extraction Transformation
 ### A predictive modeling approach using high-precision rule-based extraction and ontology normalization to structure scientific proteomics metadata.
 
@@ -309,6 +308,6 @@ These directions can further improve robustness and scalability.
 
 <div align="center">
 
-  [↑ Back to Top](#readme-top) &nbsp;·&nbsp; [← Back to Home](../README.md)
+  [↑ Back to Top](#harmonizing-the-data-of-your-data-sdrf-metadata-extraction-transformation) &nbsp;·&nbsp; [← Back to Home](../README.md)
 
 </div>

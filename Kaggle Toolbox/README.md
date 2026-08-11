@@ -1,4 +1,3 @@
-<a name="readme-top"></a>
 # Kaggle Toolbox
 ### Production-Grade Utilities for Data Science Pipelines
 
@@ -265,6 +264,6 @@ These additions can further streamline competition workflows.
 
 <div align="center">
 
-  [↑ Back to Top](#readme-top) &nbsp;·&nbsp; [← Back to Home](../README.md)
+  [↑ Back to Top](#kaggle-toolbox) &nbsp;·&nbsp; [← Back to Home](../README.md)
 
 </div>

@@ -1,4 +1,3 @@
-<a name="readme-top"></a>
 # Are You A Robot?
 ### Identifying AI-Generated Discourse through Stochastic Analysis
 
@@ -277,6 +276,6 @@ These refinements can improve overall performance and robustness.
 
 <div align="center">
 
-  [↑ Back to Top](#readme-top) &nbsp;·&nbsp; [← Back to Home](../README.md)
+  [↑ Back to Top](#are-you-a-robot) &nbsp;·&nbsp; [← Back to Home](../README.md)
 
 </div>

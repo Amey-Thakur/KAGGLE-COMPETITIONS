@@ -1,4 +1,3 @@
-<a name="readme-top"></a>
 # LLM Classification Finetuning
 
 ### Ensembled Pipeline Inference for Human Preference Classification
@@ -30,6 +29,6 @@ The inference architecture is designed to maximize predictive accuracy while rem
 
 <div align="center">
 
-  [↑ Back to Top](#readme-top) &nbsp;·&nbsp; [← Back to Home](../README.md)
+  [↑ Back to Top](#llm-classification-finetuning) &nbsp;·&nbsp; [← Back to Home](../README.md)
 
 </div>

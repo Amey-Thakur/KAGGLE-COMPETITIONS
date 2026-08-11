@@ -1,4 +1,3 @@
-<a name="readme-top"></a>
 # Titanic - Machine Learning from Disaster <img align="right" src="../Medals/Bronze Medal.png" width="35" title="Bronze Medal (Mar 6, 2026)">
 ### Start here! Predict survival on the Titanic and get familiar with ML basics
 
@@ -217,6 +216,6 @@ Discussion and alternative perspectives on the methodology are always welcome.
 
 <div align="center">
 
-  [↑ Back to Top](#readme-top) &nbsp;·&nbsp; [← Back to Home](../README.md)
+  [↑ Back to Top](#titanic---machine-learning-from-disaster-) &nbsp;·&nbsp; [← Back to Home](../README.md)
 
 </div>

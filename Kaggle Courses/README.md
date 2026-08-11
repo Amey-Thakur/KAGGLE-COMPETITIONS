@@ -1,4 +1,3 @@
-<a name="readme-top"></a>
 # Kaggle Course Certifications
 
 This directory serves as a scholarly archive for all completed Kaggle Learn courses. Each certification represents a milestone in the mastery of data science, machine learning, and algorithmic theory.
@@ -43,6 +42,6 @@ This directory serves as a scholarly archive for all completed Kaggle Learn cour
 
 <div align="center">
 
-  [↑ Back to Top](#readme-top) &nbsp;·&nbsp; [← Back to Home](../README.md)
+  [↑ Back to Top](#kaggle-course-certifications) &nbsp;·&nbsp; [← Back to Home](../README.md)
 
 </div>

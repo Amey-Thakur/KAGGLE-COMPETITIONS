@@ -1,4 +1,3 @@
-<a name="readme-top"></a>
 # Attention Span: The "Needle in a Salient Haystack" Benchmark
 ### Evaluating Selective Attention and Distractor Vulnerability in Frontier LLMs.
 
@@ -137,6 +136,6 @@ These directions are critical for building reliable AI agents in noisy, critical
 
 <div align="center">
 
-  [↑ Back to Top](#readme-top) &nbsp;·&nbsp; [← Back to Home](../README.md)
+  [↑ Back to Top](#attention-span-the-needle-in-a-salient-haystack-benchmark) &nbsp;·&nbsp; [← Back to Home](../README.md)
 
 </div>

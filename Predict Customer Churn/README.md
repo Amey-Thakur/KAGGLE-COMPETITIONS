@@ -1,4 +1,3 @@
-<a name="readme-top"></a>
 # Predict Customer Churn <img align="right" src="../Medals/Bronze Medal.png" width="35" title="Bronze Medal (Mar 20, 2026)">
 ### Playground Series - Season 6 Episode 3
 
@@ -205,6 +204,6 @@ Further improvements can be explored through feature engineering, alternative en
 
 <div align="center">
 
-  [↑ Back to Top](#readme-top) &nbsp;·&nbsp; [← Back to Home](../README.md)
+  [↑ Back to Top](#predict-customer-churn-) &nbsp;·&nbsp; [← Back to Home](../README.md)
 
 </div>

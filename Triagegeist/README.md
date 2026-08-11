@@ -1,4 +1,3 @@
-<a name="readme-top"></a>
 # Triagegeist: Hierarchical CDSS via Multi-Tier Acuity Forecasting (0.9995 CV)
 ### A robust three-tier clinical decision support system utilizing a blended meta-ensemble and uncertainty-aware safety logic for ESI triage.
 
@@ -78,6 +77,6 @@ Further improvements can be explored through longitudinal vital sign monitoring 
 
 <div align="center">
 
-  [↑ Back to Top](#readme-top) &nbsp;·&nbsp; [← Back to Home](../README.md)
+  [↑ Back to Top](#triagegeist-hierarchical-cdss-via-multi-tier-acuity-forecasting-09995-cv) &nbsp;·&nbsp; [← Back to Home](../README.md)
 
 </div>

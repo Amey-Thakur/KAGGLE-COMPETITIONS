@@ -1,4 +1,3 @@
-<a name="readme-top"></a>
 # BirdCLEF+ 2026: Avian Vocalization Analysis & Perch v2 Fusion
 ### A high-performance bioacoustic pipeline utilizing Perch v2 architecture and Bayesian model fusion for soundscape inference.
 
@@ -20,6 +19,6 @@
 
 <div align="center">
 
-  [↑ Back to Top](#readme-top) &nbsp;·&nbsp; [← Back to Home](../README.md)
+  [↑ Back to Top](#birdclef-2026-avian-vocalization-analysis--perch-v2-fusion) &nbsp;·&nbsp; [← Back to Home](../README.md)
 
 </div>

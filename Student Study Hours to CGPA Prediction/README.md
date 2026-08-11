@@ -1,4 +1,3 @@
-<a name="readme-top"></a>
 # Student Study Hours to CGPA Prediction
 ### Predict academic performance utilizing polynomial regression and regularized ensembles.
 
@@ -113,6 +112,6 @@ Further research will focus on:
 
 <div align="center">
 
-  [↑ Back to Top](#readme-top) &nbsp;·&nbsp; [← Back to Home](../README.md)
+  [↑ Back to Top](#student-study-hours-to-cgpa-prediction) &nbsp;·&nbsp; [← Back to Home](../README.md)
 
 </div>

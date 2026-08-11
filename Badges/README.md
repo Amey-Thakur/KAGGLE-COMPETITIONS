@@ -1,4 +1,3 @@
-<a name="readme-top"></a>
 # Kaggle Badges
 
 This directory serves as a scholarly archive for all earned Kaggle badges. Each badge represents a specific achievement and milestone in the Kaggle community, reflecting continuous learning, engagement, and proficiency in competitive data science.
@@ -62,6 +61,6 @@ This directory serves as a scholarly archive for all earned Kaggle badges. Each 
 
 <div align="center">
 
-  [↑ Back to Top](#readme-top) &nbsp;·&nbsp; [← Back to Home](../README.md)
+  [↑ Back to Top](#kaggle-badges) &nbsp;·&nbsp; [← Back to Home](../README.md)
 
 </div>

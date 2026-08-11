@@ -1,4 +1,3 @@
-<a name="readme-top"></a>
 # CS Week Codeathon AIML (Easy Level): Student Final Score Prediction
 ### A predictive modeling approach using Exploratory Data Analysis (EDA) and Feature Engineering (FE) to forecast academic performance.
 
@@ -511,6 +510,6 @@ Further improvements can be pursued through tighter feature selection, repeated-
 
 <div align="center">
 
-  [↑ Back to Top](#readme-top) &nbsp;·&nbsp; [← Back to Home](../README.md)
+  [↑ Back to Top](#cs-week-codeathon-aiml-easy-level-student-final-score-prediction) &nbsp;·&nbsp; [← Back to Home](../README.md)
 
 </div>

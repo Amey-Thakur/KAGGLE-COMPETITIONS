@@ -1,4 +1,3 @@
-<a name="readme-top"></a>
 # Stanford RNA 3D Folding Part 2
 ### Structural Biology Pipeline Optimization
 
@@ -50,6 +49,6 @@ The pipeline is implemented using a custom ensemble of structural biology librar
 
 <div align="center">
 
-  [↑ Back to Top](#readme-top) &nbsp;·&nbsp; [← Back to Home](../README.md)
+  [↑ Back to Top](#stanford-rna-3d-folding-part-2) &nbsp;·&nbsp; [← Back to Home](../README.md)
 
 </div>

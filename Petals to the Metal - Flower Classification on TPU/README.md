@@ -1,4 +1,3 @@
-<a name="readme-top"></a>
 # Petals to the Metal - Flower Classification on TPU
 ### Macro F1 Maximization through Distributed Dual-Stream Architectures
 
@@ -285,6 +284,6 @@ These directions can further improve classification performance and robustness.
 
 <div align="center">
 
-  [↑ Back to Top](#readme-top) &nbsp;·&nbsp; [← Back to Home](../README.md)
+  [↑ Back to Top](#petals-to-the-metal---flower-classification-on-tpu) &nbsp;·&nbsp; [← Back to Home](../README.md)
 
 </div>

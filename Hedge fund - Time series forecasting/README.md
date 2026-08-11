@@ -1,4 +1,3 @@
-<a name="readme-top"></a>
 # Hedge Fund - Time Series Forecasting
 ### Optimizing high-frequency investment signals through gradient boosted ensembles and multi-horizon temporal validation.
 
@@ -80,6 +79,6 @@ Discussion, experimentation, and alternative perspectives on the forecasting str
 
 <div align="center">
 
-  [↑ Back to Top](#readme-top) &nbsp;·&nbsp; [← Back to Home](../README.md)
+  [↑ Back to Top](#hedge-fund---time-series-forecasting) &nbsp;·&nbsp; [← Back to Home](../README.md)
 
 </div>

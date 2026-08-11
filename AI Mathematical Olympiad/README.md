@@ -1,4 +1,3 @@
-<a name="readme-top"></a>
 # AI Mathematical Olympiad: Notation-Aware Diagnostics & Inference Scaffold
 ### A modular agentic inference framework utilizing RAG-backed symbolic computation and LaTeX-aware text diagnostics.
 
@@ -20,6 +19,6 @@
 
 <div align="center">
 
-  [↑ Back to Top](#readme-top) &nbsp;·&nbsp; [← Back to Home](../README.md)
+  [↑ Back to Top](#ai-mathematical-olympiad-notation-aware-diagnostics--inference-scaffold) &nbsp;·&nbsp; [← Back to Home](../README.md)
 
 </div>

@@ -1,4 +1,3 @@
-<a name="readme-top"></a>
 # AI Hallucination Visualizer: Mapping Uncertainty in Generative Agents
 ### A diagnostic pipeline for quantifying and visualizing stochastic uncertainty in LLMs using GPT-2 token-level probability analysis.
 
@@ -96,6 +95,6 @@ Further research will focus on:
 
 <div align="center">
 
-  [↑ Back to Top](#readme-top) &nbsp;·&nbsp; [← Back to Home](../README.md)
+  [↑ Back to Top](#ai-hallucination-visualizer-mapping-uncertainty-in-generative-agents) &nbsp;·&nbsp; [← Back to Home](../README.md)
 
 </div>

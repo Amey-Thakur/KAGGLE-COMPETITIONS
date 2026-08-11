@@ -1,4 +1,3 @@
-<a name="readme-top"></a>
 # English Scoring - Corrected Ver: Essay Scoring Transformation
 ### A predictive modeling approach using structured text features and ensemble regression to forecast student performance across seven scoring dimensions.
 
@@ -337,6 +336,6 @@ These directions can further improve predictive performance and model robustness
 
 <div align="center">
 
-  [↑ Back to Top](#readme-top) &nbsp;·&nbsp; [← Back to Home](../README.md)
+  [↑ Back to Top](#english-scoring---corrected-ver-essay-scoring-transformation) &nbsp;·&nbsp; [← Back to Home](../README.md)
 
 </div>

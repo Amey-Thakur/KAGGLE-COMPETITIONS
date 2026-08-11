@@ -1,4 +1,3 @@
-<a name="readme-top"></a>
 # House Prices: Advanced Regression via Stacked Meta-Ensembles
 ### A state-of-the-art regression pipeline utilizing multi-model stacking, domain-driven feature science, and RMSLE-optimized ensembling.
 
@@ -93,6 +92,6 @@ Further research will focus on:
 
 <div align="center">
 
-  [↑ Back to Top](#readme-top) &nbsp;·&nbsp; [← Back to Home](../README.md)
+  [↑ Back to Top](#house-prices-advanced-regression-via-stacked-meta-ensembles) &nbsp;·&nbsp; [← Back to Home](../README.md)
 
 </div>

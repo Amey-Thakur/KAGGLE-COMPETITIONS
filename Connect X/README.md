@@ -1,4 +1,3 @@
-<a name="readme-top"></a>
 # Connect X <img align="right" src="../Medals/Bronze Medal.png" width="35" title="Bronze Medal (Mar 6, 2026)">
 ### Connect your checkers in a row before your opponent!
 
@@ -239,7 +238,7 @@ Discussion, experimentation, and alternative approaches are always welcome.
 
 <div align="center">
 
-  [↑ Back to Top](#readme-top) &nbsp;·&nbsp; [← Back to Home](../README.md)
+  [↑ Back to Top](#connect-x-) &nbsp;·&nbsp; [← Back to Home](../README.md)
 
 </div>
 

@@ -1,4 +1,3 @@
-<a name="readme-top"></a>
 # Evading AI-Generated Text Detection
 ### Activation Steering and Lexical Variance for Detection Evasion
 
@@ -181,6 +180,6 @@ These directions can improve evasion effectiveness while maintaining text qualit
 
 <div align="center">
 
-  [↑ Back to Top](#readme-top) &nbsp;·&nbsp; [← Back to Home](../README.md)
+  [↑ Back to Top](#evading-ai-generated-text-detection) &nbsp;·&nbsp; [← Back to Home](../README.md)
 
 </div>
