@@ -14,6 +14,12 @@
 
 <br>
 
+**Notebook in this folder**
+
+[`stanford-rna-3d-folding-part-2-tbm-protenix-gpu-t4.ipynb`](./stanford-rna-3d-folding-part-2-tbm-protenix-gpu-t4.ipynb)
+
+<br>
+
 [Competitions](../../README.md#competitions) &nbsp;·&nbsp; [Achievements](../../Achievements/Badges/README.md) &nbsp;·&nbsp; [Courses](../../Kaggle%20Courses/README.md) &nbsp;·&nbsp; [Kaggle Profile](https://www.kaggle.com/ameythakur20)
 
 </div>

@@ -14,6 +14,12 @@
 
 <br>
 
+**2 notebooks in this folder**
+
+[`bc26-tensorflow-2-20-0-setup.ipynb`](./bc26-tensorflow-2-20-0-setup.ipynb) &nbsp;·&nbsp; [`birdclef-2026-perch-v2-bayesian-fusion.ipynb`](./birdclef-2026-perch-v2-bayesian-fusion.ipynb)
+
+<br>
+
 [Competitions](../../README.md#competitions) &nbsp;·&nbsp; [Achievements](../../Achievements/Badges/README.md) &nbsp;·&nbsp; [Courses](../../Kaggle%20Courses/README.md) &nbsp;·&nbsp; [Kaggle Profile](https://www.kaggle.com/ameythakur20)
 
 </div>

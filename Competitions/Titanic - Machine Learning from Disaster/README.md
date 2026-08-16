@@ -8,11 +8,19 @@
 
 [![Notebook](https://img.shields.io/badge/Notebook-Kaggle-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/code/ameythakur20/titanic-passenger-survival-prediction) [![Medal](https://img.shields.io/badge/Medal-Bronze-8E5B3D)](https://www.kaggle.com/ameythakur20/competitions) [![Author](https://img.shields.io/badge/Author-Amey_Thakur-0969DA)](https://www.kaggle.com/ameythakur20)
 
-<img src="../../Achievements/Medals/Bronze%20Medal.png" width="30" alt="Bronze medal"> **Bronze medal**
+<img src="../../Achievements/Medals/Bronze%20Medal.png" width="34" alt="Bronze medal">
+
+**Bronze medal**
 
 <br>
 
 <a href="https://www.kaggle.com/code/ameythakur20/titanic-passenger-survival-prediction"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open in Kaggle"></a>
+
+<br>
+
+**Notebook in this folder**
+
+[`titanic-passenger-survival-prediction.ipynb`](./titanic-passenger-survival-prediction.ipynb)
 
 <br>
 

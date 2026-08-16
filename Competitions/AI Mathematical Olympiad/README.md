@@ -14,6 +14,12 @@
 
 <br>
 
+**2 notebooks in this folder**
+
+[`aimo-diagnostics-inference.ipynb`](./aimo-diagnostics-inference.ipynb) &nbsp;·&nbsp; [`aimo-setup.ipynb`](./aimo-setup.ipynb)
+
+<br>
+
 [Competitions](../../README.md#competitions) &nbsp;·&nbsp; [Achievements](../../Achievements/Badges/README.md) &nbsp;·&nbsp; [Courses](../../Kaggle%20Courses/README.md) &nbsp;·&nbsp; [Kaggle Profile](https://www.kaggle.com/ameythakur20)
 
 </div>

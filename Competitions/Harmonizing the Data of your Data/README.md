@@ -14,6 +14,12 @@
 
 <br>
 
+**2 notebooks in this folder**
+
+[`harmonizing-the-data-of-your-data.ipynb`](./harmonizing-the-data-of-your-data.ipynb) &nbsp;·&nbsp; [`sdrf-metadata-extraction-baseline.ipynb`](./sdrf-metadata-extraction-baseline.ipynb)
+
+<br>
+
 [Competitions](../../README.md#competitions) &nbsp;·&nbsp; [Achievements](../../Achievements/Badges/README.md) &nbsp;·&nbsp; [Courses](../../Kaggle%20Courses/README.md) &nbsp;·&nbsp; [Kaggle Profile](https://www.kaggle.com/ameythakur20)
 
 </div>

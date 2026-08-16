@@ -158,6 +158,8 @@ added.
 
 <div align="center">
 
+<img src="docs/Kaggle.png" width="120" alt="Kaggle">
+
 <img src="Achievements/Tiers/Expert.png" width="76" alt="Kaggle Expert tier">
 
 ### Notebooks Expert

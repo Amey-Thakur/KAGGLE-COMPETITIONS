@@ -14,6 +14,12 @@
 
 <br>
 
+**Notebook in this folder**
+
+[`Triagegeist_Clinical_Decision_Support_via_Multi_Tier_Acuity_Forecasting.ipynb`](./Triagegeist_Clinical_Decision_Support_via_Multi_Tier_Acuity_Forecasting.ipynb)
+
+<br>
+
 [Competitions](../../README.md#competitions) &nbsp;·&nbsp; [Achievements](../../Achievements/Badges/README.md) &nbsp;·&nbsp; [Courses](../../Kaggle%20Courses/README.md) &nbsp;·&nbsp; [Kaggle Profile](https://www.kaggle.com/ameythakur20)
 
 </div>

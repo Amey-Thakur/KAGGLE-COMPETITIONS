@@ -14,6 +14,12 @@
 
 <br>
 
+**Notebook in this folder**
+
+[`evading_ai_text_detection.ipynb`](./evading_ai_text_detection.ipynb)
+
+<br>
+
 [Competitions](../../README.md#competitions) &nbsp;·&nbsp; [Achievements](../../Achievements/Badges/README.md) &nbsp;·&nbsp; [Courses](../../Kaggle%20Courses/README.md) &nbsp;·&nbsp; [Kaggle Profile](https://www.kaggle.com/ameythakur20)
 
 </div>

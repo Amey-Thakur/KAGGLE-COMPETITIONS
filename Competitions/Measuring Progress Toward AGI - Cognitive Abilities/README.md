@@ -14,6 +14,16 @@
 
 <br>
 
+<img src="agi_attention_header.png" width="100%" alt="A small, bright blue lattice at the centre of a much louder field of red and orange signal, the benchmark's subject: a quiet target competing against a salient distractor">
+
+<br>
+
+**Notebook in this folder**
+
+[`agi_attention_salient_distractor_benchmark.ipynb`](./agi_attention_salient_distractor_benchmark.ipynb)
+
+<br>
+
 [Competitions](../../README.md#competitions) &nbsp;·&nbsp; [Achievements](../../Achievements/Badges/README.md) &nbsp;·&nbsp; [Courses](../../Kaggle%20Courses/README.md) &nbsp;·&nbsp; [Kaggle Profile](https://www.kaggle.com/ameythakur20)
 
 </div>
