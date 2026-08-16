@@ -30,10 +30,14 @@ between bands.
 
 </div>
 
+**Currently Notebooks Expert**, on seven bronze medals, with a highest rank of
+932 out of 61,334 in that category.
+
 > [!NOTE]
-> The artwork here is the tier iconography itself. Current standing is on the
-> [Kaggle profile](https://www.kaggle.com/ameythakur20), which is the only
-> authoritative source and changes as competitions close.
+> Only the highest rank reached is recorded, deliberately. A live position moves
+> every time anyone publishes, so a number written into a README is stale the
+> day after. The [Kaggle profile](https://www.kaggle.com/ameythakur20) is the
+> authority on where the standing sits today.
 
 ---
 

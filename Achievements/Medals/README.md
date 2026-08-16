@@ -17,9 +17,11 @@
 
 ---
 
-Medals are awarded for placement in a competition, and they are what moves a
-profile through the Kaggle tiers. Bronze is the entry band, and the threshold
-tightens as a competition draws more entrants.
+Medals are what move a profile through the Kaggle tiers. They are awarded in
+each category separately: in Competitions for placing on a leaderboard, and in
+Notebooks, Datasets and Discussion by the community, through upvotes on what
+you publish. Bronze is the entry band in every category, and the threshold
+rises with the size of the audience.
 
 <div align="center">
 
@@ -30,14 +32,16 @@ tightens as a competition draws more entrants.
 
 </div>
 
-Competitions in this repository that earned one are marked in the
-[competitions index](../../README.md#competitions), and each carries the medal
-on its own page.
+**Seven bronze medals so far, all in Notebooks.** Three of them belong to
+notebooks kept in this repository, and those are marked in the
+[competitions index](../../README.md#competitions) and on each competition's own
+page.
 
 > [!NOTE]
-> Three bronze medals so far, from Titanic, Connect X and Predict Customer
-> Churn. The count is generated from the folders, so it stays accurate as more
-> competitions are entered.
+> Medal counts on this page are the ones held today. Standing itself is not
+> written down here, because a rank moves whenever anyone publishes. The
+> [Kaggle profile](https://www.kaggle.com/ameythakur20) is the authority on
+> current position.
 
 ---
 

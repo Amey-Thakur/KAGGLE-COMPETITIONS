@@ -7,6 +7,8 @@
 <br>
 
 [![Kaggle](https://img.shields.io/badge/Kaggle-ameythakur20-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/ameythakur20)
+[![Notebooks](https://img.shields.io/badge/Notebooks-Expert-BF3989)](https://www.kaggle.com/ameythakur20/code)
+[![Medals](https://img.shields.io/badge/Medals-7_Bronze-CD7F32)](#achievements)
 [![Competitions](https://img.shields.io/badge/Competitions-19-3949AB)](#competitions)
 [![Badges](https://img.shields.io/badge/Badges-41-BF3989)](Achievements/Badges/README.md)
 [![Courses](https://img.shields.io/badge/Courses-17-8250DF)](Kaggle%20Courses/README.md)
@@ -157,12 +159,33 @@ Every folder carries the notebook and a write-up of the approach.
 
 <div align="center">
 
-| [Badges](Achievements/Badges/README.md) | [Medals](Achievements/Medals/README.md) | [Tiers](Achievements/Tiers/README.md) |
-| :---: | :---: | :---: |
-| 41 earned, each with its certificate | Awarded for competition placement | Progression through the Kaggle ranks |
-| <img src="Achievements/Badges/Competitor.svg" width="46"> | <img src="Achievements/Medals/Bronze Medal.png" width="46"> | <img src="Achievements/Tiers/Expert.png" width="46"> |
+<img src="Achievements/Tiers/Expert.png" width="72">
+
+### Notebooks Expert
+
+**7 bronze medals** &nbsp;·&nbsp; **highest rank 932** of 61,334
 
 </div>
+
+Kaggle ranks each kind of contribution on its own scale, and this standing is in
+the Notebooks category: medals there are awarded by the community to published
+notebooks rather than for placing in a competition. Three of the notebooks in
+this repository carry one, and they are marked in the index above.
+
+<div align="center">
+
+| [Badges](Achievements/Badges/README.md) | [Medals](Achievements/Medals/README.md) | [Tiers](Achievements/Tiers/README.md) |
+| :---: | :---: | :---: |
+| 41 earned, each with its certificate | 7 bronze, awarded to published notebooks | Progression through the Kaggle ranks |
+| <img src="Achievements/Badges/Competitor.svg" width="46"> | <img src="Achievements/Medals/Bronze%20Medal.png" width="46"> | <img src="Achievements/Tiers/Expert.png" width="46"> |
+
+</div>
+
+> [!NOTE]
+> Only the highest rank reached is recorded here. A live position moves every
+> time anyone publishes, so a number written into a README is out of date the
+> day after it is written. The [Kaggle profile](https://www.kaggle.com/ameythakur20) is the authority on
+> where the standing sits today.
 
 ---
 
