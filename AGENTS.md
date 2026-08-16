@@ -2,14 +2,14 @@
 
 # Agents
 
-**The instructions live in [`.github/`](.github/README.md). This file exists so tools that load `AGENTS.md` automatically find them.**
+**The instructions live in [`Standards/`](Standards/README.md). This file exists so tools that load `AGENTS.md` automatically find them.**
 
 <br>
 
-[Agent Toolkit](.github/README.md) &nbsp;·&nbsp;
-[Start here](.github/AGENTS.md) &nbsp;·&nbsp;
-[Notebook Standard](.github/NOTEBOOK-STANDARD.md) &nbsp;·&nbsp;
-[Write-up Standard](.github/WRITEUP-STANDARD.md) &nbsp;·&nbsp;
+[Agent Toolkit](Standards/README.md) &nbsp;·&nbsp;
+[Start here](Standards/AGENTS.md) &nbsp;·&nbsp;
+[Notebook Standard](Standards/NOTEBOOK-STANDARD.md) &nbsp;·&nbsp;
+[Write-up Standard](Standards/WRITEUP-STANDARD.md) &nbsp;·&nbsp;
 [Repository home](README.md)
 
 </div>
@@ -17,11 +17,11 @@
 ---
 
 
-Read **[`.github/AGENTS.md`](.github/AGENTS.md)** in full, then the two standards
+Read **[`Standards/AGENTS.md`](Standards/AGENTS.md)** in full, then the two standards
 it links, before writing or editing anything in this repository.
 
 ```
-Read .github/AGENTS.md and the two standards it links, then follow them exactly.
+Read Standards/AGENTS.md and the two standards it links, then follow them exactly.
 Competition: <name>   URL: <link>   Goal: <what to build, and any constraint>
 ```
 

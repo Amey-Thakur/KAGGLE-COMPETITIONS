@@ -36,8 +36,8 @@ You are adding a competition to Amey-Thakur/KAGGLE-COMPETITIONS.
 
 Read these three files in full before writing anything:
   AGENTS.md
-  .github/NOTEBOOK-STANDARD.md
-  .github/WRITEUP-STANDARD.md
+  Standards/NOTEBOOK-STANDARD.md
+  Standards/WRITEUP-STANDARD.md
 
 Competition : [name, exactly as Kaggle spells it]
 Kaggle URL  : [competition link]

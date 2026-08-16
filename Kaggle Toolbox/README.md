@@ -82,7 +82,7 @@ Pandas defaults to large dtypes (`int64`, `float64`). On Kaggle memory limits, t
 
 ## 3. Missing Data Analysis
 
-### `missing_report(df)`
+
 
 Returns a structured DataFrame with:
 
@@ -263,6 +263,18 @@ Further improvements can include:
 - support for deep learning workflows  
 
 These additions can further streamline competition workflows.
+
+---
+
+<div align="center">
+
+**Amey Thakur** &nbsp;·&nbsp; [Kaggle](https://www.kaggle.com/ameythakur20) &nbsp;·&nbsp; [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
+
+<br>
+
+[↑ Back to top](#kaggle-toolbox) &nbsp;·&nbsp; [← Repository home](../README.md)
+
+</div>
 
 ---
 

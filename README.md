@@ -235,6 +235,7 @@ every one of them. It ships with a demo notebook and a tutorial script.
 │   └── Tiers/           # Progression tier artwork
 ├── Kaggle Courses/      # Course certificates
 ├── Kaggle Toolbox/      # Shared helper module used across the notebooks
+├── Standards/           # How notebooks and write-ups are written, for humans and agents
 ├── docs/                # Repository imagery
 ├── CITATION.cff         # How to cite this work
 ├── codemeta.json        # Machine-readable project metadata
@@ -248,22 +249,22 @@ every one of them. It ships with a demo notebook and a tutorial script.
 ## For agents
 
 Every competition here is written to one standard, and that standard is written
-down rather than held in anyone's head. [`.github/`](.github/README.md) holds
+down rather than held in anyone's head. [`Standards/`](Standards/README.md) holds
 the whole of it: the prompt to give an agent, where files go, the exact badge
 colours, how a notebook is structured and commented, and how its write-up is
 written and made findable.
 
 ```
-Read .github/AGENTS.md and the two standards it links, then follow them exactly.
+Read Standards/AGENTS.md and the two standards it links, then follow them exactly.
 Competition: <name>   URL: <link>   Goal: <what to build, and any constraint>
 ```
 
 | Document | Covers |
 | :--- | :--- |
-| [Agent Toolkit](.github/README.md) | What is in the folder and how to use it |
-| [AGENTS.md](.github/AGENTS.md) | Layout, colours, fixed rules, verification |
-| [Notebook Standard](.github/NOTEBOOK-STANDARD.md) | How the notebook is written |
-| [Write-up Standard](.github/WRITEUP-STANDARD.md) | How the write-up is written |
+| [Agent Toolkit](Standards/README.md) | What is in the folder and how to use it |
+| [AGENTS.md](Standards/AGENTS.md) | Layout, colours, fixed rules, verification |
+| [Notebook Standard](Standards/NOTEBOOK-STANDARD.md) | How the notebook is written |
+| [Write-up Standard](Standards/WRITEUP-STANDARD.md) | How the write-up is written |
 
 ---
 

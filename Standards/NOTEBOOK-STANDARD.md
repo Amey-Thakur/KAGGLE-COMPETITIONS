@@ -30,7 +30,7 @@ repository. It is written to be read once and applied without further
 instruction.
 
 ```
-Read .github/NOTEBOOK-STANDARD.md and follow it exactly.
+Read Standards/NOTEBOOK-STANDARD.md and follow it exactly.
 Task: <the competition, the data, what to build>
 ```
 

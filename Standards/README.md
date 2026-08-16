@@ -30,8 +30,8 @@
 | **[NOTEBOOK-STANDARD.md](NOTEBOOK-STANDARD.md)** | How the notebook itself is written: section order, comments that say why rather than what, figures that carry a conclusion, and how the shared toolbox is used. |
 | **[WRITEUP-STANDARD.md](WRITEUP-STANDARD.md)** | How the folder's README explains the work: the exact template, what each section must answer, and how the page is written to be found. |
 
-`social-preview.png`, `social-preview.json` and `social_preview.html` are the
-repository's own card and are not part of the toolkit.
+Nothing else lives in this folder. Repository imagery sits in `docs/`, and the
+social preview card in `.github/`.
 
 <br>
 
@@ -40,7 +40,7 @@ repository's own card and are not part of the toolkit.
 Everything an agent needs, in one line:
 
 ```
-Read .github/AGENTS.md and the two standards it links, then follow them exactly.
+Read Standards/AGENTS.md and the two standards it links, then follow them exactly.
 Competition: <name>   URL: <link>   Goal: <what to build, and any constraint>
 ```
 
