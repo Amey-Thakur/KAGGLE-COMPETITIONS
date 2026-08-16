@@ -34,13 +34,17 @@ This script is a **utility layer for Kaggle competitions**. Each function addres
 The design is practical. Every function exists to solve a real problem encountered during competitions.
 
 > [!IMPORTANT]
-> The time I lost in competitions was rarely spent on the model. It went on a
-> kernel dying because a frame sat in `int64`, a submission rejected for column
-> order, a score I could not reproduce because one library was seeded and another
-> was not.
+> If you take two things from this file, take `seed_everything` and
+> `check_submission`. An unseeded run makes every comparison you draw that day
+> meaningless, and nothing warns you. An invalid submission spends one attempt
+> from a daily limit you cannot get back.
 >
-> Each function here replaced one of those failures. They are independent. Take
-> the two you need and ignore the rest.
+> That is the pattern the rest of it follows. The expensive failures in a
+> competition are the quiet ones: a dtype that exhausts memory late in a fit, a
+> duplicated column that inflates a validation score, a correlation nobody
+> checked. None of them raise an exception, and all of them cost hours.
+>
+> The functions are independent, so take what you need and leave the rest.
 >
 > **Amey Thakur**
 
