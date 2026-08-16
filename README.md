@@ -250,7 +250,8 @@ wrong without it.
 > a dtype that quietly exhausts memory, a file rejected after it has already spent
 > an attempt.
 >
-> Seed before you compare. Validate before you submit.
+> Seed before you compare. Validate before you submit. Each function here is one
+> of those checks, cheap enough to run every time.
 >
 > **Amey Thakur**
 
