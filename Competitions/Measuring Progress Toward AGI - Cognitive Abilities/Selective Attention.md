@@ -38,6 +38,46 @@
 ---
 
 
+<div align="center">
+
+
+
+**Benchmark release: can a model hold on to a dull target while a louder distractor competes for its attention?**
+
+<br>
+
+[![Notebook](https://img.shields.io/badge/Notebook-Kaggle-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/code/ameythakur20/agi-attention-salient-distractor)
+[![Author](https://img.shields.io/badge/Author-Amey_Thakur-0969DA)](https://www.kaggle.com/ameythakur20)
+
+<br>
+
+[Repository home](../../README.md) &nbsp;·&nbsp; [Competitions](../../README.md#competitions) &nbsp;·&nbsp; [Achievements](../../README.md#achievements) &nbsp;·&nbsp; [Kaggle Profile](https://www.kaggle.com/ameythakur20)
+
+</div>
+
+---
+
+
+<div align="center">
+
+
+
+**Benchmark release: can a model hold on to a dull target while a louder distractor competes for its attention?**
+
+<br>
+
+[![Notebook](https://img.shields.io/badge/Notebook-Kaggle-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/code/ameythakur20/agi-attention-salient-distractor)
+[![Author](https://img.shields.io/badge/Author-Amey_Thakur-0969DA)](https://www.kaggle.com/ameythakur20)
+
+<br>
+
+[Repository home](../../README.md) &nbsp;·&nbsp; [Competitions](../../README.md#competitions) &nbsp;·&nbsp; [Achievements](../../README.md#achievements) &nbsp;·&nbsp; [Kaggle Profile](https://www.kaggle.com/ameythakur20)
+
+</div>
+
+---
+
+
 This post presents a **procedurally generated benchmark pipeline** for evaluating Selective Attention in frontier models for the *Measuring Progress Toward AGI* competition. The objective is to evaluate a model's cognitive control,specifically its ability to evaluate a low-salience target while actively suppressing highly salient textual distractors.
 
 The solution integrates:
@@ -92,7 +132,7 @@ Using the `@kbench.task` framework, the extraction is tested using two strict as
 1. `assert has_expected`: The target needle must be present.
 2. `assert not has_distractor`: The salient distractor must be completely absent.
 
-### Why this matters
+
 
 If a model outputs, "The code is ACT-1234 but wait, there is an override DIS-5678," it **fails**. True cognitive control requires complete suppression of the irrelevant distractor.
 
@@ -110,7 +150,7 @@ The results highlight an extreme capability gap:
 - **FAIL:** `DeepSeek-R1` (Chain-of-Thought reasoning gets hijacked by the extreme urgency)
 - **PASS:** `Gemini 3.1 Pro Preview` 
 
-### Observations
+
 
 The brand new `Gemini 3.1 Pro Preview` was the *only* model capable of perfectly navigating the context to extract the low-salience needle while securely suppressing the high-salience distractor. This demonstrates a massive generational leap in cognitive control and attention stability compared to traditional reasoning or alignment-focused architectures.
 
@@ -139,6 +179,30 @@ Further research will focus on:
 - measuring "Distraction Latency" in streaming responses
 
 These directions are critical for building reliable AI agents in noisy, critical-infrastructure environments.
+
+---
+
+<div align="center">
+
+**Amey Thakur** &nbsp;·&nbsp; [Kaggle](https://www.kaggle.com/ameythakur20) &nbsp;·&nbsp; [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
+
+<br>
+
+[↑ Back to top](#attention-span-the-needle-in-a-salient-haystack-benchmark) &nbsp;·&nbsp; [← Repository home](../../README.md)
+
+</div>
+
+---
+
+<div align="center">
+
+**Amey Thakur** &nbsp;·&nbsp; [Kaggle](https://www.kaggle.com/ameythakur20) &nbsp;·&nbsp; [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
+
+<br>
+
+[↑ Back to top](#attention-span-the-needle-in-a-salient-haystack-benchmark) &nbsp;·&nbsp; [← Repository home](../../README.md)
+
+</div>
 
 ---
 

@@ -38,17 +38,57 @@
 ---
 
 
+<div align="center">
+
+
+
+**The submission text as entered for Measuring Progress Toward AGI, Cognitive Abilities.**
+
+<br>
+
+[![Notebook](https://img.shields.io/badge/Notebook-Kaggle-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/code/ameythakur20/agi-attention-salient-distractor)
+[![Author](https://img.shields.io/badge/Author-Amey_Thakur-0969DA)](https://www.kaggle.com/ameythakur20)
+
+<br>
+
+[Repository home](../../README.md) &nbsp;·&nbsp; [Competitions](../../README.md#competitions) &nbsp;·&nbsp; [Achievements](../../README.md#achievements) &nbsp;·&nbsp; [Kaggle Profile](https://www.kaggle.com/ameythakur20)
+
+</div>
+
+---
+
+
+<div align="center">
+
+
+
+**The submission text as entered for Measuring Progress Toward AGI, Cognitive Abilities.**
+
+<br>
+
+[![Notebook](https://img.shields.io/badge/Notebook-Kaggle-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/code/ameythakur20/agi-attention-salient-distractor)
+[![Author](https://img.shields.io/badge/Author-Amey_Thakur-0969DA)](https://www.kaggle.com/ameythakur20)
+
+<br>
+
+[Repository home](../../README.md) &nbsp;·&nbsp; [Competitions](../../README.md#competitions) &nbsp;·&nbsp; [Achievements](../../README.md#achievements) &nbsp;·&nbsp; [Kaggle Profile](https://www.kaggle.com/ameythakur20)
+
+</div>
+
+---
+
+
 Attention Span: The "Needle in a Salient Haystack" Benchmark
 
 
 Amey Thakur
 
-### Problem Statement
+
 Current LLMs are remarkably adept at retrieving information from large contexts when prompted to find a generic "needle in a haystack." However, a critical aspect of human-like *attention* involves cognitive control: the ability to selectively focus on relevant, low-salience information while actively suppressing highly salient but irrelevant distractors. 
 
 In this benchmark, we aim to measure the "Attention" faculty,specifically **Selective Attention** and **Distractor Vulnerability**. When a model processes a prompt, can its attention be "hijacked" by urgent, critical-sounding, or highly emotional language (the salient distractor) at the expense of ignoring the user's actual instruction? Measuring this is essential, as real-world enterprise deployments of AI often involve noisy contexts where models must strictly adhear to the user's prompt rather than getting side-tracked by misleading, distracting information buried in logs or emails.
 
-### Task & benchmark construction
+
 Our benchmark uses the `kaggle-benchmarks` SDK to evaluate selective attention. 
 
 **Structure:** Each task instance comprises a `context` text, a specific `question`, an `expected_answer` (the needle), and a `distractor` (a fake code paired with urgent text). 
@@ -90,6 +130,30 @@ Independent Kaggle Researcher
 
 ### References & citations
 - Plomecka, M., et al. (2026). *Measuring Progress Toward AGI - Cognitive Framework*. Google DeepMind and Kaggle.
+
+---
+
+<div align="center">
+
+**Amey Thakur** &nbsp;·&nbsp; [Kaggle](https://www.kaggle.com/ameythakur20) &nbsp;·&nbsp; [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
+
+<br>
+
+[↑ Back to top](#competition-write-up) &nbsp;·&nbsp; [← Repository home](../../README.md)
+
+</div>
+
+---
+
+<div align="center">
+
+**Amey Thakur** &nbsp;·&nbsp; [Kaggle](https://www.kaggle.com/ameythakur20) &nbsp;·&nbsp; [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
+
+<br>
+
+[↑ Back to top](#competition-write-up) &nbsp;·&nbsp; [← Repository home](../../README.md)
+
+</div>
 
 ---
 

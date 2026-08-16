@@ -6,7 +6,7 @@
 
 <br>
 
-[![Courses](https://img.shields.io/badge/Courses-17-8250DF)](https://www.kaggle.com/ameythakur20)
+[![Courses](https://img.shields.io/badge/Courses-17-FAE041)](https://www.kaggle.com/ameythakur20)
 [![Kaggle](https://img.shields.io/badge/Kaggle-ameythakur20-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/ameythakur20)
 
 <br>

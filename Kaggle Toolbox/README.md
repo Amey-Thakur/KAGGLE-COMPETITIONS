@@ -11,12 +11,6 @@
 
 <br>
 
-**In this folder**
-
-[`kaggle_toolbox.py`](./kaggle_toolbox.py) &nbsp;·&nbsp; [`kaggle-toolbox-demo.ipynb`](./kaggle-toolbox-demo.ipynb) &nbsp;·&nbsp; [`kaggle_toolbox_demo_tutorial.py`](./kaggle_toolbox_demo_tutorial.py)
-
-<br>
-
 [Repository home](../README.md) &nbsp;·&nbsp; [Competitions](../README.md#competitions) &nbsp;·&nbsp; [Achievements](../README.md#achievements) &nbsp;·&nbsp; [Kaggle Profile](https://www.kaggle.com/ameythakur20)
 
 </div>
@@ -68,11 +62,11 @@ Uncontrolled randomness leads to inconsistent results across runs. This makes de
 
 ## 2. Memory Optimization
 
-### `reduce_mem_usage(df)`
+
 
 Downcasts each column to the smallest safe dtype based on actual values.
 
-### Behavior
+
 
 - integers → `int8`, `int16`, `int32`  
 - floats → `float32`  
@@ -269,6 +263,30 @@ Further improvements can include:
 - support for deep learning workflows  
 
 These additions can further streamline competition workflows.
+
+---
+
+<div align="center">
+
+**Amey Thakur** &nbsp;·&nbsp; [Kaggle](https://www.kaggle.com/ameythakur20) &nbsp;·&nbsp; [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
+
+<br>
+
+[↑ Back to top](#kaggle-toolbox) &nbsp;·&nbsp; [← Repository home](../README.md)
+
+</div>
+
+---
+
+<div align="center">
+
+**Amey Thakur** &nbsp;·&nbsp; [Kaggle](https://www.kaggle.com/ameythakur20) &nbsp;·&nbsp; [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
+
+<br>
+
+[↑ Back to top](#kaggle-toolbox) &nbsp;·&nbsp; [← Repository home](../README.md)
+
+</div>
 
 ---
 

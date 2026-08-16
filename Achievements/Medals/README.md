@@ -2,11 +2,11 @@
 
 # Kaggle Medals
 
-**Competition medals and what they represent.**
+**The medals earned, and what each category means.**
 
 <br>
 
-[![Medals](https://img.shields.io/badge/Medals-3_Bronze-CD7F32)](https://www.kaggle.com/ameythakur20/competitions)
+[![Medals](https://img.shields.io/badge/Medals-7_Bronze-8E5B3D)](https://www.kaggle.com/ameythakur20/code)
 [![Kaggle](https://img.shields.io/badge/Kaggle-ameythakur20-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/ameythakur20)
 
 <br>
