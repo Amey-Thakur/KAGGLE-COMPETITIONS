@@ -1,16 +1,26 @@
-# Kaggle Badges
-
-This directory serves as a scholarly archive for all earned Kaggle badges. Each badge represents a specific achievement and milestone in the Kaggle community, reflecting continuous learning, engagement, and proficiency in competitive data science.
-
 <div align="center">
 
-  [![Kaggle](https://img.shields.io/badge/Kaggle-ameythakur20-20BEFF?style=square&logo=Kaggle&logoColor=white "Amey Thakur: Access My Professional Portfolio and Verified Solutions on Kaggle")](https://www.kaggle.com/ameythakur20)
+# Kaggle Badges
+
+**41 badges earned on Kaggle, each with the certificate that came with it.**
+
+<br>
+
+[![Badges](https://img.shields.io/badge/Badges-41-BF3989)](https://www.kaggle.com/ameythakur20)
+[![Kaggle](https://img.shields.io/badge/Kaggle-ameythakur20-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/ameythakur20)
+
+<br>
+
+[Repository home](../../README.md) &nbsp;·&nbsp; [Competitions](../../README.md#competitions) &nbsp;·&nbsp; [Badges](../../Achievements/Badges/README.md) &nbsp;·&nbsp; [Courses](../../Kaggle%20Courses/README.md) &nbsp;·&nbsp; [Kaggle Profile](https://www.kaggle.com/ameythakur20)
 
 </div>
 
 ---
 
-## Badge Portfolio
+Badges mark activity rather than placement: publishing a notebook, keeping a
+submission streak, documenting a dataset, finishing a course. They are listed
+in the order they were earned, so the table doubles as a record of when each
+part of the platform was first used.
 
 <div align="center">
 
@@ -64,7 +74,10 @@ This directory serves as a scholarly archive for all earned Kaggle badges. Each 
 
 <div align="center">
 
-  [↑ Back to Top](#kaggle-badges) &nbsp;·&nbsp; [← Back to Home](../../README.md)
+**Amey Thakur** &nbsp;·&nbsp; [Kaggle](https://www.kaggle.com/ameythakur20) &nbsp;·&nbsp; [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
+
+<br>
+
+[↑ Back to top](#kaggle-badges) &nbsp;·&nbsp; [← Repository home](../../README.md)
 
 </div>
-

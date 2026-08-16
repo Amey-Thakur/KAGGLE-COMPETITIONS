@@ -1,18 +1,26 @@
-# Kaggle Course Certifications
-
-This directory serves as a scholarly archive for all completed Kaggle Learn courses. Each certification represents a milestone in the mastery of data science, machine learning, and algorithmic theory.
-
 <div align="center">
 
-  <a href="https://www.kaggle.com/ameythakur20/">
-    <img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Kaggle Profile">
-  </a>
+# Kaggle Courses
+
+**17 Kaggle Learn courses completed, with the certificate for each one.**
+
+<br>
+
+[![Courses](https://img.shields.io/badge/Courses-17-8250DF)](https://www.kaggle.com/ameythakur20)
+[![Kaggle](https://img.shields.io/badge/Kaggle-ameythakur20-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/ameythakur20)
+
+<br>
+
+[Repository home](../README.md) &nbsp;·&nbsp; [Competitions](../README.md#competitions) &nbsp;·&nbsp; [Badges](../Achievements/Badges/README.md) &nbsp;·&nbsp; [Courses](../Kaggle%20Courses/README.md) &nbsp;·&nbsp; [Kaggle Profile](https://www.kaggle.com/ameythakur20)
 
 </div>
 
 ---
 
-## Certification Portfolio
+Kaggle Learn runs short, practical courses that end in an exercise rather
+than an exam. Taken in order they cover the ground a competition notebook
+assumes: handling a dataframe, building and validating a model, engineering
+features, then the specialised tracks for vision, time series and SQL.
 
 <div align="center">
 
@@ -42,6 +50,10 @@ This directory serves as a scholarly archive for all completed Kaggle Learn cour
 
 <div align="center">
 
-  [↑ Back to Top](#kaggle-course-certifications) &nbsp;·&nbsp; [← Back to Home](../README.md)
+**Amey Thakur** &nbsp;·&nbsp; [Kaggle](https://www.kaggle.com/ameythakur20) &nbsp;·&nbsp; [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
+
+<br>
+
+[↑ Back to top](#kaggle-courses) &nbsp;·&nbsp; [← Repository home](../README.md)
 
 </div>
