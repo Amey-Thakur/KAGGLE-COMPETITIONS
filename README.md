@@ -51,6 +51,9 @@
   <img src="Badges/Graduate.svg" width="50" title="Graduate (Mar 4, 2026)">
   <img src="Badges/7 Day Login Streak.svg" width="50" title="7-Day Login Streak (Feb 4, 2026)">
   <img src="Badges/30 Day Login Streak.svg" width="50" title="30-Day Login Streak (Feb 27, 2026)">
+  <img src="Badges/Super Submission Streak.svg" width="50" title="Super Submission Streak (Apr 21, 2026)">
+  <img src="Badges/100 Day Login Streak.svg" width="50" title="100-Day Login Streak (May 7, 2026)">
+  <img src="Badges/5 Years on Kaggle.svg" width="50" title="5-Years on Kaggle (Jul 5, 2026)">
 </div>
 
 ---
@@ -195,7 +198,8 @@ A curated collection of 17 professional certifications awarded by Kaggle, coveri
 ```python
 ├── docs/                                           # Kaggle Assets
 │
-├── Badges/                                         # Earned Kaggle Badges (36)
+├── Badges/                                         # Earned Kaggle Badges (41)
+│   ├── Certificates/                               # Badge Certificate Images
 │   └── README.md                                   # Badge Portfolio
 │
 ├── BirdCLEF+ 2026/                                 # Bioacoustics: Bird Call Classification

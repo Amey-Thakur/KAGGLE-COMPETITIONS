@@ -54,6 +54,61 @@ This directory serves as a scholarly archive for all earned Kaggle badges. Each 
 | 36 | **Competition Modeler** | Mar 24, 2026 | <img src="Competition Modeler.svg" width="50" title="Competition Modeler (Mar 24, 2026)"> |
 | 37 | **Research Competitor** | Mar 25, 2026 | <img src="Research Competitor.svg" width="50" title="Research Competitor (Mar 25, 2026)"> |
 | 38 | **Submission Streak** | Mar 29, 2026 | <img src="Submission Streak.svg" width="50" title="Submission Streak (Mar 29, 2026)"> |
+| 39 | **Super Submission Streak** | Apr 21, 2026 | <img src="Super Submission Streak.svg" width="50" title="Super Submission Streak (Apr 21, 2026)"> |
+| 40 | **100 Day Login Streak** | May 07, 2026 | <img src="100 Day Login Streak.svg" width="50" title="100-Day Login Streak (May 7, 2026)"> |
+| 41 | **5 Years on Kaggle** | Jul 05, 2026 | <img src="5 Years on Kaggle.svg" width="50" title="5-Years on Kaggle (Jul 5, 2026)"> |
+
+</div>
+
+---
+
+## Badge Certificates
+
+<div align="center">
+
+| <div align="center">Certificate</div> |
+| :---: |
+| <img src="Certificates/Kaggle Community Member.png" width="600" title="Kaggle Community Member"> |
+| <img src="Certificates/Code Forker.png" width="600" title="Code Forker"> |
+| <img src="Certificates/Code Tagger.png" width="600" title="Code Tagger"> |
+| <img src="Certificates/Code Uploader.png" width="600" title="Code Uploader"> |
+| <img src="Certificates/Dataset Creator.png" width="600" title="Dataset Creator"> |
+| <img src="Certificates/Learner.png" width="600" title="Learner"> |
+| <img src="Certificates/Python Coder.png" width="600" title="Python Coder"> |
+| <img src="Certificates/R Coder.png" width="600" title="R Coder"> |
+| <img src="Certificates/Student.png" width="600" title="Student"> |
+| <img src="Certificates/Vampire.png" width="600" title="Vampire"> |
+| <img src="Certificates/1 Year on Kaggle.png" width="600" title="1 Year on Kaggle"> |
+| <img src="Certificates/2 Years on Kaggle.png" width="600" title="2 Years on Kaggle"> |
+| <img src="Certificates/Agent of Discord.png" width="600" title="Agent of Discord"> |
+| <img src="Certificates/7 Day Login Streak.png" width="600" title="7 Day Login Streak"> |
+| <img src="Certificates/Dataset Documenter.png" width="600" title="Dataset Documenter"> |
+| <img src="Certificates/Dataset Tagger.png" width="600" title="Dataset Tagger"> |
+| <img src="Certificates/30 Day Login Streak.png" width="600" title="30 Day Login Streak"> |
+| <img src="Certificates/Getting Started Competitor.png" width="600" title="Getting Started Competitor"> |
+| <img src="Certificates/Simulation Competitor.png" width="600" title="Simulation Competitor"> |
+| <img src="Certificates/Bookmarker.png" width="600" title="Bookmarker"> |
+| <img src="Certificates/Graduate.png" width="600" title="Graduate"> |
+| <img src="Certificates/Stylish.png" width="600" title="Stylish"> |
+| <img src="Certificates/Collector.png" width="600" title="Collector"> |
+| <img src="Certificates/Playground Competitor.png" width="600" title="Playground Competitor"> |
+| <img src="Certificates/Github Coder.png" width="600" title="Github Coder"> |
+| <img src="Certificates/Colab Coder.png" width="600" title="Colab Coder"> |
+| <img src="Certificates/Competitor.png" width="600" title="Competitor"> |
+| <img src="Certificates/March Mania Competitor.png" width="600" title="March Mania Competitor"> |
+| <img src="Certificates/Code Submitter.png" width="600" title="Code Submitter"> |
+| <img src="Certificates/Community Competitor.png" width="600" title="Community Competitor"> |
+| <img src="Certificates/R Markdown Coder.png" width="600" title="R Markdown Coder"> |
+| <img src="Certificates/API Notebook Creator.png" width="600" title="API Notebook Creator"> |
+| <img src="Certificates/Notebook Modeler.png" width="600" title="Notebook Modeler"> |
+| <img src="Certificates/Utility Scripter.png" width="600" title="Utility Scripter"> |
+| <img src="Certificates/API Dataset Creator.png" width="600" title="API Dataset Creator"> |
+| <img src="Certificates/Competition Modeler.png" width="600" title="Competition Modeler"> |
+| <img src="Certificates/Research Competitor.png" width="600" title="Research Competitor"> |
+| <img src="Certificates/Submission Streak.png" width="600" title="Submission Streak"> |
+| <img src="Certificates/Super Submission Streak.png" width="600" title="Super Submission Streak"> |
+| <img src="Certificates/100 Day Login Streak.png" width="600" title="100 Day Login Streak"> |
+| <img src="Certificates/5 Years on Kaggle.png" width="600" title="5 Years on Kaggle"> |
 
 </div>
 
