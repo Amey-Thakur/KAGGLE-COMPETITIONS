@@ -1,18 +1,30 @@
 <div align="center">
 
-  # Kaggle Competitions
+# Kaggle Competitions
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg)](LICENSE-MIT)
-  [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
-  ![Status](https://img.shields.io/badge/Status-Active-2EA043)
-  [![Technology](https://img.shields.io/badge/Technology-Machine%20Learning%20%7C%20Data%20Science-8250DF)](https://github.com/Amey-Thakur/KAGGLE-COMPETITIONS)
-  [![Developed by Amey Thakur](https://img.shields.io/badge/Developed%20by-Amey%20Thakur-0969DA.svg)](https://github.com/Amey-Thakur)
+**Solutions, notebooks and write-ups from competitive data science, kept as they were worked.**
 
-  A comprehensive repository featuring high-performance solutions, scholarly explanations, and curated datasets for various Kaggle competitions, ranging from various techniques to advanced deep learning models.
+<br>
 
-  [![Kaggle](https://img.shields.io/badge/Kaggle-ameythakur20-20BEFF?style=square&logo=Kaggle&logoColor=white "Amey Thakur: Access My Professional Portfolio and Verified Solutions on Kaggle")](https://www.kaggle.com/ameythakur20)
-  <br>
-  <br>
+[![Kaggle](https://img.shields.io/badge/Kaggle-ameythakur20-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/ameythakur20)
+[![Competitions](https://img.shields.io/badge/Competitions-19-3949AB)](#competitions)
+[![Badges](https://img.shields.io/badge/Badges-41-BF3989)](Achievements/Badges/README.md)
+[![Courses](https://img.shields.io/badge/Courses-17-8250DF)](Kaggle%20Courses/README.md)
+[![Status](https://img.shields.io/badge/Status-Active-2EA043)](#competitions)
+[![License](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey)](LICENSE)
+
+<br>
+
+[Competitions](#competitions) &nbsp;·&nbsp;
+[Achievements](#achievements) &nbsp;·&nbsp;
+[Courses](#courses) &nbsp;·&nbsp;
+[Toolbox](#toolbox) &nbsp;·&nbsp;
+[Structure](#structure) &nbsp;·&nbsp;
+[Using this repository](#using-this-repository) &nbsp;·&nbsp;
+[License](#license)
+
+<br>
+
   <img src="Achievements/Badges/1 Year on Kaggle.svg" width="50" title="1-Year on Kaggle (Sept 11, 2024)">
   <img src="Achievements/Badges/2 Years on Kaggle.svg" width="50" title="2-Years on Kaggle (Sept 11, 2024)">
   <img src="Achievements/Badges/5 Years on Kaggle.svg" width="50" title="5-Years on Kaggle (Jul 5, 2026)">
@@ -54,13 +66,6 @@
   <img src="Achievements/Badges/7 Day Login Streak.svg" width="50" title="7-Day Login Streak (Feb 4, 2026)">
   <img src="Achievements/Badges/30 Day Login Streak.svg" width="50" title="30-Day Login Streak (Feb 27, 2026)">
   <img src="Achievements/Badges/100 Day Login Streak.svg" width="50" title="100-Day Login Streak (May 7, 2026)">
-</div>
-
----
-
-<div align="center">
-
-  [Author](#author) &nbsp;·&nbsp; [Overview](#overview) &nbsp;·&nbsp; [Toolbox](#kaggle-toolbox) &nbsp;·&nbsp; [Competitions](#competitions-index) &nbsp;·&nbsp; [Certifications](#certifications) &nbsp;·&nbsp; [Structure](#project-structure) &nbsp;·&nbsp; [Usage Guidelines](#usage-guidelines) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [About](#about-this-repository) &nbsp;·&nbsp; [Acknowledgments](#acknowledgments)
 
 </div>
 
@@ -72,307 +77,177 @@
   <a name="author"></a>
   ## Author
 
-| <a href="https://github.com/Amey-Thakur"><img src="https://github.com/Amey-Thakur.png" width="150" height="150" alt="Amey Thakur"></a><br>[**Amey Thakur**](https://github.com/Amey-Thakur)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0001--5644--1575-A6CE39.svg)](https://orcid.org/0000-0001-5644-1575) |
+| <a href="https://github.com/Amey-Thakur"><img src="https://github.com/Amey-Thakur.png" width="150" height="150" alt="Amey Thakur"></a><br>[**Amey Thakur**](https://github.com/Amey-Thakur)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0001--5644--1575-A6CE39.svg)](https://orcid.org/0000-0001-5644-1575)<br>[![Kaggle](https://img.shields.io/badge/Kaggle-ameythakur20-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/ameythakur20) |
 | :---: |
 
 </div>
 
 ---
 
-<!-- OVERVIEW -->
 <a name="overview"></a>
 ## Overview
 
+This repository holds the work behind a Kaggle profile: the notebooks entered
+into competitions, the reasoning that produced them, and the certificates and
+badges earned along the way. Each competition keeps its own folder, its own
+notebook and its own write-up explaining what the problem was, what was tried
+and where the approach ran out.
 
-
-**Kaggle Competitions** is a curated digital laboratory documenting my trajectory through the world of competitive data science. This repository serves as a scholarly archive for machine learning solutions, featuring meticulously commented notebooks, optimized heuristics, and structured datasets.
-
-Each competition entry is more than just code; it is an exploration of **algorithmic theory**, **feature engineering**, and **model optimization**. By bridging the gap between raw implementation and high-level strategy, this repository provides a transparent gateway into the mechanics of competition-winning logic.
+The write-ups are the point. A leaderboard score says how a submission placed
+and nothing about why, so each folder records the decisions: which signal the
+model was actually reading, which constraint shaped the design, and which of
+the three or four plausible approaches was taken and why.
 
 > [!NOTE]
-> **Foundational Resource: The Kaggle Book**
->
-> <div align="center">
->   <a href="./The Kaggle Book - Data analysis and machine learning for competitive data science.pdf">
->     <img src="docs/The_Kaggle_Book.png" width="350" alt="The Kaggle Book" title="Read 'The Kaggle Book' - A Comprehensive Guide to Competitive Data Science">
->   </a>
->   <br>
->   <strong>Konrad Banachewicz and Luca Massaron</strong><br>
->   <em>An essential reference for bridging the gap between theoretical knowledge and high-performance competitive execution.</em>
-> </div>
-
-### Strategic Heuristics
-
-Each project within this ecosystem is governed by strict **design patterns** ensuring clarity, reproducibility, and high-performance execution:
-*   **Scholarly Commentary**: Comprehensive technical walkthroughs detailing the theoretical underpinnings, mathematical frameworks, and architectural decisions behind each model.
-*   **Computational Efficiency**: Optimized implementation strategies tailored to meet diverse hardware constraints, ensuring low-latency inference and high-throughput training.
-*   **Modular Architecture**: Fully self-contained environments featuring integrated datasets, robust preprocessing pipelines, and verified submission utilities.
+> This is an active repository. Competitions are added as they are entered, and
+> a folder is written when the work is done rather than when it succeeds. Some
+> entries record approaches that did not place well and say so.
 
 > [!TIP]
-> **Validation Reliability**
->
-> A consistent challenge in machine learning competitions is learning to prioritize local metrics over the public leaderboard. Because public scores reflect a limited sample, they often reward models that fit to noise rather than true signal. If a change hurts your local cross-validation, it should be discarded regardless of short-term leaderboard gains.> Relying completely on a strict local evaluation setup is the best method to maintain stability on the final hidden dataset.
->
----
+> **On trusting local validation over the public leaderboard.** A public score
+> is computed on a fraction of the test set, so it rewards models that fit that
+> fraction's noise. If a change hurts local cross-validation but lifts the
+> public score, it is usually the leaderboard that is wrong. Keeping a strict
+> local setup and believing it is what holds a submission steady when the
+> private split is revealed.
 
-<a name="kaggle-toolbox"></a>
-### **Kaggle Toolbox**
-
-[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/kaggle-toolbox)
-
-A production-grade utility library for standardized performance optimization and automated pipeline diagnostics.
-
-| **Technical Core** | **Functional Description** |
-| :--- | :--- |
-| **`seed_everything`** | Full seed synchronization across Python, NumPy, PyTorch, and TensorFlow. |
-| **`reduce_mem_usage`** | Intelligent downcasting for massive tabular datasets to prevent OOM failures. |
-| **`missing_report`** | Comprehensive visualization and statistical breakdown of data sparsity. |
-| **`find_useless_columns`** | Byte-level uniqueness checks to identify constant or redundant features. |
-| **`check_submission`** | Pre-inference validation for submission format and column consistency. |
-| **`timer`** | Context manager for precise bottleneck profiling and execution timing. |
-| **`system_info`** | Diagnostic report of hardware constraints and environment specifications. |
-| **`cv_score`** | Scalable cross-validation wrapper with integrated param validation. |
-| **`find_correlated_features`** | Advanced correlation matrix filtering to mitigate multicollinearity. |
-| **`find_input`** | Directory-level automated mapping for Kaggle dataset and competition paths. |
-
-> [!IMPORTANT]
-> **Utility Script Automation**
->
-> Standardizing common diagnostic logic into a **Utility Script** on Kaggle ensures consistency across the competition lifecycle. This automation approach, exemplified by my **[Kaggle Toolbox](https://www.kaggle.com/code/ameythakur20/kaggle-toolbox)**, eliminates redundant boilerplate and enables automated updates for any dependent competition notebook.
+<div align="center">
+  <a href="./The Kaggle Book - Data analysis and machine learning for competitive data science.pdf">
+    <img src="docs/The_Kaggle_Book.png" width="330" alt="The Kaggle Book">
+  </a>
+  <br>
+  <sub><strong>The Kaggle Book</strong> &nbsp;·&nbsp; Konrad Banachewicz and Luca Massaron</sub>
+</div>
 
 ---
 
-<!-- COMPETITIONS INDEX -->
-<a name="competitions-index"></a>
-## Competitions Index
+<a name="competitions"></a>
+## Competitions
 
-The index below categorizes active projects by their competitive domain and foundational methodology. Each entry provides direct access to exhaustive technical documentation and the corresponding Kaggle execution environment.
+19 competitions, 27 notebooks, 3 medals
+(0 gold, 0 silver, 3 bronze).
+Every folder carries the notebook and a write-up of the approach.
 
-| <div align="center">#</div> | <div align="center">Competition Portfolio</div> | <div align="center">Medal</div> | <div align="center">Domain</div> | <div align="center">Technical Methodology</div> | <div align="center">Documentation</div> | <div align="center">Environment</div> |
-| :---: | :--- | :---: | :--- | :--- | :---: | :---: |
-| 1 | **AI Mathematical Olympiad** | - | <ul><li>Mathematics</li><li>NLP</li><li>LLM</li></ul> | <ul><li>Self-Correction</li><li>Symbolic Computation</li><li>Agentic Inference</li></ul> | [Analysis](./Competitions/AI%20Mathematical%20Olympiad/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/aimo-diagnostics-inference) |
-| 2 | **Are You A Robot?** | 1/8 | <ul><li>NLP</li><li>Classification</li></ul> | <ul><li>Stylometric Analysis</li><li>Gaussian Mixture Models</li><li>TF-IDF</li></ul> | [Analysis](./Competitions/Are%20You%20A%20Robot/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/are-you-a-robot) |
-| 3 | **BirdCLEF+ 2026** | - | <ul><li>Bioacoustics</li><li>Deep Learning</li><li>Time Series</li></ul> | <ul><li>Perch v2 Model Fusion</li><li>TF 2.20 Hybrid Setup</li><li>Bayesian Inference</li></ul> | [Analysis](./Competitions/BirdCLEF%2B%202026/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/birdclef-2026-perch-v2-soundscape-inference) |
-| 4 | **CS Week Codeathon AIML (Easy Level)** | - | <ul><li>Education</li><li>Tabular Data</li></ul> | <ul><li>EDA</li><li>Feature Engineering</li><li>Regression</li></ul> | [Analysis](./Competitions/CS%20Week%20Codeathon%20AIML%20%28Easy%20Level%29/README.md)/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/student-final-score-prediction-with-eda-and-fe) |
-| 5 | **Connect X** | <img src="Achievements/Medals/Bronze Medal.png" width="22" title="Bronze Medal (Mar 6, 2026)"> | <ul><li>Game Theory</li><li>Simulation</li></ul> | <ul><li>Minimax</li><li>Alpha-Beta Pruning</li><li>Heuristics</li><li>Move Ordering</li></ul> | [Analysis](./Competitions/Connect%20X/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/connectx-minimax-alpha-beta-agent) |
-| 6 | **English Scoring - Corrected Ver** | - | <ul><li>English Proficiency</li><li>NLP</li></ul> | <ul><li>Text Vectorization</li><li>Regression Analysis</li></ul> | [Analysis](./Competitions/English%20Scoring%20-%20Corrected%20Ver/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/english-scoring-regression) |
-| 7 | **Evading AI Detection** | 1/3 | <ul><li>NLP</li><li>Generative AI</li></ul> | <ul><li>Activation Steering</li><li>Sparse Autoencoders</li><li>Latent Feature Suppression</li></ul> | [Analysis](./Competitions/Evading%20AI%20Detection/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/evading-ai-text-detection) |
-| 8 | **GOSIM Spotlight 2026: Frontier Creators** | - | <ul><li>Interpretability</li><li>Uncertainty Mapping</li><li>LLM</li></ul> | <ul><li>Logit Extraction</li><li>Probability Tiers</li><li>Entropy Visualization</li></ul> | [Analysis](./Competitions/GOSIM%20Spotlight%202026%20-%20Frontier%20Creators/README.md) | [Notebook](./Competitions/GOSIM%20Spotlight%202026%20-%20Frontier%20Creators/ai-hallucination-visualizer.ipynb) |
-| 9 | **Harmonizing the Data of your Data** | - | <ul><li>Scientific Proteomics</li><li>NLP</li></ul> | <ul><li>Rule-based Extraction</li><li>Ontology Normalization</li></ul> | [Analysis](./Competitions/Harmonizing%20the%20Data%20of%20your%20Data/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/sdrf-metadata-extraction-baseline) |
-| 10 | **Hedge fund - Time series forecasting** | - | <ul><li>Financial Markets</li><li>Time Series</li></ul> | <ul><li>LightGBM Ensembles</li><li>Memory Optimization</li><li>Weighted RMSE</li><li>Rolling Validation</li></ul> | [Analysis](./Competitions/Hedge%20fund%20-%20Time%20series%20forecasting/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/hedge-fund-time-series-forecasting) |
-| 11 | **House Prices - Advanced Regression Techniques** | - | <ul><li>Tabular Data</li><li>Regression</li></ul> | <ul><li>Deterministic Record Linkage</li><li>Normalization</li><li>Data Alignment</li></ul> | [Analysis](./Competitions/House%20Prices%20-%20Advanced%20Regression%20Techniques/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/house-prices-deterministic-record-linkage) |
-| 12 | **LLM Classification** | - | <ul><li>LLM Preference</li><li>Ensemble Inference</li></ul> | <ul><li>Gemma-2-9B</li><li>Llama-3-8B</li><li>Pipeline Parallelism</li><li>Logit Interpolation</li></ul> | [Analysis](./Competitions/LLM%20Classification%20Finetuning/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/llm-classification-inference) |
-| 13 | **Measuring Progress Toward AGI** | - | <ul><li>Attention</li><li>Cognitive Control</li><li>LLM</li></ul> | <ul><li>Salient Distractor Injection</li><li>Selective Attention</li><li>SDK Benchmarking</li></ul> | [Analysis](./Competitions/Measuring%20Progress%20Toward%20AGI%20-%20Cognitive%20Abilities/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/agi-attention-salient-distractor-benchmark) |
-| 14 | **Petals to the Metal** | - | <ul><li>Computer Vision</li><li>Deep Learning</li></ul> | <ul><li>Tensor Processing Units (TPU)</li><li>Image Classification</li></ul> | [Analysis](./Competitions/Petals%20to%20the%20Metal%20-%20Flower%20Classification%20on%20TPU/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/tpu-flower-classification-advanced-ensemble) |
-| 15 | **Predict Customer Churn** | <img src="Achievements/Medals/Bronze Medal.png" width="22" title="Bronze Medal (Mar 20, 2026)"> | <ul><li>Binary Classification</li><li>Tabular Data</li></ul> | <ul><li>XGBoost</li><li>CatBoost</li><li>LightGBM</li><li>Optuna</li></ul> | [Analysis](./Competitions/Predict%20Customer%20Churn/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/customer-churn-prediction-121-fe-20-cv-stacking) |
-| 16 | **Stanford RNA 3D Folding** | - | <ul><li>Structural Biology</li><li>Biophysics</li></ul> | <ul><li>Hybrid TBM + Protenix-v1</li><li>Template-Based Modeling (TBM)</li><li>Chunked Inference</li><li>Kabsch Stitching</li></ul> | [Analysis](./Competitions/Stanford%20RNA%203D%20Folding%20Part%202/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/stanford-rna-3d-folding-part-2-tbm-protenix-v1) |
-| 17 | **Student Study Hours to CGPA Prediction** | - | <ul><li>Education</li><li>Regression</li></ul> | <ul><li>Polynomial Expansion</li><li>Ridge/Lasso</li><li>K-Fold CV</li><li>MSE Optimization</li></ul> | [Analysis](./Competitions/Student%20Study%20Hours%20to%20CGPA%20Prediction/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/student-study-hours-to-cgpa-prediction) |
-| 18 | **Titanic** | <img src="Achievements/Medals/Bronze Medal.png" width="22" title="Bronze Medal (Mar 6, 2026)"> | <ul><li>Classification</li><li>Forensic Analysis</li></ul> | <ul><li>Deterministic Record Linkage</li><li>Normalization</li><li>Data Alignment</li></ul> | [Analysis](./Competitions/Titanic%20-%20Machine%20Learning%20from%20Disaster/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/titanic-passenger-survival-prediction) |
-| 19 | **Triagegeist** | - | <ul><li>Clinical Informatics</li><li>Decision Support</li></ul> | <ul><li>Hierarchical Ensemble</li><li>LightGBM + CatBoost</li><li>Hemodynamic Feature Science</li><li>Uncertainty-Aware Logic</li></ul> | [Analysis](./Competitions/Triagegeist/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/triagegeist-cdss-multi-tier-acuity-forecasting) |
-
----
-
-<!-- CERTIFICATIONS -->
-<a name="certifications"></a>
-## Course Certifications
-
-A curated collection of 17 professional certifications awarded by Kaggle, covering the full spectrum of data science and machine learning.
-
-> [!NOTE]
-> **[View All 17 Certifications](./Kaggle%20Courses/README.md)**
-
-| Curricular Category | Professional Certification |
-| :--- | :--- |
-| **Foundation** | <ul><li>[Intro to Programming](./Kaggle%20Courses/01_Intro_to_Programming.png)</li><li>[Python](./Kaggle%20Courses/02_Python.png)</li><li>[Intro to SQL](./Kaggle%20Courses/08_Intro_to_SQL.png)</li><li>[Advanced SQL](./Kaggle%20Courses/09_Advanced_SQL.png)</li></ul> |
-| **Machine Learning** | <ul><li>[Intro to ML](./Kaggle%20Courses/03_Intro_to_Machine_Learning.png)</li><li>[Intermediate ML](./Kaggle%20Courses/05_Intermediate_Machine_Learning.png)</li><li>[Feature Engineering](./Kaggle%20Courses/07_Feature_Engineering.png)</li><li>[ML Explainability](./Kaggle%20Courses/16_Machine_Learning_Explainability.png)</li></ul> |
-| **Applied Analytics** | <ul><li>[Pandas](./Kaggle%20Courses/04_Pandas.png)</li><li>[Data Visualization](./Kaggle%20Courses/06_Data_Visualization.png)</li><li>[Data Cleaning](./Kaggle%20Courses/13_Data_Cleaning.png)</li></ul> |
-| **Specialization** | <ul><li>[Deep Learning](./Kaggle%20Courses/10_Intro_to_Deep_Learning.png)</li><li>[Computer Vision](./Kaggle%20Courses/11_Computer_Vision.png)</li><li>[Time Series](./Kaggle%20Courses/12_Time_Series.png)</li><li>[Geospatial Analysis](./Kaggle%20Courses/15_Geospatial_Analysis.png)</li></ul> |
-| **Advanced Theory** | <ul><li>[Game AI & RL](./Kaggle%20Courses/17_Intro_to_Game_AI_and_Reinforcement_Learning.png)</li><li>[AI Ethics](./Kaggle%20Courses/14_Intro_to_AI_Ethics.png)</li></ul> |
+| # | Competition | Notebooks | Medal | Kaggle |
+| :---: | :--- | :---: | :---: | :---: |
+| 1 | [**AI Mathematical Olympiad**](./Competitions/AI%20Mathematical%20Olympiad/README.md)<br><sub>A modular agentic inference framework utilizing RAG-backed symbolic computation and LaTeX-aware text diagnostics.</sub> | 2 |  | [Open](https://www.kaggle.com/code/ameythakur20/aimo-diagnostics-inference) |
+| 2 | [**Are You A Robot?**](./Competitions/Are%20You%20A%20Robot/README.md)<br><sub>Identifying AI-Generated Discourse through Stochastic Analysis</sub> | 1 |  | [Open](https://www.kaggle.com/code/ameythakur20/are-you-a-robot) |
+| 3 | [**BirdCLEF+ 2026**](./Competitions/BirdCLEF%2B%202026/README.md)<br><sub>A high-performance bioacoustic pipeline utilizing Perch v2 architecture and Bayesian model fusion for soundscape inference.</sub> | 2 |  | [Open](https://www.kaggle.com/code/ameythakur20/birdclef-2026-perch-v2-soundscape-inference) |
+| 4 | [**CS Week Codeathon AIML (Easy Level)**](./Competitions/CS%20Week%20Codeathon%20AIML%20%28Easy%20Level%29/README.md)<br><sub>A predictive modeling approach using Exploratory Data Analysis (EDA) and Feature Engineering (FE) to forecast academic performance.</sub> | 1 |  | [Open](https://www.kaggle.com/code/ameythakur20/student-final-score-prediction-with-eda-and-fe) |
+| 5 | [**Connect X**](./Competitions/Connect%20X/README.md)<br><sub>Connect your checkers in a row before your opponent!</sub> | 1 | 🥉 | [Open](https://www.kaggle.com/code/ameythakur20/connectx-minimax-alpha-beta-agent) |
+| 6 | [**English Scoring - Corrected Ver**](./Competitions/English%20Scoring%20-%20Corrected%20Ver/README.md)<br><sub>A predictive modeling approach using structured text features and ensemble regression to forecast student performance across seven scoring dimensions.</sub> | 1 |  | [Open](https://www.kaggle.com/code/ameythakur20/english-scoring-regression) |
+| 7 | [**Evading AI-Generated Text Detection**](./Competitions/Evading%20AI%20Detection/README.md)<br><sub>Activation Steering and Lexical Variance for Detection Evasion</sub> | 1 |  | [Open](https://www.kaggle.com/code/ameythakur20/evading-ai-text-detection) |
+| 8 | [**AI Hallucination Visualizer**](./Competitions/GOSIM%20Spotlight%202026%20-%20Frontier%20Creators/README.md)<br><sub>A diagnostic pipeline for quantifying and visualizing stochastic uncertainty in LLMs using GPT-2 token-level probability analysis.</sub> | 1 |  | [Open](https://www.kaggle.com/code/architkonde/ai-hallucination-visualizer) |
+| 9 | [**Harmonizing the Data of your Data**](./Competitions/Harmonizing%20the%20Data%20of%20your%20Data/README.md)<br><sub>A predictive modeling approach using high-precision rule-based extraction and ontology normalization to structure scientific proteomics metadata.</sub> | 2 |  | [Open](https://www.kaggle.com/code/ameythakur20/sdrf-metadata-extraction-baseline) |
+| 10 | [**Hedge Fund - Time Series Forecasting**](./Competitions/Hedge%20fund%20-%20Time%20series%20forecasting/README.md)<br><sub>Optimizing high-frequency investment signals through gradient boosted ensembles and multi-horizon temporal validation.</sub> | 1 |  | [Open](https://www.kaggle.com/code/ameythakur20/hedge-fund-time-series-forecasting) |
+| 11 | [**House Prices**](./Competitions/House%20Prices%20-%20Advanced%20Regression%20Techniques/README.md)<br><sub>A state-of-the-art regression pipeline utilizing multi-model stacking, domain-driven feature science, and RMSLE-optimized ensembling.</sub> | 1 |  | [Open](https://www.kaggle.com/code/ameythakur20/house-prices-deterministic-record-linkage) |
+| 12 | [**LLM Classification Finetuning**](./Competitions/LLM%20Classification%20Finetuning/README.md)<br><sub>Ensembled Pipeline Inference for Human Preference Classification</sub> | 1 |  | [Open](https://www.kaggle.com/code/ameythakur20/llm-classification-inference) |
+| 13 | [**Attention Span**](./Competitions/Measuring%20Progress%20Toward%20AGI%20-%20Cognitive%20Abilities/README.md)<br><sub>Evaluating Selective Attention and Distractor Vulnerability in Frontier LLMs.</sub> | 1 |  | [Open](https://www.kaggle.com/code/ameythakur20/agi-attention-salient-distractor-benchmark) |
+| 14 | [**Petals to the Metal - Flower Classification on TPU**](./Competitions/Petals%20to%20the%20Metal%20-%20Flower%20Classification%20on%20TPU/README.md)<br><sub>Macro F1 Maximization through Distributed Dual-Stream Architectures</sub> | 1 |  | [Open](https://www.kaggle.com/code/ameythakur20/tpu-flower-classification-advanced-ensemble) |
+| 15 | [**Predict Customer Churn**](./Competitions/Predict%20Customer%20Churn/README.md)<br><sub>Playground Series - Season 6 Episode 3</sub> | 6 | 🥉 | [Open](https://www.kaggle.com/code/ameythakur20/customer-churn-prediction-121-fe-20-cv-stacking) |
+| 16 | [**Stanford RNA 3D Folding Part 2**](./Competitions/Stanford%20RNA%203D%20Folding%20Part%202/README.md)<br><sub>Structural Biology Pipeline Optimization</sub> | 1 |  | [Open](https://www.kaggle.com/code/ameythakur20/stanford-rna-3d-folding-part-2-tbm-protenix-v1) |
+| 17 | [**Student Study Hours to CGPA Prediction**](./Competitions/Student%20Study%20Hours%20to%20CGPA%20Prediction/README.md)<br><sub>Predict academic performance utilizing polynomial regression and regularized ensembles.</sub> | 1 |  | [Open](https://www.kaggle.com/code/ameythakur20/student-study-hours-to-cgpa-prediction) |
+| 18 | [**Titanic - Machine Learning from Disaster**](./Competitions/Titanic%20-%20Machine%20Learning%20from%20Disaster/README.md)<br><sub>Start here! Predict survival on the Titanic and get familiar with ML basics</sub> | 1 | 🥉 | [Open](https://www.kaggle.com/code/ameythakur20/titanic-passenger-survival-prediction) |
+| 19 | [**Triagegeist**](./Competitions/Triagegeist/README.md)<br><sub>A robust three-tier clinical decision support system utilizing a blended meta-ensemble and uncertainty-aware safety logic for ESI triage.</sub> | 1 |  | [Open](https://www.kaggle.com/code/ameythakur20/triagegeist-cdss-multi-tier-acuity-forecasting) |
 
 ---
 
-<!-- STRUCTURE -->
-<a name="project-structure"></a>
-## Project Structure
+<a name="achievements"></a>
+## Achievements
 
-```python
-├── docs/                                           # Kaggle Assets
-│
-├── Badges/                                         # Earned Kaggle Badges (41)
-│   ├── Certificates/                               # Badge Certificate Images
-│   └── README.md                                   # Badge Portfolio
-│
-├── BirdCLEF+ 2026/                                 # Bioacoustics: Bird Call Classification
-│   ├── birdclef-2026-perch-v2-bayesian-fusion.ipynb # Verified Notebook Solution
-│   └── bc26-tensorflow-2-20-0-setup.ipynb          # Environment Setup
-│
-├── Medals/                                         # Competition Medals
-├── Tiers/                                          # Kaggle Community Tiers
-│
-├── Kaggle Courses/                                 # Professional Certifications (17)
-│   └── README.md                                   # Certification Portfolio
-│
-├── Kaggle Toolbox/                                 # Production Utility Library
-│   ├── kaggle_toolbox.py                           # Core Utility Functions
-│   └── kaggle-toolbox-demo.ipynb                   # Library Demonstration
-│
-├── AI Mathematical Olympiad/                       # NLP: Mathematical Reasoning
-│   ├── aimo-diagnostics-inference.ipynb            # Verified Notebook Solution
-│   └── aimo-setup.ipynb                            # Environment Setup
-│
-├── Are You A Robot/                                # NLP: Multi-Task Essay Analysis
-│   ├── README.md                                   # Technical Analysis
-│   └── are_you_a_robot.ipynb                       # Verified Notebook Solution
-│
-├── CS Week Codeathon AIML (Easy Level)/            # Education: Academic Performance
-│   ├── README.md                                   # Technical Analysis
-│   └── student-final-score-prediction-with-eda-and-fe.ipynb # Verified Notebook Solution
-│
-├── Connect X/                                      # Simulation: Connect Four Variant
-│   ├── README.md                                   # Technical Analysis
-│   └── connectx-minimax-alpha-beta-agent.ipynb     # Verified Notebook Solution
-│
-├── English Scoring - Corrected Ver/                # NLP: English Language Proficiency
-│   └── english-scoring-regression.ipynb            # Verified Notebook Solution
-│
-├── Evading AI Detection/                           # NLP: Generative AI & Steering
-│   ├── README.md                                   # Technical Analysis
-│   └── evading_ai_text_detection.ipynb             # Verified Notebook Solution
-│
-├── GOSIM Spotlight 2026 - Frontier Creators/       # Interpretability: Uncertainty Mapping
-│   ├── README.md                                   # Technical Analysis
-│   └── ai-hallucination-visualizer.ipynb           # Verified Notebook Solution
-│
-├── Harmonizing the Data of your Data/              # Proteomics: SDRF Metadata Extraction
-│   ├── README.md                                   # Technical Analysis
-│   ├── sdrf-metadata-extraction-baseline.ipynb     # Baseline Notebook Solution
-│   └── harmonizing-the-data-of-your-data.ipynb     # Verified Notebook Solution
-│
-├── Hedge fund - Time series forecasting/           # Financial Markets: Optimization
-│   ├── README.md                                   # Technical Analysis
-│   └── hedge-fund-time-series-forecasting.ipynb    # Verified Notebook Solution
-│
-├── House Prices - Advanced Regression Techniques/  # Tabular Data: Regression
-│   └── house-prices-deterministic-record-linkage.ipynb # Verified Notebook Solution
-│
-├── LLM Classification Finetuning/                  # LLM Preference: Chatbot Arena
-│   ├── README.md                                   # Technical Analysis
-│   └── llm_classification_inference.ipynb          # Verified Notebook Solution
-│
-├── Measuring Progress Toward AGI - Cognitive Abilities/ # Attention: Salient Distractors
-│   ├── README.md                                   # Technical Analysis
-│   ├── attention_dataset.csv                       # Benchmark Dataset
-│   └── agi_attention_salient_distractor_benchmark.ipynb # Verified Notebook Solution
-│
-├── Petals to the Metal - Flower Classification on TPU/ # Computer Vision: Deep Learning
-│   ├── README.md                                   # Technical Analysis
-│   └── tpu-flower-classification-advanced-ensemble.ipynb # Verified Notebook Solution
-│
-├── Predict Customer Churn/                         # Binary Classification: Tabular Data
-│   ├── README.md                                   # Technical Analysis
-│   ├── predict-customer-churn-xgb-catboost-lgbm-optuna.ipynb # Verified Notebook Solution
-│   ├── customer-churn-prediction-gradient-boosting.ipynb # Gradient Boosting Solution
-│   ├── customer-churn-pseudo-labeled-xgboost-ensemble.ipynb # Pseudo-Labeling Strategy
-│   ├── predict-customer-churn-xgb-catboost-ensemble.ipynb # XGB-CatBoost Ensemble
-│   └── customer-churn-prediction-121-fe-20-cv-stacking.ipynb # Stacked Ensemble Strategy
-│
-├── Stanford RNA 3D Folding Part 2/                 # Structural Biology: Biophysics
-│   ├── README.md                                   # Technical Analysis
-│   └── stanford-rna-3d-folding-part-2-tbm-protenix-v1.ipynb # Verified Notebook Solution
-│
-├── Student Study Hours to CGPA Prediction/         # Education: Optimized Regression
-│   ├── README.md                                   # Technical Analysis
-│   └── student-study-hours-to-cgpa-prediction.ipynb # Verified Notebook Solution
-│
-├── Titanic - Machine Learning from Disaster/       # Classification: Forensic Analysis
-│   ├── README.md                                   # Technical Analysis
-│   └── titanic-passenger-survival-prediction.ipynb # Verified Notebook Solution
-│
-├── Triagegeist/                                    # Clinical: Hierarchical CDSS
-│   ├── README.md                                   # Technical Analysis
-│   └── Triagegeist_Clinical_Decision_Support_via_Multi_Tier_Acuity_Forecasting.ipynb # Verified Notebook Solution
-│
-├── LICENSE                                         # CC BY 4.0 (Documentation)
-├── LICENSE-MIT                                     # MIT License (Source Code)
-├── SECURITY.md                                     # Security Policy & Dual-Licensing
-├── CITATION.cff                                    # Repository Citation Metadata
-├── codemeta.json                                   # Repository Software Metadata
-└── README.md                                       # Master Documentation Portal
+<div align="center">
+
+| [Badges](Achievements/Badges/README.md) | [Medals](Achievements/Medals) | [Tiers](Achievements/Tiers) |
+| :---: | :---: | :---: |
+| 41 earned, each with its certificate | Awarded for competition placement | Progression through the Kaggle ranks |
+| <img src="Achievements/Badges/Competitor.svg" width="46"> | <img src="Achievements/Medals/Bronze Medal.png" width="46"> | <img src="Achievements/Tiers/Expert.png" width="46"> |
+
+</div>
+
+---
+
+<a name="courses"></a>
+## Courses
+
+Seventeen Kaggle Learn courses completed, from introductory programming through
+to computer vision, time series and machine learning explainability. Every
+certificate is stored with the course it belongs to.
+
+<div align="center">
+
+  **[Browse all 17 certificates →](Kaggle%20Courses/README.md)**
+
+</div>
+
+---
+
+<a name="toolbox"></a>
+## Toolbox
+
+[`Kaggle Toolbox`](Kaggle%20Toolbox/README.md) is the helper module the
+notebooks share: the utilities that would otherwise be pasted into the top of
+every one of them. It ships with a demo notebook and a tutorial script.
+
+---
+
+<a name="structure"></a>
+## Structure
+
+```
+.
+├── Competitions/                    # One folder per competition, notebook and write-up
+│   ├── AI Mathematical Olympiad/
+│   ├── Are You A Robot/
+│   ├── BirdCLEF+ 2026/
+│   └── ... 16 more
+├── Achievements/
+│   ├── Badges/                      # Every earned badge, with its certificate
+│   ├── Medals/                      # Competition medal artwork
+│   └── Tiers/                       # Progression tier artwork
+├── Kaggle Courses/                  # Course certificates
+├── Kaggle Toolbox/                  # Shared helper module used across notebooks
+├── docs/                            # Repository imagery
+├── CITATION.cff                     # How to cite this work
+├── codemeta.json                    # Machine-readable project metadata
+├── LICENSE                          # CC BY 4.0, for written material
+└── LICENSE-MIT                      # MIT, for code
 ```
 
 ---
 
-<!-- USAGE GUIDELINES -->
-<a name="usage-guidelines"></a>
-## Usage Guidelines
+<a name="using-this-repository"></a>
+## Using this repository
 
-This repository is openly shared to support learning and knowledge exchange across the academic community.
+Each competition folder is self-contained. Open its `README.md` for the write-up
+and the notebook alongside it for the implementation, or use the **Open in
+Kaggle** badge to run it there with the data already attached.
 
-**For Students**  
-Use this project as reference material for understanding **Data Science Pipelines**, **Feature Engineering**, and **Model Optimization** workflows. The source code and notebooks are available for study to facilitate self-paced learning and exploration of **Python-based competition logic and verified solutions**.
-
-**For Educators**  
-This repository may serve as a practical laboratory example or supplementary teaching resource for **Statistical Modeling**, **Predictive Analytics**, and **Algorithmic Decision Making** courses. Attribution is appreciated when utilizing these curated datasets and solutions.
-
-**For Researchers**  
-The documentation and structured approach may provide insights into **Academic Project Organization**, **Reproducible Research Environments**, and **State-of-the-Art implementation patterns** across diverse competitive domains.
+> [!IMPORTANT]
+> Most notebooks depend on Kaggle datasets attached in the notebook environment
+> and on competition data that cannot be redistributed here. They are written to
+> run on Kaggle. Cloning the repository gives you the code and the reasoning,
+> not a runnable environment.
 
 ---
 
-
-<!-- LICENSE -->
 <a name="license"></a>
 ## License
 
-This repository and all its creative and technical assets are made available under a **Dual-Licensing** framework. The **Source Code** and associated computational logic are governed by the **MIT License**, whereas all **Technical Documentation** and scholarly commentary are released under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
-
-Refer to the [LICENSE-MIT](LICENSE-MIT) and [LICENSE](LICENSE) files for complete legal terms.
-
-> [!NOTE]
-> **Summary**: You are free to share and adapt this content for any purpose, even commercially, as long as you provide appropriate attribution to the original author.
+Written material, including every README and write-up, is released under
+[Creative Commons Attribution 4.0 International](LICENSE). Code, including the
+notebooks and the toolbox, is released under the [MIT License](LICENSE-MIT).
 
 Copyright © 2026 Amey Thakur
 
 ---
 
-<!-- ABOUT -->
-<a name="about-this-repository"></a>
-## About This Repository
-
-**Created & Maintained by**: [Amey Thakur](https://github.com/Amey-Thakur)
-
-This project features a collection of verified solutions for Kaggle competitions. It represents a personal exploration into **Machine Learning**, **Game Theory**, and **Data Engineering**.
-
-**Connect:** [Kaggle](https://www.kaggle.com/ameythakur20) &nbsp;·&nbsp; [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/amey-thakur)
-
-### Acknowledgments
-
-**Platform**: [Kaggle](https://www.kaggle.com/)  
-**Domain**: Competitive Data Science & Machine Learning  
-
-Grateful acknowledgment to **Kaggle** for providing the infrastructure, datasets, and computational resources that make this continuous learning environment possible.
-
-Special thanks to the **fellow Kagglers** and the global data science community. The open-source notebooks, robust discussions, and competitive algorithms provide invaluable insights and elevate the standard of every competition.
-
----
-
 <div align="center">
 
-  [↑ Back to Top](#kaggle-competitions)
+**[Kaggle Profile](https://www.kaggle.com/ameythakur20)** &nbsp;·&nbsp;
+**[Competitions](#competitions)** &nbsp;·&nbsp;
+**[Achievements](#achievements)** &nbsp;·&nbsp;
+**[Courses](#courses)**
 
-  [Author](#author) &nbsp;·&nbsp; [Overview](#overview) &nbsp;·&nbsp; [Toolbox](#kaggle-toolbox) &nbsp;·&nbsp; [Competitions](#competitions-index) &nbsp;·&nbsp; [Certifications](#certifications) &nbsp;·&nbsp; [Structure](#project-structure) &nbsp;·&nbsp; [Usage Guidelines](#usage-guidelines) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [About](#about-this-repository) &nbsp;·&nbsp; [Acknowledgments](#acknowledgments)
-
-  <br>
-
-  🏆 **[Kaggle Profile](https://www.kaggle.com/ameythakur20)**
-
-  ---
-
-  ### 🎓 [Computer Engineering Repository](https://github.com/Amey-Thakur/COMPUTER-ENGINEERING)
-
-  **Computer Engineering (B.E.) - University of Mumbai**
-
-  *Semester-wise curriculum, laboratories, projects, and academic notes.*
+<sub>[↑ Back to top](#kaggle-competitions)</sub>
 
 </div>
-
