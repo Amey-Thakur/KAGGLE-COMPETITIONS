@@ -11,6 +11,12 @@
 
 <br>
 
+**In this folder**
+
+[`kaggle_toolbox.py`](./kaggle_toolbox.py) &nbsp;·&nbsp; [`kaggle-toolbox-demo.ipynb`](./kaggle-toolbox-demo.ipynb) &nbsp;·&nbsp; [`kaggle_toolbox_demo_tutorial.py`](./kaggle_toolbox_demo_tutorial.py)
+
+<br>
+
 [Repository home](../README.md) &nbsp;·&nbsp; [Competitions](../README.md#competitions) &nbsp;·&nbsp; [Achievements](../README.md#achievements) &nbsp;·&nbsp; [Kaggle Profile](https://www.kaggle.com/ameythakur20)
 
 </div>
