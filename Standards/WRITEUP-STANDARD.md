@@ -49,7 +49,8 @@ Three readers must be served by the same page:
 ## The template
 
 Every competition README follows this frame exactly. The header and footer are
-fixed so that nineteen folders read as one work rather than nineteen.
+fixed so that the folders read as one work rather than as a pile of separate
+pages.
 
 ```markdown
 <div align="center">
