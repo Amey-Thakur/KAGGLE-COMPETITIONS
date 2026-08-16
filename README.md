@@ -23,7 +23,6 @@
 [Courses](#courses) &nbsp;·&nbsp;
 [Toolbox](#toolbox) &nbsp;·&nbsp;
 [Structure](#structure) &nbsp;·&nbsp;
-[For agents](#for-agents) &nbsp;·&nbsp;
 [Using this repository](#using-this-repository) &nbsp;·&nbsp;
 [License](#license)
 
@@ -234,10 +233,25 @@ certificate is stored with the course it belongs to.
 
 </div>
 
-The helper module the notebooks share: the utilities that would otherwise be
-pasted into the top of every one of them, covering reproducibility, memory,
-validation, cross-validation and environment diagnostics. It ships with a demo
-notebook and a tutorial script.
+The helper module the notebooks share, so the same utilities are not pasted into
+the top of every one of them. Each function is there because something went
+wrong without it.
+
+| Area | What it covers |
+| :--- | :--- |
+| **Reproducibility** | Locks every randomness source, including deterministic CUDA behaviour |
+| **Memory** | Downcasts each column to the smallest safe dtype before a kernel runs out of RAM |
+| **Data quality** | Missing-value reports, constant and duplicate column detection, correlation filtering |
+| **Submission safety** | Checks row count, column order, duplicate IDs and prediction range before an attempt is spent |
+| **Diagnostics** | Block timing, cross-validation summaries, hardware reporting and input path discovery |
+
+> [!TIP]
+> Kaggle caps how many submissions a day allows, and an invalid file still costs
+> one. Validating against the sample submission catches a wrong row count, a
+> renamed column or an out-of-range prediction while it is still free to fix.
+
+It ships with a demo notebook and a tutorial script.
+[**Full reference →**](Kaggle%20Toolbox/README.md)
 
 ---
 
@@ -253,36 +267,12 @@ notebook and a tutorial script.
 │   └── Tiers/           # Progression tier artwork
 ├── Kaggle Courses/      # Course certificates
 ├── Kaggle Toolbox/      # Shared helper module used across the notebooks
-├── Standards/           # How notebooks and write-ups are written, for humans and agents
 ├── docs/                # Repository imagery
 ├── CITATION.cff         # How to cite this work
 ├── codemeta.json        # Machine-readable project metadata
 ├── LICENSE              # CC BY 4.0, for written material
 └── LICENSE-MIT          # MIT, for code
 ```
-
----
-
-<a name="for-agents"></a>
-## For agents
-
-Every competition here is written to one standard, and that standard is written
-down rather than held in anyone's head. [`Standards/`](Standards/README.md) holds
-the whole of it: the prompt to give an agent, where files go, the exact badge
-colours, how a notebook is structured and commented, and how its write-up is
-written and made findable.
-
-```
-Read Standards/AGENTS.md and the two standards it links, then follow them exactly.
-Competition: <name>   URL: <link>   Goal: <what to build, and any constraint>
-```
-
-| Document | Covers |
-| :--- | :--- |
-| [Agent Toolkit](Standards/README.md) | What is in the folder and how to use it |
-| [AGENTS.md](Standards/AGENTS.md) | Layout, colours, fixed rules, verification |
-| [Notebook Standard](Standards/NOTEBOOK-STANDARD.md) | How the notebook is written |
-| [Write-up Standard](Standards/WRITEUP-STANDARD.md) | How the write-up is written |
 
 ---
 
