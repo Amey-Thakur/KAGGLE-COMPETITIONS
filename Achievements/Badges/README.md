@@ -7,6 +7,7 @@
 <br>
 
 [![Badges](https://img.shields.io/badge/Badges-41-BF3989)](https://www.kaggle.com/ameythakur20)
+[![Notebooks](https://img.shields.io/badge/Notebooks-Expert-8148FD?logo=kaggle&logoColor=white)](https://www.kaggle.com/ameythakur20/code)
 [![Kaggle](https://img.shields.io/badge/Kaggle-ameythakur20-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/ameythakur20)
 
 <br>

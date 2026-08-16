@@ -98,7 +98,7 @@ Returns a structured DataFrame with:
 
 Only includes columns with missing values.
 
-### Why this exists
+
 
 Standard outputs are not sortable or actionable. This function enables direct prioritization of missing data handling.
 
@@ -269,6 +269,18 @@ Further improvements can include:
 - support for deep learning workflows  
 
 These additions can further streamline competition workflows.
+
+---
+
+<div align="center">
+
+**Amey Thakur** &nbsp;·&nbsp; [Kaggle](https://www.kaggle.com/ameythakur20) &nbsp;·&nbsp; [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
+
+<br>
+
+[↑ Back to top](#kaggle-toolbox) &nbsp;·&nbsp; [← Repository home](../README.md)
+
+</div>
 
 ---
 

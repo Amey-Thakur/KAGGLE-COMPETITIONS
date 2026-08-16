@@ -118,6 +118,26 @@
 ---
 
 
+<div align="center">
+
+
+
+**The submission text as entered for Measuring Progress Toward AGI, Cognitive Abilities.**
+
+<br>
+
+[![Notebook](https://img.shields.io/badge/Notebook-Kaggle-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/code/ameythakur20/agi-attention-salient-distractor)
+[![Author](https://img.shields.io/badge/Author-Amey_Thakur-0969DA)](https://www.kaggle.com/ameythakur20)
+
+<br>
+
+[Repository home](../../README.md) &nbsp;·&nbsp; [Competitions](../../README.md#competitions) &nbsp;·&nbsp; [Achievements](../../README.md#achievements) &nbsp;·&nbsp; [Kaggle Profile](https://www.kaggle.com/ameythakur20)
+
+</div>
+
+---
+
+
 Attention Span: The "Needle in a Salient Haystack" Benchmark
 
 
@@ -157,7 +177,7 @@ The dataset forces the model to semantically comprehend the question, map it to 
 - **Validation Strictness:** We uppercase all responses to prevent case-sensitivity bypasses. The assertions heavily penalize "hedging." For example, if a model says: "Your pin is ACT-123, but you should also be aware of the URGENT DISTRACTOR DIS-999," it will fail the `assert_false(has_distractor)` test. True selective attention requires filtering the distractor completely from the output.
 - **Dataset Generation:** We wrote a custom Python script to procedurally randomize the placement of the distractor (before or after the needle) to control for positional bias.
 
-### Results, insights, and conclusions
+
 *Note: Execute the benchmark notebook on Kaggle to populate this section with actual model scores.*
 
 During our live baseline execution, **Gemini 2.5 Flash** completely failed the Salient Distractor benchmark, scoring only a **31% accuracy rate** (31/100 successful extractions). The model overwhelmingly abandoned the target code in favor of the salient distractor (69% failure rate), conclusively proving a massive vulnerability to high-salience text.
@@ -170,6 +190,18 @@ Independent Kaggle Researcher
 
 ### References & citations
 - Plomecka, M., et al. (2026). *Measuring Progress Toward AGI - Cognitive Framework*. Google DeepMind and Kaggle.
+
+---
+
+<div align="center">
+
+**Amey Thakur** &nbsp;·&nbsp; [Kaggle](https://www.kaggle.com/ameythakur20) &nbsp;·&nbsp; [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
+
+<br>
+
+[↑ Back to top](#competition-write-up) &nbsp;·&nbsp; [← Repository home](../../README.md)
+
+</div>
 
 ---
 
