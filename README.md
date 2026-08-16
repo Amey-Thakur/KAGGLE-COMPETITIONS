@@ -1,5 +1,7 @@
 <div align="center">
 
+<a href="https://www.kaggle.com/ameythakur20" title="Kaggle profile"><img src="docs/Kaggle.png" width="86" alt="Kaggle"></a>
+
 # Kaggle Competitions
 
 **Solutions, notebooks and write-ups from competitive data science, kept as they were worked.**
@@ -135,7 +137,7 @@ added.
 | 2 | [**Are You A Robot?**](./Competitions/Are%20You%20A%20Robot/README.md)<br><sub>Identifying AI-Generated Discourse through Stochastic Analysis</sub> |  | [Open](https://www.kaggle.com/code/ameythakur20/are-you-a-robot) |
 | 3 | [**BirdCLEF+ 2026**](./Competitions/BirdCLEF%2B%202026/README.md)<br><sub>A high-performance bioacoustic pipeline using Perch v2 architecture and Bayesian model fusion for soundscape inference.</sub> |  | [Open](https://www.kaggle.com/code/ameythakur20/birdclef-2026-perch-v2-soundscape-inference) |
 | 4 | [**CS Week Codeathon AIML (Easy Level)**](./Competitions/CS%20Week%20Codeathon%20AIML%20%28Easy%20Level%29/README.md)<br><sub>A predictive modeling approach using Exploratory Data Analysis (EDA) and Feature Engineering (FE) to forecast academic performance.</sub> |  | [Open](https://www.kaggle.com/code/ameythakur20/student-final-score-prediction-with-eda-and-fe) |
-| 5 | [**Connect X**](./Competitions/Connect%20X/README.md)<br><sub>Connect your checkers in a row before your opponent!</sub> | 🥉 | [Open](https://www.kaggle.com/code/ameythakur20/connectx-minimax-alpha-beta-agent) |
+| 5 | [**Connect X**](./Competitions/Connect%20X/README.md)<br><sub>Bronze medal</sub> | 🥉 | [Open](https://www.kaggle.com/code/ameythakur20/connectx-minimax-alpha-beta-agent) |
 | 6 | [**English Scoring - Corrected Ver**](./Competitions/English%20Scoring%20-%20Corrected%20Ver/README.md)<br><sub>A predictive modeling approach using structured text features and ensemble regression to forecast student performance across seven scoring dimensions.</sub> |  | [Open](https://www.kaggle.com/code/ameythakur20/english-scoring-regression) |
 | 7 | [**Evading AI-Generated Text Detection**](./Competitions/Evading%20AI%20Detection/README.md)<br><sub>Activation Steering and Lexical Variance for Detection Evasion</sub> |  | [Open](https://www.kaggle.com/code/ameythakur20/evading-ai-text-detection) |
 | 8 | [**AI Hallucination Visualizer**](./Competitions/GOSIM%20Spotlight%202026%20-%20Frontier%20Creators/README.md)<br><sub>A diagnostic pipeline for quantifying and visualizing stochastic uncertainty in LLMs using GPT-2 token-level probability analysis.</sub> |  | [Open](https://www.kaggle.com/code/architkonde/ai-hallucination-visualizer) |
@@ -145,10 +147,10 @@ added.
 | 12 | [**LLM Classification Finetuning**](./Competitions/LLM%20Classification%20Finetuning/README.md)<br><sub>Ensembled Pipeline Inference for Human Preference Classification</sub> |  | [Open](https://www.kaggle.com/code/ameythakur20/llm-classification-inference) |
 | 13 | [**Attention Span**](./Competitions/Measuring%20Progress%20Toward%20AGI%20-%20Cognitive%20Abilities/README.md)<br><sub>Evaluating Selective Attention and Distractor Vulnerability in Frontier LLMs.</sub> |  | [Open](https://www.kaggle.com/code/ameythakur20/agi-attention-salient-distractor-benchmark) |
 | 14 | [**Petals to the Metal - Flower Classification on TPU**](./Competitions/Petals%20to%20the%20Metal%20-%20Flower%20Classification%20on%20TPU/README.md)<br><sub>Macro F1 Maximization through Distributed Dual-Stream Architectures</sub> |  | [Open](https://www.kaggle.com/code/ameythakur20/tpu-flower-classification-advanced-ensemble) |
-| 15 | [**Predict Customer Churn**](./Competitions/Predict%20Customer%20Churn/README.md)<br><sub>Playground Series - Season 6 Episode 3</sub> | 🥉 | [Open](https://www.kaggle.com/code/ameythakur20/customer-churn-prediction-121-fe-20-cv-stacking) |
+| 15 | [**Predict Customer Churn**](./Competitions/Predict%20Customer%20Churn/README.md)<br><sub>Bronze medal</sub> | 🥉 | [Open](https://www.kaggle.com/code/ameythakur20/customer-churn-prediction-121-fe-20-cv-stacking) |
 | 16 | [**Stanford RNA 3D Folding Part 2**](./Competitions/Stanford%20RNA%203D%20Folding%20Part%202/README.md)<br><sub>Structural Biology Pipeline Optimization</sub> |  | [Open](https://www.kaggle.com/code/ameythakur20/stanford-rna-3d-folding-part-2-tbm-protenix-v1) |
 | 17 | [**Student Study Hours to CGPA Prediction**](./Competitions/Student%20Study%20Hours%20to%20CGPA%20Prediction/README.md)<br><sub>Predict academic performance using polynomial regression and regularized ensembles.</sub> |  | [Open](https://www.kaggle.com/code/ameythakur20/student-study-hours-to-cgpa-prediction) |
-| 18 | [**Titanic - Machine Learning from Disaster**](./Competitions/Titanic%20-%20Machine%20Learning%20from%20Disaster/README.md)<br><sub>Start here! Predict survival on the Titanic and get familiar with ML basics</sub> | 🥉 | [Open](https://www.kaggle.com/code/ameythakur20/titanic-passenger-survival-prediction) |
+| 18 | [**Titanic - Machine Learning from Disaster**](./Competitions/Titanic%20-%20Machine%20Learning%20from%20Disaster/README.md)<br><sub>Bronze medal</sub> | 🥉 | [Open](https://www.kaggle.com/code/ameythakur20/titanic-passenger-survival-prediction) |
 | 19 | [**Triagegeist**](./Competitions/Triagegeist/README.md)<br><sub>A reliable three-tier clinical decision support system using a blended meta-ensemble and uncertainty-aware safety logic for ESI triage.</sub> |  | [Open](https://www.kaggle.com/code/ameythakur20/triagegeist-cdss-multi-tier-acuity-forecasting) |
 
 ---
@@ -158,19 +160,17 @@ added.
 
 <div align="center">
 
-<img src="docs/Kaggle.png" width="120" alt="Kaggle">
-
 <img src="Achievements/Tiers/Expert.png" width="76" alt="Kaggle Expert tier">
 
 ### Notebooks Expert
 
-<img src="Achievements/Medals/Bronze%20Medal.png" width="26" alt="Bronze medal">
-<img src="Achievements/Medals/Bronze%20Medal.png" width="26" alt="Bronze medal">
-<img src="Achievements/Medals/Bronze%20Medal.png" width="26" alt="Bronze medal">
-<img src="Achievements/Medals/Bronze%20Medal.png" width="26" alt="Bronze medal">
-<img src="Achievements/Medals/Bronze%20Medal.png" width="26" alt="Bronze medal">
-<img src="Achievements/Medals/Bronze%20Medal.png" width="26" alt="Bronze medal">
-<img src="Achievements/Medals/Bronze%20Medal.png" width="26" alt="Bronze medal">
+<img src="Achievements/Medals/Bronze%20Medal.png" width="28" alt="Bronze medal">
+<img src="Achievements/Medals/Bronze%20Medal.png" width="28" alt="Bronze medal">
+<img src="Achievements/Medals/Bronze%20Medal.png" width="28" alt="Bronze medal">
+<img src="Achievements/Medals/Bronze%20Medal.png" width="28" alt="Bronze medal">
+<img src="Achievements/Medals/Bronze%20Medal.png" width="28" alt="Bronze medal">
+<img src="Achievements/Medals/Bronze%20Medal.png" width="28" alt="Bronze medal">
+<img src="Achievements/Medals/Bronze%20Medal.png" width="28" alt="Bronze medal">
 
 **7 bronze medals** &nbsp;·&nbsp; **highest rank 932** of 61,334
 
