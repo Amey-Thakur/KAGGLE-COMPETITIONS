@@ -15,6 +15,7 @@
   <br>
   <img src="Badges/1 Year on Kaggle.svg" width="50" title="1-Year on Kaggle (Sept 11, 2024)">
   <img src="Badges/2 Years on Kaggle.svg" width="50" title="2-Years on Kaggle (Sept 11, 2024)">
+  <img src="Badges/5 Years on Kaggle.svg" width="50" title="5-Years on Kaggle (Jul 5, 2026)">
   <img src="Badges/Competitor.svg" width="50" title="Competitor (Mar 16, 2026)">
   <img src="Badges/Getting Started Competitor.svg" width="50" title="Getting Started Competitor (Mar 3, 2026)">
   <img src="Badges/Research Competitor.svg" width="50" title="Research Competitor (Mar 25, 2026)">
@@ -24,6 +25,7 @@
   <img src="Badges/March Mania Competitor.svg" width="50" title="March Mania Competitor (Mar 16, 2026)">
   <img src="Badges/Code Submitter.svg" width="50" title="Code Submitter (Mar 18, 2026)">
   <img src="Badges/Submission Streak.svg" width="50" title="Submission Streak (Mar 29, 2026)">
+  <img src="Badges/Super Submission Streak.svg" width="50" title="Super Submission Streak (Apr 21, 2026)">
   <img src="Badges/Python Coder.svg" width="50" title="Python Coder (Sept 10, 2024)">
   <img src="Badges/R Coder.svg" width="50" title="R Coder (Sept 10, 2024)">
   <img src="Badges/R Markdown Coder.svg" width="50" title="R Markdown Coder (Mar 24, 2026)">
@@ -51,9 +53,7 @@
   <img src="Badges/Graduate.svg" width="50" title="Graduate (Mar 4, 2026)">
   <img src="Badges/7 Day Login Streak.svg" width="50" title="7-Day Login Streak (Feb 4, 2026)">
   <img src="Badges/30 Day Login Streak.svg" width="50" title="30-Day Login Streak (Feb 27, 2026)">
-  <img src="Badges/Super Submission Streak.svg" width="50" title="Super Submission Streak (Apr 21, 2026)">
   <img src="Badges/100 Day Login Streak.svg" width="50" title="100-Day Login Streak (May 7, 2026)">
-  <img src="Badges/5 Years on Kaggle.svg" width="50" title="5-Years on Kaggle (Jul 5, 2026)">
 </div>
 
 ---
