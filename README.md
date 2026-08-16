@@ -8,7 +8,7 @@
 
 [![Kaggle](https://img.shields.io/badge/Kaggle-ameythakur20-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/ameythakur20)
 [![Notebooks](https://img.shields.io/badge/Notebooks-Expert-8148FD?logo=kaggle&logoColor=white)](https://www.kaggle.com/ameythakur20/code)
-[![Medals](https://img.shields.io/badge/Medals-7_Bronze-CD7F32)](#achievements)
+[![Medals](https://img.shields.io/badge/Medals-7_Bronze-8E5B3D)](#achievements)
 [![Badges](https://img.shields.io/badge/Badges-Earned-BF3989)](Achievements/Badges/README.md)
 [![Courses](https://img.shields.io/badge/Courses-Kaggle_Learn-8250DF)](Kaggle%20Courses/README.md)
 [![Status](https://img.shields.io/badge/Status-Active-2EA043)](#competitions)
@@ -158,9 +158,17 @@ added.
 
 <div align="center">
 
-<img src="Achievements/Tiers/Expert.png" width="72">
+<img src="Achievements/Tiers/Expert.png" width="76" alt="Kaggle Expert tier">
 
 ### Notebooks Expert
+
+<img src="Achievements/Medals/Bronze%20Medal.png" width="26" alt="Bronze medal">
+<img src="Achievements/Medals/Bronze%20Medal.png" width="26" alt="Bronze medal">
+<img src="Achievements/Medals/Bronze%20Medal.png" width="26" alt="Bronze medal">
+<img src="Achievements/Medals/Bronze%20Medal.png" width="26" alt="Bronze medal">
+<img src="Achievements/Medals/Bronze%20Medal.png" width="26" alt="Bronze medal">
+<img src="Achievements/Medals/Bronze%20Medal.png" width="26" alt="Bronze medal">
+<img src="Achievements/Medals/Bronze%20Medal.png" width="26" alt="Bronze medal">
 
 **7 bronze medals** &nbsp;·&nbsp; **highest rank 932** of 61,334
 
