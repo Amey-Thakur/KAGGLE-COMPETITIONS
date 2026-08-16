@@ -246,17 +246,11 @@ wrong without it.
 | **Diagnostics** | Block timing, cross-validation summaries, hardware reporting and input path discovery |
 
 > [!IMPORTANT]
-> If you take two things from this file, take `seed_everything` and
-> `check_submission`. An unseeded run makes every comparison you draw that day
-> meaningless, and nothing warns you. An invalid submission spends one attempt
-> from a daily limit you cannot get back.
+> The failures that cost a competition never raise an exception: an unseeded run,
+> a dtype that quietly exhausts memory, a file rejected after it has already spent
+> an attempt.
 >
-> That is the pattern the rest of it follows. The expensive failures in a
-> competition are the quiet ones: a dtype that exhausts memory late in a fit, a
-> duplicated column that inflates a validation score, a correlation nobody
-> checked. None of them raise an exception, and all of them cost hours.
->
-> The functions are independent, so take what you need and leave the rest.
+> Seed before you compare. Validate before you submit.
 >
 > **Amey Thakur**
 
