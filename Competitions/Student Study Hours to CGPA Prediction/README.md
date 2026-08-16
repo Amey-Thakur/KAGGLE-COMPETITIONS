@@ -1,11 +1,24 @@
-# Student Study Hours to CGPA Prediction
-### Predict academic performance utilizing polynomial regression and regularized ensembles.
+<div align="center">
 
-[![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/student-study-hours-to-cgpa-prediction)
+# Student Study Hours to CGPA Prediction
+
+**Predict academic performance utilizing polynomial regression and regularized ensembles.**
+
+<br>
+
+[![Notebook](https://img.shields.io/badge/Notebook-Kaggle-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/code/ameythakur20/student-study-hours-to-cgpa-prediction) [![Author](https://img.shields.io/badge/Author-Amey_Thakur-0969DA)](https://www.kaggle.com/ameythakur20)
+
+<br>
+
+<a href="https://www.kaggle.com/code/ameythakur20/student-study-hours-to-cgpa-prediction"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open in Kaggle"></a>
+
+<br>
+
+[Competitions](../../README.md#competitions) &nbsp;·&nbsp; [Achievements](../../Achievements/Badges/README.md) &nbsp;·&nbsp; [Courses](../../Kaggle%20Courses/README.md) &nbsp;·&nbsp; [Kaggle Profile](https://www.kaggle.com/ameythakur20)
+
+</div>
 
 ---
-
-# Hello fellow Kagglers!
 
 This notebook presents a **robust regression framework** designed to predict student CGPA based on quantitative study metrics. The objective is to minimize the Mean Squared Error (MSE) by exploring the non-linear relationship between academic input (Study Hours) and performance output (CGPA).
 
@@ -104,14 +117,12 @@ Further research will focus on:
 
 ---
 
-### Amey Thakur
-
-[Kaggle](https://www.kaggle.com/ameythakur20) • [GitHub](https://github.com/Amey-Thakur)
-
----
-
 <div align="center">
 
-  [↑ Back to Top](#student-study-hours-to-cgpa-prediction) &nbsp;·&nbsp; [← Back to Home](../../README.md)
+**Amey Thakur** &nbsp;·&nbsp; [Kaggle](https://www.kaggle.com/ameythakur20) &nbsp;·&nbsp; [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
+
+<br>
+
+[↑ Back to top](#student-study-hours-to-cgpa-prediction) &nbsp;·&nbsp; [← Repository home](../../README.md)
 
 </div>

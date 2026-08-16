@@ -1,11 +1,24 @@
-# Petals to the Metal - Flower Classification on TPU
-### Macro F1 Maximization through Distributed Dual-Stream Architectures
+<div align="center">
 
-[![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/tpu-flower-classification-advanced-ensemble)
+# Petals to the Metal - Flower Classification on TPU
+
+**Macro F1 Maximization through Distributed Dual-Stream Architectures**
+
+<br>
+
+[![Notebook](https://img.shields.io/badge/Notebook-Kaggle-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/code/ameythakur20/tpu-flower-classification-advanced-ensemble) [![Author](https://img.shields.io/badge/Author-Amey_Thakur-0969DA)](https://www.kaggle.com/ameythakur20)
+
+<br>
+
+<a href="https://www.kaggle.com/code/ameythakur20/tpu-flower-classification-advanced-ensemble"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open in Kaggle"></a>
+
+<br>
+
+[Competitions](../../README.md#competitions) &nbsp;·&nbsp; [Achievements](../../Achievements/Badges/README.md) &nbsp;·&nbsp; [Courses](../../Kaggle%20Courses/README.md) &nbsp;·&nbsp; [Kaggle Profile](https://www.kaggle.com/ameythakur20)
+
+</div>
 
 ---
-
-# Hello fellow Kagglers!
 
 This notebook presents an **advanced TPU-based classification pipeline** for the *Petals to the Metal* competition. The objective is to maximize macro F1 score across **104 imbalanced flower classes** using a distributed training setup and a dual-architecture ensemble.
 
@@ -273,17 +286,14 @@ Further improvements can focus on:
 
 These directions can further improve classification performance and robustness.
 
-
----
-
-### Amey Thakur
-
-[Kaggle](https://www.kaggle.com/ameythakur20) • [GitHub](https://github.com/Amey-Thakur)
-
 ---
 
 <div align="center">
 
-  [↑ Back to Top](#petals-to-the-metal---flower-classification-on-tpu) &nbsp;·&nbsp; [← Back to Home](../../README.md)
+**Amey Thakur** &nbsp;·&nbsp; [Kaggle](https://www.kaggle.com/ameythakur20) &nbsp;·&nbsp; [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
+
+<br>
+
+[↑ Back to top](#petals-to-the-metal---flower-classification-on-tpu) &nbsp;·&nbsp; [← Repository home](../../README.md)
 
 </div>

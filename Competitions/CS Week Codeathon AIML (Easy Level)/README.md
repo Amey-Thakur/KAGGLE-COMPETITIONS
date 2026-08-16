@@ -1,11 +1,24 @@
-# CS Week Codeathon AIML (Easy Level): Student Final Score Prediction
-### A predictive modeling approach using Exploratory Data Analysis (EDA) and Feature Engineering (FE) to forecast academic performance.
+<div align="center">
 
-[![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/student-final-score-prediction-with-eda-and-fe)
+# CS Week Codeathon AIML (Easy Level): Student Final Score Prediction
+
+**A predictive modeling approach using Exploratory Data Analysis (EDA) and Feature Engineering (FE) to forecast academic performance.**
+
+<br>
+
+[![Notebook](https://img.shields.io/badge/Notebook-Kaggle-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/code/ameythakur20/student-final-score-prediction-with-eda-and-fe) [![Author](https://img.shields.io/badge/Author-Amey_Thakur-0969DA)](https://www.kaggle.com/ameythakur20)
+
+<br>
+
+<a href="https://www.kaggle.com/code/ameythakur20/student-final-score-prediction-with-eda-and-fe"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open in Kaggle"></a>
+
+<br>
+
+[Competitions](../../README.md#competitions) &nbsp;·&nbsp; [Achievements](../../Achievements/Badges/README.md) &nbsp;·&nbsp; [Courses](../../Kaggle%20Courses/README.md) &nbsp;·&nbsp; [Kaggle Profile](https://www.kaggle.com/ameythakur20)
+
+</div>
 
 ---
-
-# Hello fellow Kagglers!
 
 This notebook presents a student final score prediction pipeline built around **exploratory data analysis**, **target-focused feature engineering**, and **MAE-based regression comparison**.
 
@@ -502,14 +515,12 @@ Further improvements can be pursued through tighter feature selection, repeated-
 
 ---
 
-### Amey Thakur
-
-[Kaggle](https://www.kaggle.com/ameythakur20) • [GitHub](https://github.com/Amey-Thakur)
-
----
-
 <div align="center">
 
-  [↑ Back to Top](#cs-week-codeathon-aiml-easy-level-student-final-score-prediction) &nbsp;·&nbsp; [← Back to Home](../../README.md)
+**Amey Thakur** &nbsp;·&nbsp; [Kaggle](https://www.kaggle.com/ameythakur20) &nbsp;·&nbsp; [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
+
+<br>
+
+[↑ Back to top](#cs-week-codeathon-aiml-easy-level-student-final-score-prediction) &nbsp;·&nbsp; [← Repository home](../../README.md)
 
 </div>

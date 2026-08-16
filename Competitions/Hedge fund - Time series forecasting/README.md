@@ -1,11 +1,24 @@
-# Hedge Fund - Time Series Forecasting
-### Optimizing high-frequency investment signals through gradient boosted ensembles and multi-horizon temporal validation.
+<div align="center">
 
-[![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/hedge-fund-time-series-forecasting)
+# Hedge Fund - Time Series Forecasting
+
+**Optimizing high-frequency investment signals through gradient boosted ensembles and multi-horizon temporal validation.**
+
+<br>
+
+[![Notebook](https://img.shields.io/badge/Notebook-Kaggle-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/code/ameythakur20/hedge-fund-time-series-forecasting) [![Author](https://img.shields.io/badge/Author-Amey_Thakur-0969DA)](https://www.kaggle.com/ameythakur20)
+
+<br>
+
+<a href="https://www.kaggle.com/code/ameythakur20/hedge-fund-time-series-forecasting"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open in Kaggle"></a>
+
+<br>
+
+[Competitions](../../README.md#competitions) &nbsp;·&nbsp; [Achievements](../../Achievements/Badges/README.md) &nbsp;·&nbsp; [Courses](../../Kaggle%20Courses/README.md) &nbsp;·&nbsp; [Kaggle Profile](https://www.kaggle.com/ameythakur20)
+
+</div>
 
 ---
-
-# Hello fellow Kagglers!
 
 This notebook presents a **governed time-series forecasting framework** designed to predict market target variables within a high-noise hedge fund environment. The objective is to maximize predictive precision across four distinct temporal horizons ($1, 3, 10, 25$) while minimizing the **Weighted Root Mean Squared Error (WRMSE)**.
 
@@ -71,14 +84,12 @@ Discussion, experimentation, and alternative perspectives on the forecasting str
 
 ---
 
-### Amey Thakur
-
-[Kaggle](https://www.kaggle.com/ameythakur20) • [GitHub](https://github.com/Amey-Thakur)
-
----
-
 <div align="center">
 
-  [↑ Back to Top](#hedge-fund---time-series-forecasting) &nbsp;·&nbsp; [← Back to Home](../../README.md)
+**Amey Thakur** &nbsp;·&nbsp; [Kaggle](https://www.kaggle.com/ameythakur20) &nbsp;·&nbsp; [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
+
+<br>
+
+[↑ Back to top](#hedge-fund---time-series-forecasting) &nbsp;·&nbsp; [← Repository home](../../README.md)
 
 </div>

@@ -1,15 +1,24 @@
+<div align="center">
+
 # Triagegeist: Hierarchical CDSS via Multi-Tier Acuity Forecasting (0.9995 CV)
-### A robust three-tier clinical decision support system utilizing a blended meta-ensemble and uncertainty-aware safety logic for ESI triage.
 
-[![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/triagegeist-cdss-multi-tier-acuity-forecasting)
+**A robust three-tier clinical decision support system utilizing a blended meta-ensemble and uncertainty-aware safety logic for ESI triage.**
+
+<br>
+
+[![Notebook](https://img.shields.io/badge/Notebook-Kaggle-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/code/ameythakur20/triagegeist-cdss-multi-tier-acuity-forecasting) [![Author](https://img.shields.io/badge/Author-Amey_Thakur-0969DA)](https://www.kaggle.com/ameythakur20)
+
+<br>
+
+<a href="https://www.kaggle.com/code/ameythakur20/triagegeist-cdss-multi-tier-acuity-forecasting"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open in Kaggle"></a>
+
+<br>
+
+[Competitions](../../README.md#competitions) &nbsp;·&nbsp; [Achievements](../../Achievements/Badges/README.md) &nbsp;·&nbsp; [Courses](../../Kaggle%20Courses/README.md) &nbsp;·&nbsp; [Kaggle Profile](https://www.kaggle.com/ameythakur20)
+
+</div>
 
 ---
-
-![Triagegeist CDSS: High-resolution 'Digital Physiometry' dashboard thumbnail featuring the 0.9995 CV Accuracy metric and Principal Investigators Amey Thakur & Archit Konde.](https://www.googleapis.com/download/storage/v1/b/kaggle-forum-message-attachments/o/inbox%2F7838819%2F56d910259bc52e916ccbf023aa36e664%2FScreenshot%202026-03-25%20175653.png?generation=1774476463619706&alt=media)
-
----
-
-# Hello fellow Kagglers!
 
 This notebook presents a **Hierarchical Clinical Decision Support System (CDSS)** developed to categorize patient emergency levels using the Emergency Severity Index (ESI) framework.
 
@@ -69,14 +78,12 @@ Further improvements can be explored through longitudinal vital sign monitoring 
 
 ---
 
-### Amey Thakur
-
-[Kaggle](https://www.kaggle.com/ameythakur20) • [GitHub](https://github.com/Amey-Thakur)
-
----
-
 <div align="center">
 
-  [↑ Back to Top](#triagegeist-hierarchical-cdss-via-multi-tier-acuity-forecasting-09995-cv) &nbsp;·&nbsp; [← Back to Home](../../README.md)
+**Amey Thakur** &nbsp;·&nbsp; [Kaggle](https://www.kaggle.com/ameythakur20) &nbsp;·&nbsp; [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
+
+<br>
+
+[↑ Back to top](#triagegeist-hierarchical-cdss-via-multi-tier-acuity-forecasting-09995-cv) &nbsp;·&nbsp; [← Repository home](../../README.md)
 
 </div>

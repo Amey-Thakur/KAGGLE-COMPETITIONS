@@ -1,54 +1,62 @@
+<div align="center">
+
 # Stanford RNA 3D Folding Part 2
-### Structural Biology Pipeline Optimization
 
-[![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/stanford-rna-3d-folding-part-2-tbm-protenix-v1)
+**Structural Biology Pipeline Optimization**
 
----
+<br>
 
-## Technical Overview
+[![Notebook](https://img.shields.io/badge/Notebook-Kaggle-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/code/ameythakur20/stanford-rna-3d-folding-part-2-tbm-protenix-v1) [![Author](https://img.shields.io/badge/Author-Amey_Thakur-0969DA)](https://www.kaggle.com/ameythakur20)
 
-This repository contains a high-performance, two-phase hybrid pipeline designed for the prediction of 3D RNA coordinates. The methodology integrates classical comparative modeling with state-of-the-art diffusion models to achieve robust structural predictions across varying sequence lengths and complexities.
+<br>
 
-### Methodology: Hybrid TBM + Protenix-v1
+<a href="https://www.kaggle.com/code/ameythakur20/stanford-rna-3d-folding-part-2-tbm-protenix-v1"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open in Kaggle"></a>
 
-The pipeline is architected to prioritize verified structural data while utilizing generative fallback mechanisms for novel folds.
+<br>
 
-#### Phase 1: Template-Based Modeling (TBM)
-The initial phase performs global pairwise sequence alignment against a curated database of known RNA structures. When a candidate template exceeds a 50% identity threshold, TBM is utilized to construct a coordinate framework.
-*   **Gap Reconstruction**: Sinusoidal backbone reconstruction is applied to alignment gaps to maintain stereochemical continuity.
-*   **Adaptive Constraints**: Coordinates are refined using confidence-scaled constraints to preserve template integrity while resolving local geometric clashes.
+[Competitions](../../README.md#competitions) &nbsp;·&nbsp; [Achievements](../../Achievements/Badges/README.md) &nbsp;·&nbsp; [Courses](../../Kaggle%20Courses/README.md) &nbsp;·&nbsp; [Kaggle Profile](https://www.kaggle.com/ameythakur20)
 
-#### Phase 2: Protenix-v1 Diffusion
-For target sequences that lack suitable templates or contain unresolved regions, the pipeline utilizes the Protenix-v1 diffusion model for de novo coordinate generation.
-*   **Chunked Inference**: To accommodate hardware constraints (Kaggle T4 GPUs), sequences exceeding 420 nucleotides are processed in overlapping tiles.
-*   **Kabsch Stitching**: Individual chunks are reintegrated into a global coordinate system using core-trimmed Kabsch alignment, minimizing structural drift at segment boundaries.
+</div>
 
 ---
 
-## Technical Components
+## The problem
 
-| Component | Scientific Rationale |
+Predict the three-dimensional coordinates of an RNA molecule from its sequence.
+Structure prediction is expensive, and a T4 has limited memory, so the practical
+question is where to spend that budget: on every target equally, or only on the
+targets that need it.
+
+## What is here
+
+A two-phase hybrid that answers the second way.
+
+| Phase | What it does |
 | :--- | :--- |
-| **Kabsch Alignment** | Minimizes Root-Mean-Square Deviation (RMSD) between overlapping structural segments to ensure global connectivity. |
-| **Diffusion Sampling** | Utilizes stochastic denoising to navigate the complex conformer landscape of rare RNA folds. |
-| **Energetic Ranking** | Final candidate models are ranked based on backbone bond length deviation and steric clash penalties. |
+| Template-based modelling | Aligns each target against the training database by pairwise sequence alignment. Where a template clears the identity threshold, the structure is taken from it |
+| Protenix v1 | Everything without a usable template goes to the neural model, which is the expensive path |
+| Sampling | Ten candidate models per target, to widen TM-score coverage rather than betting on a single prediction |
 
----
+Two constants carry most of the tuning. `MAX_SEQ_LEN` is 420 tokens, chosen to
+stay inside T4 memory while still covering the great majority of targets in one
+pass, with longer sequences chunked. `N_SAMPLE` is 10.
 
-## Implementation Details
+> [!TIP]
+> The exploratory section exists to justify those numbers rather than to
+> decorate the notebook: the sequence length distribution is what shows where
+> the chunking threshold has to sit.
 
-The pipeline is implemented using a custom ensemble of structural biology libraries, including Biopython for alignment, Biotite for coordinate manipulation, and a modified Protenix-v1 engine for inference. All dependencies are managed locally to ensure reproducible execution in restricted competition environments.
-
----
-
-### Amey Thakur
-
-[Kaggle](https://www.kaggle.com/ameythakur20) • [GitHub](https://github.com/Amey-Thakur)
+**Stack** &nbsp;·&nbsp; `torch` `protenix` `biopython` `scipy` `pandas`
+`numpy` `matplotlib` `seaborn`
 
 ---
 
 <div align="center">
 
-  [↑ Back to Top](#stanford-rna-3d-folding-part-2) &nbsp;·&nbsp; [← Back to Home](../../README.md)
+**Amey Thakur** &nbsp;·&nbsp; [Kaggle](https://www.kaggle.com/ameythakur20) &nbsp;·&nbsp; [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
+
+<br>
+
+[↑ Back to top](#stanford-rna-3d-folding-part-2) &nbsp;·&nbsp; [← Repository home](../../README.md)
 
 </div>

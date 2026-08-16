@@ -1,11 +1,24 @@
-# English Scoring - Corrected Ver: Essay Scoring Transformation
-### A predictive modeling approach using structured text features and ensemble regression to forecast student performance across seven scoring dimensions.
+<div align="center">
 
-[![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/english-scoring-regression)
+# English Scoring - Corrected Ver: Essay Scoring Transformation
+
+**A predictive modeling approach using structured text features and ensemble regression to forecast student performance across seven scoring dimensions.**
+
+<br>
+
+[![Notebook](https://img.shields.io/badge/Notebook-Kaggle-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/code/ameythakur20/english-scoring-regression) [![Author](https://img.shields.io/badge/Author-Amey_Thakur-0969DA)](https://www.kaggle.com/ameythakur20)
+
+<br>
+
+<a href="https://www.kaggle.com/code/ameythakur20/english-scoring-regression"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open in Kaggle"></a>
+
+<br>
+
+[Competitions](../../README.md#competitions) &nbsp;·&nbsp; [Achievements](../../Achievements/Badges/README.md) &nbsp;·&nbsp; [Courses](../../Kaggle%20Courses/README.md) &nbsp;·&nbsp; [Kaggle Profile](https://www.kaggle.com/ameythakur20)
+
+</div>
 
 ---
-
-# Hello fellow Kagglers!
 
 This notebook presents a **compact and efficient regression pipeline** for the *English Scoring* competition. The objective is to predict **seven essay scoring targets** using a combination of structured text features, reduced TF-IDF representations, and target-wise ensemble models.
 
@@ -325,17 +338,14 @@ Further improvements can focus on:
 
 These directions can further improve predictive performance and model robustness.
 
-
----
-
-### Amey Thakur
-
-[Kaggle](https://www.kaggle.com/ameythakur20) • [GitHub](https://github.com/Amey-Thakur)
-
 ---
 
 <div align="center">
 
-  [↑ Back to Top](#english-scoring---corrected-ver-essay-scoring-transformation) &nbsp;·&nbsp; [← Back to Home](../../README.md)
+**Amey Thakur** &nbsp;·&nbsp; [Kaggle](https://www.kaggle.com/ameythakur20) &nbsp;·&nbsp; [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
+
+<br>
+
+[↑ Back to top](#english-scoring---corrected-ver-essay-scoring-transformation) &nbsp;·&nbsp; [← Repository home](../../README.md)
 
 </div>

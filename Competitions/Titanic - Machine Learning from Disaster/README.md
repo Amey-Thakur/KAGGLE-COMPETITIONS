@@ -1,11 +1,24 @@
-# Titanic - Machine Learning from Disaster <img align="right" src="../../Achievements/Medals/Bronze Medal.png" width="35" title="Bronze Medal (Mar 6, 2026)">
-### Start here! Predict survival on the Titanic and get familiar with ML basics
+<div align="center">
 
-[![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/titanic-passenger-survival-prediction)
+# Titanic - Machine Learning from Disaster
+
+**Start here! Predict survival on the Titanic and get familiar with ML basics**
+
+<br>
+
+[![Notebook](https://img.shields.io/badge/Notebook-Kaggle-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/code/ameythakur20/titanic-passenger-survival-prediction) [![Medal](https://img.shields.io/badge/Medal-Bronze-CD7F32)](https://www.kaggle.com/ameythakur20/competitions) [![Author](https://img.shields.io/badge/Author-Amey_Thakur-0969DA)](https://www.kaggle.com/ameythakur20)
+
+<br>
+
+<a href="https://www.kaggle.com/code/ameythakur20/titanic-passenger-survival-prediction"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open in Kaggle"></a>
+
+<br>
+
+[Competitions](../../README.md#competitions) &nbsp;·&nbsp; [Achievements](../../Achievements/Badges/README.md) &nbsp;·&nbsp; [Courses](../../Kaggle%20Courses/README.md) &nbsp;·&nbsp; [Kaggle Profile](https://www.kaggle.com/ameythakur20)
+
+</div>
 
 ---
-
-# Hello fellow Kagglers!
 
 This notebook demonstrates a deterministic approach to generating predictions for the **Titanic: Machine Learning from Disaster** competition. Instead of training a predictive model, the workflow reconstructs survival outcomes by aligning passengers in the Kaggle test dataset with historically documented passenger records.
 
@@ -205,17 +218,14 @@ Exploring multiple perspectives, including predictive modeling and data alignmen
 
 Discussion and alternative perspectives on the methodology are always welcome.
 
-
----
-
-### Amey Thakur
-
-[Kaggle](https://www.kaggle.com/ameythakur20) • [GitHub](https://github.com/Amey-Thakur)
-
 ---
 
 <div align="center">
 
-  [↑ Back to Top](#titanic---machine-learning-from-disaster-) &nbsp;·&nbsp; [← Back to Home](../../README.md)
+**Amey Thakur** &nbsp;·&nbsp; [Kaggle](https://www.kaggle.com/ameythakur20) &nbsp;·&nbsp; [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
+
+<br>
+
+[↑ Back to top](#titanic---machine-learning-from-disaster) &nbsp;·&nbsp; [← Repository home](../../README.md)
 
 </div>

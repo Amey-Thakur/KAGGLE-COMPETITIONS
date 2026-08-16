@@ -1,15 +1,24 @@
+<div align="center">
+
 # Attention Span: The "Needle in a Salient Haystack" Benchmark
-### Evaluating Selective Attention and Distractor Vulnerability in Frontier LLMs.
 
-[![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/agi-attention-salient-distractor-benchmark)
+**Evaluating Selective Attention and Distractor Vulnerability in Frontier LLMs.**
+
+<br>
+
+[![Notebook](https://img.shields.io/badge/Notebook-Kaggle-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/code/ameythakur20/agi-attention-salient-distractor-benchmark) [![Author](https://img.shields.io/badge/Author-Amey_Thakur-0969DA)](https://www.kaggle.com/ameythakur20)
+
+<br>
+
+<a href="https://www.kaggle.com/code/ameythakur20/agi-attention-salient-distractor-benchmark"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open in Kaggle"></a>
+
+<br>
+
+[Competitions](../../README.md#competitions) &nbsp;·&nbsp; [Achievements](../../Achievements/Badges/README.md) &nbsp;·&nbsp; [Courses](../../Kaggle%20Courses/README.md) &nbsp;·&nbsp; [Kaggle Profile](https://www.kaggle.com/ameythakur20)
+
+</div>
 
 ---
-
-![AGI Attention: Salient Distractor Benchmark header featuring the Selective Attention metric and Principal Investigator Amey Thakur.](./agi_attention_header.png)
-
----
-
-# Hello fellow Kagglers!
 
 This notebook presents a **robust and reproducible evaluation pipeline** for the *Measuring Progress Toward AGI* competition. The objective is to evaluate a model's cognitive suppression capabilities using a "Needle in a Salient Haystack" methodology.
 
@@ -127,15 +136,12 @@ These directions are critical for building reliable AI agents in noisy, critical
 
 ---
 
-### Amey Thakur
-
-[Kaggle](https://www.kaggle.com/ameythakur20) • [GitHub](https://github.com/Amey-Thakur)
-
-
----
-
 <div align="center">
 
-  [↑ Back to Top](#attention-span-the-needle-in-a-salient-haystack-benchmark) &nbsp;·&nbsp; [← Back to Home](../../README.md)
+**Amey Thakur** &nbsp;·&nbsp; [Kaggle](https://www.kaggle.com/ameythakur20) &nbsp;·&nbsp; [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
+
+<br>
+
+[↑ Back to top](#attention-span-the-needle-in-a-salient-haystack-benchmark) &nbsp;·&nbsp; [← Repository home](../../README.md)
 
 </div>

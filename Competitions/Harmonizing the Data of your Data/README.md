@@ -1,11 +1,24 @@
-# Harmonizing the Data of your Data: SDRF Metadata Extraction Transformation
-### A predictive modeling approach using high-precision rule-based extraction and ontology normalization to structure scientific proteomics metadata.
+<div align="center">
 
-[![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/sdrf-metadata-extraction-baseline)
+# Harmonizing the Data of your Data: SDRF Metadata Extraction Transformation
+
+**A predictive modeling approach using high-precision rule-based extraction and ontology normalization to structure scientific proteomics metadata.**
+
+<br>
+
+[![Notebook](https://img.shields.io/badge/Notebook-Kaggle-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/code/ameythakur20/sdrf-metadata-extraction-baseline) [![Author](https://img.shields.io/badge/Author-Amey_Thakur-0969DA)](https://www.kaggle.com/ameythakur20)
+
+<br>
+
+<a href="https://www.kaggle.com/code/ameythakur20/sdrf-metadata-extraction-baseline"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open in Kaggle"></a>
+
+<br>
+
+[Competitions](../../README.md#competitions) &nbsp;·&nbsp; [Achievements](../../Achievements/Badges/README.md) &nbsp;·&nbsp; [Courses](../../Kaggle%20Courses/README.md) &nbsp;·&nbsp; [Kaggle Profile](https://www.kaggle.com/ameythakur20)
+
+</div>
 
 ---
-
-# Hello fellow Kagglers!
 
 This notebook presents a **high-precision rule-based pipeline** for extracting structured SDRF metadata from scientific proteomics publications. The objective is to map unstructured publication text into standardized SDRF schema fields while maximizing alignment with ground truth annotations.
 
@@ -297,17 +310,14 @@ Further improvements can focus on:
 
 These directions can further improve robustness and scalability.
 
-
----
-
-### Amey Thakur
-
-[Kaggle](https://www.kaggle.com/ameythakur20) • [GitHub](https://github.com/Amey-Thakur)
-
 ---
 
 <div align="center">
 
-  [↑ Back to Top](#harmonizing-the-data-of-your-data-sdrf-metadata-extraction-transformation) &nbsp;·&nbsp; [← Back to Home](../../README.md)
+**Amey Thakur** &nbsp;·&nbsp; [Kaggle](https://www.kaggle.com/ameythakur20) &nbsp;·&nbsp; [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
+
+<br>
+
+[↑ Back to top](#harmonizing-the-data-of-your-data-sdrf-metadata-extraction-transformation) &nbsp;·&nbsp; [← Repository home](../../README.md)
 
 </div>

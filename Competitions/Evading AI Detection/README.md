@@ -1,11 +1,24 @@
-# Evading AI-Generated Text Detection
-### Activation Steering and Lexical Variance for Detection Evasion
+<div align="center">
 
-[![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/evading-ai-text-detection)
+# Evading AI-Generated Text Detection
+
+**Activation Steering and Lexical Variance for Detection Evasion**
+
+<br>
+
+[![Notebook](https://img.shields.io/badge/Notebook-Kaggle-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/code/ameythakur20/evading-ai-text-detection) [![Author](https://img.shields.io/badge/Author-Amey_Thakur-0969DA)](https://www.kaggle.com/ameythakur20)
+
+<br>
+
+<a href="https://www.kaggle.com/code/ameythakur20/evading-ai-text-detection"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open in Kaggle"></a>
+
+<br>
+
+[Competitions](../../README.md#competitions) &nbsp;·&nbsp; [Achievements](../../Achievements/Badges/README.md) &nbsp;·&nbsp; [Courses](../../Kaggle%20Courses/README.md) &nbsp;·&nbsp; [Kaggle Profile](https://www.kaggle.com/ameythakur20)
+
+</div>
 
 ---
-
-# Hello fellow Kagglers!
 
 This notebook explores **methods for evading AI text detection systems** by modifying generated text while preserving semantic meaning. The objective is to analyze how stylistic transformations affect detection signals and to construct a pipeline that reduces detectability without degrading readability.
 
@@ -169,17 +182,14 @@ Further improvements can focus on:
 
 These directions can improve evasion effectiveness while maintaining text quality.
 
-
----
-
-### Amey Thakur
-
-[Kaggle](https://www.kaggle.com/ameythakur20) • [GitHub](https://github.com/Amey-Thakur)
-
 ---
 
 <div align="center">
 
-  [↑ Back to Top](#evading-ai-generated-text-detection) &nbsp;·&nbsp; [← Back to Home](../../README.md)
+**Amey Thakur** &nbsp;·&nbsp; [Kaggle](https://www.kaggle.com/ameythakur20) &nbsp;·&nbsp; [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
+
+<br>
+
+[↑ Back to top](#evading-ai-generated-text-detection) &nbsp;·&nbsp; [← Repository home](../../README.md)
 
 </div>

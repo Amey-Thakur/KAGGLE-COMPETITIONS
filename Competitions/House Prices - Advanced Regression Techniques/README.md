@@ -1,11 +1,24 @@
-# House Prices: Advanced Regression via Stacked Meta-Ensembles
-### A state-of-the-art regression pipeline utilizing multi-model stacking, domain-driven feature science, and RMSLE-optimized ensembling.
+<div align="center">
 
-[![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/house-prices-deterministic-record-linkage)
+# House Prices: Advanced Regression via Stacked Meta-Ensembles
+
+**A state-of-the-art regression pipeline utilizing multi-model stacking, domain-driven feature science, and RMSLE-optimized ensembling.**
+
+<br>
+
+[![Notebook](https://img.shields.io/badge/Notebook-Kaggle-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/code/ameythakur20/house-prices-deterministic-record-linkage) [![Author](https://img.shields.io/badge/Author-Amey_Thakur-0969DA)](https://www.kaggle.com/ameythakur20)
+
+<br>
+
+<a href="https://www.kaggle.com/code/ameythakur20/house-prices-deterministic-record-linkage"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open in Kaggle"></a>
+
+<br>
+
+[Competitions](../../README.md#competitions) &nbsp;·&nbsp; [Achievements](../../Achievements/Badges/README.md) &nbsp;·&nbsp; [Courses](../../Kaggle%20Courses/README.md) &nbsp;·&nbsp; [Kaggle Profile](https://www.kaggle.com/ameythakur20)
+
+</div>
 
 ---
-
-# Hello fellow Kagglers!
 
 This notebook presents a **state-of-the-art regression pipeline** for the *House Prices: Advanced Regression Techniques* competition. The objective is to minimize the Root Mean Squared Logarithmic Error (RMSLE) by implementing a high-accuracy, stacked meta-ensemble that aggregates diverse learning paradigms.
 
@@ -84,14 +97,12 @@ Further research will focus on:
 
 ---
 
-### Amey Thakur
-
-[Kaggle](https://www.kaggle.com/ameythakur20) • [GitHub](https://github.com/Amey-Thakur)
-
----
-
 <div align="center">
 
-  [↑ Back to Top](#house-prices-advanced-regression-via-stacked-meta-ensembles) &nbsp;·&nbsp; [← Back to Home](../../README.md)
+**Amey Thakur** &nbsp;·&nbsp; [Kaggle](https://www.kaggle.com/ameythakur20) &nbsp;·&nbsp; [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
+
+<br>
+
+[↑ Back to top](#house-prices-advanced-regression-via-stacked-meta-ensembles) &nbsp;·&nbsp; [← Repository home](../../README.md)
 
 </div>

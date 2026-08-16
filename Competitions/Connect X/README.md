@@ -1,11 +1,24 @@
-# Connect X <img align="right" src="../../Achievements/Medals/Bronze Medal.png" width="35" title="Bronze Medal (Mar 6, 2026)">
-### Connect your checkers in a row before your opponent!
+<div align="center">
 
-[![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/connectx-minimax-alpha-beta-agent)
+# Connect X
+
+**Connect your checkers in a row before your opponent!**
+
+<br>
+
+[![Notebook](https://img.shields.io/badge/Notebook-Kaggle-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/code/ameythakur20/connectx-minimax-alpha-beta-agent) [![Medal](https://img.shields.io/badge/Medal-Bronze-CD7F32)](https://www.kaggle.com/ameythakur20/competitions) [![Author](https://img.shields.io/badge/Author-Amey_Thakur-0969DA)](https://www.kaggle.com/ameythakur20)
+
+<br>
+
+<a href="https://www.kaggle.com/code/ameythakur20/connectx-minimax-alpha-beta-agent"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open in Kaggle"></a>
+
+<br>
+
+[Competitions](../../README.md#competitions) &nbsp;·&nbsp; [Achievements](../../Achievements/Badges/README.md) &nbsp;·&nbsp; [Courses](../../Kaggle%20Courses/README.md) &nbsp;·&nbsp; [Kaggle Profile](https://www.kaggle.com/ameythakur20)
+
+</div>
 
 ---
-
-# Hello fellow Kagglers!
 
 This notebook presents a **ConnectX agent built using the Minimax algorithm with Alpha Beta pruning**. The purpose of this explanation is to clarify the reasoning behind the implementation and to outline how each component contributes to the agent's decision making process.
 
@@ -227,18 +240,14 @@ The implementation in this notebook serves as a structural reference for experim
 
 Discussion, experimentation, and alternative approaches are always welcome.
 
-
----
-
-### Amey Thakur
-
-[Kaggle](https://www.kaggle.com/ameythakur20) • [GitHub](https://github.com/Amey-Thakur)
-
 ---
 
 <div align="center">
 
-  [↑ Back to Top](#connect-x-) &nbsp;·&nbsp; [← Back to Home](../../README.md)
+**Amey Thakur** &nbsp;·&nbsp; [Kaggle](https://www.kaggle.com/ameythakur20) &nbsp;·&nbsp; [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
+
+<br>
+
+[↑ Back to top](#connect-x) &nbsp;·&nbsp; [← Repository home](../../README.md)
 
 </div>
-

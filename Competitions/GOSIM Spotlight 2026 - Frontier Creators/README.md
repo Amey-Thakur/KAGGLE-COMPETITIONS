@@ -1,11 +1,24 @@
-# AI Hallucination Visualizer: Mapping Uncertainty in Generative Agents
-### A diagnostic pipeline for quantifying and visualizing stochastic uncertainty in LLMs using GPT-2 token-level probability analysis.
+<div align="center">
 
-[![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/architkonde/ai-hallucination-visualizer)
+# AI Hallucination Visualizer: Mapping Uncertainty in Generative Agents
+
+**A diagnostic pipeline for quantifying and visualizing stochastic uncertainty in LLMs using GPT-2 token-level probability analysis.**
+
+<br>
+
+[![Notebook](https://img.shields.io/badge/Notebook-Kaggle-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/code/architkonde/ai-hallucination-visualizer) [![Author](https://img.shields.io/badge/Author-Amey_Thakur-0969DA)](https://www.kaggle.com/ameythakur20)
+
+<br>
+
+<a href="https://www.kaggle.com/code/architkonde/ai-hallucination-visualizer"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open in Kaggle"></a>
+
+<br>
+
+[Competitions](../../README.md#competitions) &nbsp;·&nbsp; [Achievements](../../Achievements/Badges/README.md) &nbsp;·&nbsp; [Courses](../../Kaggle%20Courses/README.md) &nbsp;·&nbsp; [Kaggle Profile](https://www.kaggle.com/ameythakur20)
+
+</div>
 
 ---
-
-# Hello fellow Kagglers!
 
 This notebook presents a **state-of-the-art diagnostic pipeline** initially showcased at *GOSIM Spotlight 2026: Frontier Creators*. The objective is to identify potential hallucination junctions in Large Language Models (LLMs) by visualizing the probabilistic reliability of generated text at the token level.
 
@@ -87,14 +100,12 @@ Further research will focus on:
 
 ---
 
-### Amey Thakur
-
-[Kaggle](https://www.kaggle.com/ameythakur20) • [GitHub](https://github.com/Amey-Thakur)
-
----
-
 <div align="center">
 
-  [↑ Back to Top](#ai-hallucination-visualizer-mapping-uncertainty-in-generative-agents) &nbsp;·&nbsp; [← Back to Home](../../README.md)
+**Amey Thakur** &nbsp;·&nbsp; [Kaggle](https://www.kaggle.com/ameythakur20) &nbsp;·&nbsp; [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
+
+<br>
+
+[↑ Back to top](#ai-hallucination-visualizer-mapping-uncertainty-in-generative-agents) &nbsp;·&nbsp; [← Repository home](../../README.md)
 
 </div>
