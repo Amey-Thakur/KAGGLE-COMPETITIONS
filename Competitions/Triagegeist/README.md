@@ -34,15 +34,15 @@ Rather than focusing only on model training, the discussion follows the actual i
 
 ---
 
-### Project Description
+## Project Description
 
 Triagegeist is a clinical decision support system (CDSS) developed to categorize patient emergency levels using the Emergency Severity Index (ESI) framework. The system implements a three-tier hierarchical architecture that mirrors the multi-stage evaluation process in a hospital. This pipeline consists of an initial deterministic pattern recall, followed by specialized diagnostic models, and concluding with a weighted meta-ensemble of generalist models. By integrating high-dimensional text analysis with hemodynamic physiology, the system provides a reliable tool for assisting triage nurses in high-pressure clinical environments.
 
-### Clinical Problem Statement
+## Clinical Problem Statement
 
 Emergency departments face a critical challenge in the initial minutes of patient contact: the risk of under-triage. When a patient with a life-threatening condition is incorrectly assigned a low-acuity score (e.g., ESI-4), essential interventions are delayed. Conversely, over-triage leads to resource exhaustion and increased wait times for the entire department. Current failure modes often stem from the high volume of subjective data in chief complaints and the physiological overlap between different acuity levels. Triagegeist targets this workflow gap by providing a mathematical anchor for triage decisions, ensuring that subtle but critical physiological indicators are prioritized during a brief intake assessment.
 
-### Approach and Methodology
+## Approach and Methodology
 
 The approach combines three data streams: structured vital signs, longitudinal patient history, and unstructured chief complaint narratives. All tiers were implemented within a unified training pipeline and evaluated using stratified cross-validation.
 
@@ -59,15 +59,15 @@ The approach combines three data streams: structured vital signs, longitudinal p
 
 5. **Safety Guardrails**: We integrated a predictive entropy audit. If the system detects high uncertainty between two adjacent ESI classes, it defaults to the higher acuity level to prioritize patient safety and reduce under-triage.
 
-### Results and Findings
+## Results and Findings
 
 The system achieved a reliable cross-validation Quadratic Weighted Kappa (QWK) score and high F1-macro metrics. Analysis of the Out-of-Fold (OOF) errors showed that the model is exceptionally precise at identifying ESI-1 (Resuscitation) and ESI-2 (Emergent) cases, which are the most time-sensitive categories. Failure modes occurred primarily in the distinction between ESI-3 and ESI-4, where clinical presentations are most similar. However, the safety-aware shifting logic successfully moved a majority of these uncertain cases into the higher-acuity group, effectively reducing the critical under-triage rate in the validation cohort.
 
-### Limitations and Future Work
+## Limitations and Future Work
 
 A primary limitation is that this model was trained on a specific institutional dataset. Clinical validation across multi-center cohorts is required to ensure the text vocabulary remains relevant across different regional charting styles. Additionally, while the model uses physiological indicators, it does not currently account for real-time telemetry trends. Future work will focus on integrating longitudinal monitoring data and expanding the specialist tier to include pediatric-specific triage logic.
 
-### Reproducibility Notes
+## Reproducibility Notes
 
 The following datasets from the Triagegeist competition are required: `train.csv`, `patient_history.csv`, and `chief_complaints.csv`. The finalized Kaggle Notebook runs end-to-end using a standard Python 3.10+ environment with `lightgbm`, `catboost`, and `scikit-learn`.
 * **Random Seed**: All stochastic processes are locked to `42` for reproducibility.

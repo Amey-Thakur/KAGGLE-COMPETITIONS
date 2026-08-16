@@ -1,5 +1,9 @@
 <div align="center">
 
+<img src="../Achievements/Medals/Bronze%20Medal.png" width="34" alt="Bronze medal">
+
+**Bronze medal**
+
 # Kaggle Toolbox
 
 **The helper module the notebooks share, with a demo notebook and a tutorial script.**
@@ -7,6 +11,7 @@
 <br>
 
 [![Notebook](https://img.shields.io/badge/Notebook-Kaggle-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/code/ameythakur20/kaggle-toolbox)
+[![Medal](https://img.shields.io/badge/Medal-Bronze-8E5B3D)](https://www.kaggle.com/ameythakur20/code)
 [![Author](https://img.shields.io/badge/Author-Amey_Thakur-0969DA)](https://www.kaggle.com/ameythakur20)
 
 <br>
@@ -47,7 +52,7 @@ Each function is minimal, explicit, and directly usable inside a notebook.
 
 ## 1. Reproducibility
 
-
+### `seed_everything(seed)`
 
 Locks all known randomness sources:
 
@@ -59,7 +64,7 @@ Locks all known randomness sources:
 
 Also enforces deterministic CUDA behavior.
 
-
+### Why this exists
 
 Uncontrolled randomness leads to inconsistent results across runs. This makes debugging unreliable and invalidates model comparisons.
 
@@ -68,18 +73,18 @@ Uncontrolled randomness leads to inconsistent results across runs. This makes de
 
 ## 2. Memory Optimization
 
-
+### `reduce_mem_usage(df)`
 
 Downcasts each column to the smallest safe dtype based on actual values.
 
-
+### Behavior
 
 - integers → `int8`, `int16`, `int32`  
 - floats → `float32`  
 - objects → categorical (low cardinality)  
 - fallback to float when NaN prevents integer casting  
 
-
+### Why this exists
 
 Pandas defaults to large dtypes (`int64`, `float64`). On Kaggle memory limits, this causes unnecessary RAM usage and kernel crashes.
 
@@ -88,7 +93,7 @@ Pandas defaults to large dtypes (`int64`, `float64`). On Kaggle memory limits, t
 
 ## 3. Missing Data Analysis
 
-
+### `missing_report(df)`
 
 Returns a structured DataFrame with:
 
@@ -98,7 +103,7 @@ Returns a structured DataFrame with:
 
 Only includes columns with missing values.
 
-
+### Why this exists
 
 Standard outputs are not sortable or actionable. This function enables direct prioritization of missing data handling.
 
@@ -269,78 +274,6 @@ Further improvements can include:
 - support for deep learning workflows  
 
 These additions can further streamline competition workflows.
-
----
-
-<div align="center">
-
-**Amey Thakur** &nbsp;·&nbsp; [Kaggle](https://www.kaggle.com/ameythakur20) &nbsp;·&nbsp; [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
-
-<br>
-
-[↑ Back to top](#kaggle-toolbox) &nbsp;·&nbsp; [← Repository home](../README.md)
-
-</div>
-
----
-
-<div align="center">
-
-**Amey Thakur** &nbsp;·&nbsp; [Kaggle](https://www.kaggle.com/ameythakur20) &nbsp;·&nbsp; [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
-
-<br>
-
-[↑ Back to top](#kaggle-toolbox) &nbsp;·&nbsp; [← Repository home](../README.md)
-
-</div>
-
----
-
-<div align="center">
-
-**Amey Thakur** &nbsp;·&nbsp; [Kaggle](https://www.kaggle.com/ameythakur20) &nbsp;·&nbsp; [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
-
-<br>
-
-[↑ Back to top](#kaggle-toolbox) &nbsp;·&nbsp; [← Repository home](../README.md)
-
-</div>
-
----
-
-<div align="center">
-
-**Amey Thakur** &nbsp;·&nbsp; [Kaggle](https://www.kaggle.com/ameythakur20) &nbsp;·&nbsp; [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
-
-<br>
-
-[↑ Back to top](#kaggle-toolbox) &nbsp;·&nbsp; [← Repository home](../README.md)
-
-</div>
-
----
-
-<div align="center">
-
-**Amey Thakur** &nbsp;·&nbsp; [Kaggle](https://www.kaggle.com/ameythakur20) &nbsp;·&nbsp; [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
-
-<br>
-
-[↑ Back to top](#kaggle-toolbox) &nbsp;·&nbsp; [← Repository home](../README.md)
-
-</div>
-
----
-
-<div align="center">
-
-**Amey Thakur** &nbsp;·&nbsp; [Kaggle](https://www.kaggle.com/ameythakur20) &nbsp;·&nbsp; [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
-
-<br>
-
-[↑ Back to top](#kaggle-toolbox) &nbsp;·&nbsp; [← Repository home](../README.md)
-
-</div>
 
 ---
 

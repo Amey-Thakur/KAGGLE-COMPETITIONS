@@ -10,7 +10,7 @@
 
 [![Kaggle](https://img.shields.io/badge/Kaggle-ameythakur20-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/ameythakur20)
 [![Notebooks](https://img.shields.io/badge/Notebooks-Expert-8148FD?logo=kaggle&logoColor=white)](https://www.kaggle.com/ameythakur20/code)
-[![Medals](https://img.shields.io/badge/Medals-7_Bronze-8E5B3D)](#achievements)
+[![Medals](https://img.shields.io/badge/Medals-8_Bronze-8E5B3D)](#achievements)
 [![Badges](https://img.shields.io/badge/Badges-Earned-BF3989)](Achievements/Badges/README.md)
 [![Courses](https://img.shields.io/badge/Courses-Kaggle_Learn-FAE041)](Kaggle%20Courses/README.md)
 [![Status](https://img.shields.io/badge/Status-Active-2EA043)](#competitions)
@@ -172,21 +172,23 @@ added.
 <img src="Achievements/Medals/Bronze%20Medal.png" width="28" alt="Bronze medal">
 <img src="Achievements/Medals/Bronze%20Medal.png" width="28" alt="Bronze medal">
 <img src="Achievements/Medals/Bronze%20Medal.png" width="28" alt="Bronze medal">
+<img src="Achievements/Medals/Bronze%20Medal.png" width="28" alt="Bronze medal">
 
-**7 bronze medals** &nbsp;·&nbsp; **highest rank 932** of 61,334
+**8 bronze medals** &nbsp;·&nbsp; **highest rank 932** of 61,334
 
 </div>
 
 Kaggle ranks each kind of contribution on its own scale, and this standing is in
 the Notebooks category: medals there are awarded by the community to published
-notebooks rather than for placing in a competition. Three of the notebooks in
-this repository carry one, and they are marked in the index above.
+notebooks rather than for placing in a competition. Four of the notebooks kept
+here carry one: three competition notebooks, marked in the index above, and the
+shared [Kaggle Toolbox](./Kaggle%20Toolbox/README.md).
 
 <div align="center">
 
 | [Badges](Achievements/Badges/README.md) | [Medals](Achievements/Medals/README.md) | [Tiers](Achievements/Tiers/README.md) |
 | :---: | :---: | :---: |
-| Every badge earned, with its certificate | 7 bronze, awarded to published notebooks | Progression through the Kaggle ranks |
+| Every badge earned, with its certificate | 8 bronze, awarded to published notebooks | Progression through the Kaggle ranks |
 | <img src="Achievements/Badges/Competitor.svg" width="46"> | <img src="Achievements/Medals/Bronze%20Medal.png" width="46"> | <img src="Achievements/Tiers/Expert.png" width="46"> |
 
 </div>
@@ -220,6 +222,8 @@ certificate is stored with the course it belongs to.
 [`Kaggle Toolbox`](Kaggle%20Toolbox/README.md) is the helper module the
 notebooks share: the utilities that would otherwise be pasted into the top of
 every one of them. It ships with a demo notebook and a tutorial script.
+
+The published notebook carries a bronze medal 🥉.
 
 ---
 
