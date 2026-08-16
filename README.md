@@ -23,6 +23,7 @@
 [Courses](#courses) &nbsp;·&nbsp;
 [Toolbox](#toolbox) &nbsp;·&nbsp;
 [Structure](#structure) &nbsp;·&nbsp;
+[For agents](#for-agents) &nbsp;·&nbsp;
 [Using this repository](#using-this-repository) &nbsp;·&nbsp;
 [License](#license)
 
@@ -240,6 +241,29 @@ every one of them. It ships with a demo notebook and a tutorial script.
 ├── LICENSE              # CC BY 4.0, for written material
 └── LICENSE-MIT          # MIT, for code
 ```
+
+---
+
+<a name="for-agents"></a>
+## For agents
+
+Every competition here is written to one standard, and that standard is written
+down rather than held in anyone's head. [`.github/`](.github/README.md) holds
+the whole of it: the prompt to give an agent, where files go, the exact badge
+colours, how a notebook is structured and commented, and how its write-up is
+written and made findable.
+
+```
+Read .github/AGENTS.md and the two standards it links, then follow them exactly.
+Competition: <name>   URL: <link>   Goal: <what to build, and any constraint>
+```
+
+| Document | Covers |
+| :--- | :--- |
+| [Agent Toolkit](.github/README.md) | What is in the folder and how to use it |
+| [AGENTS.md](.github/AGENTS.md) | Layout, colours, fixed rules, verification |
+| [Notebook Standard](.github/NOTEBOOK-STANDARD.md) | How the notebook is written |
+| [Write-up Standard](.github/WRITEUP-STANDARD.md) | How the write-up is written |
 
 ---
 

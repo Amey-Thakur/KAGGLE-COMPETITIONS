@@ -78,6 +78,26 @@
 ---
 
 
+<div align="center">
+
+
+
+**The submission text as entered for Measuring Progress Toward AGI, Cognitive Abilities.**
+
+<br>
+
+[![Notebook](https://img.shields.io/badge/Notebook-Kaggle-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/code/ameythakur20/agi-attention-salient-distractor)
+[![Author](https://img.shields.io/badge/Author-Amey_Thakur-0969DA)](https://www.kaggle.com/ameythakur20)
+
+<br>
+
+[Repository home](../../README.md) &nbsp;·&nbsp; [Competitions](../../README.md#competitions) &nbsp;·&nbsp; [Achievements](../../README.md#achievements) &nbsp;·&nbsp; [Kaggle Profile](https://www.kaggle.com/ameythakur20)
+
+</div>
+
+---
+
+
 Attention Span: The "Needle in a Salient Haystack" Benchmark
 
 
@@ -100,7 +120,7 @@ We use two strict validation assertions:
 
 By running this across frontier models, we can measure which models possess true selective attention versus those that merely pattern-match against the most loudly emphasized tokens in a context window.
 
-### Dataset
+
 The dataset consists of 100 procedurally generated synthetic examples (`attention_dataset.csv`). 
 
 **Columns:**
@@ -130,6 +150,18 @@ Independent Kaggle Researcher
 
 ### References & citations
 - Plomecka, M., et al. (2026). *Measuring Progress Toward AGI - Cognitive Framework*. Google DeepMind and Kaggle.
+
+---
+
+<div align="center">
+
+**Amey Thakur** &nbsp;·&nbsp; [Kaggle](https://www.kaggle.com/ameythakur20) &nbsp;·&nbsp; [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
+
+<br>
+
+[↑ Back to top](#competition-write-up) &nbsp;·&nbsp; [← Repository home](../../README.md)
+
+</div>
 
 ---
 

@@ -73,7 +73,7 @@ Downcasts each column to the smallest safe dtype based on actual values.
 - objects → categorical (low cardinality)  
 - fallback to float when NaN prevents integer casting  
 
-### Why this exists
+
 
 Pandas defaults to large dtypes (`int64`, `float64`). On Kaggle memory limits, this causes unnecessary RAM usage and kernel crashes.
 
@@ -263,6 +263,18 @@ Further improvements can include:
 - support for deep learning workflows  
 
 These additions can further streamline competition workflows.
+
+---
+
+<div align="center">
+
+**Amey Thakur** &nbsp;·&nbsp; [Kaggle](https://www.kaggle.com/ameythakur20) &nbsp;·&nbsp; [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
+
+<br>
+
+[↑ Back to top](#kaggle-toolbox) &nbsp;·&nbsp; [← Repository home](../README.md)
+
+</div>
 
 ---
 
