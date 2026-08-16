@@ -13,47 +13,47 @@
   [![Kaggle](https://img.shields.io/badge/Kaggle-ameythakur20-20BEFF?style=square&logo=Kaggle&logoColor=white "Amey Thakur: Access My Professional Portfolio and Verified Solutions on Kaggle")](https://www.kaggle.com/ameythakur20)
   <br>
   <br>
-  <img src="Badges/1 Year on Kaggle.svg" width="50" title="1-Year on Kaggle (Sept 11, 2024)">
-  <img src="Badges/2 Years on Kaggle.svg" width="50" title="2-Years on Kaggle (Sept 11, 2024)">
-  <img src="Badges/5 Years on Kaggle.svg" width="50" title="5-Years on Kaggle (Jul 5, 2026)">
-  <img src="Badges/Competitor.svg" width="50" title="Competitor (Mar 16, 2026)">
-  <img src="Badges/Getting Started Competitor.svg" width="50" title="Getting Started Competitor (Mar 3, 2026)">
-  <img src="Badges/Research Competitor.svg" width="50" title="Research Competitor (Mar 25, 2026)">
-  <img src="Badges/Community Competitor.svg" width="50" title="Community Competitor (Mar 22, 2026)">
-  <img src="Badges/Simulation Competitor.svg" width="50" title="Simulation Competitor (Mar 3, 2026)">
-  <img src="Badges/Playground Competitor.svg" width="50" title="Playground Competitor (Mar 5, 2026)">
-  <img src="Badges/March Mania Competitor.svg" width="50" title="March Mania Competitor (Mar 16, 2026)">
-  <img src="Badges/Code Submitter.svg" width="50" title="Code Submitter (Mar 18, 2026)">
-  <img src="Badges/Submission Streak.svg" width="50" title="Submission Streak (Mar 29, 2026)">
-  <img src="Badges/Super Submission Streak.svg" width="50" title="Super Submission Streak (Apr 21, 2026)">
-  <img src="Badges/Python Coder.svg" width="50" title="Python Coder (Sept 10, 2024)">
-  <img src="Badges/R Coder.svg" width="50" title="R Coder (Sept 10, 2024)">
-  <img src="Badges/R Markdown Coder.svg" width="50" title="R Markdown Coder (Mar 24, 2026)">
-  <img src="Badges/Code Uploader.svg" width="50" title="Code Uploader (Sept 10, 2024)">
-  <img src="Badges/API Notebook Creator.svg" width="50" title="API Notebook Creator (Mar 24, 2026)">
-  <img src="Badges/Github Coder.svg" width="50" title="Github Coder (Mar 6, 2026)">
-  <img src="Badges/Colab Coder.svg" width="50" title="Colab Coder (Mar 6, 2026)">
-  <img src="Badges/Code Tagger.svg" width="50" title="Code Tagger (Sept 10, 2024)">
-  <img src="Badges/Code Forker.svg" width="50" title="Code Forker (Sept 10, 2024)">
-  <img src="Badges/Notebook Modeler.svg" width="50" title="Notebook Modeler (Mar 24, 2026)">
-  <img src="Badges/Utility Scripter.svg" width="50" title="Utility Scripter (Mar 24, 2026)">
-  <img src="Badges/Dataset Creator.svg" width="50" title="Dataset Creator (Sept 10, 2024)">
-  <img src="Badges/API Dataset Creator.svg" width="50" title="API Dataset Creator (Mar 24, 2026)">
-  <img src="Badges/Dataset Documenter.svg" width="50" title="Dataset Documenter (Feb 25, 2026)">
-  <img src="Badges/Dataset Tagger.svg" width="50" title="Dataset Tagger (Feb 25, 2026)">
-  <img src="Badges/Competition Modeler.svg" width="50" title="Competition Modeler (Mar 24, 2026)">
-  <img src="Badges/Kaggle Community Member.svg" width="50" title="Kaggle Community Member (Sept 11, 2022)">
-  <img src="Badges/Stylish.svg" width="50" title="Stylish (Mar 4, 2026)">
-  <img src="Badges/Collector.svg" width="50" title="Collector (Mar 5, 2026)">
-  <img src="Badges/Bookmarker.svg" width="50" title="Bookmarker (Mar 4, 2026)">
-  <img src="Badges/Vampire.svg" width="50" title="Vampire (Sept 10, 2024)">
-  <img src="Badges/Agent of Discord.svg" width="50" title="Agent of Discord (Feb 1, 2026)">
-  <img src="Badges/Learner.svg" width="50" title="Learner (Sept 10, 2024)">
-  <img src="Badges/Student.svg" width="50" title="Student (Sept 10, 2024)">
-  <img src="Badges/Graduate.svg" width="50" title="Graduate (Mar 4, 2026)">
-  <img src="Badges/7 Day Login Streak.svg" width="50" title="7-Day Login Streak (Feb 4, 2026)">
-  <img src="Badges/30 Day Login Streak.svg" width="50" title="30-Day Login Streak (Feb 27, 2026)">
-  <img src="Badges/100 Day Login Streak.svg" width="50" title="100-Day Login Streak (May 7, 2026)">
+  <img src="Achievements/Badges/1 Year on Kaggle.svg" width="50" title="1-Year on Kaggle (Sept 11, 2024)">
+  <img src="Achievements/Badges/2 Years on Kaggle.svg" width="50" title="2-Years on Kaggle (Sept 11, 2024)">
+  <img src="Achievements/Badges/5 Years on Kaggle.svg" width="50" title="5-Years on Kaggle (Jul 5, 2026)">
+  <img src="Achievements/Badges/Competitor.svg" width="50" title="Competitor (Mar 16, 2026)">
+  <img src="Achievements/Badges/Getting Started Competitor.svg" width="50" title="Getting Started Competitor (Mar 3, 2026)">
+  <img src="Achievements/Badges/Research Competitor.svg" width="50" title="Research Competitor (Mar 25, 2026)">
+  <img src="Achievements/Badges/Community Competitor.svg" width="50" title="Community Competitor (Mar 22, 2026)">
+  <img src="Achievements/Badges/Simulation Competitor.svg" width="50" title="Simulation Competitor (Mar 3, 2026)">
+  <img src="Achievements/Badges/Playground Competitor.svg" width="50" title="Playground Competitor (Mar 5, 2026)">
+  <img src="Achievements/Badges/March Mania Competitor.svg" width="50" title="March Mania Competitor (Mar 16, 2026)">
+  <img src="Achievements/Badges/Code Submitter.svg" width="50" title="Code Submitter (Mar 18, 2026)">
+  <img src="Achievements/Badges/Submission Streak.svg" width="50" title="Submission Streak (Mar 29, 2026)">
+  <img src="Achievements/Badges/Super Submission Streak.svg" width="50" title="Super Submission Streak (Apr 21, 2026)">
+  <img src="Achievements/Badges/Python Coder.svg" width="50" title="Python Coder (Sept 10, 2024)">
+  <img src="Achievements/Badges/R Coder.svg" width="50" title="R Coder (Sept 10, 2024)">
+  <img src="Achievements/Badges/R Markdown Coder.svg" width="50" title="R Markdown Coder (Mar 24, 2026)">
+  <img src="Achievements/Badges/Code Uploader.svg" width="50" title="Code Uploader (Sept 10, 2024)">
+  <img src="Achievements/Badges/API Notebook Creator.svg" width="50" title="API Notebook Creator (Mar 24, 2026)">
+  <img src="Achievements/Badges/Github Coder.svg" width="50" title="Github Coder (Mar 6, 2026)">
+  <img src="Achievements/Badges/Colab Coder.svg" width="50" title="Colab Coder (Mar 6, 2026)">
+  <img src="Achievements/Badges/Code Tagger.svg" width="50" title="Code Tagger (Sept 10, 2024)">
+  <img src="Achievements/Badges/Code Forker.svg" width="50" title="Code Forker (Sept 10, 2024)">
+  <img src="Achievements/Badges/Notebook Modeler.svg" width="50" title="Notebook Modeler (Mar 24, 2026)">
+  <img src="Achievements/Badges/Utility Scripter.svg" width="50" title="Utility Scripter (Mar 24, 2026)">
+  <img src="Achievements/Badges/Dataset Creator.svg" width="50" title="Dataset Creator (Sept 10, 2024)">
+  <img src="Achievements/Badges/API Dataset Creator.svg" width="50" title="API Dataset Creator (Mar 24, 2026)">
+  <img src="Achievements/Badges/Dataset Documenter.svg" width="50" title="Dataset Documenter (Feb 25, 2026)">
+  <img src="Achievements/Badges/Dataset Tagger.svg" width="50" title="Dataset Tagger (Feb 25, 2026)">
+  <img src="Achievements/Badges/Competition Modeler.svg" width="50" title="Competition Modeler (Mar 24, 2026)">
+  <img src="Achievements/Badges/Kaggle Community Member.svg" width="50" title="Kaggle Community Member (Sept 11, 2022)">
+  <img src="Achievements/Badges/Stylish.svg" width="50" title="Stylish (Mar 4, 2026)">
+  <img src="Achievements/Badges/Collector.svg" width="50" title="Collector (Mar 5, 2026)">
+  <img src="Achievements/Badges/Bookmarker.svg" width="50" title="Bookmarker (Mar 4, 2026)">
+  <img src="Achievements/Badges/Vampire.svg" width="50" title="Vampire (Sept 10, 2024)">
+  <img src="Achievements/Badges/Agent of Discord.svg" width="50" title="Agent of Discord (Feb 1, 2026)">
+  <img src="Achievements/Badges/Learner.svg" width="50" title="Learner (Sept 10, 2024)">
+  <img src="Achievements/Badges/Student.svg" width="50" title="Student (Sept 10, 2024)">
+  <img src="Achievements/Badges/Graduate.svg" width="50" title="Graduate (Mar 4, 2026)">
+  <img src="Achievements/Badges/7 Day Login Streak.svg" width="50" title="7-Day Login Streak (Feb 4, 2026)">
+  <img src="Achievements/Badges/30 Day Login Streak.svg" width="50" title="30-Day Login Streak (Feb 27, 2026)">
+  <img src="Achievements/Badges/100 Day Login Streak.svg" width="50" title="100-Day Login Streak (May 7, 2026)">
 </div>
 
 ---
@@ -150,25 +150,25 @@ The index below categorizes active projects by their competitive domain and foun
 
 | <div align="center">#</div> | <div align="center">Competition Portfolio</div> | <div align="center">Medal</div> | <div align="center">Domain</div> | <div align="center">Technical Methodology</div> | <div align="center">Documentation</div> | <div align="center">Environment</div> |
 | :---: | :--- | :---: | :--- | :--- | :---: | :---: |
-| 1 | **AI Mathematical Olympiad** | - | <ul><li>Mathematics</li><li>NLP</li><li>LLM</li></ul> | <ul><li>Self-Correction</li><li>Symbolic Computation</li><li>Agentic Inference</li></ul> | [Analysis](./AI%20Mathematical%20Olympiad/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/aimo-diagnostics-inference) |
-| 2 | **Are You A Robot?** | 1/8 | <ul><li>NLP</li><li>Classification</li></ul> | <ul><li>Stylometric Analysis</li><li>Gaussian Mixture Models</li><li>TF-IDF</li></ul> | [Analysis](./Are%20You%20A%20Robot/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/are-you-a-robot) |
-| 3 | **BirdCLEF+ 2026** | - | <ul><li>Bioacoustics</li><li>Deep Learning</li><li>Time Series</li></ul> | <ul><li>Perch v2 Model Fusion</li><li>TF 2.20 Hybrid Setup</li><li>Bayesian Inference</li></ul> | [Analysis](./BirdCLEF%2B%202026/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/birdclef-2026-perch-v2-soundscape-inference) |
-| 4 | **CS Week Codeathon AIML (Easy Level)** | - | <ul><li>Education</li><li>Tabular Data</li></ul> | <ul><li>EDA</li><li>Feature Engineering</li><li>Regression</li></ul> | [Analysis](./CS%20Week%20Codeathon%20AIML%20(Easy%20Level)/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/student-final-score-prediction-with-eda-and-fe) |
-| 5 | **Connect X** | <img src="Medals/Bronze Medal.png" width="22" title="Bronze Medal (Mar 6, 2026)"> | <ul><li>Game Theory</li><li>Simulation</li></ul> | <ul><li>Minimax</li><li>Alpha-Beta Pruning</li><li>Heuristics</li><li>Move Ordering</li></ul> | [Analysis](./Connect%20X/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/connectx-minimax-alpha-beta-agent) |
-| 6 | **English Scoring - Corrected Ver** | - | <ul><li>English Proficiency</li><li>NLP</li></ul> | <ul><li>Text Vectorization</li><li>Regression Analysis</li></ul> | [Analysis](./English%20Scoring%20-%20Corrected%20Ver/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/english-scoring-regression) |
-| 7 | **Evading AI Detection** | 1/3 | <ul><li>NLP</li><li>Generative AI</li></ul> | <ul><li>Activation Steering</li><li>Sparse Autoencoders</li><li>Latent Feature Suppression</li></ul> | [Analysis](./Evading%20AI%20Detection/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/evading-ai-text-detection) |
-| 8 | **GOSIM Spotlight 2026: Frontier Creators** | - | <ul><li>Interpretability</li><li>Uncertainty Mapping</li><li>LLM</li></ul> | <ul><li>Logit Extraction</li><li>Probability Tiers</li><li>Entropy Visualization</li></ul> | [Analysis](./GOSIM%20Spotlight%202026%20-%20Frontier%20Creators/README.md) | [Notebook](./GOSIM%20Spotlight%202026%20-%20Frontier%20Creators/ai-hallucination-visualizer.ipynb) |
-| 9 | **Harmonizing the Data of your Data** | - | <ul><li>Scientific Proteomics</li><li>NLP</li></ul> | <ul><li>Rule-based Extraction</li><li>Ontology Normalization</li></ul> | [Analysis](./Harmonizing%20the%20Data%20of%20your%20Data/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/sdrf-metadata-extraction-baseline) |
-| 10 | **Hedge fund - Time series forecasting** | - | <ul><li>Financial Markets</li><li>Time Series</li></ul> | <ul><li>LightGBM Ensembles</li><li>Memory Optimization</li><li>Weighted RMSE</li><li>Rolling Validation</li></ul> | [Analysis](./Hedge%20fund%20-%20Time%20series%20forecasting/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/hedge-fund-time-series-forecasting) |
-| 11 | **House Prices - Advanced Regression Techniques** | - | <ul><li>Tabular Data</li><li>Regression</li></ul> | <ul><li>Deterministic Record Linkage</li><li>Normalization</li><li>Data Alignment</li></ul> | [Analysis](./House%20Prices%20-%20Advanced%20Regression%20Techniques/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/house-prices-deterministic-record-linkage) |
-| 12 | **LLM Classification** | - | <ul><li>LLM Preference</li><li>Ensemble Inference</li></ul> | <ul><li>Gemma-2-9B</li><li>Llama-3-8B</li><li>Pipeline Parallelism</li><li>Logit Interpolation</li></ul> | [Analysis](./LLM%20Classification%20Finetuning/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/llm-classification-inference) |
-| 13 | **Measuring Progress Toward AGI** | - | <ul><li>Attention</li><li>Cognitive Control</li><li>LLM</li></ul> | <ul><li>Salient Distractor Injection</li><li>Selective Attention</li><li>SDK Benchmarking</li></ul> | [Analysis](./Measuring%20Progress%20Toward%20AGI%20-%20Cognitive%20Abilities/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/agi-attention-salient-distractor-benchmark) |
-| 14 | **Petals to the Metal** | - | <ul><li>Computer Vision</li><li>Deep Learning</li></ul> | <ul><li>Tensor Processing Units (TPU)</li><li>Image Classification</li></ul> | [Analysis](./Petals%20to%20the%20Metal%20-%20Flower%20Classification%20on%20TPU/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/tpu-flower-classification-advanced-ensemble) |
-| 15 | **Predict Customer Churn** | <img src="Medals/Bronze Medal.png" width="22" title="Bronze Medal (Mar 20, 2026)"> | <ul><li>Binary Classification</li><li>Tabular Data</li></ul> | <ul><li>XGBoost</li><li>CatBoost</li><li>LightGBM</li><li>Optuna</li></ul> | [Analysis](./Predict%20Customer%20Churn/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/customer-churn-prediction-121-fe-20-cv-stacking) |
-| 16 | **Stanford RNA 3D Folding** | - | <ul><li>Structural Biology</li><li>Biophysics</li></ul> | <ul><li>Hybrid TBM + Protenix-v1</li><li>Template-Based Modeling (TBM)</li><li>Chunked Inference</li><li>Kabsch Stitching</li></ul> | [Analysis](./Stanford%20RNA%203D%20Folding%20Part%202/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/stanford-rna-3d-folding-part-2-tbm-protenix-v1) |
-| 17 | **Student Study Hours to CGPA Prediction** | - | <ul><li>Education</li><li>Regression</li></ul> | <ul><li>Polynomial Expansion</li><li>Ridge/Lasso</li><li>K-Fold CV</li><li>MSE Optimization</li></ul> | [Analysis](./Student%20Study%20Hours%20to%20CGPA%20Prediction/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/student-study-hours-to-cgpa-prediction) |
-| 18 | **Titanic** | <img src="Medals/Bronze Medal.png" width="22" title="Bronze Medal (Mar 6, 2026)"> | <ul><li>Classification</li><li>Forensic Analysis</li></ul> | <ul><li>Deterministic Record Linkage</li><li>Normalization</li><li>Data Alignment</li></ul> | [Analysis](./Titanic%20-%20Machine%20Learning%20from%20Disaster/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/titanic-passenger-survival-prediction) |
-| 19 | **Triagegeist** | - | <ul><li>Clinical Informatics</li><li>Decision Support</li></ul> | <ul><li>Hierarchical Ensemble</li><li>LightGBM + CatBoost</li><li>Hemodynamic Feature Science</li><li>Uncertainty-Aware Logic</li></ul> | [Analysis](./Triagegeist/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/triagegeist-cdss-multi-tier-acuity-forecasting) |
+| 1 | **AI Mathematical Olympiad** | - | <ul><li>Mathematics</li><li>NLP</li><li>LLM</li></ul> | <ul><li>Self-Correction</li><li>Symbolic Computation</li><li>Agentic Inference</li></ul> | [Analysis](./Competitions/AI%20Mathematical%20Olympiad/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/aimo-diagnostics-inference) |
+| 2 | **Are You A Robot?** | 1/8 | <ul><li>NLP</li><li>Classification</li></ul> | <ul><li>Stylometric Analysis</li><li>Gaussian Mixture Models</li><li>TF-IDF</li></ul> | [Analysis](./Competitions/Are%20You%20A%20Robot/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/are-you-a-robot) |
+| 3 | **BirdCLEF+ 2026** | - | <ul><li>Bioacoustics</li><li>Deep Learning</li><li>Time Series</li></ul> | <ul><li>Perch v2 Model Fusion</li><li>TF 2.20 Hybrid Setup</li><li>Bayesian Inference</li></ul> | [Analysis](./Competitions/BirdCLEF%2B%202026/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/birdclef-2026-perch-v2-soundscape-inference) |
+| 4 | **CS Week Codeathon AIML (Easy Level)** | - | <ul><li>Education</li><li>Tabular Data</li></ul> | <ul><li>EDA</li><li>Feature Engineering</li><li>Regression</li></ul> | [Analysis](./Competitions/CS%20Week%20Codeathon%20AIML%20%28Easy%20Level%29/README.md)/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/student-final-score-prediction-with-eda-and-fe) |
+| 5 | **Connect X** | <img src="Achievements/Medals/Bronze Medal.png" width="22" title="Bronze Medal (Mar 6, 2026)"> | <ul><li>Game Theory</li><li>Simulation</li></ul> | <ul><li>Minimax</li><li>Alpha-Beta Pruning</li><li>Heuristics</li><li>Move Ordering</li></ul> | [Analysis](./Competitions/Connect%20X/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/connectx-minimax-alpha-beta-agent) |
+| 6 | **English Scoring - Corrected Ver** | - | <ul><li>English Proficiency</li><li>NLP</li></ul> | <ul><li>Text Vectorization</li><li>Regression Analysis</li></ul> | [Analysis](./Competitions/English%20Scoring%20-%20Corrected%20Ver/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/english-scoring-regression) |
+| 7 | **Evading AI Detection** | 1/3 | <ul><li>NLP</li><li>Generative AI</li></ul> | <ul><li>Activation Steering</li><li>Sparse Autoencoders</li><li>Latent Feature Suppression</li></ul> | [Analysis](./Competitions/Evading%20AI%20Detection/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/evading-ai-text-detection) |
+| 8 | **GOSIM Spotlight 2026: Frontier Creators** | - | <ul><li>Interpretability</li><li>Uncertainty Mapping</li><li>LLM</li></ul> | <ul><li>Logit Extraction</li><li>Probability Tiers</li><li>Entropy Visualization</li></ul> | [Analysis](./Competitions/GOSIM%20Spotlight%202026%20-%20Frontier%20Creators/README.md) | [Notebook](./Competitions/GOSIM%20Spotlight%202026%20-%20Frontier%20Creators/ai-hallucination-visualizer.ipynb) |
+| 9 | **Harmonizing the Data of your Data** | - | <ul><li>Scientific Proteomics</li><li>NLP</li></ul> | <ul><li>Rule-based Extraction</li><li>Ontology Normalization</li></ul> | [Analysis](./Competitions/Harmonizing%20the%20Data%20of%20your%20Data/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/sdrf-metadata-extraction-baseline) |
+| 10 | **Hedge fund - Time series forecasting** | - | <ul><li>Financial Markets</li><li>Time Series</li></ul> | <ul><li>LightGBM Ensembles</li><li>Memory Optimization</li><li>Weighted RMSE</li><li>Rolling Validation</li></ul> | [Analysis](./Competitions/Hedge%20fund%20-%20Time%20series%20forecasting/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/hedge-fund-time-series-forecasting) |
+| 11 | **House Prices - Advanced Regression Techniques** | - | <ul><li>Tabular Data</li><li>Regression</li></ul> | <ul><li>Deterministic Record Linkage</li><li>Normalization</li><li>Data Alignment</li></ul> | [Analysis](./Competitions/House%20Prices%20-%20Advanced%20Regression%20Techniques/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/house-prices-deterministic-record-linkage) |
+| 12 | **LLM Classification** | - | <ul><li>LLM Preference</li><li>Ensemble Inference</li></ul> | <ul><li>Gemma-2-9B</li><li>Llama-3-8B</li><li>Pipeline Parallelism</li><li>Logit Interpolation</li></ul> | [Analysis](./Competitions/LLM%20Classification%20Finetuning/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/llm-classification-inference) |
+| 13 | **Measuring Progress Toward AGI** | - | <ul><li>Attention</li><li>Cognitive Control</li><li>LLM</li></ul> | <ul><li>Salient Distractor Injection</li><li>Selective Attention</li><li>SDK Benchmarking</li></ul> | [Analysis](./Competitions/Measuring%20Progress%20Toward%20AGI%20-%20Cognitive%20Abilities/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/agi-attention-salient-distractor-benchmark) |
+| 14 | **Petals to the Metal** | - | <ul><li>Computer Vision</li><li>Deep Learning</li></ul> | <ul><li>Tensor Processing Units (TPU)</li><li>Image Classification</li></ul> | [Analysis](./Competitions/Petals%20to%20the%20Metal%20-%20Flower%20Classification%20on%20TPU/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/tpu-flower-classification-advanced-ensemble) |
+| 15 | **Predict Customer Churn** | <img src="Achievements/Medals/Bronze Medal.png" width="22" title="Bronze Medal (Mar 20, 2026)"> | <ul><li>Binary Classification</li><li>Tabular Data</li></ul> | <ul><li>XGBoost</li><li>CatBoost</li><li>LightGBM</li><li>Optuna</li></ul> | [Analysis](./Competitions/Predict%20Customer%20Churn/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/customer-churn-prediction-121-fe-20-cv-stacking) |
+| 16 | **Stanford RNA 3D Folding** | - | <ul><li>Structural Biology</li><li>Biophysics</li></ul> | <ul><li>Hybrid TBM + Protenix-v1</li><li>Template-Based Modeling (TBM)</li><li>Chunked Inference</li><li>Kabsch Stitching</li></ul> | [Analysis](./Competitions/Stanford%20RNA%203D%20Folding%20Part%202/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/stanford-rna-3d-folding-part-2-tbm-protenix-v1) |
+| 17 | **Student Study Hours to CGPA Prediction** | - | <ul><li>Education</li><li>Regression</li></ul> | <ul><li>Polynomial Expansion</li><li>Ridge/Lasso</li><li>K-Fold CV</li><li>MSE Optimization</li></ul> | [Analysis](./Competitions/Student%20Study%20Hours%20to%20CGPA%20Prediction/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/student-study-hours-to-cgpa-prediction) |
+| 18 | **Titanic** | <img src="Achievements/Medals/Bronze Medal.png" width="22" title="Bronze Medal (Mar 6, 2026)"> | <ul><li>Classification</li><li>Forensic Analysis</li></ul> | <ul><li>Deterministic Record Linkage</li><li>Normalization</li><li>Data Alignment</li></ul> | [Analysis](./Competitions/Titanic%20-%20Machine%20Learning%20from%20Disaster/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/titanic-passenger-survival-prediction) |
+| 19 | **Triagegeist** | - | <ul><li>Clinical Informatics</li><li>Decision Support</li></ul> | <ul><li>Hierarchical Ensemble</li><li>LightGBM + CatBoost</li><li>Hemodynamic Feature Science</li><li>Uncertainty-Aware Logic</li></ul> | [Analysis](./Competitions/Triagegeist/README.md) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/triagegeist-cdss-multi-tier-acuity-forecasting) |
 
 ---
 
