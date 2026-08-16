@@ -10,7 +10,7 @@
 
 [![Kaggle](https://img.shields.io/badge/Kaggle-ameythakur20-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/ameythakur20)
 [![Notebooks](https://img.shields.io/badge/Notebooks-Expert-8148FD?logo=kaggle&logoColor=white)](https://www.kaggle.com/ameythakur20/code)
-[![Medals](https://img.shields.io/badge/Medals-8_Bronze-8E5B3D)](#achievements)
+[![Medals](https://img.shields.io/badge/Medals-7_Bronze-8E5B3D)](#achievements)
 [![Badges](https://img.shields.io/badge/Badges-Earned-BF3989)](Achievements/Badges/README.md)
 [![Courses](https://img.shields.io/badge/Courses-Kaggle_Learn-FAE041)](Kaggle%20Courses/README.md)
 [![Status](https://img.shields.io/badge/Status-Active-2EA043)](#competitions)
@@ -172,9 +172,8 @@ added.
 <img src="Achievements/Medals/Bronze%20Medal.png" width="28" alt="Bronze medal">
 <img src="Achievements/Medals/Bronze%20Medal.png" width="28" alt="Bronze medal">
 <img src="Achievements/Medals/Bronze%20Medal.png" width="28" alt="Bronze medal">
-<img src="Achievements/Medals/Bronze%20Medal.png" width="28" alt="Bronze medal">
 
-**8 bronze medals** &nbsp;·&nbsp; **highest rank 932** of 61,334
+**7 bronze medals** &nbsp;·&nbsp; **highest rank 932** of 61,334
 
 </div>
 
@@ -188,7 +187,7 @@ shared [Kaggle Toolbox](./Kaggle%20Toolbox/README.md).
 
 | [Badges](Achievements/Badges/README.md) | [Medals](Achievements/Medals/README.md) | [Tiers](Achievements/Tiers/README.md) |
 | :---: | :---: | :---: |
-| Every badge earned, with its certificate | 8 bronze, awarded to published notebooks | Progression through the Kaggle ranks |
+| Every badge earned, with its certificate | 7 bronze, awarded to published notebooks | Progression through the Kaggle ranks |
 | <img src="Achievements/Badges/Competitor.svg" width="46"> | <img src="Achievements/Medals/Bronze%20Medal.png" width="46"> | <img src="Achievements/Tiers/Expert.png" width="46"> |
 
 </div>
@@ -219,11 +218,26 @@ certificate is stored with the course it belongs to.
 <a name="toolbox"></a>
 ## Toolbox
 
-[`Kaggle Toolbox`](Kaggle%20Toolbox/README.md) is the helper module the
-notebooks share: the utilities that would otherwise be pasted into the top of
-every one of them. It ships with a demo notebook and a tutorial script.
+<div align="center">
 
-The published notebook carries a bronze medal 🥉.
+<img src="Achievements/Medals/Bronze%20Medal.png" width="34" alt="Bronze medal">
+
+**Bronze medal**
+
+### [Kaggle Toolbox](Kaggle%20Toolbox/README.md)
+
+[![Notebook](https://img.shields.io/badge/Notebook-Kaggle-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/code/ameythakur20/kaggle-toolbox)
+[![Medal](https://img.shields.io/badge/Medal-Bronze-8E5B3D)](https://www.kaggle.com/ameythakur20/code)
+[![Author](https://img.shields.io/badge/Author-Amey_Thakur-0969DA)](https://www.kaggle.com/ameythakur20)
+
+<a href="https://www.kaggle.com/code/ameythakur20/kaggle-toolbox"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open in Kaggle"></a>
+
+</div>
+
+The helper module the notebooks share: the utilities that would otherwise be
+pasted into the top of every one of them, covering reproducibility, memory,
+validation, cross-validation and environment diagnostics. It ships with a demo
+notebook and a tutorial script.
 
 ---
 
