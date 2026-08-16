@@ -2,7 +2,7 @@
 
 # House Prices: Advanced Regression via Stacked Meta-Ensembles
 
-**A state-of-the-art regression pipeline utilizing multi-model stacking, domain-driven feature science, and RMSLE-optimized ensembling.**
+**A state-of-the-art regression pipeline using multi-model stacking, domain-driven feature science, and RMSLE-optimized ensembling.**
 
 <br>
 
@@ -27,10 +27,10 @@ The solution integrates:
 - **Heteroscedasticity Correction** via target Log1p and Box-Cox transformations
 - **Domain-Driven Feature Science** (TotalSF, HouseAge, and Composite Baths)
 - **Ordinal Quality Encoding** to translate qualitative grading into linear signals
-- **A 7-Model Stacked Ensemble** utilizing Ridge, Lasso, ElasticNet, KRR, GBR, XGBoost, and LightGBM
+- **A 7-Model Stacked Ensemble** using Ridge, Lasso, ElasticNet, KRR, GBR, XGBoost, and LightGBM
 - **Meta-Learning Architecture** (Ridge meta-learner on OOF predictions)
 
-Each component is designed to bridge the gap between simple regression and **robust market valuation**.
+Each component is designed to bridge the gap between simple regression and **reliable market valuation**.
 
 ---
 
@@ -88,7 +88,7 @@ This ensures that the final predictions are not only accurate but statistically 
 
 ---
 
-Achieving a top-tier RMSLE on the leaderboard requires a meticulous balance of data hygiene and model diversity. By combining the precision of **Lasso-regularized architectures** with the predictive power of **gradient boosting ensembles**, we ensure that the regression model is robust against both bias and variance.
+Achieving a top-tier RMSLE on the leaderboard requires a careful balance of data hygiene and model diversity. By combining the precision of **Lasso-regularized architectures** with the predictive power of **gradient boosting ensembles**, we ensure that the regression model is reliable against both bias and variance.
 
 Further research will focus on:
 - integrating spatial-aware regularization for Neighborhood-level variance

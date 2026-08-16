@@ -2,7 +2,7 @@
 
 # BirdCLEF+ 2026: Avian Vocalization Analysis & Perch v2 Fusion
 
-**A high-performance bioacoustic pipeline utilizing Perch v2 architecture and Bayesian model fusion for soundscape inference.**
+**A high-performance bioacoustic pipeline using Perch v2 architecture and Bayesian model fusion for soundscape inference.**
 
 <br>
 
@@ -52,10 +52,6 @@ upgrade at run time and without a network call.
 
 **Stack** &nbsp;·&nbsp; `tensorflow` `perch-hoplite` `scikit-learn` `scipy`
 `soundfile` `pandas` `numpy` `kaggle_toolbox`
-
----
-
----
 
 ---
 

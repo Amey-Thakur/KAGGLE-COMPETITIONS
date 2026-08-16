@@ -29,7 +29,7 @@ The solution is built on a **tiered resolution hierarchy**:
 3. rule-based text extraction  
 4. heuristic fallback strategies  
 
-Each layer progressively trades accuracy for coverage to ensure robust metadata extraction.
+Each layer progressively trades accuracy for coverage to ensure reliable metadata extraction.
 
 
 ---

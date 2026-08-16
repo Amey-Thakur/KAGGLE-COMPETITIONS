@@ -236,7 +236,7 @@ All supporting functions are included within the agent definition so that the fi
 
 ConnectX provides an excellent setting for exploring adversarial search algorithms. Even with simple rules, the interaction between search depth, heuristic evaluation, and pruning strategies creates a rich decision landscape.
 
-The implementation in this notebook serves as a structural reference for experimenting with classical game search techniques. Adjusting evaluation weights, search depth, or move ordering strategies can reveal interesting variations in agent behavior and provide deeper insight into algorithmic decision making in competitive environments.
+The implementation in this notebook is a structural reference for experimenting with classical game search techniques. Adjusting evaluation weights, search depth, or move ordering strategies can reveal interesting variations in agent behavior and provide deeper insight into algorithmic decision making in competitive environments.
 
 Discussion, experimentation, and alternative approaches are always welcome.
 

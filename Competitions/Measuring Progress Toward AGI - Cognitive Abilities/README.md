@@ -20,7 +20,7 @@
 
 ---
 
-This notebook presents a **robust and reproducible evaluation pipeline** for the *Measuring Progress Toward AGI* competition. The objective is to evaluate a model's cognitive suppression capabilities using a "Needle in a Salient Haystack" methodology.
+This notebook presents a **reliable and reproducible evaluation pipeline** for the *Measuring Progress Toward AGI* competition. The objective is to evaluate a model's cognitive suppression capabilities using a "Needle in a Salient Haystack" methodology.
 
 The solution integrates:
 

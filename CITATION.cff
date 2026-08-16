@@ -1,10 +1,21 @@
 cff-version: 1.2.0
-message: "If you use these competition solutions, notebooks, or academic materials, please cite them as below."
+message: "If you refer to this Kaggle work, please cite it as below."
 authors:
 - family-names: "Thakur"
   given-names: "Amey"
   orcid: "https://orcid.org/0000-0001-5644-1575"
-title: "Kaggle Competitions: A Collection of High-Performance Machine Learning Solutions and Professional Certifications"
-version: 1.0.0
-date-released: 2026-03-06
+title: "Kaggle Competitions"
+abstract: "Competition solutions, notebooks and write-ups from Kaggle, with the Kaggle Learn certificates and badges earned alongside them. Each competition keeps its own folder, notebook and account of the approach taken."
+version: 2.0.0
+date-released: 2026-08-16
 url: "https://github.com/Amey-Thakur/KAGGLE-COMPETITIONS"
+repository-code: "https://github.com/Amey-Thakur/KAGGLE-COMPETITIONS"
+license:
+  - CC-BY-4.0
+  - MIT
+keywords:
+  - kaggle
+  - competitive data science
+  - machine learning
+  - feature engineering
+  - notebooks

@@ -2,7 +2,7 @@
 
 # Student Study Hours to CGPA Prediction
 
-**Predict academic performance utilizing polynomial regression and regularized ensembles.**
+**Predict academic performance using polynomial regression and regularized ensembles.**
 
 <br>
 
@@ -20,9 +20,9 @@
 
 ---
 
-This notebook presents a **robust regression framework** designed to predict student CGPA based on quantitative study metrics. The objective is to minimize the Mean Squared Error (MSE) by exploring the non-linear relationship between academic input (Study Hours) and performance output (CGPA).
+This notebook presents a **reliable regression framework** designed to predict student CGPA based on quantitative study metrics. The objective is to minimize the Mean Squared Error (MSE) by exploring the non-linear relationship between academic input (Study Hours) and performance output (CGPA).
 
-Typical baseline approaches assume a constant rate of return on study time. However, this pipeline acknowledges that academic growth often follows a curvilinear path—exhibiting diminishing returns at higher intervals or accelerated learning phases. To address this, we implement a **polynomial expansion strategy** paired with **regularized learning benchmarks**.
+Typical baseline approaches assume a constant rate of return on study time. However, this pipeline acknowledges that academic growth often follows a curvilinear path,exhibiting diminishing returns at higher intervals or accelerated learning phases. To address this, we implement a **polynomial expansion strategy** paired with **regularized learning benchmarks**.
 
 The sections below walk through the mathematical formulation of our problem, the feature engineering logic, and the structural evaluation of our predictive ensemble.
 
@@ -50,7 +50,7 @@ Where:
 ### Key Challenges
 
 - **Overfitting High-Degree Terms**: Ensuring that x² or higher terms capture the "elbow" of the data without memorizing local noise.
-- **Variance Control**: Utilizing L2 Regularization (Ridge) to penalize excessive coefficient magnitude in high-dimensional feature spaces.
+- **Variance Control**: Using L2 Regularization (Ridge) to penalize excessive coefficient magnitude in high-dimensional feature spaces.
 - **Model Stability**: Validating consistency across a 24,000-record dataset via stratified grouping.
 
 ---
@@ -68,7 +68,7 @@ Before modeling, we perform a **spectral analysis** of the target variable. By i
 
 ## 3. Visual Discovery (EDA)
 
-We utilize **Bivariate Statistical Profiling** to visualize the density between hours and CGPA. This stage is critical for identifying whether the variance in CGPA increases as study hours grow, which would necessitate specific normalization or log-transformation strategies.
+We use **Bivariate Statistical Profiling** to visualize the density between hours and CGPA. This stage is critical for identifying whether the variance in CGPA increases as study hours grow, which would necessitate specific normalization or log-transformation strategies.
 
 ## 4. Feature Science: Polynomial Engineering
 
@@ -93,7 +93,7 @@ Performance is evaluated using the **Mean Squared Error (MSE)** and the **Coeffi
 
 $$ MSE = \frac{1}{m} \sum_{i=1}^{m} (y_i - \hat{y}_i)^2 $$
 
-By minimizing the squared distance between predicted and actual CGPA, we ensure the model is robust against large outliers while maintaining high precision for the average student profile.
+By minimizing the squared distance between predicted and actual CGPA, we ensure the model is reliable against large outliers while maintaining high precision for the average student profile.
 
 ---
 
@@ -108,7 +108,7 @@ This analytical pipeline demonstrates:
 
 ## Closing Remarks
 
-Forecasting educational outcomes requires a meticulous balance of statistical hygiene and model complexity. By transitioning from a simple linear baseline to an optimized **polynomial ensemble architecture**, we provide a scalable framework for academic diagnostics that is robust against local noise and global bias.
+Forecasting educational outcomes requires a careful balance of statistical hygiene and model complexity. By transitioning from a simple linear baseline to an optimized **polynomial ensemble architecture**, we provide a scalable framework for academic diagnostics that is reliable against local noise and global bias.
 
 Further research will focus on:
 - integrating sociodemographic metadata for multi-variate complexity.

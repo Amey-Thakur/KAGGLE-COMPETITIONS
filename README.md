@@ -7,13 +7,12 @@
 <br>
 
 [![Kaggle](https://img.shields.io/badge/Kaggle-ameythakur20-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/ameythakur20)
-[![Notebooks](https://img.shields.io/badge/Notebooks-Expert-BF3989)](https://www.kaggle.com/ameythakur20/code)
+[![Notebooks](https://img.shields.io/badge/Notebooks-Expert-8148FD?logo=kaggle&logoColor=white)](https://www.kaggle.com/ameythakur20/code)
 [![Medals](https://img.shields.io/badge/Medals-7_Bronze-CD7F32)](#achievements)
-[![Competitions](https://img.shields.io/badge/Competitions-19-3949AB)](#competitions)
-[![Badges](https://img.shields.io/badge/Badges-41-BF3989)](Achievements/Badges/README.md)
-[![Courses](https://img.shields.io/badge/Courses-17-8250DF)](Kaggle%20Courses/README.md)
+[![Badges](https://img.shields.io/badge/Badges-Earned-BF3989)](Achievements/Badges/README.md)
+[![Courses](https://img.shields.io/badge/Courses-Kaggle_Learn-8250DF)](Kaggle%20Courses/README.md)
 [![Status](https://img.shields.io/badge/Status-Active-2EA043)](#competitions)
-[![License](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey)](LICENSE)
+[![License](https://img.shields.io/badge/License-CC_BY_4.0_%7C_MIT-lightgrey)](#license)
 
 <br>
 
@@ -126,15 +125,15 @@ the three or four plausible approaches was taken and why.
 <a name="competitions"></a>
 ## Competitions
 
-19 competitions, 27 notebooks, 3 medals
-(0 gold, 0 silver, 3 bronze).
-Every folder carries the notebook and a write-up of the approach.
+Every folder carries its notebook and a write-up of the approach. The index is
+generated from the folders themselves, so it stays current as competitions are
+added.
 
 | # | Competition | Medal | Kaggle |
 | :---: | :--- | :---: | :---: |
-| 1 | [**AI Mathematical Olympiad**](./Competitions/AI%20Mathematical%20Olympiad/README.md)<br><sub>A modular agentic inference framework utilizing RAG-backed symbolic computation and LaTeX-aware text diagnostics.</sub> |  | [Open](https://www.kaggle.com/code/ameythakur20/aimo-diagnostics-inference) |
+| 1 | [**AI Mathematical Olympiad**](./Competitions/AI%20Mathematical%20Olympiad/README.md)<br><sub>A modular agentic inference framework using RAG-backed symbolic computation and LaTeX-aware text diagnostics.</sub> |  | [Open](https://www.kaggle.com/code/ameythakur20/aimo-diagnostics-inference) |
 | 2 | [**Are You A Robot?**](./Competitions/Are%20You%20A%20Robot/README.md)<br><sub>Identifying AI-Generated Discourse through Stochastic Analysis</sub> |  | [Open](https://www.kaggle.com/code/ameythakur20/are-you-a-robot) |
-| 3 | [**BirdCLEF+ 2026**](./Competitions/BirdCLEF%2B%202026/README.md)<br><sub>A high-performance bioacoustic pipeline utilizing Perch v2 architecture and Bayesian model fusion for soundscape inference.</sub> |  | [Open](https://www.kaggle.com/code/ameythakur20/birdclef-2026-perch-v2-soundscape-inference) |
+| 3 | [**BirdCLEF+ 2026**](./Competitions/BirdCLEF%2B%202026/README.md)<br><sub>A high-performance bioacoustic pipeline using Perch v2 architecture and Bayesian model fusion for soundscape inference.</sub> |  | [Open](https://www.kaggle.com/code/ameythakur20/birdclef-2026-perch-v2-soundscape-inference) |
 | 4 | [**CS Week Codeathon AIML (Easy Level)**](./Competitions/CS%20Week%20Codeathon%20AIML%20%28Easy%20Level%29/README.md)<br><sub>A predictive modeling approach using Exploratory Data Analysis (EDA) and Feature Engineering (FE) to forecast academic performance.</sub> |  | [Open](https://www.kaggle.com/code/ameythakur20/student-final-score-prediction-with-eda-and-fe) |
 | 5 | [**Connect X**](./Competitions/Connect%20X/README.md)<br><sub>Connect your checkers in a row before your opponent!</sub> | 🥉 | [Open](https://www.kaggle.com/code/ameythakur20/connectx-minimax-alpha-beta-agent) |
 | 6 | [**English Scoring - Corrected Ver**](./Competitions/English%20Scoring%20-%20Corrected%20Ver/README.md)<br><sub>A predictive modeling approach using structured text features and ensemble regression to forecast student performance across seven scoring dimensions.</sub> |  | [Open](https://www.kaggle.com/code/ameythakur20/english-scoring-regression) |
@@ -142,15 +141,15 @@ Every folder carries the notebook and a write-up of the approach.
 | 8 | [**AI Hallucination Visualizer**](./Competitions/GOSIM%20Spotlight%202026%20-%20Frontier%20Creators/README.md)<br><sub>A diagnostic pipeline for quantifying and visualizing stochastic uncertainty in LLMs using GPT-2 token-level probability analysis.</sub> |  | [Open](https://www.kaggle.com/code/architkonde/ai-hallucination-visualizer) |
 | 9 | [**Harmonizing the Data of your Data**](./Competitions/Harmonizing%20the%20Data%20of%20your%20Data/README.md)<br><sub>A predictive modeling approach using high-precision rule-based extraction and ontology normalization to structure scientific proteomics metadata.</sub> |  | [Open](https://www.kaggle.com/code/ameythakur20/sdrf-metadata-extraction-baseline) |
 | 10 | [**Hedge Fund - Time Series Forecasting**](./Competitions/Hedge%20fund%20-%20Time%20series%20forecasting/README.md)<br><sub>Optimizing high-frequency investment signals through gradient boosted ensembles and multi-horizon temporal validation.</sub> |  | [Open](https://www.kaggle.com/code/ameythakur20/hedge-fund-time-series-forecasting) |
-| 11 | [**House Prices**](./Competitions/House%20Prices%20-%20Advanced%20Regression%20Techniques/README.md)<br><sub>A state-of-the-art regression pipeline utilizing multi-model stacking, domain-driven feature science, and RMSLE-optimized ensembling.</sub> |  | [Open](https://www.kaggle.com/code/ameythakur20/house-prices-deterministic-record-linkage) |
+| 11 | [**House Prices**](./Competitions/House%20Prices%20-%20Advanced%20Regression%20Techniques/README.md)<br><sub>A state-of-the-art regression pipeline using multi-model stacking, domain-driven feature science, and RMSLE-optimized ensembling.</sub> |  | [Open](https://www.kaggle.com/code/ameythakur20/house-prices-deterministic-record-linkage) |
 | 12 | [**LLM Classification Finetuning**](./Competitions/LLM%20Classification%20Finetuning/README.md)<br><sub>Ensembled Pipeline Inference for Human Preference Classification</sub> |  | [Open](https://www.kaggle.com/code/ameythakur20/llm-classification-inference) |
 | 13 | [**Attention Span**](./Competitions/Measuring%20Progress%20Toward%20AGI%20-%20Cognitive%20Abilities/README.md)<br><sub>Evaluating Selective Attention and Distractor Vulnerability in Frontier LLMs.</sub> |  | [Open](https://www.kaggle.com/code/ameythakur20/agi-attention-salient-distractor-benchmark) |
 | 14 | [**Petals to the Metal - Flower Classification on TPU**](./Competitions/Petals%20to%20the%20Metal%20-%20Flower%20Classification%20on%20TPU/README.md)<br><sub>Macro F1 Maximization through Distributed Dual-Stream Architectures</sub> |  | [Open](https://www.kaggle.com/code/ameythakur20/tpu-flower-classification-advanced-ensemble) |
 | 15 | [**Predict Customer Churn**](./Competitions/Predict%20Customer%20Churn/README.md)<br><sub>Playground Series - Season 6 Episode 3</sub> | 🥉 | [Open](https://www.kaggle.com/code/ameythakur20/customer-churn-prediction-121-fe-20-cv-stacking) |
 | 16 | [**Stanford RNA 3D Folding Part 2**](./Competitions/Stanford%20RNA%203D%20Folding%20Part%202/README.md)<br><sub>Structural Biology Pipeline Optimization</sub> |  | [Open](https://www.kaggle.com/code/ameythakur20/stanford-rna-3d-folding-part-2-tbm-protenix-v1) |
-| 17 | [**Student Study Hours to CGPA Prediction**](./Competitions/Student%20Study%20Hours%20to%20CGPA%20Prediction/README.md)<br><sub>Predict academic performance utilizing polynomial regression and regularized ensembles.</sub> |  | [Open](https://www.kaggle.com/code/ameythakur20/student-study-hours-to-cgpa-prediction) |
+| 17 | [**Student Study Hours to CGPA Prediction**](./Competitions/Student%20Study%20Hours%20to%20CGPA%20Prediction/README.md)<br><sub>Predict academic performance using polynomial regression and regularized ensembles.</sub> |  | [Open](https://www.kaggle.com/code/ameythakur20/student-study-hours-to-cgpa-prediction) |
 | 18 | [**Titanic - Machine Learning from Disaster**](./Competitions/Titanic%20-%20Machine%20Learning%20from%20Disaster/README.md)<br><sub>Start here! Predict survival on the Titanic and get familiar with ML basics</sub> | 🥉 | [Open](https://www.kaggle.com/code/ameythakur20/titanic-passenger-survival-prediction) |
-| 19 | [**Triagegeist**](./Competitions/Triagegeist/README.md)<br><sub>A robust three-tier clinical decision support system utilizing a blended meta-ensemble and uncertainty-aware safety logic for ESI triage.</sub> |  | [Open](https://www.kaggle.com/code/ameythakur20/triagegeist-cdss-multi-tier-acuity-forecasting) |
+| 19 | [**Triagegeist**](./Competitions/Triagegeist/README.md)<br><sub>A reliable three-tier clinical decision support system using a blended meta-ensemble and uncertainty-aware safety logic for ESI triage.</sub> |  | [Open](https://www.kaggle.com/code/ameythakur20/triagegeist-cdss-multi-tier-acuity-forecasting) |
 
 ---
 
@@ -176,7 +175,7 @@ this repository carry one, and they are marked in the index above.
 
 | [Badges](Achievements/Badges/README.md) | [Medals](Achievements/Medals/README.md) | [Tiers](Achievements/Tiers/README.md) |
 | :---: | :---: | :---: |
-| 41 earned, each with its certificate | 7 bronze, awarded to published notebooks | Progression through the Kaggle ranks |
+| Every badge earned, with its certificate | 7 bronze, awarded to published notebooks | Progression through the Kaggle ranks |
 | <img src="Achievements/Badges/Competitor.svg" width="46"> | <img src="Achievements/Medals/Bronze%20Medal.png" width="46"> | <img src="Achievements/Tiers/Expert.png" width="46"> |
 
 </div>

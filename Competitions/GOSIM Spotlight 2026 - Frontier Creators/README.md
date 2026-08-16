@@ -20,7 +20,7 @@
 
 ---
 
-This notebook presents a **state-of-the-art diagnostic pipeline** initially showcased at *GOSIM Spotlight 2026: Frontier Creators*. The objective is to identify potential hallucination junctions in Large Language Models (LLMs) by visualizing the probabilistic reliability of generated text at the token level.
+This notebook presents the diagnostic pipeline first shown at *GOSIM Spotlight 2026: Frontier Creators*. The objective is to identify potential hallucination junctions in Large Language Models (LLMs) by visualizing the probabilistic reliability of generated text at the token level.
 
 The solution integrates:
 
@@ -54,11 +54,11 @@ $$
 
 ## 1. Inference Pipeline & Score Extraction
 
-The pipeline begins by engineering an **intervention in the generation loop**. By utilizing `output_scores=True` combined with `return_dict_in_generate=True`, we capture the internal state of the `GPT2LMHeadModel` without disrupting its forward pass, retrieving a multi-dimensional tensor of cumulative decision probabilities.
+The pipeline begins by engineering an **intervention in the generation loop**. By using `output_scores=True` combined with `return_dict_in_generate=True`, we capture the internal state of the `GPT2LMHeadModel` without disrupting its forward pass, retrieving a multi-dimensional tensor of cumulative decision probabilities.
 
 ## 2. Mathematical Normalization
 
-To translate unbounded logits into a strict probability space (0 to 1), we apply a normalization strategy utilizing `model.compute_transition_scores`.
+To translate unbounded logits into a strict probability space (0 to 1), we apply a normalization strategy using `model.compute_transition_scores`.
 
 This represents the normalized log-probability of the selected token relative to the vocabulary distribution at that specific timestep. By correcting the skewness of raw log-odds, we normalize the decision space, allowing us to accurately gauge certainty.
 
@@ -91,7 +91,7 @@ This ensures that generated predictions are not only read, but their structural 
 
 ## Closing Remarks
 
-Achieving structural transparency in foundation models requires a meticulous balance of tensor-level operations and UX design. By combining the precision of **PyTorch tensor analysis** with the visual accessibility of **HTML rendering**, we ensure that the model is entirely transparent in its "moment-of-doubt."
+Achieving structural transparency in foundation models requires a careful balance of tensor-level operations and UX design. By combining the precision of **PyTorch tensor analysis** with the visual accessibility of **HTML rendering**, we ensure that the model is entirely transparent in its "moment-of-doubt."
 
 Further research will focus on:
 - integrating sparse autoencoders to attribute low-confidence to missing feature activations

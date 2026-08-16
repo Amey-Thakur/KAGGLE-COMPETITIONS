@@ -2,7 +2,7 @@
 
 ## Active Development & Maintenance
 
-This repository, **Kaggle Competitions**, serves as a living professional record and a central hub for engineering insights, technical reflections, and project documentation. It is actively developed to maintain a high standard of technical integrity and to ensure that it remains a definitive resource for scholarly and professional reference.
+This repository, **Kaggle Competitions**, is a living professional record and a central hub for engineering insights, technical reflections, and project documentation. It is actively developed to maintain a high standard of technical integrity and to ensure that it remains a definitive resource for scholarly and professional reference.
 
 ## Supported Versions
 

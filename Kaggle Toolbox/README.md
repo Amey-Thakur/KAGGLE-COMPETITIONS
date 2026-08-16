@@ -1,11 +1,22 @@
-# Kaggle Toolbox
-### Production-Grade Utilities for Data Science Pipelines
+<div align="center">
 
-[![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ameythakur20/kaggle-toolbox)
+# Kaggle Toolbox
+
+**The helper module the notebooks share, with a demo notebook and a tutorial script.**
+
+<br>
+
+[![Notebook](https://img.shields.io/badge/Notebook-Kaggle-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/code/ameythakur20/kaggle-toolbox)
+[![Author](https://img.shields.io/badge/Author-Amey_Thakur-0969DA)](https://www.kaggle.com/ameythakur20)
+
+<br>
+
+[Repository home](../README.md) &nbsp;·&nbsp; [Competitions](../README.md#competitions) &nbsp;·&nbsp; [Achievements](../README.md#achievements) &nbsp;·&nbsp; [Kaggle Profile](https://www.kaggle.com/ameythakur20)
+
+</div>
 
 ---
 
-# Kaggle Toolbox
 
 This script is a **utility layer for Kaggle competitions**. Each function addresses a specific source of inefficiency or failure that commonly occurs during data processing, model training, and submission.
 
@@ -30,7 +41,7 @@ Each function is minimal, explicit, and directly usable inside a notebook.
 
 ## 1. Reproducibility
 
-### `seed_everything(seed)`
+
 
 Locks all known randomness sources:
 
@@ -42,7 +53,7 @@ Locks all known randomness sources:
 
 Also enforces deterministic CUDA behavior.
 
-### Why this exists
+
 
 Uncontrolled randomness leads to inconsistent results across runs. This makes debugging unreliable and invalidates model comparisons.
 
@@ -253,17 +264,26 @@ Further improvements can include:
 
 These additions can further streamline competition workflows.
 
-
 ---
 
-### Amey Thakur
+<div align="center">
 
-[Kaggle](https://www.kaggle.com/ameythakur20) • [GitHub](https://github.com/Amey-Thakur)
+**Amey Thakur** &nbsp;·&nbsp; [Kaggle](https://www.kaggle.com/ameythakur20) &nbsp;·&nbsp; [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
+
+<br>
+
+[↑ Back to top](#kaggle-toolbox) &nbsp;·&nbsp; [← Repository home](../README.md)
+
+</div>
 
 ---
 
 <div align="center">
 
-  [↑ Back to Top](#kaggle-toolbox) &nbsp;·&nbsp; [← Back to Home](../README.md)
+**Amey Thakur** &nbsp;·&nbsp; [Kaggle](https://www.kaggle.com/ameythakur20) &nbsp;·&nbsp; [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
+
+<br>
+
+[↑ Back to top](#kaggle-toolbox) &nbsp;·&nbsp; [← Repository home](../README.md)
 
 </div>

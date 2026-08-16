@@ -2,7 +2,7 @@
 
 # AI Mathematical Olympiad: Notation-Aware Diagnostics & Inference Scaffold
 
-**A modular agentic inference framework utilizing RAG-backed symbolic computation and LaTeX-aware text diagnostics.**
+**A modular agentic inference framework using RAG-backed symbolic computation and LaTeX-aware text diagnostics.**
 
 <br>
 
@@ -57,10 +57,6 @@ into a single archive that can be installed offline.
 
 **Stack** &nbsp;·&nbsp; `transformers` `scikit-learn` `pandas` `numpy`
 `matplotlib` `seaborn` `kaggle_evaluation`
-
----
-
----
 
 ---
 

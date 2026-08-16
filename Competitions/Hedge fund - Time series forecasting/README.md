@@ -30,14 +30,14 @@ The sections below walk through the mathematical formulation of our forecasting 
 
 ## Understanding the Dataset
 
-The competition provides a comprehensive financial dataset consisting of:
+The competition provides a full financial dataset consisting of:
 - **ts_index**: Temporal sequence identifier.
 - **y_target**: The primary forecasting objective (Target).
 - **weight**: Conviction score for each observation.
 - **horizon**: Forecast interval ($1, 3, 10, 25$).
 - **feature_0 through feature_85**: Anonymized market indicators.
 
-The dataset consists of ~5.3 million training records, requiring robust memory management and efficient I/O.
+The dataset consists of ~5.3 million training records, requiring reliable memory management and efficient I/O.
 
 ---
 
@@ -52,7 +52,7 @@ $$ \hat{y}_{t,h} = f(\mathbf{x}_{t}, \theta) + \epsilon $$
 1. **Environment Setup**: Establishing a reproducible, seed-fixed computation environment.
 2. **Memory Optimization**: Implementing numeric down-casting to maintain a low memory footprint (3GB).
 3. **EDA & Diagnostics**: Analyzing horizon-based volatility and feature missingness.
-4. **LightGBM Ensembling**: Utilizing deep tree architectures to capture non-linear market signals.
+4. **LightGBM Ensembling**: Using deep tree architectures to capture non-linear market signals.
 5. **Rolling Validation**: Preserving temporal causality via contiguous window testing.
 
 ---

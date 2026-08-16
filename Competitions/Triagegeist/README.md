@@ -2,7 +2,7 @@
 
 # Triagegeist: Hierarchical CDSS via Multi-Tier Acuity Forecasting (0.9995 CV)
 
-**A robust three-tier clinical decision support system utilizing a blended meta-ensemble and uncertainty-aware safety logic for ESI triage.**
+**A reliable three-tier clinical decision support system using a blended meta-ensemble and uncertainty-aware safety logic for ESI triage.**
 
 <br>
 
@@ -30,7 +30,7 @@ Rather than focusing only on model training, the discussion follows the actual i
 
 ### Project Description
 
-Triagegeist is a clinical decision support system (CDSS) developed to categorize patient emergency levels using the Emergency Severity Index (ESI) framework. The system implements a three-tier hierarchical architecture that mirrors the multi-stage evaluation process in a hospital. This pipeline consists of an initial deterministic pattern recall, followed by specialized diagnostic models, and concluding with a weighted meta-ensemble of generalist models. By integrating high-dimensional text analysis with hemodynamic physiology, the system provides a robust tool for assisting triage nurses in high-pressure clinical environments.
+Triagegeist is a clinical decision support system (CDSS) developed to categorize patient emergency levels using the Emergency Severity Index (ESI) framework. The system implements a three-tier hierarchical architecture that mirrors the multi-stage evaluation process in a hospital. This pipeline consists of an initial deterministic pattern recall, followed by specialized diagnostic models, and concluding with a weighted meta-ensemble of generalist models. By integrating high-dimensional text analysis with hemodynamic physiology, the system provides a reliable tool for assisting triage nurses in high-pressure clinical environments.
 
 ### Clinical Problem Statement
 
@@ -38,7 +38,7 @@ Emergency departments face a critical challenge in the initial minutes of patien
 
 ### Approach and Methodology
 
-The technical approach utilized an integrated synthesis of three primary data streams: structured vital signs, longitudinal patient history, and unstructured chief complaint narratives. All tiers were implemented within a unified training pipeline and evaluated using stratified cross-validation.
+The approach combines three data streams: structured vital signs, longitudinal patient history, and unstructured chief complaint narratives. All tiers were implemented within a unified training pipeline and evaluated using stratified cross-validation.
 
 1. **Data Integration and Imputation**: We joined disparate clinical tables on a unique patient identifier. Missing vital signs were handled using group-median imputation while preserving the original "missingness" signal through binary indicators, as absent data in an ER often correlates with high patient instability.
 
@@ -55,18 +55,18 @@ The technical approach utilized an integrated synthesis of three primary data st
 
 ### Results and Findings
 
-The system achieved a robust cross-validation Quadratic Weighted Kappa (QWK) score and high F1-macro metrics. Analysis of the Out-of-Fold (OOF) errors showed that the model is exceptionally precise at identifying ESI-1 (Resuscitation) and ESI-2 (Emergent) cases, which are the most time-sensitive categories. Failure modes occurred primarily in the distinction between ESI-3 and ESI-4, where clinical presentations are most similar. However, the safety-aware shifting logic successfully moved a majority of these uncertain cases into the higher-acuity group, effectively reducing the critical under-triage rate in the validation cohort.
+The system achieved a reliable cross-validation Quadratic Weighted Kappa (QWK) score and high F1-macro metrics. Analysis of the Out-of-Fold (OOF) errors showed that the model is exceptionally precise at identifying ESI-1 (Resuscitation) and ESI-2 (Emergent) cases, which are the most time-sensitive categories. Failure modes occurred primarily in the distinction between ESI-3 and ESI-4, where clinical presentations are most similar. However, the safety-aware shifting logic successfully moved a majority of these uncertain cases into the higher-acuity group, effectively reducing the critical under-triage rate in the validation cohort.
 
 ### Limitations and Future Work
 
-A primary limitation is that this model was trained on a specific institutional dataset. Clinical validation across multi-center cohorts is required to ensure the text vocabulary remains relevant across different regional charting styles. Additionally, while the model utilizes physiological indicators, it does not currently account for real-time telemetry trends. Future work will focus on integrating longitudinal monitoring data and expanding the specialist tier to include pediatric-specific triage logic.
+A primary limitation is that this model was trained on a specific institutional dataset. Clinical validation across multi-center cohorts is required to ensure the text vocabulary remains relevant across different regional charting styles. Additionally, while the model uses physiological indicators, it does not currently account for real-time telemetry trends. Future work will focus on integrating longitudinal monitoring data and expanding the specialist tier to include pediatric-specific triage logic.
 
 ### Reproducibility Notes
 
 The following datasets from the Triagegeist competition are required: `train.csv`, `patient_history.csv`, and `chief_complaints.csv`. The finalized Kaggle Notebook runs end-to-end using a standard Python 3.10+ environment with `lightgbm`, `catboost`, and `scikit-learn`.
 * **Random Seed**: All stochastic processes are locked to `42` for reproducibility.
 * **Hardware**: Executable on standard GPU environments (P100/T4).
-* **Memory**: The notebook utilizes optimized data types to remain within Kaggle resource limits.
+* **Memory**: The notebook uses optimized data types to remain within Kaggle resource limits.
 
 ---
 

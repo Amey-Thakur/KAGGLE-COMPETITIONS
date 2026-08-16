@@ -1,12 +1,44 @@
-<a name="readme-top"></a>
-# [Benchmark Release] Attention Span: The "Needle in a Salient Haystack" Benchmark
+<div align="center">
 
-`[Benchmark Release] Attention Span: The "Needle in a Salient Haystack" Benchmark`
+# Attention Span: The Needle in a Salient Haystack Benchmark
+
+**Benchmark release: can a model hold on to a dull target while a louder distractor competes for its attention?**
+
+<br>
+
+[![Notebook](https://img.shields.io/badge/Notebook-Kaggle-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/code/ameythakur20/agi-attention-salient-distractor)
+[![Author](https://img.shields.io/badge/Author-Amey_Thakur-0969DA)](https://www.kaggle.com/ameythakur20)
+
+<br>
+
+[Repository home](../../README.md) &nbsp;·&nbsp; [Competitions](../../README.md#competitions) &nbsp;·&nbsp; [Achievements](../../README.md#achievements) &nbsp;·&nbsp; [Kaggle Profile](https://www.kaggle.com/ameythakur20)
+
+</div>
+
+---
 
 
-# Hello fellow Kagglers!
+<div align="center">
 
-This post presents a **procedurally generated benchmark pipeline** for evaluating Selective Attention in frontier models for the *Measuring Progress Toward AGI* competition. The objective is to evaluate a model's cognitive control—specifically its ability to evaluate a low-salience target while actively suppressing highly salient textual distractors.
+
+
+**Benchmark release: can a model hold on to a dull target while a louder distractor competes for its attention?**
+
+<br>
+
+[![Notebook](https://img.shields.io/badge/Notebook-Kaggle-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/code/ameythakur20/agi-attention-salient-distractor)
+[![Author](https://img.shields.io/badge/Author-Amey_Thakur-0969DA)](https://www.kaggle.com/ameythakur20)
+
+<br>
+
+[Repository home](../../README.md) &nbsp;·&nbsp; [Competitions](../../README.md#competitions) &nbsp;·&nbsp; [Achievements](../../README.md#achievements) &nbsp;·&nbsp; [Kaggle Profile](https://www.kaggle.com/ameythakur20)
+
+</div>
+
+---
+
+
+This post presents a **procedurally generated benchmark pipeline** for evaluating Selective Attention in frontier models for the *Measuring Progress Toward AGI* competition. The objective is to evaluate a model's cognitive control,specifically its ability to evaluate a low-salience target while actively suppressing highly salient textual distractors.
 
 The solution integrates:
 
@@ -30,7 +62,7 @@ $$
 \text{Output} = f(\text{Contextual Needle}) \mid \text{Suppress}(\text{Salient Noise})
 $$
 
-### Key challenge
+
 
 - target answers are boring and low-salience (e.g., standard API keys)
 - distractors are surrounded by extreme urgency triggers (e.g., "CRITICAL ALERT: SYSTEM COMPROMISED")
@@ -47,7 +79,7 @@ Configuration includes:
 - fixed distractor string format (`DIS-XXXX`)
 - randomized spatial insertion (distractor before or after needle)
 
-### Why this matters
+
 
 Centralized generation ensures the benchmark cannot be bypassed by a simple positional bias.
 
@@ -110,15 +142,24 @@ These directions are critical for building reliable AI agents in noisy, critical
 
 ---
 
-### Amey Thakur
+<div align="center">
 
-[Kaggle](https://www.kaggle.com/ameythakur20) • [GitHub](https://github.com/Amey-Thakur)
+**Amey Thakur** &nbsp;·&nbsp; [Kaggle](https://www.kaggle.com/ameythakur20) &nbsp;·&nbsp; [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
+
+<br>
+
+[↑ Back to top](#attention-span-the-needle-in-a-salient-haystack-benchmark) &nbsp;·&nbsp; [← Repository home](../../README.md)
+
+</div>
 
 ---
 
 <div align="center">
 
-  [↑ Back to Top](#readme-top) &nbsp;·&nbsp; [← Back to Home](../../README.md)
+**Amey Thakur** &nbsp;·&nbsp; [Kaggle](https://www.kaggle.com/ameythakur20) &nbsp;·&nbsp; [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
+
+<br>
+
+[↑ Back to top](#attention-span-the-needle-in-a-salient-haystack-benchmark) &nbsp;·&nbsp; [← Repository home](../../README.md)
 
 </div>
-
