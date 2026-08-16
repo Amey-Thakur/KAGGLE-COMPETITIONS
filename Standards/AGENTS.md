@@ -113,14 +113,14 @@ Underscores render as spaces. Encode `|` as `%7C`, `@` as `%40`, `:` as `%3A`.
 ## Fixed rules
 
 **Never hardcode a count.** Not competitions, not notebooks, not medals held in
-folders. Amey adds work continuously and cannot chase a number through three
-files. The root index is generated from the folder listing. Badge labels read
-`Badges-Earned` and `Courses-Kaggle_Learn`, not numbers.
+folders. The repository grows, and a number written into three files goes stale
+the first time it does. The root index is generated from the folder listing.
+Badge labels read `Badges-Earned` and `Courses-Kaggle_Learn`, not numbers.
 
-**Kaggle standing is the exception**, because Amey supplies it: Notebooks
-**Expert**, 7 bronze medals, highest rank **932** of 61,334. Record only the
-highest rank ever reached, never the current one, which moves whenever anyone
-publishes.
+**Kaggle standing is the one exception**, and it is supplied rather than
+derived: Notebooks **Expert**, 7 bronze medals, highest rank **932** of 61,334.
+Record only the highest rank ever reached, never the current one, which moves
+whenever anyone publishes.
 
 **Medals here are Notebooks medals**, awarded by community upvotes on published
 notebooks. They are not competition placements. Titanic is a Getting Started
@@ -148,9 +148,8 @@ link. Never write a credential to disk.
 ## Commits
 
 Subject is exactly `Kaggle Competitions`. No body, no description, no co-author
-trailer. Every commit is signed with the repository owner's configured signing
-key, which is set up on his machine and is not something an agent supplies or
-needs to know about.
+trailer. Commits are signed; signing is configured on the maintainer's side and
+is not something an agent handles.
 
 <br>
 
@@ -182,22 +181,6 @@ curl -s -o /dev/null -w "%{http_code}\n" "https://www.kaggle.com/code/ameythakur
 > step was skipped, say it was skipped. A verification table filled in from
 > expectation rather than from a run is worse than no table, because it removes
 > the reason to look.
-
-<br>
-
-<a name="known"></a>
-## Open items
-
-These are known and unresolved. Do not silently "fix" them by changing a link to
-something that merely returns 200.
-
-- `ameythakur20/aimo-diagnostics-inference` returns **404**
-- `ameythakur20/llm-classification-inference` returns **404**
-- GOSIM Spotlight 2026 points at `architkonde/ai-hallucination-visualizer`,
-  which is a different account
-
-Kaggle returns 404 for private and deleted notebooks alike to a signed-out
-visitor, so the cause cannot be told from outside. Ask Amey.
 
 <br>
 
