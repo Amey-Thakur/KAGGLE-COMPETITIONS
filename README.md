@@ -245,10 +245,20 @@ wrong without it.
 | **Submission safety** | Checks row count, column order, duplicate IDs and prediction range before an attempt is spent |
 | **Diagnostics** | Block timing, cross-validation summaries, hardware reporting and input path discovery |
 
-> [!TIP]
-> Kaggle caps how many submissions a day allows, and an invalid file still costs
-> one. Validating against the sample submission catches a wrong row count, a
-> renamed column or an out-of-range prediction while it is still free to fix.
+> [!IMPORTANT]
+> If you take two things from this file, take `seed_everything` and
+> `check_submission`. An unseeded run makes every comparison you draw that day
+> meaningless, and nothing warns you. An invalid submission spends one attempt
+> from a daily limit you cannot get back.
+>
+> That is the pattern the rest of it follows. The expensive failures in a
+> competition are the quiet ones: a dtype that exhausts memory late in a fit, a
+> duplicated column that inflates a validation score, a correlation nobody
+> checked. None of them raise an exception, and all of them cost hours.
+>
+> The functions are independent, so take what you need and leave the rest.
+>
+> **Amey Thakur**
 
 It ships with a demo notebook and a tutorial script.
 [**Full reference →**](Kaggle%20Toolbox/README.md)
