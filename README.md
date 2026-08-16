@@ -227,22 +227,18 @@ every one of them. It ships with a demo notebook and a tutorial script.
 
 ```
 .
-├── Competitions/                    # One folder per competition, notebook and write-up
-│   ├── AI Mathematical Olympiad/
-│   ├── Are You A Robot/
-│   ├── BirdCLEF+ 2026/
-│   └── ... 16 more
+├── Competitions/        # One folder per competition, with its notebook and write-up
 ├── Achievements/
-│   ├── Badges/                      # Every earned badge, with its certificate
-│   ├── Medals/                      # Competition medal artwork
-│   └── Tiers/                       # Progression tier artwork
-├── Kaggle Courses/                  # Course certificates
-├── Kaggle Toolbox/                  # Shared helper module used across notebooks
-├── docs/                            # Repository imagery
-├── CITATION.cff                     # How to cite this work
-├── codemeta.json                    # Machine-readable project metadata
-├── LICENSE                          # CC BY 4.0, for written material
-└── LICENSE-MIT                      # MIT, for code
+│   ├── Badges/          # Every badge earned, with its certificate
+│   ├── Medals/          # Medal artwork
+│   └── Tiers/           # Progression tier artwork
+├── Kaggle Courses/      # Course certificates
+├── Kaggle Toolbox/      # Shared helper module used across the notebooks
+├── docs/                # Repository imagery
+├── CITATION.cff         # How to cite this work
+├── codemeta.json        # Machine-readable project metadata
+├── LICENSE              # CC BY 4.0, for written material
+└── LICENSE-MIT          # MIT, for code
 ```
 
 ---
