@@ -33,8 +33,7 @@ This script is a **utility layer for Kaggle competitions**. Each function addres
 
 The design is practical. Every function exists to solve a real problem encountered during competitions.
 
-> **Author's note**
->
+> [!IMPORTANT]
 > The time I lost in competitions was rarely spent on the model. It went on a
 > kernel dying because a frame sat in `int64`, a submission rejected for column
 > order, a score I could not reproduce because one library was seeded and another
