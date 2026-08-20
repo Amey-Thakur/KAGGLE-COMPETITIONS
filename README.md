@@ -63,6 +63,7 @@
   <img src="Achievements/Badges/Model Documenter.svg" width="50" title="Model Documenter (Aug 19, 2026)">
   <img src="Achievements/Badges/Model Tagger.svg" width="50" title="Model Tagger (Aug 19, 2026)">
   <img src="Achievements/Badges/Competition Modeler.svg" width="50" title="Competition Modeler (Mar 24, 2026)">
+  <img src="Achievements/Badges/Benchmark Task local builder.svg" width="50" title="Benchmark Task local builder (Aug 19, 2026)">
   <img src="Achievements/Badges/Kaggle Community Member.svg" width="50" title="Kaggle Community Member (Sept 11, 2022)">
   <img src="Achievements/Badges/Stylish.svg" width="50" title="Stylish (Mar 4, 2026)">
   <img src="Achievements/Badges/Collector.svg" width="50" title="Collector (Mar 5, 2026)">
