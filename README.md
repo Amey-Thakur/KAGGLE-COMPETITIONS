@@ -260,10 +260,9 @@ the top of every one of them. Each function is there because something went
 wrong without it.
 
 > [!TIP]
-> **Modular utilities prevent silent competition errors.** Attaching a shared
-> toolbox as a Kaggle Utility Script eliminates repetitive boilerplate while
-> enforcing bit-level reproducibility, safe memory downcasting on large datasets,
-> and automated submission validation before an attempt is spent.
+> **Zero-overhead integration in Kaggle Notebooks.** Attach this module directly
+> under **Notebook Settings → Add Utility Script** or import via `import kaggle_toolbox as tb`.
+> It executes in sub-second time with zero external dependencies beyond standard scientific Python.
 
 | Area | What it covers |
 | :--- | :--- |
