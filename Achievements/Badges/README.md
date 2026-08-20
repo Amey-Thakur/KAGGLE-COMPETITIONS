@@ -73,6 +73,7 @@ part of the platform was first used.
 | 44 | **API Model Creator** | Aug 19, 2026 | <img src="API Model Creator.svg" width="50" title="API Model Creator (Aug 19, 2026)"> | <img src="Certificates/API Model Creator.png" width="400" title="API Model Creator"> |
 | 45 | **Model Documenter** | Aug 19, 2026 | <img src="Model Documenter.svg" width="50" title="Model Documenter (Aug 19, 2026)"> | <img src="Certificates/Model Documenter.png" width="400" title="Model Documenter"> |
 | 46 | **Model Tagger** | Aug 19, 2026 | <img src="Model Tagger.svg" width="50" title="Model Tagger (Aug 19, 2026)"> | <img src="Certificates/Model Tagger.png" width="400" title="Model Tagger"> |
+| 47 | **Linked Dataset Creator** | Aug 19, 2026 | <img src="Linked Dataset Creator.svg" width="50" title="Linked Dataset Creator (Aug 19, 2026)"> | <img src="Certificates/Linked Dataset Creator.png" width="400" title="Linked Dataset Creator"> |
 
 </div>
 
