@@ -31,6 +31,11 @@
 
 This script is a **utility layer for Kaggle competitions**. Each function addresses a specific source of inefficiency or failure that commonly occurs during data processing, model training, and submission.
 
+> [!TIP]
+> **Zero-overhead integration in Kaggle Notebooks.** Attach this module directly
+> under **Notebook Settings → Add Utility Script** or import via `import kaggle_toolbox as tb`.
+> It executes in sub-second time with zero external dependencies beyond standard scientific Python.
+
 The design is practical. Every function exists to solve a real problem encountered during competitions.
 
 > [!IMPORTANT]
