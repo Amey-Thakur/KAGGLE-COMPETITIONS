@@ -229,6 +229,17 @@ def _front_run(action, obs, state, step):
     return action
 
 
+def _reorder_market(action):
+    market = action.get("market") or []
+    if len(market) <= 1:
+        return action
+    premium = ("MELON", "MILK", "WOOL", "STRAWBERRY")
+    prem_orders = [o for o in market if len(o) >= 3 and o[0] == "SELL" and o[1] in premium]
+    other_orders = [o for o in market if o not in prem_orders]
+    action["market"] = prem_orders + other_orders
+    return action
+
+
 def agent(obs):
     try:
         step = min(max(0, int(_get(obs, "step", 0) or 0)), len(_ACTIONS) - 1)
@@ -236,6 +247,7 @@ def agent(obs):
         state = _fr_state(obs, step)
         action = _repay(action, state, step)
         action = _front_run(action, obs, state, step)
+        action = _reorder_market(action)
         return _align_hands(action, obs)
     except Exception:
         farm = _farm(obs, _seat(obs))

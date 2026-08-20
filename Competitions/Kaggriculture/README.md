@@ -1,15 +1,16 @@
 <div align="center">
 
+<img src="../../Achievements/Medals/Bronze%20Medal.png" width="34" alt="Bronze medal">
+
+**Bronze medal**
+
 # Kaggriculture
 
 **A multi-stage heuristic planning agent optimizing crop rotation economics, land acquisition, and dynamic market timing in a two-player farming simulation.**
 
 <br>
 
-[![Notebook](https://img.shields.io/badge/Notebook-Kaggle-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/code/ameythakur20/kaggriculture-deterministic-farm-planning-agent)
-[![Author](https://img.shields.io/badge/Author-Amey_Thakur-0969DA)](https://www.kaggle.com/ameythakur20)
-[![ORCID](https://img.shields.io/badge/ORCID-0000--0001--5644--1575-A6CE39)](https://orcid.org/0000-0001-5644-1575)
-[![License](https://img.shields.io/badge/License-Apache_2.0-lightgrey)](https://www.apache.org/licenses/LICENSE-2.0)
+[![Notebook](https://img.shields.io/badge/Notebook-Kaggle-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/code/ameythakur20/kaggriculture-deterministic-farm-planning-agent) [![Medal](https://img.shields.io/badge/Medal-Bronze-8E5B3D)](https://www.kaggle.com/ameythakur20/code) [![Author](https://img.shields.io/badge/Author-Amey_Thakur-0969DA)](https://www.kaggle.com/ameythakur20) [![ORCID](https://img.shields.io/badge/ORCID-0000--0001--5644--1575-A6CE39)](https://orcid.org/0000-0001-5644-1575) [![License](https://img.shields.io/badge/License-Apache_2.0-lightgrey)](https://www.apache.org/licenses/LICENSE-2.0)
 
 <a href="https://www.kaggle.com/code/ameythakur20/kaggriculture-deterministic-farm-planning-agent"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open in Kaggle"></a>
 
@@ -21,7 +22,7 @@
 
 <br>
 
-[Competitions](../../README.md#competitions) &nbsp;&middot;&nbsp; [Achievements](../../Achievements/Badges/README.md) &nbsp;&middot;&nbsp; [Courses](../../Kaggle%20Courses/README.md) &nbsp;&middot;&nbsp; [Kaggle Profile](https://www.kaggle.com/ameythakur20)
+[Competitions](../../README.md#competitions) &nbsp;·&nbsp; [Achievements](../../Achievements/Badges/README.md) &nbsp;·&nbsp; [Courses](../../Kaggle%20Courses/README.md) &nbsp;·&nbsp; [Kaggle Profile](https://www.kaggle.com/ameythakur20)
 
 </div>
 
@@ -94,10 +95,10 @@ The primary advantage emerges during Days 10 to 20 when mature Melon harvests la
 
 <div align="center">
 
-**Amey Thakur** &nbsp;&middot;&nbsp; [Kaggle](https://www.kaggle.com/ameythakur20) &nbsp;&middot;&nbsp; [GitHub](https://github.com/Amey-Thakur) &nbsp;&middot;&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
+**Amey Thakur** &nbsp;·&nbsp; [Kaggle](https://www.kaggle.com/ameythakur20) &nbsp;·&nbsp; [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
 
 <br>
 
-[Back to top](#kaggriculture) &nbsp;&middot;&nbsp; [Repository home](../../README.md)
+[Back to top](#kaggriculture) &nbsp;·&nbsp; [Repository home](../../README.md)
 
 </div>

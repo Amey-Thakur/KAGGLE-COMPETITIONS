@@ -10,7 +10,7 @@
 
 [![Kaggle](https://img.shields.io/badge/Kaggle-ameythakur20-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/ameythakur20)
 [![Notebooks](https://img.shields.io/badge/Notebooks-Expert-8148FD?logo=kaggle&logoColor=white)](https://www.kaggle.com/ameythakur20/code)
-[![Medals](https://img.shields.io/badge/Medals-7_Bronze-8E5B3D)](#achievements)
+[![Medals](https://img.shields.io/badge/Medals-8_Bronze-8E5B3D)](#achievements)
 [![Badges](https://img.shields.io/badge/Badges-Earned-BF3989)](Achievements/Badges/README.md)
 [![Courses](https://img.shields.io/badge/Courses-Kaggle_Learn-FAE041)](Kaggle%20Courses/README.md)
 [![Status](https://img.shields.io/badge/Status-Active-2EA043)](#competitions)
@@ -153,7 +153,7 @@ added.
 | 9 | [**Harmonizing the Data of your Data**](./Competitions/Harmonizing%20the%20Data%20of%20your%20Data/README.md)<br><sub>A predictive modeling approach using high-precision rule-based extraction and ontology normalization to structure scientific proteomics metadata.</sub> |  | [Open](https://www.kaggle.com/code/ameythakur20/sdrf-metadata-extraction-baseline) |
 | 10 | [**Hedge Fund - Time Series Forecasting**](./Competitions/Hedge%20fund%20-%20Time%20series%20forecasting/README.md)<br><sub>Optimizing high-frequency investment signals through gradient boosted ensembles and multi-horizon temporal validation.</sub> |  | [Open](https://www.kaggle.com/code/ameythakur20/hedge-fund-time-series-forecasting) |
 | 11 | [**House Prices**](./Competitions/House%20Prices%20-%20Advanced%20Regression%20Techniques/README.md)<br><sub>A state-of-the-art regression pipeline using multi-model stacking, domain-driven feature science, and RMSLE-optimized ensembling.</sub> |  | [Open](https://www.kaggle.com/code/ameythakur20/house-prices-deterministic-record-linkage) |
-| 12 | [**Kaggriculture**](./Competitions/Kaggriculture/README.md)<br><sub>A multi-stage heuristic planning agent optimizing crop rotation economics, land acquisition, and dynamic market timing.</sub> |  | [Open](https://www.kaggle.com/code/ameythakur20/kaggriculture-deterministic-farm-planning-agent) |
+| 12 | [**Kaggriculture**](./Competitions/Kaggriculture/README.md)<br><sub>Bronze medal</sub> | 🥉 | [Open](https://www.kaggle.com/code/ameythakur20/kaggriculture-deterministic-farm-planning-agent) |
 | 13 | [**LLM Classification Finetuning**](./Competitions/LLM%20Classification%20Finetuning/README.md)<br><sub>Ensembled Pipeline Inference for Human Preference Classification</sub> |  | [Open](https://www.kaggle.com/code/ameythakur20/llm-classification-inference) |
 | 14 | [**Attention Span**](./Competitions/Measuring%20Progress%20Toward%20AGI%20-%20Cognitive%20Abilities/README.md)<br><sub>Evaluating Selective Attention and Distractor Vulnerability in Frontier LLMs.</sub> |  | [Open](https://www.kaggle.com/code/ameythakur20/agi-attention-salient-distractor-benchmark) |
 | 15 | [**Petals to the Metal - Flower Classification on TPU**](./Competitions/Petals%20to%20the%20Metal%20-%20Flower%20Classification%20on%20TPU/README.md)<br><sub>Macro F1 Maximization through Distributed Dual-Stream Architectures</sub> |  | [Open](https://www.kaggle.com/code/ameythakur20/tpu-flower-classification-advanced-ensemble) |
@@ -181,22 +181,23 @@ added.
 <img src="Achievements/Medals/Bronze%20Medal.png" width="28" alt="Bronze medal">
 <img src="Achievements/Medals/Bronze%20Medal.png" width="28" alt="Bronze medal">
 <img src="Achievements/Medals/Bronze%20Medal.png" width="28" alt="Bronze medal">
+<img src="Achievements/Medals/Bronze%20Medal.png" width="28" alt="Bronze medal">
 
-**7 bronze medals** &nbsp;·&nbsp; **highest rank 932** of 61,334
+**8 bronze medals** &nbsp;·&nbsp; **highest rank 932** of 61,334
 
 </div>
 
 Kaggle ranks each kind of contribution on its own scale, and this standing is in
 the Notebooks category: medals there are awarded by the community to published
-notebooks rather than for placing in a competition. Four of the notebooks kept
-here carry one: three competition notebooks, marked in the index above, and the
+notebooks rather than for placing in a competition. Five of the notebooks kept
+here carry one: four competition notebooks, marked in the index above, and the
 shared [Kaggle Toolbox](./Kaggle%20Toolbox/README.md).
 
 <div align="center">
 
 | [Badges](Achievements/Badges/README.md) | [Medals](Achievements/Medals/README.md) | [Tiers](Achievements/Tiers/README.md) |
 | :---: | :---: | :---: |
-| Every badge earned, with its certificate | 7 bronze, awarded to published notebooks | Progression through the Kaggle ranks |
+| Every badge earned, with its certificate | 8 bronze, awarded to published notebooks | Progression through the Kaggle ranks |
 | <img src="Achievements/Badges/Competitor.svg" width="46"> | <img src="Achievements/Medals/Bronze%20Medal.png" width="46"> | <img src="Achievements/Tiers/Expert.png" width="46"> |
 
 </div>

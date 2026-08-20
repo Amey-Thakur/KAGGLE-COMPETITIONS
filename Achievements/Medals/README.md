@@ -6,7 +6,7 @@
 
 <br>
 
-[![Medals](https://img.shields.io/badge/Medals-7_Bronze-8E5B3D)](https://www.kaggle.com/ameythakur20/code)
+[![Medals](https://img.shields.io/badge/Medals-8_Bronze-8E5B3D)](https://www.kaggle.com/ameythakur20/code)
 [![Kaggle](https://img.shields.io/badge/Kaggle-ameythakur20-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/ameythakur20)
 
 <br>
@@ -32,8 +32,8 @@ rises with the size of the audience.
 
 </div>
 
-**Seven bronze medals so far, all in Notebooks.** Four of them belong to
-notebooks kept in this repository: three competition notebooks, marked in the
+**Eight bronze medals so far, all in Notebooks.** Five of them belong to
+notebooks kept in this repository: four competition notebooks, marked in the
 [competitions index](../../README.md#competitions) and on each competition's own
 page, and the shared [Kaggle Toolbox](../../Kaggle%20Toolbox/README.md).
 

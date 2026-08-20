@@ -7,7 +7,7 @@
 <br>
 
 [![Notebooks](https://img.shields.io/badge/Notebooks-Expert-8148FD?logo=kaggle&logoColor=white)](https://www.kaggle.com/ameythakur20/code)
-[![Medals](https://img.shields.io/badge/Medals-7_Bronze-8E5B3D)](https://www.kaggle.com/ameythakur20/code)
+[![Medals](https://img.shields.io/badge/Medals-8_Bronze-8E5B3D)](https://www.kaggle.com/ameythakur20/code)
 [![Kaggle](https://img.shields.io/badge/Kaggle-ameythakur20-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/ameythakur20)
 
 <br>
@@ -32,7 +32,7 @@ between bands.
 
 </div>
 
-**Currently Notebooks Expert**, on seven bronze medals, with a highest rank of
+**Currently Notebooks Expert**, on eight bronze medals, with a highest rank of
 932 out of 61,334 in that category.
 
 > [!NOTE]
