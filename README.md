@@ -219,7 +219,18 @@ certificate is stored with the course it belongs to.
 
 <div align="center">
 
-  **[Browse all 17 certificates →](Kaggle%20Courses/README.md)**
+| | | |
+| :---: | :---: | :---: |
+| <img src="Kaggle%20Courses/01_Intro_to_Programming.png" width="240"><br><sub><strong>1. Intro to Programming</strong></sub> | <img src="Kaggle%20Courses/02_Python.png" width="240"><br><sub><strong>2. Python</strong></sub> | <img src="Kaggle%20Courses/03_Intro_to_Machine_Learning.png" width="240"><br><sub><strong>3. Intro to Machine Learning</strong></sub> |
+| <img src="Kaggle%20Courses/04_Pandas.png" width="240"><br><sub><strong>4. Pandas</strong></sub> | <img src="Kaggle%20Courses/05_Intermediate_Machine_Learning.png" width="240"><br><sub><strong>5. Intermediate ML</strong></sub> | <img src="Kaggle%20Courses/06_Data_Visualization.png" width="240"><br><sub><strong>6. Data Visualization</strong></sub> |
+| <img src="Kaggle%20Courses/07_Feature_Engineering.png" width="240"><br><sub><strong>7. Feature Engineering</strong></sub> | <img src="Kaggle%20Courses/08_Intro_to_SQL.png" width="240"><br><sub><strong>8. Intro to SQL</strong></sub> | <img src="Kaggle%20Courses/09_Advanced_SQL.png" width="240"><br><sub><strong>9. Advanced SQL</strong></sub> |
+| <img src="Kaggle%20Courses/10_Intro_to_Deep_Learning.png" width="240"><br><sub><strong>10. Intro to Deep Learning</strong></sub> | <img src="Kaggle%20Courses/11_Computer_Vision.png" width="240"><br><sub><strong>11. Computer Vision</strong></sub> | <img src="Kaggle%20Courses/12_Time_Series.png" width="240"><br><sub><strong>12. Time Series</strong></sub> |
+| <img src="Kaggle%20Courses/13_Data_Cleaning.png" width="240"><br><sub><strong>13. Data Cleaning</strong></sub> | <img src="Kaggle%20Courses/14_Intro_to_AI_Ethics.png" width="240"><br><sub><strong>14. Intro to AI Ethics</strong></sub> | <img src="Kaggle%20Courses/15_Geospatial_Analysis.png" width="240"><br><sub><strong>15. Geospatial Analysis</strong></sub> |
+| <img src="Kaggle%20Courses/16_Machine_Learning_Explainability.png" width="240"><br><sub><strong>16. ML Explainability</strong></sub> | <img src="Kaggle%20Courses/17_Intro_to_Game_AI_and_Reinforcement_Learning.png" width="240"><br><sub><strong>17. Game AI & Reinforcement Learning</strong></sub> | |
+
+<br>
+
+**[Browse all 17 course details in Kaggle Courses →](Kaggle%20Courses/README.md)**
 
 </div>
 
