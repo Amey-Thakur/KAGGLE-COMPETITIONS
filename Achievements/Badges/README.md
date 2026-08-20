@@ -69,6 +69,7 @@ part of the platform was first used.
 | 40 | **100 Day Login Streak** | May 07, 2026 | <img src="100 Day Login Streak.svg" width="50" title="100-Day Login Streak (May 7, 2026)"> | <img src="Certificates/100 Day Login Streak.png" width="400" title="100 Day Login Streak"> |
 | 41 | **5 Years on Kaggle** | Jul 05, 2026 | <img src="5 Years on Kaggle.svg" width="50" title="5-Years on Kaggle (Jul 5, 2026)"> | <img src="Certificates/5 Years on Kaggle.png" width="400" title="5 Years on Kaggle"> |
 | 42 | **Model Creator** | Aug 20, 2026 | <img src="Model Creator.png" width="50" title="Model Creator (Aug 20, 2026)"> | <img src="Certificates/Model Creator.png" width="400" title="Model Creator"> |
+| 43 | **Model Variation Creator** | Aug 20, 2026 | <img src="Model Variation Creator.png" width="50" title="Model Variation Creator (Aug 20, 2026)"> | <img src="Certificates/Model Variation Creator.png" width="400" title="Model Variation Creator"> |
 
 </div>
 
