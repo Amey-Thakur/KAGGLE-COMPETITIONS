@@ -53,6 +53,7 @@
   <img src="Achievements/Badges/Notebook Modeler.svg" width="50" title="Notebook Modeler (Mar 24, 2026)">
   <img src="Achievements/Badges/Utility Scripter.svg" width="50" title="Utility Scripter (Mar 24, 2026)">
   <img src="Achievements/Badges/Dataset Creator.svg" width="50" title="Dataset Creator (Sept 10, 2024)">
+  <img src="Achievements/Badges/Dataset Pipeline Creator.svg" width="50" title="Dataset Pipeline Creator (Aug 19, 2026)">
   <img src="Achievements/Badges/Linked Dataset Creator.svg" width="50" title="Linked Dataset Creator (Aug 19, 2026)">
   <img src="Achievements/Badges/API Dataset Creator.svg" width="50" title="API Dataset Creator (Mar 24, 2026)">
   <img src="Achievements/Badges/Dataset Documenter.svg" width="50" title="Dataset Documenter (Feb 25, 2026)">
