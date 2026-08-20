@@ -76,6 +76,7 @@ part of the platform was first used.
 | 47 | **Linked Dataset Creator** | Aug 19, 2026 | <img src="Linked Dataset Creator.svg" width="50" title="Linked Dataset Creator (Aug 19, 2026)"> | <img src="Certificates/Linked Dataset Creator.png" width="400" title="Linked Dataset Creator"> |
 | 48 | **Benchmark Task local builder** | Aug 19, 2026 | <img src="Benchmark Task local builder.svg" width="50" title="Benchmark Task local builder (Aug 19, 2026)"> | <img src="Certificates/Benchmark Task local builder.png" width="400" title="Benchmark Task local builder"> |
 | 49 | **Dataset Pipeline Creator** | Aug 19, 2026 | <img src="Dataset Pipeline Creator.svg" width="50" title="Dataset Pipeline Creator (Aug 19, 2026)"> | <img src="Certificates/Dataset Pipeline Creator.png" width="400" title="Dataset Pipeline Creator"> |
+| 50 | **Model Pipeline Creator** | Aug 19, 2026 | <img src="Model Pipeline Creator.svg" width="50" title="Model Pipeline Creator (Aug 19, 2026)"> | <img src="Certificates/Model Pipeline Creator.png" width="400" title="Model Pipeline Creator"> |
 
 </div>
 

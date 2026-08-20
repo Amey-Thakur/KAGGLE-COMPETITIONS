@@ -60,6 +60,7 @@
   <img src="Achievements/Badges/Dataset Tagger.svg" width="50" title="Dataset Tagger (Feb 25, 2026)">
   <img src="Achievements/Badges/Model Creator.svg" width="50" title="Model Creator (Aug 19, 2026)">
   <img src="Achievements/Badges/Model Variation Creator.svg" width="50" title="Model Variation Creator (Aug 19, 2026)">
+  <img src="Achievements/Badges/Model Pipeline Creator.svg" width="50" title="Model Pipeline Creator (Aug 19, 2026)">
   <img src="Achievements/Badges/API Model Creator.svg" width="50" title="API Model Creator (Aug 19, 2026)">
   <img src="Achievements/Badges/Model Documenter.svg" width="50" title="Model Documenter (Aug 19, 2026)">
   <img src="Achievements/Badges/Model Tagger.svg" width="50" title="Model Tagger (Aug 19, 2026)">
