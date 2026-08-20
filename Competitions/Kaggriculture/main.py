@@ -1,4 +1,3 @@
-
 """V16-RC5-PremiumMarketLead for Kaggriculture."""
 import base64
 import copy
@@ -230,10 +229,172 @@ def _front_run(action, obs, state, step):
     return action
 
 
+_R5_EXTRA_COW = False
+# V16-RC5-R5: bounded, public-state COW placement recovery.
+_COW_ALIGN_STATE = {
+    0: {"last_step": -1, "active": {}},
+    1: {"last_step": -1, "active": {}},
+}
+
+
+def _empty_cow_pasture(tile):
+    return (
+        isinstance(tile, dict)
+        and tile.get("kind") == "PASTURE"
+        and not tile.get("animal")
+    )
+
+
+def _adjacent_cow_pasture_move(farm, position):
+    try:
+        x, y = int(position[0]), int(position[1])
+    except (IndexError, TypeError, ValueError):
+        return None
+    for operation, dx, dy in (
+        ("EAST", 1, 0),
+        ("WEST", -1, 0),
+        ("SOUTH", 0, 1),
+        ("NORTH", 0, -1),
+    ):
+        if _empty_cow_pasture(_tile_at(farm, (x + dx, y + dy))):
+            return [operation]
+    return None
+
+
+def _cow_inventory(obs, actor_index):
+    private = _get(obs, "private", {}) or {}
+    inventories = list(_get(private, "inventories", []) or [])
+    if actor_index >= len(inventories):
+        return 0
+    return max(
+        0,
+        int(_get(inventories[actor_index] or {}, "COW", 0) or 0),
+    )
+
+
+def _is_cow_place(order):
+    return (
+        isinstance(order, (list, tuple))
+        and len(order) >= 2
+        and order[0] == "PLACE"
+        and order[1] == "COW"
+    )
+
+
+def _cow_place_alignment(obs, action, step):
+    action = _align_hands(action, obs)
+    seat = _seat(obs)
+    state = _COW_ALIGN_STATE[seat]
+    if step == 0 or step < int(state.get("last_step", -1)):
+        state = {"last_step": step, "active": {}}
+        _COW_ALIGN_STATE[seat] = state
+    state["last_step"] = step
+    active = state.setdefault("active", {})
+    if step % 24 == 0:
+        active.clear()
+
+    farm = _farm(obs, seat)
+    positions = [
+        _get(farm, "farmer"),
+        *list(_get(farm, "hands", []) or []),
+    ]
+    unit_actions = [
+        action.get("farmer", ["PASS"]),
+        *list(action.get("hands") or []),
+    ]
+
+    for actor, transaction in list(active.items()):
+        actor_index = 0 if actor == "farmer" else int(actor) + 1
+        if actor_index >= len(unit_actions):
+            active.pop(actor, None)
+            continue
+        age = step - int(transaction["start"])
+        if age == 1:
+            unit_actions[actor_index] = ["PLACE", "COW", 1]
+        elif age >= 2:
+            unit_actions[actor_index] = _trace_actor_action(step - 1, actor)
+
+    if 160 <= step <= 210 or (_R5_EXTRA_COW and 500 <= step <= 525):
+        for actor_index, (position, intended) in enumerate(
+            zip(positions, unit_actions)
+        ):
+            actor = "farmer" if actor_index == 0 else actor_index - 1
+            if actor in active or not _is_cow_place(intended):
+                continue
+            if _cow_inventory(obs, actor_index) <= 0:
+                continue
+            if _empty_cow_pasture(_tile_at(farm, position)):
+                continue
+            movement = _adjacent_cow_pasture_move(farm, position)
+            if movement is None:
+                continue
+            active[actor] = {"start": step}
+            unit_actions[actor_index] = movement
+
+    action["farmer"] = unit_actions[0] if unit_actions else ["PASS"]
+    action["hands"] = unit_actions[1:]
+    return _align_hands(action, obs)
+
+
+def _owned_cows(obs):
+    seat = _seat(obs)
+    farm = _farm(obs, seat)
+    total = 0
+    for row in list(_get(farm, "tiles", []) or []):
+        for tile in list(row or []):
+            if (
+                isinstance(tile, dict)
+                and tile.get("kind") == "PASTURE"
+                and tile.get("animal") == "COW"
+            ):
+                total += 1
+    private = _get(obs, "private", {}) or {}
+    total += max(0, int(_get(_get(private, "shed", {}) or {}, "COW", 0) or 0))
+    for inventory in list(_get(private, "inventories", []) or []):
+        total += max(0, int(_get(inventory or {}, "COW", 0) or 0))
+    return total
+
+
+def _guarded_demand_cow9(obs, action, step):
+    if not _R5_EXTRA_COW or step != 289 or _owned_cows(obs) != 8:
+        return action
+    shops = list(
+        _get(_get(obs, "town", {}) or {}, "unlocked_shops", []) or []
+    )
+    milk_demand = sum(
+        shop in ("PIZZA_SHOP", "ICE_CREAM_SHOP", "SMOOTHIE_SHOP")
+        for shop in shops
+    )
+    farm = _farm(obs, _seat(obs))
+    if milk_demand < 2 or float(_get(farm, "money", 0) or 0) < 800:
+        return action
+    action = _copy_action(action)
+    market = [list(order) for order in (action.get("market") or [])]
+    if len(market) >= 10 or any(
+        len(order) >= 2
+        and order[0] == "BUY_ANIMAL"
+        and order[1] == "COW"
+        for order in market
+    ):
+        return action
+    market.append(["BUY_ANIMAL", "COW", 1])
+    action["market"] = market[:10]
+    return action
+
+
 def agent(obs):
     try:
-        step = min(max(0, int(_get(obs, "step", 0) or 0)), len(_ACTIONS) - 1)
-        action = _weed_repair_action(obs, _copy_action(_ACTIONS[step]), step)
+        step = min(
+            max(0, int(_get(obs, "step", 0) or 0)),
+            len(_ACTIONS) - 1,
+        )
+        action = _weed_repair_action(
+            obs,
+            _copy_action(_ACTIONS[step]),
+            step,
+        )
+        action = _cow_place_alignment(obs, action, step)
+        action = _guarded_demand_cow9(obs, action, step)
         state = _fr_state(obs, step)
         action = _repay(action, state, step)
         action = _front_run(action, obs, state, step)
@@ -242,6 +403,9 @@ def agent(obs):
         farm = _farm(obs, _seat(obs))
         return {
             "farmer": ["PASS"],
-            "hands": [["PASS"] for _ in (_get(farm, "hands", []) or [])],
+            "hands": [
+                ["PASS"]
+                for _ in (_get(farm, "hands", []) or [])
+            ],
             "market": [],
         }
