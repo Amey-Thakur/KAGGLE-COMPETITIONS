@@ -1,0 +1,17 @@
+{
+  "model_sources": [],
+  "id": "ameythakur20/kaggriculture-deterministic-farm-planning-agent",
+  "enable_internet": true,
+  "title": "Kaggriculture Deterministic Farm Planning Agent",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "dataset_sources": [],
+  "language": "python",
+  "competition_sources": [
+    "kaggriculture"
+  ],
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "code_file": "kaggriculture-deterministic-farm-planning-agent.ipynb",
+  "kernel_sources": []
+}
