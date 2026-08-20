@@ -55,3 +55,14 @@ htmlcov/
 *.pth
 *.safetensors
 checkpoint-*/
+
+
+# Kaggle CLI metadata
+kernel-metadata.json
+**/kernel-metadata.json
+dataset-metadata.json
+**/dataset-metadata.json
+model-metadata.json
+**/model-metadata.json
+model-instance-metadata.json
+**/model-instance-metadata.json
