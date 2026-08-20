@@ -259,6 +259,12 @@ The helper module the notebooks share, so the same utilities are not pasted into
 the top of every one of them. Each function is there because something went
 wrong without it.
 
+> [!TIP]
+> **Modular utilities prevent silent competition errors.** Attaching a shared
+> toolbox as a Kaggle Utility Script eliminates repetitive boilerplate while
+> enforcing bit-level reproducibility, safe memory downcasting on large datasets,
+> and automated submission validation before an attempt is spent.
+
 | Area | What it covers |
 | :--- | :--- |
 | **Reproducibility** | Locks every randomness source, including deterministic CUDA behaviour |
