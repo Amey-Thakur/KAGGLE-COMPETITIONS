@@ -70,6 +70,9 @@ part of the platform was first used.
 | 41 | **5 Years on Kaggle** | Jul 05, 2026 | <img src="5 Years on Kaggle.svg" width="50" title="5-Years on Kaggle (Jul 5, 2026)"> | <img src="Certificates/5 Years on Kaggle.png" width="400" title="5 Years on Kaggle"> |
 | 42 | **Model Creator** | Aug 19, 2026 | <img src="Model Creator.svg" width="50" title="Model Creator (Aug 19, 2026)"> | <img src="Certificates/Model Creator.png" width="400" title="Model Creator"> |
 | 43 | **Model Variation Creator** | Aug 19, 2026 | <img src="Model Variation Creator.svg" width="50" title="Model Variation Creator (Aug 19, 2026)"> | <img src="Certificates/Model Variation Creator.png" width="400" title="Model Variation Creator"> |
+| 44 | **API Model Creator** | Aug 19, 2026 | <img src="API Model Creator.svg" width="50" title="API Model Creator (Aug 19, 2026)"> | <img src="Certificates/API Model Creator.png" width="400" title="API Model Creator"> |
+| 45 | **Model Documenter** | Aug 19, 2026 | <img src="Model Documenter.svg" width="50" title="Model Documenter (Aug 19, 2026)"> | <img src="Certificates/Model Documenter.png" width="400" title="Model Documenter"> |
+| 46 | **Model Tagger** | Aug 19, 2026 | <img src="Model Tagger.svg" width="50" title="Model Tagger (Aug 19, 2026)"> | <img src="Certificates/Model Tagger.png" width="400" title="Model Tagger"> |
 
 </div>
 

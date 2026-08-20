@@ -58,6 +58,9 @@
   <img src="Achievements/Badges/Dataset Tagger.svg" width="50" title="Dataset Tagger (Feb 25, 2026)">
   <img src="Achievements/Badges/Model Creator.svg" width="50" title="Model Creator (Aug 19, 2026)">
   <img src="Achievements/Badges/Model Variation Creator.svg" width="50" title="Model Variation Creator (Aug 19, 2026)">
+  <img src="Achievements/Badges/API Model Creator.svg" width="50" title="API Model Creator (Aug 19, 2026)">
+  <img src="Achievements/Badges/Model Documenter.svg" width="50" title="Model Documenter (Aug 19, 2026)">
+  <img src="Achievements/Badges/Model Tagger.svg" width="50" title="Model Tagger (Aug 19, 2026)">
   <img src="Achievements/Badges/Competition Modeler.svg" width="50" title="Competition Modeler (Mar 24, 2026)">
   <img src="Achievements/Badges/Kaggle Community Member.svg" width="50" title="Kaggle Community Member (Sept 11, 2022)">
   <img src="Achievements/Badges/Stylish.svg" width="50" title="Stylish (Mar 4, 2026)">
