@@ -98,6 +98,6 @@ Across local 720-step season simulations evaluated with the official `kaggle_env
 
 <br>
 
-[Back to top](#kaggriculture) &nbsp;·&nbsp; [Repository home](../../README.md)
+[↑ Back to top](#kaggriculture) &nbsp;·&nbsp; [← Repository home](../../README.md)
 
 </div>
