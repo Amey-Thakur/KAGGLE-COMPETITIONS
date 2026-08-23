@@ -87,6 +87,7 @@ Across local 720-step season simulations evaluated with official `kaggle_environ
 | Contender Agent | Champion (`Multi-Route V113`) | Record (W-L-T) | Win Rate | Mean Margin Alpha |
 | :--- | :--- | :---: | :---: | :---: |
 | **`Kaito-V41-Sparse`** | `Multi-Route V113` | **0W - 10L - 0T** | **100.0%** | **+$8,334.90** |
+| **`Soil-Remembers-Rain (V26-H)`** | `Multi-Route V113` | **0W - 10L - 0T** | **100.0%** | **+$7,845.70** |
 | **`Tetsutani-Adaptive`** | `Multi-Route V113` | **1W - 9L - 0T** | **90.0%** | **+$3,878.20** |
 | **`V111-Baseline`** | `Multi-Route V113` | **1W - 5L - 0T** | **83.3%** | **+$6,012.70** |
 | **`Starter Baseline`** | `Multi-Route V113` | **0W - 10L - 0T** | **100.0%** | **+$177,807.00** |
