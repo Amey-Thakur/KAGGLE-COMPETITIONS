@@ -10,9 +10,9 @@
 
 <br>
 
-[![Notebook](https://img.shields.io/badge/Notebook-Kaggle-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/code/ameythakur20/kaggriculture-deterministic-farm-planning-agent) [![Medal](https://img.shields.io/badge/Medal-Bronze-8E5B3D)](https://www.kaggle.com/ameythakur20/code) [![Author](https://img.shields.io/badge/Author-Amey_Thakur-0969DA)](https://www.kaggle.com/ameythakur20) [![ORCID](https://img.shields.io/badge/ORCID-0000--0001--5644--1575-A6CE39)](https://orcid.org/0000-0001-5644-1575) [![License](https://img.shields.io/badge/License-Apache_2.0-lightgrey)](https://www.apache.org/licenses/LICENSE-2.0)
+[![Notebook](https://img.shields.io/badge/Notebook-Kaggle-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/code/ameythakur20/kaggriculture-premium-first-market-agent) [![Medal](https://img.shields.io/badge/Medal-Bronze-8E5B3D)](https://www.kaggle.com/ameythakur20/code) [![Author](https://img.shields.io/badge/Author-Amey_Thakur-0969DA)](https://www.kaggle.com/ameythakur20) [![ORCID](https://img.shields.io/badge/ORCID-0000--0001--5644--1575-A6CE39)](https://orcid.org/0000-0001-5644-1575) [![License](https://img.shields.io/badge/License-Apache_2.0-lightgrey)](https://www.apache.org/licenses/LICENSE-2.0)
 
-<a href="https://www.kaggle.com/code/ameythakur20/kaggriculture-deterministic-farm-planning-agent"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open in Kaggle"></a>
+<a href="https://www.kaggle.com/code/ameythakur20/kaggriculture-premium-first-market-agent"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open in Kaggle"></a>
 
 <br>
 
@@ -80,15 +80,16 @@ The production pipeline operates through deterministic state controllers:
 
 ---
 
-## 5. Local Validation & Head-to-Head Tournament Results
+## 5. Head-to-Head Tournament Benchmarks
 
-Across local 720-step season simulations evaluated with the official `kaggle_environments` engine:
+Across local 720-step season simulations evaluated with official `kaggle_environments` (1.32.7) against established public baselines:
 
-- **Industrial 8C/4S Premium-First Agent Final Capital:** **$175,725.00**
-- **V111 Baseline Final Capital:** **$145,580.00**
-- **Performance Alpha:** **+$30,145.00 (+20.7% capital gain)**
-- **Head-to-Head Win Rate vs Baseline:** **90.0% (9 Wins / 1 Loss / 0 Ties)**
-- **Head-to-Head Win Rate vs Starter Baseline:** **100.0% (48x profit alpha)**
+| Contender Agent | Champion (`Multi-Route V113`) | Record (W-L-T) | Win Rate | Mean Margin Alpha |
+| :--- | :--- | :---: | :---: | :---: |
+| **`Kaito-V41-Sparse`** | `Multi-Route V113` | **0W - 10L - 0T** | **100.0%** | **+$8,334.90** |
+| **`Tetsutani-Adaptive`** | `Multi-Route V113` | **1W - 9L - 0T** | **90.0%** | **+$3,878.20** |
+| **`V111-Baseline`** | `Multi-Route V113` | **1W - 5L - 0T** | **83.3%** | **+$6,012.70** |
+| **`Starter Baseline`** | `Multi-Route V113` | **0W - 10L - 0T** | **100.0%** | **+$177,807.00** |
 
 ---
 
