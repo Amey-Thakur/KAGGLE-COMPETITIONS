@@ -35,14 +35,18 @@ The objective of this Playground Series competition is to predict the probabilit
 | Stage | Description |
 | :--- | :--- |
 | **Exploration** | Identifies rank correlation and distribution density across raw temporal features. |
-| **Feature Engineering** | Constructs rank-transformed features to normalise skewness and explicit boolean flags for missing values to capture structural absence. |
-| **Ensemble** | A Level-1 Stacking architecture using an optimal constrained SLSQP blend over the out-of-fold predictions of XGBoost, LightGBM, and CatBoost. |
+| **Feature Engineering** | Constructs domain behavioural metrics (usage shares, notification intensity, battery-to-screen ratios) and rank normalisation. |
+| **Ensemble** | A Level-1 Stacking architecture using an optimal constrained SLSQP blend over the out-of-fold predictions of LightGBM, XGBoost, CatBoost, and HistGradientBoosting. |
 
 ## Feature interaction strategy
-Gradient boosting architectures natively handle dense tabular data, yet they remain vulnerable to extreme outliers during tree splitting. Applying a rank transformation to highly skewed continuous variables (such as `Notifications_Count`) provides a uniformly distributed ordinal signal. This explicitly stabilises the ensemble without incurring dimensionality costs, improving the Out-Of-Fold (OOF) AUC.
+Rather than introducing artificial missingness indicators that create adversarial distribution shift, missing values are handled through model-native mechanisms. To expose non-linear behavioural signals directly to the tree partitioners, domain interaction features are constructed:
+1. `Non_Social_Screen_Time`: Screen time remaining after accounting for social media hours.
+2. `Social_Share` & `Gaming_Share`: Proportion of screen time spent on high-dopamine activities.
+3. `Notifications_per_Hour`: Frequency of notification interruptions normalised by screen duration.
+4. `Screen_to_Battery`: Usage density per unit of battery drained.
 
 ## Results
-The validation scheme is a 5-Fold Stratified CV, preserving the exact class proportion of `addicted_label`. A constrained SLSQP metric-optimiser dynamically weights the OOF predictions of the three base models, ensuring non-negative contributions that strictly maximise the ROC AUC.
+The validation scheme is a 5-Fold Stratified CV, preserving the exact class proportion of `addicted_label`. A constrained SLSQP metric-optimiser dynamically weights the OOF predictions of the four diverse base architectures, strictly maximizing validation ROC AUC.
 
 ## Where it fails
 The stack is most confidently incorrect (predicting a high addiction probability for a negative label) when a user exhibits extreme social media usage alongside atypically low total screen time. The models lack a strict conditional cut-off to discount users whose absolute usage time is insufficient to mathematically qualify as addiction.
