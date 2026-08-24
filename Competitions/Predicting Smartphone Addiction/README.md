@@ -29,28 +29,28 @@
 ---
 
 ## The problem
-The objective of this Playground Series competition is to predict the probability that a user is addicted to their smartphone (`addicted_label`). The scoring metric is Area Under the ROC Curve (AUC). The primary constraint here is correctly classifying users with non-linear behaviors—such as users with very high social media hours but overall low screen time—without relying on deep learning due to the tabular, low-dimensional nature of the dataset.
+The objective of this Playground Series competition is to predict the probability of smartphone addiction (`addicted_label`). The scoring metric is the Area Under the ROC Curve (AUC). As a low-dimensional tabular dataset, the primary constraint is correctly classifying users with non-linear behavioural thresholds without relying on parameter-heavy deep learning architectures.
 
 ## What is here
 | Stage | Description |
 | :--- | :--- |
-| **Exploration** | Identifies that no single continuous variable cleanly separates the classes below the extreme percentiles. |
-| **Feature Engineering** | Constructs interaction ratios (e.g., social time relative to total screen time) to penalize high absolute values that lack context. |
-| **Ensemble** | A blended model of XGBoost, LightGBM, and CatBoost to maximize AUC robustly across different categorical treatments. |
+| **Exploration** | Identifies rank correlation and distribution density across raw temporal features. |
+| **Feature Engineering** | Constructs rank-transformed features to normalise skewness and explicit boolean flags for missing values to capture structural absence. |
+| **Ensemble** | A Level-1 Stacking architecture using a Logistic Regression meta-learner trained on the out-of-fold predictions of XGBoost, LightGBM, and CatBoost. |
 
 ## Feature interaction strategy
-The problem with raw hours of usage is that 2 hours of gaming out of 2 total screen hours is vastly different behavior than 2 hours of gaming out of 10. Rather than hoping the gradient boosters implicitly discover this division, explicit ratios (`Social_to_Screen_Ratio`, `Gaming_to_Screen_Ratio`) were engineered. This explicit encoding cost nothing in dimensionality but moved the local cross-validation AUC significantly by exposing the true density of usage.
+Gradient boosting architectures natively handle dense tabular data, yet they remain vulnerable to extreme outliers during tree splitting. Applying a rank transformation to highly skewed continuous variables (such as `Notifications_Count`) provides a uniformly distributed ordinal signal. This explicitly stabilises the ensemble without incurring dimensionality costs, improving the Out-Of-Fold (OOF) AUC.
 
 ## Results
-The validation scheme used is a 5-Fold Stratified CV to preserve the exact class balance of `addicted_label` across folds. The unweighted mean blend of LightGBM, XGBoost, and CatBoost achieves an Out-Of-Fold (OOF) AUC that stably outperforms any single architecture, suggesting that the diverse categorical handling between CatBoost and LightGBM provides complimentary signal. 
+The validation scheme is a 5-Fold Stratified CV, preserving the exact class proportion of `addicted_label`. A Logistic Regression meta-learner dynamically weights the OOF predictions of the three base models. This stacking methodology consistently outperforms an unweighted mean blend, effectively suppressing the individual structural biases of CatBoost and LightGBM.
 
 ## Where it fails
-The blend is most confidently wrong (high probability prediction for a negative label) when a user has extreme social media usage but surprisingly low total screen time. The `Social_to_Screen_Ratio` captures the intensity, but the models lack a hard cutoff to discount users whose absolute time simply isn't long enough to qualify as addiction, regardless of the ratio. 
+The stack is most confidently incorrect (predicting a high addiction probability for a negative label) when a user exhibits extreme social media usage alongside atypically low total screen time. The models lack a strict conditional cut-off to discount users whose absolute usage time is insufficient to mathematically qualify as addiction.
 
 ## What would improve it
-1. **Absolute Time Thresholds**: Introducing a boolean feature for users with `< 2` hours total screen time to forcibly suppress high-probability scores from extreme ratios.
-2. **Hyperparameter Tuning**: Running an Optuna study over LightGBM's `num_leaves` and `colsample_bytree` to refine the tree structures.
-3. **Target Encoding**: Out-of-fold target encoding for the `Gender` categorical feature to provide a denser numeric signal before the first split.
+1. **Absolute Time Thresholds**: Introducing a Boolean feature for users with fewer than 2 hours of total screen time to suppress high-probability scores mechanically.
+2. **Hyperparameter Tuning**: Executing an Optuna study across LightGBM's `num_leaves` and `colsample_bytree` parameters to optimise tree structures.
+3. **Target Encoding**: Out-of-fold target encoding for the `Gender` categorical feature to provide a denser numerical signal prior to the root split.
 
 ---
 
