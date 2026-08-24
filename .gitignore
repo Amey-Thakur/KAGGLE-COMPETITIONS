@@ -66,3 +66,4 @@ model-metadata.json
 **/model-metadata.json
 model-instance-metadata.json
 **/model-instance-metadata.json
+catboost_info/
