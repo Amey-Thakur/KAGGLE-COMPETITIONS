@@ -35,18 +35,18 @@ The objective of this Playground Series competition is to predict the probabilit
 | Stage | Description |
 | :--- | :--- |
 | **Exploration** | Identifies rank correlation and distribution density across raw temporal features. |
-| **Feature Engineering** | Constructs domain behavioural metrics (usage shares, notification intensity, battery-to-screen ratios) and rank normalisation. |
-| **Ensemble** | A Level-1 Stacking architecture using an optimal constrained SLSQP blend over the out-of-fold predictions of LightGBM, XGBoost, CatBoost, and HistGradientBoosting. |
+| **Feature Engineering** | Constructs domain behavioural metrics (usage shares, notification intensity, group mean deviations) and rank normalisation. |
+| **Ensemble** | A Multi-Stage Meta-Feature Stacking architecture using Level-0 out-of-fold probability signals and non-linear interactions to train a Level-1 meta-learner. |
 
 ## Feature interaction strategy
 Rather than introducing artificial missingness indicators that create adversarial distribution shift, missing values are handled through model-native mechanisms. To expose non-linear behavioural signals directly to the tree partitioners, domain interaction features are constructed:
 1. `Non_Social_Screen_Time`: Screen time remaining after accounting for social media hours.
 2. `Social_Share` & `Gaming_Share`: Proportion of screen time spent on high-dopamine activities.
 3. `Notifications_per_Hour`: Frequency of notification interruptions normalised by screen duration.
-4. `Screen_to_Battery`: Usage density per unit of battery drained.
+4. `Group_Mean_Deviations`: Continuous residuals relative to demographic cohort baselines.
 
 ## Results
-The validation scheme is a 5-Fold Stratified CV, preserving the exact class proportion of `addicted_label`. A constrained SLSQP metric-optimiser dynamically weights the OOF predictions of the four diverse base architectures, strictly maximizing validation ROC AUC.
+The validation scheme is a 5-Fold Stratified CV, preserving the exact class proportion of `addicted_label`. Level-0 out-of-fold predictions (`meta_lgb`, `meta_xgb`, `meta_cat`) along with interaction terms (`meta_prod`, `meta_diff`) are concatenated directly into the feature space to train an XGBoost meta-learner, achieving an Out-Of-Fold CV AUC of **0.963556**.
 
 ## Where it fails
 The stack is most confidently incorrect (predicting a high addiction probability for a negative label) when a user exhibits extreme social media usage alongside atypically low total screen time. The models lack a strict conditional cut-off to discount users whose absolute usage time is insufficient to mathematically qualify as addiction.
