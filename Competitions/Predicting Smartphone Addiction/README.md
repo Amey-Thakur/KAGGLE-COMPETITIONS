@@ -36,13 +36,13 @@ The objective of this Playground Series competition is to predict the probabilit
 | :--- | :--- |
 | **Exploration** | Identifies rank correlation and distribution density across raw temporal features. |
 | **Feature Engineering** | Constructs rank-transformed features to normalise skewness and explicit boolean flags for missing values to capture structural absence. |
-| **Ensemble** | A Level-1 Stacking architecture using a Logistic Regression meta-learner trained on the out-of-fold predictions of XGBoost, LightGBM, and CatBoost. |
+| **Ensemble** | A Level-1 Stacking architecture using an optimal constrained SLSQP blend over the out-of-fold predictions of XGBoost, LightGBM, and CatBoost. |
 
 ## Feature interaction strategy
 Gradient boosting architectures natively handle dense tabular data, yet they remain vulnerable to extreme outliers during tree splitting. Applying a rank transformation to highly skewed continuous variables (such as `Notifications_Count`) provides a uniformly distributed ordinal signal. This explicitly stabilises the ensemble without incurring dimensionality costs, improving the Out-Of-Fold (OOF) AUC.
 
 ## Results
-The validation scheme is a 5-Fold Stratified CV, preserving the exact class proportion of `addicted_label`. A Logistic Regression meta-learner dynamically weights the OOF predictions of the three base models. This stacking methodology consistently outperforms an unweighted mean blend, effectively suppressing the individual structural biases of CatBoost and LightGBM.
+The validation scheme is a 5-Fold Stratified CV, preserving the exact class proportion of `addicted_label`. A constrained SLSQP metric-optimiser dynamically weights the OOF predictions of the three base models, ensuring non-negative contributions that strictly maximise the ROC AUC.
 
 ## Where it fails
 The stack is most confidently incorrect (predicting a high addiction probability for a negative label) when a user exhibits extreme social media usage alongside atypically low total screen time. The models lack a strict conditional cut-off to discount users whose absolute usage time is insufficient to mathematically qualify as addiction.
