@@ -185,7 +185,7 @@ added.
 <img src="Achievements/Medals/Bronze%20Medal.png" width="28" alt="Bronze medal">
 <img src="Achievements/Medals/Bronze%20Medal.png" width="28" alt="Bronze medal">
 
-**9 bronze medals** &nbsp;·&nbsp; **highest rank 878** of 61,000
+**9 bronze medals** &nbsp;·&nbsp; **highest rank 875** of 61,000
 
 </div>
 

@@ -118,7 +118,7 @@ the first time it does. The root index is generated from the folder listing.
 Badge labels read `Badges-Earned` and `Courses-Kaggle_Learn`, not numbers.
 
 **Kaggle standing is the one exception**, and it is supplied rather than
-derived: Notebooks **Expert**, 9 bronze medals, highest rank **878** of 61,000.
+derived: Notebooks **Expert**, 9 bronze medals, highest rank **875** of 61,000.
 Record only the highest rank ever reached, never the current one, which moves
 whenever anyone publishes.
 
