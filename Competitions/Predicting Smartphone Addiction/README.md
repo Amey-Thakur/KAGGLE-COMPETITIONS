@@ -29,14 +29,14 @@
 ---
 
 ## The problem
-The objective of this Playground Series competition is to predict the probability of smartphone addiction (`addicted_label`). The scoring metric is the Area Under the ROC Curve (AUC). As a low-dimensional tabular dataset of 691,369 training records, the primary constraint is capturing non-linear behavioural thresholds and synthetic generator artifacts without overfitting public test splits.
+The objective of this Playground Series competition is to predict the probability of smartphone addiction (`addicted_label`). The scoring metric is the Area Under the ROC Curve (AUC). As a low-dimensional tabular dataset of 691,369 training records, the primary constraint is capturing non-linear behavioural thresholds, discretization lattices, and synthetic generator artifacts without overfitting public test splits.
 
 ## What is here
 | Stage | Description |
 | :--- | :--- |
 | **Exploration** | Identifies rank correlation, non-linear ratios, and distribution density across raw temporal features. |
-| **Feature Engineering** | Constructs domain behavioural metrics (usage shares, notification intensity, group mean deviations), decimal lattice coordinates (`frac`, `d1`), and transductive frequency maps. |
-| **Ensemble** | A Hybrid RealMLP Neural Embedding and Multi-Seed Dual Meta-Stacking architecture combining Level-0 gradient-boosted probability signals and non-linear meta-learners. |
+| **Feature Engineering** | Constructs domain behavioural metrics (usage shares, notification intensity, group mean deviations), decimal lattice coordinates (`frac`, `d1`), and transductive frequency maps across the full combined $N=987,671$ dataset. |
+| **Ensemble** | A Sovereign Transductive Architecture combining Native Ordered Target Statistics (CatBoost), Transductive Frequency Encodings (LightGBM, XGBoost), and Cross-Fitted Logit Meta-Stacking. |
 
 ## Feature interaction strategy
 Rather than introducing artificial missingness indicators that create distribution shift, missing values are handled through model-native mechanisms. To expose non-linear behavioural signals directly to the tree partitioners, domain interaction features are constructed:
@@ -45,25 +45,26 @@ Rather than introducing artificial missingness indicators that create distributi
 3. `Notifications_per_Hour`: Frequency of notification interruptions normalised by screen duration.
 4. `Group_Mean_Deviations`: Continuous residuals relative to demographic cohort baselines.
 5. `Decimal_Lattice`: Sub-unit fractional offsets ($v - \lfloor v \rfloor$) and first-decimal digits capturing synthetic generator rounding patterns.
+6. `Transductive_Target_Encoding`: Out-of-fold cross-fitted bayesian target statistics computed jointly across discrete density manifolds.
 
 ## Results
-The validation scheme is a 5-Fold Stratified CV, preserving the exact class proportion of `addicted_label`. Level-0 out-of-fold predictions (`meta_lgb`, `meta_xgb`, `meta_cat`, `meta_mlp`) along with interaction terms (`meta_prod`, `meta_diff`) are concatenated directly into the feature space to train Level-1 meta-learners.
+The validation scheme is a 5-Fold Stratified CV, preserving the exact class proportion of `addicted_label`. Level-0 out-of-fold probability predictions (`meta_lgb`, `meta_xgb`, `meta_cat`) along with logit transformations $\ln(p / (1-p))$ are fed into regularised cross-fitted meta-stackers.
 
 | Model / Architecture | 5-Fold CV ROC AUC | Public LB Score |
 | :--- | :---: | :---: |
 | Single LightGBM Baseline | 0.96287 | 0.96182 |
 | Multi-Seed Meta-Stacking | 0.96339 | 0.96509 |
 | Apex Multi-Seed Dual Meta-Stacking | 0.96385 | 0.96525 |
-| Hybrid RealMLP + Multi-Seed Dual Meta | 0.96391 | **0.96529** 🏆 |
-| Sovereign Transductive Logit Stack | 0.9705+ | Pending |
+| Hybrid RealMLP + Multi-Seed Dual Meta | 0.96391 | 0.96529 |
+| **Sovereign Transductive Logit Stack** | **0.96803** | **0.96939** 🏆 |
 
 ## Where it fails
 The stack is most confidently incorrect (predicting a high addiction probability for a negative label) when a user exhibits extreme social media usage alongside atypically low total screen time. The models require explicit non-linear interaction terms between total usage and activity shares to resolve edge cases.
 
 ## What would improve it
-1. **Transductive Target & Frequency Encoding**: Jointly computing frequency distributions across combined train and test records to capture exact sample density manifolds.
-2. **Native Ordered Statistics**: Providing raw string categorical representations directly to CatBoost to enable dynamic target-statistic trees.
-3. **Logit-Space Stacking**: Training regularised meta-classifiers on logit transforms $\ln(p / (1-p))$ rather than raw probabilities to linearise boundary corrections.
+1. **Higher-Order Multi-Seed Transductive Bagging**: Expanding seeds ($k=10$) on native ordered CatBoost models to stabilise tree splitting thresholds.
+2. **TabNet & Deep Neural RealMLP Transductive Features**: Injecting transductive frequency coordinates into deep neural layers before logit-space meta-stacking.
+3. **Decimal Modulo Lattice Expansion**: Capturing second-order decimal remainder lattices ($100v \pmod{10}$) across combined feature spaces.
 
 ---
 
