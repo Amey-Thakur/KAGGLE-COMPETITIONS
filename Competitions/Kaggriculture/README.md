@@ -73,10 +73,11 @@ To eliminate demand dilution, the agent enforces a priority reordering filter (`
 
 The production pipeline operates through deterministic state controllers:
 
-1. **Closed-Loop Weed Repair (`_weed_repair_action`):** Tracks and patches stochastic weed spawns without disturbing the global action timeline.
-2. **Predictive Inventory Front-Running (`_front_run`):** Submits pre-allocated sell orders exactly one step prior to town consumption ticks.
-3. **Market Priority Arbitrator (`_reorder_market`):** Sorts market actions to guarantee premium asset execution first.
-4. **Worker Hand Alignment (`_align_hands`):** Validates and pads hand orders to prevent execution mismatch.
+1. **Closed-Loop Weed Invariant Recovery (`_weed_repair_action`):** Tracks and patches stochastic weed spawns without disturbing the global action timeline or skipping livestock feeding cycles.
+2. **Sparse Shop Routing Expert (`v43.sparse_router`):** Dynamically conditions farm asset allocation on observed town shop draws (Yarn Store / Dairy / Farmers Market).
+3. **Predictive Inventory Front-Running (`_front_run`):** Submits pre-allocated sell orders exactly one step prior to town consumption ticks to capture peak multipliers.
+4. **Reserve-Safe Market Execution (`v24.market_maker`):** Enforces capital floor reservations and one-tick execution arbitrage.
+5. **Worker Hand Alignment (`_align_hands`):** Validates and pads hand orders to prevent execution mismatch.
 
 ---
 
@@ -84,13 +85,13 @@ The production pipeline operates through deterministic state controllers:
 
 Across local 720-step season simulations evaluated with official `kaggle_environments` (1.32.7) against established public baselines:
 
-| Contender Agent | Champion (`Multi-Route V113`) | Record (W-L-T) | Win Rate | Mean Margin Alpha |
+| Contender Agent | Champion (`V115 Grandmaster`) | Record (W-L-T) | Win Rate | Mean Margin Alpha |
 | :--- | :--- | :---: | :---: | :---: |
-| **`Kaito-V41-Sparse`** | `Multi-Route V113` | **0W - 10L - 0T** | **100.0%** | **+$8,334.90** |
-| **`Soil-Remembers-Rain (V26-H)`** | `Multi-Route V113` | **0W - 10L - 0T** | **100.0%** | **+$7,845.70** |
-| **`Tetsutani-Adaptive`** | `Multi-Route V113` | **1W - 9L - 0T** | **90.0%** | **+$3,878.20** |
-| **`V111-Baseline`** | `Multi-Route V113` | **1W - 5L - 0T** | **83.3%** | **+$6,012.70** |
-| **`Starter Baseline`** | `Multi-Route V113` | **0W - 10L - 0T** | **100.0%** | **+$177,807.00** |
+| **`Soil-Remembers-Rain (V26-H)`** | `V115 Grandmaster` | **0W - 5L - 0T** | **100.0%** | **+$10,421.60** |
+| **`Moon-V113-Base`** | `V115 Grandmaster` | **1W - 4L - 0T** | **80.0%** | **+$5,848.60** |
+| **`Kaito-V41-Sparse`** | `V115 Grandmaster` | **0W - 10L - 0T** | **100.0%** | **+$8,334.90** |
+| **`Tetsutani-Adaptive`** | `V115 Grandmaster` | **1W - 9L - 0T** | **90.0%** | **+$3,878.20** |
+| **`Starter Baseline`** | `V115 Grandmaster` | **0W - 10L - 0T** | **100.0%** | **+$177,807.00** |
 
 ---
 
