@@ -29,32 +29,40 @@
 ---
 
 ## The problem
-The objective of this Playground Series competition is to predict the probability of smartphone addiction (`addicted_label`). The scoring metric is the Area Under the ROC Curve (AUC). As a low-dimensional tabular dataset, the primary constraint is correctly classifying users with non-linear behavioural thresholds without relying on parameter-heavy deep learning architectures.
+The objective of this Playground Series competition is to predict the probability of smartphone addiction (`addicted_label`). The scoring metric is the Area Under the ROC Curve (AUC). As a low-dimensional tabular dataset of 691,369 training records, the primary constraint is capturing non-linear behavioural thresholds and synthetic generator artifacts without overfitting public test splits.
 
 ## What is here
 | Stage | Description |
 | :--- | :--- |
-| **Exploration** | Identifies rank correlation and distribution density across raw temporal features. |
-| **Feature Engineering** | Constructs domain behavioural metrics (usage shares, notification intensity, group mean deviations) and rank normalisation. |
-| **Ensemble** | A Multi-Stage Meta-Feature Stacking architecture using Level-0 out-of-fold probability signals and non-linear interactions to train a Level-1 meta-learner. |
+| **Exploration** | Identifies rank correlation, non-linear ratios, and distribution density across raw temporal features. |
+| **Feature Engineering** | Constructs domain behavioural metrics (usage shares, notification intensity, group mean deviations), decimal lattice coordinates (`frac`, `d1`), and transductive frequency maps. |
+| **Ensemble** | An Apex Multi-Seed Dual Meta-Stacking and Sovereign Logit-Stacking architecture combining Level-0 gradient-boosted probability signals and non-linear meta-learners. |
 
 ## Feature interaction strategy
-Rather than introducing artificial missingness indicators that create adversarial distribution shift, missing values are handled through model-native mechanisms. To expose non-linear behavioural signals directly to the tree partitioners, domain interaction features are constructed:
+Rather than introducing artificial missingness indicators that create distribution shift, missing values are handled through model-native mechanisms. To expose non-linear behavioural signals directly to the tree partitioners, domain interaction features are constructed:
 1. `Non_Social_Screen_Time`: Screen time remaining after accounting for social media hours.
 2. `Social_Share` & `Gaming_Share`: Proportion of screen time spent on high-dopamine activities.
 3. `Notifications_per_Hour`: Frequency of notification interruptions normalised by screen duration.
 4. `Group_Mean_Deviations`: Continuous residuals relative to demographic cohort baselines.
+5. `Decimal_Lattice`: Sub-unit fractional offsets ($v - \lfloor v \rfloor$) and first-decimal digits capturing synthetic generator rounding patterns.
 
 ## Results
-The validation scheme is a 5-Fold Stratified CV, preserving the exact class proportion of `addicted_label`. Level-0 out-of-fold predictions (`meta_lgb`, `meta_xgb`, `meta_cat`) along with interaction terms (`meta_prod`, `meta_diff`) are concatenated directly into the feature space to train an XGBoost meta-learner, achieving an Out-Of-Fold CV AUC of **0.963556**.
+The validation scheme is a 5-Fold Stratified CV, preserving the exact class proportion of `addicted_label`. Level-0 out-of-fold predictions (`meta_lgb`, `meta_xgb`, `meta_cat`) along with interaction terms (`meta_prod`, `meta_diff`) are concatenated directly into the feature space to train Level-1 meta-learners.
+
+| Model / Architecture | 5-Fold CV ROC AUC | Public LB Score |
+| :--- | :---: | :---: |
+| Single LightGBM Baseline | 0.96287 | 0.96182 |
+| Multi-Seed Meta-Stacking | 0.96339 | 0.96509 |
+| Apex Multi-Seed Dual Meta-Stacking | 0.96385 | **0.96525** |
+| Sovereign Transductive Logit Stack | 0.9705+ | Pending |
 
 ## Where it fails
-The stack is most confidently incorrect (predicting a high addiction probability for a negative label) when a user exhibits extreme social media usage alongside atypically low total screen time. The models lack a strict conditional cut-off to discount users whose absolute usage time is insufficient to mathematically qualify as addiction.
+The stack is most confidently incorrect (predicting a high addiction probability for a negative label) when a user exhibits extreme social media usage alongside atypically low total screen time. The models require explicit non-linear interaction terms between total usage and activity shares to resolve edge cases.
 
 ## What would improve it
-1. **Absolute Time Thresholds**: Introducing a Boolean feature for users with fewer than 2 hours of total screen time to suppress high-probability scores mechanically.
-2. **Hyperparameter Tuning**: Executing an Optuna study across LightGBM's `num_leaves` and `colsample_bytree` parameters to optimise tree structures.
-3. **Target Encoding**: Out-of-fold target encoding for the `Gender` categorical feature to provide a denser numerical signal prior to the root split.
+1. **Transductive Target & Frequency Encoding**: Jointly computing frequency distributions across combined train and test records to capture exact sample density manifolds.
+2. **Native Ordered Statistics**: Providing raw string categorical representations directly to CatBoost to enable dynamic target-statistic trees.
+3. **Logit-Space Stacking**: Training regularised meta-classifiers on logit transforms $\ln(p / (1-p))$ rather than raw probabilities to linearise boundary corrections.
 
 ---
 
