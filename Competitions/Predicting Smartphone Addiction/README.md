@@ -36,7 +36,7 @@ The objective of this Playground Series competition is to predict the probabilit
 | :--- | :--- |
 | **Exploration** | Identifies rank correlation, non-linear ratios, and distribution density across raw temporal features. |
 | **Feature Engineering** | Constructs domain behavioural metrics (usage shares, notification intensity, group mean deviations), decimal lattice coordinates (`frac`, `d1`), and transductive frequency maps. |
-| **Ensemble** | An Apex Multi-Seed Dual Meta-Stacking and Sovereign Logit-Stacking architecture combining Level-0 gradient-boosted probability signals and non-linear meta-learners. |
+| **Ensemble** | A Hybrid RealMLP Neural Embedding and Multi-Seed Dual Meta-Stacking architecture combining Level-0 gradient-boosted probability signals and non-linear meta-learners. |
 
 ## Feature interaction strategy
 Rather than introducing artificial missingness indicators that create distribution shift, missing values are handled through model-native mechanisms. To expose non-linear behavioural signals directly to the tree partitioners, domain interaction features are constructed:
@@ -47,13 +47,14 @@ Rather than introducing artificial missingness indicators that create distributi
 5. `Decimal_Lattice`: Sub-unit fractional offsets ($v - \lfloor v \rfloor$) and first-decimal digits capturing synthetic generator rounding patterns.
 
 ## Results
-The validation scheme is a 5-Fold Stratified CV, preserving the exact class proportion of `addicted_label`. Level-0 out-of-fold predictions (`meta_lgb`, `meta_xgb`, `meta_cat`) along with interaction terms (`meta_prod`, `meta_diff`) are concatenated directly into the feature space to train Level-1 meta-learners.
+The validation scheme is a 5-Fold Stratified CV, preserving the exact class proportion of `addicted_label`. Level-0 out-of-fold predictions (`meta_lgb`, `meta_xgb`, `meta_cat`, `meta_mlp`) along with interaction terms (`meta_prod`, `meta_diff`) are concatenated directly into the feature space to train Level-1 meta-learners.
 
 | Model / Architecture | 5-Fold CV ROC AUC | Public LB Score |
 | :--- | :---: | :---: |
 | Single LightGBM Baseline | 0.96287 | 0.96182 |
 | Multi-Seed Meta-Stacking | 0.96339 | 0.96509 |
-| Apex Multi-Seed Dual Meta-Stacking | 0.96385 | **0.96525** |
+| Apex Multi-Seed Dual Meta-Stacking | 0.96385 | 0.96525 |
+| Hybrid RealMLP + Multi-Seed Dual Meta | 0.96391 | **0.96529** 🏆 |
 | Sovereign Transductive Logit Stack | 0.9705+ | Pending |
 
 ## Where it fails
