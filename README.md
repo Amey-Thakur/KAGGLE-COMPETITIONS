@@ -8,13 +8,14 @@
 
 <br>
 
+[![License](https://img.shields.io/badge/License-CC_BY_4.0_%7C_MIT-lightgrey)](#license)
 [![Kaggle](https://img.shields.io/badge/Kaggle-ameythakur20-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/ameythakur20)
 [![Notebooks](https://img.shields.io/badge/Notebooks-Expert-8148FD?logo=kaggle&logoColor=white)](https://www.kaggle.com/ameythakur20/code)
 [![Medals](https://img.shields.io/badge/Medals-9_Bronze-8E5B3D)](#achievements)
 [![Badges](https://img.shields.io/badge/Badges-Earned-BF3989)](Achievements/Badges/README.md)
 [![Courses](https://img.shields.io/badge/Courses-Kaggle_Learn-FAE041)](Kaggle%20Courses/README.md)
 [![Status](https://img.shields.io/badge/Status-Active-2EA043)](#competitions)
-[![License](https://img.shields.io/badge/License-CC_BY_4.0_%7C_MIT-lightgrey)](#license)
+[![Author](https://img.shields.io/badge/Author-Amey_Thakur-0969DA)](https://github.com/Amey-Thakur)
 
 <br>
 
