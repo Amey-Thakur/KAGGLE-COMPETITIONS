@@ -33,7 +33,7 @@ between bands.
 </div>
 
 **Currently Notebooks Expert**, on nine bronze medals, with a highest rank of
-875 out of 61,000 in that category.
+824 out of 61,000 in that category.
 
 > [!NOTE]
 > Only the highest rank reached is recorded, deliberately. A live position moves
