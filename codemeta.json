@@ -3,20 +3,15 @@
     "@type": "SoftwareSourceCode",
     "name": "Kaggle Competitions",
     "description": "Competition solutions, notebooks and write-ups from Kaggle, with the Kaggle Learn certificates and badges earned alongside them.",
+    "identifier": "KAGGLE-COMPETITIONS",
     "license": [
         "https://spdx.org/licenses/MIT.html",
         "https://spdx.org/licenses/CC-BY-4.0.html"
     ],
-    "version": "2.0.0",
-    "codeRepository": "https://github.com/Amey-Thakur/KAGGLE-COMPETITIONS",
     "programmingLanguage": [
         "Python",
         "Jupyter Notebook",
         "Markdown"
-    ],
-    "runtimePlatform": [
-        "Python 3.10+",
-        "Kaggle Notebooks"
     ],
     "author": [
         {
@@ -26,11 +21,55 @@
             "@id": "https://orcid.org/0000-0001-5644-1575"
         }
     ],
+    "dateCreated": "2026-03-06",
+    "dateReleased": "2026-08-16",
+    "codeRepository": "https://github.com/Amey-Thakur/KAGGLE-COMPETITIONS",
+    "developmentStatus": "complete",
+    "runtimePlatform": [
+        "Python 3.10+",
+        "Kaggle Notebooks"
+    ],
     "keywords": [
-        "kaggle",
         "competitive data science",
         "machine learning",
         "feature engineering",
-        "notebooks"
-    ]
+        "notebooks",
+        "Badges",
+        "Certifications",
+        "Competitions",
+        "Data Science",
+        "Deep Learning",
+        "Feature Engineering",
+        "Kaggle",
+        "Kaggle Competition",
+        "Kaggle Courses",
+        "Kaggle Notebook",
+        "Kaggle Solution",
+        "Kaggle Titanic",
+        "Machine Learning",
+        "Portfolio",
+        "Python",
+        "Simulation",
+        "AI Mathematical Olympiad",
+        "Connect X",
+        "Evading AI-Generated Text Detection",
+        "AI Hallucination Visualizer",
+        "House Prices",
+        "Kaggriculture",
+        "LLM Classification Finetuning",
+        "Attention Span",
+        "Predict Customer Churn",
+        "Predicting Smartphone Addiction",
+        "Triagegeist",
+        "Reproducibility",
+        "Memory",
+        "Diagnostics",
+        "Amey Thakur",
+        "amey",
+        "ameythakur",
+        "amey-thakur",
+        "ameyarc"
+    ],
+    "url": "https://www.kaggle.com/ameythakur20",
+    "version": "2.0.0"
 }

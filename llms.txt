@@ -1,0 +1,37 @@
+# Kaggle Competitions
+
+> Kaggle portfolio: competition solutions with full write-ups, Kaggle Learn
+> certificates and earned badges. Each folder records the approach taken,
+> the constraint that shaped it, and where it ran out. Notebooks Expert.
+> Active, with competitions added as they are entered.
+
+Author: Amey Thakur, ORCID 0000-0001-5644-1575
+Licence: CC BY 4.0, attribution required
+Repository created: 6 March 2026
+Work dated: 16 August 2026
+
+## What is in this repository
+
+- Achievements, 109 files
+- Competitions, 54 files
+- Kaggle Courses, 18 files
+- Kaggle Toolbox, 4 files
+- Standards, 4 files
+- docs, 2 files
+- Kaggle Competitive Data Science.pdf
+- LICENSE-MIT
+- The Kaggle Book - Data analysis and machine learning for competitive data science.pdf
+
+## Subject terms
+
+badges, certifications, competitions, data-science, deep-learning,
+feature-engineering, kaggle, kaggle-competition, kaggle-courses,
+kaggle-notebook, kaggle-solution, kaggle-titanic, machine-learning,
+portfolio, python, simulation
+
+## Where this sits
+
+- This repository: https://github.com/Amey-Thakur/KAGGLE-COMPETITIONS
+- Project page: https://www.kaggle.com/ameythakur20
+- Author: https://github.com/Amey-Thakur
+- Research notes and reflections: https://amey-thakur.github.io/
