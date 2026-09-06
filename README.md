@@ -124,6 +124,13 @@ the three or four plausible approaches was taken and why.
 > local setup and believing it is what holds a submission steady when the
 > private split is revealed.
 
+> [!IMPORTANT]
+> **The working method behind this repository, in one document: [Kaggle Competitive Data Science](Kaggle%20Competitive%20Data%20Science.pdf)**
+>
+> A companion that sets down what the competition folders only imply: the shared utilities of the [Kaggle Toolbox](#toolbox), the notebook and write-up standard every folder follows, and the habits that carry from one competition to the next. It is this repository's own method written up, and is distinct from The Kaggle Book below, which is Konrad Banachewicz and Luca Massaron's.
+>
+> [![Read it here](https://img.shields.io/badge/Read-in%20the%20browser-0969DA?style=flat&logo=readthedocs&logoColor=white)](Kaggle%20Competitive%20Data%20Science.pdf) [![Download the PDF](https://img.shields.io/badge/Download-the%20PDF-20BEFF?style=flat&logo=kaggle&logoColor=white)](https://github.com/Amey-Thakur/KAGGLE-COMPETITIONS/raw/main/Kaggle%20Competitive%20Data%20Science.pdf)
+
 <div align="center">
   <a href="./The Kaggle Book - Data analysis and machine learning for competitive data science.pdf">
     <img src="docs/The_Kaggle_Book.png" width="330" alt="The Kaggle Book">
