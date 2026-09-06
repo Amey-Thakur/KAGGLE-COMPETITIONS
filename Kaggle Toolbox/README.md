@@ -46,7 +46,7 @@ The design is practical. Every function exists to solve a real problem encounter
 > Seed before you compare. Validate before you submit. Each function here is one
 > of those checks, cheap enough to run every time.
 >
-> **Amey Thakur**
+> **– Amey Thakur**
 
 
 ---

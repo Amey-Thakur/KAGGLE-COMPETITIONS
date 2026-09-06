@@ -290,7 +290,7 @@ wrong without it.
 > Seed before you compare. Validate before you submit. Each function here is one
 > of those checks, cheap enough to run every time.
 >
-> **Amey Thakur**
+> **– Amey Thakur**
 
 It ships with a demo notebook and a tutorial script.
 [**Full reference →**](Kaggle%20Toolbox/README.md)
